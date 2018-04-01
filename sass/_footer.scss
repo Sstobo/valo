@@ -1,0 +1,57 @@
+.site-footer {
+  background-color: black;
+
+  .site-info {
+    margin-right: 50px;
+    margin-left: 50px;
+
+    h1 {
+      font-size: 20px;
+      color: #fff;
+    }
+    p {
+      font-size: 16px;
+      color: #fff;
+      margin: 0;
+    }
+
+    h3 {
+      color: #00aeef;
+      font-size: 20px;
+    }
+
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid green;
+    min-height: 250px;
+    .contact-us {
+      color: red;
+      border: 1px solid black;
+      flex-basis: 30%;
+    }
+    .useful-links {
+      color: red;
+      border: 1px solid black;
+      display: flex;
+      flex-direction: column;
+      flex-basis: 30%;
+    }
+    .news {
+      color: red;
+      border: 1px solid black;
+      flex-basis: 40%;
+    }
+    .logo {
+      display: flex;
+      justify-content: space-between;
+      color: red;
+      border: 1px solid black;
+      flex-basis: 100%;
+      border-top: 1px solid gray;
+
+      #logo {
+        padding-left: 5%;
+      }
+    }
+  }
+}
