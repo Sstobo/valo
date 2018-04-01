@@ -7890,6 +7890,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
       -ms-flex-align: center;
           align-items: center;
   position: fixed;
+  opacity: .7;
   margin-top: -40px; }
 
 .main-navigation {
