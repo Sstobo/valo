@@ -333,6 +333,9 @@ ins {
 big {
   font-size: 125%; }
 
+.uppercase {
+  text-transform: uppercase; }
+
 /*--------------------------------------------------------------
 # Elements
 --------------------------------------------------------------*/
@@ -713,6 +716,9 @@ object {
 /*--------------------------------------------------------------
 # Page Templates
 --------------------------------------------------------------*/
+.content-wrapper {
+  padding-top: 140px; }
+
 /* Front page */
 .materialize-red {
   background-color: #e51c23 !important; }
