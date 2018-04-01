@@ -14,9 +14,9 @@
 					<div class="contact-us">
 						<h1>Contact Us</h1>
 						<h3>1-917-660-6000</h3>
-						<p>Email</p>
-						<p>info@valocity.com</p>
-						<p>Main Office Address</p>
+						<p class="caps">Email</p>
+						<a href="mailto: info@valocity.com" id="email-link">info@valocity.com</a>
+						<p class="caps">Main Office Address</p>
 						<p>655 Madison Ave 3rd Floor</p>
 						<p>New York, New York 10065 </p>
 
@@ -32,16 +32,16 @@
 					</div>
 					<div class="news">
 						<h1>News</h1>
-						<p>Valo Smart City as a service</p>
-						<p> Janurary 30, 2018</p>
-						<p> Internet of Thing Technology </p>
-						<p>January 30, 2018</p>
-						<p>Valo Smart City reserves funding </p>
-						<p>January 30, 2018</p>
+						<a href="#">Valo Smart City as a service</a>
+						<p class="journal-date"> Janurary 30, 2018</p>
+						<a href="#" > Internet of Thing Technology </a>
+						<p class="journal-date">January 30, 2018</p>
+						<a href="#">Valo Smart City reserves funding </a>
+						<p class="journal-date">January 30, 2018</p>
 					</div>
 					<div class="logo">
-						<p id="logo">Logo</p>
-						<p> &copy Valo Smart City 2018. All Rights Reserved.</p> 
+						<img src="<?php echo get_template_directory_uri() . '/assets/Logo SVG/VALO white logo-01.svg'?>" id="logo"/>
+						<p id="copy"> &copy Valo Smart City 2018. All Rights Reserved.</p> 
 					</div>
 
 				</div><!-- .site-info -->
