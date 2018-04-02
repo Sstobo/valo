@@ -73,3 +73,55 @@
     opacity: 100%;
   }
 }
+
+/* Press Releases */
+
+.press-releases-wrapper {
+  background: url('http://localhost:8888/Valo/wp-content/themes/valo/assets/Backgrounds/clean-gray-abstract-background.png')
+    bottom left no-repeat;
+  background-size: 100% 100%;
+  padding: 4vh;
+  padding-top: 3vh;
+}
+
+.press-releases-title {
+  font-family: $font__main;
+  font-weight: 500;
+  font-size: 3rem;
+  color: $color__header-main;
+  text-align: center;
+}
+.blue-line {
+  width: 50px;
+  height: 5px;
+  background: linear-gradient(#fff, $color__accent, #fff);
+  margin: 0 auto;
+}
+.press-releases-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  min-height: 30vh;
+}
+.press-release {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 28vh;
+  width: 28vw;
+  background-color: $color__accent;
+  margin: 2vh;
+  padding: 8vh;
+  h6 {
+    font-size: 1.5rem;
+    color: #fff;
+    text-align: center;
+  }
+  p {
+    font-family: $font__main;
+    font-weight: 300;
+    color: #fff;
+    text-align: center;
+  }
+}
