@@ -11,7 +11,19 @@ get_header(); ?>
 		<main id="main" class="site-main" role="main">
 
     <section class="content-wrapper">
-		  <h1><span class="uppercase">Valo</span> Smart City</h1>
+			<section class='hero-container'>
+		  	<h1><span class="uppercase">Valo</span> Smart City</h1>
+			</section>
+			<section class="container">
+				<h2>Creating a foundation for smart cities.</h2>
+			</section>
+			<section class="transparent-container">
+			<h2><span class="uppercase">Valo</span> is a smart city integrator that aims to better people’s lives around the world through Internet of Things (IoT) technology.</h2>
+			</section>
+			<section class="container"></section>
+			<section class="transparent-container">
+				<h2>Latest Press Releases</h2>
+			</section>
     </section>
 		</main><!-- #main -->
 	</div><!-- #primary -->
