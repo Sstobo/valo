@@ -4,6 +4,14 @@
   .site-info {
     margin-right: 50px;
     margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    min-height: 250px;
+
+    @include footer_row {
+      flex-direction: row;
+    }
 
     h1 {
       font-size: 20px;
@@ -15,6 +23,11 @@
       color: #fff;
       margin: 8px 0;
       font-family: $font__main;
+    }
+
+    i.fa {
+      color: #fff;
+      font-size: 11px;
     }
 
     a {
@@ -33,14 +46,28 @@
       font-weight: bold;
     }
 
-    display: flex;
-    flex-direction: column;
-    @include footer_row {
-      flex-direction: row;
-    }
-    flex-wrap: wrap;
+    .icon-container {
+      display: flex;
+      margin-left: 0;
 
-    min-height: 250px;
+      @include footer_row {
+        margin-left: 10%;
+      }
+    }
+
+    .icon-background {
+      background: $color__text-main;
+      height: 20px;
+      width: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      border-radius: 50%;
+      padding: 5px;
+      margin-right: 1%;
+    }
+
     .contact-us {
       flex-basis: 30%;
       margin-bottom: 30px;
