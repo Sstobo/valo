@@ -720,6 +720,28 @@ object {
   padding-top: 140px; }
 
 /* Front page */
+.hero-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: url("../../assets/still-header/valo-still-header-01.svg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain; }
+  @media all and (min-width: 600px) {
+    .hero-container {
+      background-size: cover; } }
+
 .materialize-red {
   background-color: #e51c23 !important; }
 

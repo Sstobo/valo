@@ -13,6 +13,8 @@ get_header(); ?>
     <section class="content-wrapper">
 			<section class='hero-container'>
 		  	<h1><span class="uppercase">Valo</span> Smart City</h1>
+				<h2 class='subheader'>The future of Smart City as a Service (SCaaS).</h2>
+				<button>Watch Video</button>
 			</section>
 			<section class="container">
 				<h2>Creating a foundation for smart cities.</h2>

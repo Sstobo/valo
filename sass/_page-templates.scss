@@ -8,3 +8,17 @@
 }
 
 /* Front page */
+
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url('../../assets/still-header/valo-still-header-01.svg');
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain; // height: 500px;
+  @include tablet {
+    background-size: cover;
+  }
+}
