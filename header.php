@@ -58,6 +58,7 @@
 						<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
 					</nav>
 					<!-- #site-navigation -->
+					<i class="fa fa-mobile" aria-hidden="true"></i>
 					<div class="header-contact-desktop">
 						<h3> 1-917-660-6000 </h3>
 						<p1> Get in touch today <p1>
