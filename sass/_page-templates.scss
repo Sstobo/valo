@@ -12,7 +12,7 @@
 .hero-container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   background: url('../../assets/still-header/valo-still-header-01.svg');
   background-repeat: no-repeat;
@@ -20,5 +20,8 @@
   background-size: contain; // height: 500px;
   @include tablet {
     background-size: cover;
+  }
+  @include desktop {
+    height: 80vh;
   }
 }

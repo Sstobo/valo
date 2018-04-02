@@ -336,6 +336,34 @@ big {
 .uppercase {
   text-transform: uppercase; }
 
+.header-main {
+  font-size: 32px;
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0; }
+  @media all and (min-width: 600px) {
+    .header-main {
+      font-size: 48px;
+      font-size: 3rem; } }
+  @media all and (min-width: 1000px) {
+    .header-main {
+      font-size: 64px;
+      font-size: 4rem; } }
+
+.subheader {
+  margin: 0;
+  font-weight: 300;
+  font-size: 16px;
+  font-size: 1rem; }
+  @media all and (min-width: 600px) {
+    .subheader {
+      font-size: 32px;
+      font-size: 2rem; } }
+  @media all and (min-width: 1000px) {
+    .subheader {
+      font-size: 32px;
+      font-size: 2rem; } }
+
 /*--------------------------------------------------------------
 # Elements
 --------------------------------------------------------------*/
@@ -728,9 +756,9 @@ object {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -741,6 +769,9 @@ object {
   @media all and (min-width: 600px) {
     .hero-container {
       background-size: cover; } }
+  @media all and (min-width: 1000px) {
+    .hero-container {
+      height: 80vh; } }
 
 .materialize-red {
   background-color: #e51c23 !important; }
