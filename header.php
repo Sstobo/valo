@@ -44,9 +44,12 @@
 
 				<div class="header-wrapper">
 				
-					<div class="header-logo">
-					<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-							<img class="header-logo-image" src="<?php echo get_template_directory_uri() . '/assets/Logo SVG/VALO black logo-01.svg'; ?>"/></a></div>
+				<div class="header-logo">
+				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
+				<img class="header-logo-image" src="<?php echo get_template_directory_uri() . '/assets/Logo SVG/VALO black logo-01.svg'; ?>"/></a></div>
+
+<!-- <div class="header-contact-mobile">Contact Info<div> -->
+				
 
 					<nav id="site-navigation" class="main-navigation" role="navigation">
 						<!-- <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">
@@ -55,14 +58,10 @@
 						<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
 					</nav>
 					<!-- #site-navigation -->
-
-					<div class="header-contact-fullscreen">
-						<div class="header-phone-icon"></div>
-						<div class="header-phone-wrap">
-						<div class="header-phone">1-917-660-6000</div>
-						<div class="header-blurb">Get in touch today</div>
-						</div>
-					</div>
+					<div class="header-contact-desktop">
+						<h3> 1-917-660-6000 </h3>
+						<p1> Get in touch today <p1>
+						<div>
 
 				</div>
 			</header>
