@@ -336,6 +336,34 @@ big {
 .uppercase {
   text-transform: uppercase; }
 
+.header-main {
+  font-size: 32px;
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0; }
+  @media all and (min-width: 600px) {
+    .header-main {
+      font-size: 48px;
+      font-size: 3rem; } }
+  @media all and (min-width: 1000px) {
+    .header-main {
+      font-size: 64px;
+      font-size: 4rem; } }
+
+.subheader {
+  margin: 10px 0 0 0;
+  font-size: 16px;
+  font-size: 1rem; }
+  @media all and (min-width: 600px) {
+    .subheader {
+      font-size: 32px;
+      font-size: 2rem;
+      font-weight: 300; } }
+  @media all and (min-width: 1000px) {
+    .subheader {
+      font-size: 32px;
+      font-size: 2rem; } }
+
 /*--------------------------------------------------------------
 # Elements
 --------------------------------------------------------------*/
@@ -356,10 +384,13 @@ body {
   background: #fff;
   /* Fallback for when there is no custom background color defined. */ }
 
-blockquote, q {
-  quotes: "" ""; }
-  blockquote:before, blockquote:after, q:before, q:after {
-    content: ""; }
+blockquote,
+q {
+  quotes: '' ''; }
+  blockquote:before, blockquote:after,
+  q:before,
+  q:after {
+    content: ''; }
 
 hr {
   background-color: #ccc;
@@ -367,7 +398,8 @@ hr {
   height: 1px;
   margin-bottom: 1.5rem; }
 
-ul, ol {
+ul,
+ol {
   margin: 0 0 1.5rem 3rem; }
 
 ul {
@@ -396,6 +428,21 @@ img {
 table {
   margin: 0 0 1.5rem;
   width: 100%; }
+
+.button-main {
+  background-color: #00aeef;
+  color: #fff;
+  border-radius: 10px;
+  padding: 12px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-size: 0.625rem; }
+  @media all and (min-width: 600px) {
+    .button-main {
+      font-size: 16px;
+      font-size: 1rem; } }
 
 /*--------------------------------------------------------------
 # Forms
@@ -720,6 +767,43 @@ object {
   padding-top: 140px; }
 
 /* Front page */
+.hero-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 260px;
+  background: url("../../assets/still-header/valo-still-header-01.svg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover; }
+  @media all and (min-width: 600px) {
+    .hero-container {
+      background-size: cover;
+      min-height: 400px; } }
+  @media all and (min-width: 1000px) {
+    .hero-container {
+      height: 80vh; } }
+
+.header-container {
+  text-align: center;
+  margin-bottom: 1rem; }
+
+.button-hero {
+  padding: 6px 20px; }
+  @media all and (min-width: 600px) {
+    .button-hero {
+      padding: 12px 30px; } }
+
 .header-wrapper {
   height: 140px;
   width: 100%;
