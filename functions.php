@@ -67,6 +67,7 @@ function red_starter_widgets_init() {
 }
 add_action( 'widgets_init', 'red_starter_widgets_init' );
 
+
 /**
  * Filter the stylesheet_uri to output the minified CSS file.
  */
@@ -78,6 +79,13 @@ function red_starter_minified_css( $stylesheet_uri, $stylesheet_dir_uri ) {
 	return $stylesheet_uri;
 }
 add_filter( 'stylesheet_uri', 'red_starter_minified_css', 10, 2 );
+
+function valo_scripts(){
+	wp_enqueue_style('font-awesome', 'https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+}
+
+add_action('wp_enqueue_scripts', 'valo_scripts');
 
 /**
  * Enqueue scripts and styles.
