@@ -12,7 +12,7 @@
 			<footer id="colophon" class="site-footer" role="contentinfo">
 				<div class="site-info">
 					<div class="contact-us">
-						<h1>Contact Us</h1>
+				    <h1>Contact Us</h1>
 						<h3>1-917-660-6000</h3>
 						<p class="caps">Email</p>
 						<a href="mailto: info@valocity.com" id="email-link">info@valocity.com</a>
@@ -20,8 +20,27 @@
 						<p>655 Madison Ave 3rd Floor</p>
 						<p>New York, New York 10065 </p>
 
-						
+					<div class="icon-container">
+						<span class="icon-background">
+							<i class="fa fa-google-plus" aria-hidden="true"></i>
+						</span>
+						<span class="icon-background">
+							<i class="fa fa fa-twitter" aria-hidden="true"></i>
+						</span>
+						<span class="icon-background">
+							<i class="fa fa-youtube-play" aria-hidden="true"></i>
+						</span>
+						<span class="icon-background">
+							<i class="fa fa-facebook" aria-hidden="true"></i>
+						</span>
+						<span class="icon-background">
+							<i class="fa fa-linkedin" aria-hidden="true"></i>
+						</span>
+				</div>
+
+					
 					</div>
+
 					<div class="useful-links">
 						<h1>Useful Links</h1>
 						<a href="#"> Company </a>
