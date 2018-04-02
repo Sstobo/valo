@@ -42,7 +42,7 @@
 				<!-- .site-branding -->
 
 
-				<div class="header-wrapper">
+				<div class="header-wrapper" id="header-wrapper">
 				
 				<div class="header-logo">
 				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">

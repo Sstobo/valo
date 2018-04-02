@@ -3,7 +3,6 @@ $footer_row: 800px;
 $tablet_width: 600px;
 $header_width: 900px;
 
-
 .header-wrapper {
     height: 140px;
     width: 100%;
@@ -11,18 +10,20 @@ $header_width: 900px;
     flex-direction: row;
     justify-content: center;
     position: fixed;
-    margin-top: -30px;
-    padding-top: 20px;
+    margin-top: -40px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    background-color: white;
     .fa-mobile {
         display: none;
         @media (min-width: 1100px) {
-            display: block;
+        display: block;
         padding-top: 40px;
+        margin-left: 20px;
         font-size: 44px;
     }
 }
 }
-
 .header-logo-image {
     height: 140px;
     padding-left: 24%;
@@ -39,7 +40,6 @@ $header_width: 900px;
     height: 100%;
     width: 16%;
     min-width: 200px;
-    background-color: white;
 }
 .nav {
     background-color: white !important;
@@ -48,15 +48,15 @@ $header_width: 900px;
     padding-top: 20px;
 }
 .header-contact-desktop {
+    background-color: white;
     display: none;
     @media (min-width: 700px) {
         position: relative;
-        top: 20px;
         display: block;
         width: 44%;
         margin-left: 24px;
+        padding-top: 24px;
         @media (min-width: 1100px) {
-            top: 24px;
             width: 20%;
     }
 }

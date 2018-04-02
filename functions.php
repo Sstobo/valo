@@ -92,6 +92,13 @@ add_action('wp_enqueue_scripts', 'valo_scripts');
 /**
  * Enqueue scripts and styles.
  */
+
+function my_theme_scripts() {
+    wp_enqueue_script( 'my-great-script', get_template_directory_uri() . '/js/headerScroll.js', array( 'jquery' ), '1.0.0', true );
+}
+add_action( 'wp_enqueue_scripts', 'my_theme_scripts' );
+
+
 function red_starter_scripts() {
 	wp_enqueue_style( 'red-starter-style', get_stylesheet_uri() );
 

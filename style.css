@@ -881,14 +881,17 @@ object {
       -ms-flex-pack: center;
           justify-content: center;
   position: fixed;
-  margin-top: -30px;
-  padding-top: 20px; }
+  margin-top: -40px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  background-color: white; }
   .header-wrapper .fa-mobile {
     display: none; }
     @media (min-width: 1100px) {
       .header-wrapper .fa-mobile {
         display: block;
         padding-top: 40px;
+        margin-left: 20px;
         font-size: 44px; } }
 
 .header-logo-image {
@@ -906,8 +909,7 @@ object {
   opacity: 50%;
   height: 100%;
   width: 16%;
-  min-width: 200px;
-  background-color: white; }
+  min-width: 200px; }
 
 .nav {
   background-color: white !important; }
@@ -916,17 +918,17 @@ object {
   padding-top: 20px; }
 
 .header-contact-desktop {
+  background-color: white;
   display: none; }
   @media (min-width: 700px) {
     .header-contact-desktop {
       position: relative;
-      top: 20px;
       display: block;
       width: 44%;
-      margin-left: 24px; } }
+      margin-left: 24px;
+      padding-top: 24px; } }
   @media (min-width: 700px) and (min-width: 1100px) {
     .header-contact-desktop {
-      top: 24px;
       width: 20%; } }
   .header-contact-desktop h3 {
     font-size: 16px; }
