@@ -367,6 +367,13 @@ big {
       font-size: 32px;
       font-size: 2rem; } }
 
+.header-section {
+  font-size: 24px;
+  font-size: 1.5rem;
+  color: #161616;
+  font-weight: bold;
+  text-align: center; }
+
 /*--------------------------------------------------------------
 # Elements
 --------------------------------------------------------------*/
@@ -828,10 +835,6 @@ object {
     -webkit-transform: translateY(200px);
             transform: translateY(200px);
     opacity: 0; }
-  50% {
-    -webkit-transform: translateY(75px);
-            transform: translateY(75px);
-    opacity: 0.2; }
   to {
     -webkit-transform: translateY(0);
             transform: translateY(0);
@@ -842,10 +845,6 @@ object {
     -webkit-transform: translateY(200px);
             transform: translateY(200px);
     opacity: 0; }
-  50% {
-    -webkit-transform: translateY(75px);
-            transform: translateY(75px);
-    opacity: 0.2; }
   to {
     -webkit-transform: translateY(0);
             transform: translateY(0);
