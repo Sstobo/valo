@@ -2,4 +2,78 @@
 # Page Templates
 --------------------------------------------------------------*/
 
+// Clear header
+.content-wrapper {
+  padding-top: 140px;
+}
+
 /* Front page */
+
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 260px;
+  background: url('../../assets/still-header/valo-still-header-01.svg');
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+
+  @include tablet {
+    background-size: cover;
+    min-height: 400px;
+  }
+  @include desktop {
+    height: 80vh;
+  }
+}
+
+.header-container {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.button-hero {
+  padding: 6px 20px;
+  @include tablet {
+    padding: 12px 30px;
+  }
+}
+
+.animate-slidein {
+  animation-duration: 1.8s;
+  animation-name: slidein;
+}
+.animate-fadein {
+  animation-duration: 3s;
+  animation-name: fadein;
+}
+
+@keyframes slidein {
+  from {
+    transform: translateY(200px);
+    opacity: 0;
+    // width: 300%;
+  }
+  50% {
+    transform: translateY(75px);
+    opacity: 0.2;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  to {
+    opacity: 100%;
+  }
+}

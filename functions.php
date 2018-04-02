@@ -47,6 +47,8 @@ add_action( 'after_setup_theme', 'red_starter_setup' );
 function red_starter_content_width() {
 	$GLOBALS['content_width'] = apply_filters( 'red_starter_content_width', 640 );
 }
+
+
 add_action( 'after_setup_theme', 'red_starter_content_width', 0 );
 
 /**
@@ -67,6 +69,7 @@ function red_starter_widgets_init() {
 }
 add_action( 'widgets_init', 'red_starter_widgets_init' );
 
+
 /**
  * Filter the stylesheet_uri to output the minified CSS file.
  */
@@ -79,9 +82,23 @@ function red_starter_minified_css( $stylesheet_uri, $stylesheet_dir_uri ) {
 }
 add_filter( 'stylesheet_uri', 'red_starter_minified_css', 10, 2 );
 
+function valo_scripts(){
+	wp_enqueue_style('font-awesome', 'https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+}
+
+add_action('wp_enqueue_scripts', 'valo_scripts');
+
 /**
  * Enqueue scripts and styles.
  */
+
+function my_theme_scripts() {
+    wp_enqueue_script( 'my-great-script', get_template_directory_uri() . '/js/headerScroll.js', array( 'jquery' ), '1.0.0', true );
+}
+add_action( 'wp_enqueue_scripts', 'my_theme_scripts' );
+
+
 function red_starter_scripts() {
 	wp_enqueue_style( 'red-starter-style', get_stylesheet_uri() );
 
