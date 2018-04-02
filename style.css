@@ -333,6 +333,40 @@ ins {
 big {
   font-size: 125%; }
 
+.uppercase {
+  text-transform: uppercase; }
+
+.header-main {
+  color: #161616;
+  letter-spacing: 2px;
+  font-size: 32px;
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0; }
+  @media all and (min-width: 600px) {
+    .header-main {
+      font-size: 48px;
+      font-size: 3rem;
+      letter-spacing: 3px; } }
+  @media all and (min-width: 1000px) {
+    .header-main {
+      font-size: 64px;
+      font-size: 4rem; } }
+
+.subheader {
+  margin: 10px 0 0 0;
+  font-size: 16px;
+  font-size: 1rem; }
+  @media all and (min-width: 600px) {
+    .subheader {
+      font-size: 32px;
+      font-size: 2rem;
+      font-weight: 300; } }
+  @media all and (min-width: 1000px) {
+    .subheader {
+      font-size: 32px;
+      font-size: 2rem; } }
+
 /*--------------------------------------------------------------
 # Elements
 --------------------------------------------------------------*/
@@ -353,10 +387,13 @@ body {
   background: #fff;
   /* Fallback for when there is no custom background color defined. */ }
 
-blockquote, q {
-  quotes: "" ""; }
-  blockquote:before, blockquote:after, q:before, q:after {
-    content: ""; }
+blockquote,
+q {
+  quotes: '' ''; }
+  blockquote:before, blockquote:after,
+  q:before,
+  q:after {
+    content: ''; }
 
 hr {
   background-color: #ccc;
@@ -364,7 +401,8 @@ hr {
   height: 1px;
   margin-bottom: 1.5rem; }
 
-ul, ol {
+ul,
+ol {
   margin: 0 0 1.5rem 3rem; }
 
 ul {
@@ -393,6 +431,25 @@ img {
 table {
   margin: 0 0 1.5rem;
   width: 100%; }
+
+.button-main {
+  background-color: #00aeef;
+  color: #fff;
+  border-radius: 10px;
+  padding: 12px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-size: 0.625rem; }
+  @media all and (min-width: 600px) {
+    .button-main {
+      font-size: 16px;
+      font-size: 1rem; } }
+  .button-main:hover {
+    background-color: #3f3f3f; }
+  .button-main:visited {
+    color: #fff; }
 
 /*--------------------------------------------------------------
 # Forms
@@ -713,7 +770,103 @@ object {
 /*--------------------------------------------------------------
 # Page Templates
 --------------------------------------------------------------*/
+.content-wrapper {
+  padding-top: 140px; }
+
 /* Front page */
+.hero-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 260px;
+  background: url("../../assets/still-header/valo-still-header-01.svg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover; }
+  @media all and (min-width: 600px) {
+    .hero-container {
+      background-size: cover;
+      min-height: 400px; } }
+  @media all and (min-width: 1000px) {
+    .hero-container {
+      height: 80vh; } }
+
+.header-container {
+  text-align: center;
+  margin-bottom: 1rem; }
+
+.button-hero {
+  padding: 6px 20px; }
+  @media all and (min-width: 600px) {
+    .button-hero {
+      padding: 12px 30px; } }
+
+.animate-slidein {
+  -webkit-animation-duration: 1.8s;
+          animation-duration: 1.8s;
+  -webkit-animation-name: slidein;
+          animation-name: slidein; }
+
+.animate-fadein {
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-name: fadein;
+          animation-name: fadein; }
+
+@-webkit-keyframes slidein {
+  from {
+    -webkit-transform: translateY(200px);
+            transform: translateY(200px);
+    opacity: 0; }
+  50% {
+    -webkit-transform: translateY(75px);
+            transform: translateY(75px);
+    opacity: 0.2; }
+  to {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1; } }
+
+@keyframes slidein {
+  from {
+    -webkit-transform: translateY(200px);
+            transform: translateY(200px);
+    opacity: 0; }
+  50% {
+    -webkit-transform: translateY(75px);
+            transform: translateY(75px);
+    opacity: 0.2; }
+  to {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1; } }
+
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0; }
+  50% {
+    opacity: 0; }
+  to {
+    opacity: 100%; } }
+
+@keyframes fadein {
+  from {
+    opacity: 0; }
+  50% {
+    opacity: 0; }
+  to {
+    opacity: 100%; } }
+
 .materialize-red {
   background-color: #e51c23 !important; }
 
@@ -2678,9 +2831,7 @@ html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box; }
 
-*,
-*:before,
-*:after {
+*, *:before, *:after {
   -webkit-box-sizing: inherit;
           box-sizing: inherit; }
 
@@ -2965,8 +3116,7 @@ table {
 thead {
   border-bottom: 1px solid #d0d0d0; }
 
-td,
-th {
+td, th {
   padding: 15px 5px;
   display: table-cell;
   text-align: left;
@@ -4049,12 +4199,7 @@ html {
     html {
       font-size: 15px; } }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
   line-height: 1.1; }
 
@@ -4516,7 +4661,7 @@ small {
 .btn-large:disabled,
 .btn-flat:disabled,
 .btn[disabled],
-.btn-large[disabled],
+[disabled].btn-large,
 .btn-floating[disabled],
 .btn-large[disabled],
 .btn-flat[disabled] {
@@ -4536,7 +4681,7 @@ small {
   .btn-large:disabled:hover,
   .btn-flat:disabled:hover,
   .btn[disabled]:hover,
-  .btn-large[disabled]:hover,
+  [disabled].btn-large:hover,
   .btn-floating[disabled]:hover,
   .btn-large[disabled]:hover,
   .btn-flat[disabled]:hover {
@@ -5337,28 +5482,28 @@ textarea.materialize-textarea {
 
 /* Validation Sass Placeholders */
 input.valid:not([type]), input.valid:not([type]):focus,
-input.valid[type=text]:not(.browser-default),
-input.valid[type=text]:not(.browser-default):focus,
-input.valid[type=password]:not(.browser-default),
-input.valid[type=password]:not(.browser-default):focus,
-input.valid[type=email]:not(.browser-default),
-input.valid[type=email]:not(.browser-default):focus,
-input.valid[type=url]:not(.browser-default),
-input.valid[type=url]:not(.browser-default):focus,
-input.valid[type=time]:not(.browser-default),
-input.valid[type=time]:not(.browser-default):focus,
-input.valid[type=date]:not(.browser-default),
-input.valid[type=date]:not(.browser-default):focus,
-input.valid[type=datetime]:not(.browser-default),
-input.valid[type=datetime]:not(.browser-default):focus,
-input.valid[type=datetime-local]:not(.browser-default),
-input.valid[type=datetime-local]:not(.browser-default):focus,
-input.valid[type=tel]:not(.browser-default),
-input.valid[type=tel]:not(.browser-default):focus,
-input.valid[type=number]:not(.browser-default),
-input.valid[type=number]:not(.browser-default):focus,
-input.valid[type=search]:not(.browser-default),
-input.valid[type=search]:not(.browser-default):focus,
+input[type=text].valid:not(.browser-default),
+input[type=text].valid:not(.browser-default):focus,
+input[type=password].valid:not(.browser-default),
+input[type=password].valid:not(.browser-default):focus,
+input[type=email].valid:not(.browser-default),
+input[type=email].valid:not(.browser-default):focus,
+input[type=url].valid:not(.browser-default),
+input[type=url].valid:not(.browser-default):focus,
+input[type=time].valid:not(.browser-default),
+input[type=time].valid:not(.browser-default):focus,
+input[type=date].valid:not(.browser-default),
+input[type=date].valid:not(.browser-default):focus,
+input[type=datetime].valid:not(.browser-default),
+input[type=datetime].valid:not(.browser-default):focus,
+input[type=datetime-local].valid:not(.browser-default),
+input[type=datetime-local].valid:not(.browser-default):focus,
+input[type=tel].valid:not(.browser-default),
+input[type=tel].valid:not(.browser-default):focus,
+input[type=number].valid:not(.browser-default),
+input[type=number].valid:not(.browser-default):focus,
+input[type=search].valid:not(.browser-default),
+input[type=search].valid:not(.browser-default):focus,
 textarea.materialize-textarea.valid,
 textarea.materialize-textarea.valid:focus, .select-wrapper.valid > input.select-dropdown {
   border-bottom: 1px solid #4CAF50;
@@ -5366,28 +5511,28 @@ textarea.materialize-textarea.valid:focus, .select-wrapper.valid > input.select-
           box-shadow: 0 1px 0 0 #4CAF50; }
 
 input.invalid:not([type]), input.invalid:not([type]):focus,
-input.invalid[type=text]:not(.browser-default),
-input.invalid[type=text]:not(.browser-default):focus,
-input.invalid[type=password]:not(.browser-default),
-input.invalid[type=password]:not(.browser-default):focus,
-input.invalid[type=email]:not(.browser-default),
-input.invalid[type=email]:not(.browser-default):focus,
-input.invalid[type=url]:not(.browser-default),
-input.invalid[type=url]:not(.browser-default):focus,
-input.invalid[type=time]:not(.browser-default),
-input.invalid[type=time]:not(.browser-default):focus,
-input.invalid[type=date]:not(.browser-default),
-input.invalid[type=date]:not(.browser-default):focus,
-input.invalid[type=datetime]:not(.browser-default),
-input.invalid[type=datetime]:not(.browser-default):focus,
-input.invalid[type=datetime-local]:not(.browser-default),
-input.invalid[type=datetime-local]:not(.browser-default):focus,
-input.invalid[type=tel]:not(.browser-default),
-input.invalid[type=tel]:not(.browser-default):focus,
-input.invalid[type=number]:not(.browser-default),
-input.invalid[type=number]:not(.browser-default):focus,
-input.invalid[type=search]:not(.browser-default),
-input.invalid[type=search]:not(.browser-default):focus,
+input[type=text].invalid:not(.browser-default),
+input[type=text].invalid:not(.browser-default):focus,
+input[type=password].invalid:not(.browser-default),
+input[type=password].invalid:not(.browser-default):focus,
+input[type=email].invalid:not(.browser-default),
+input[type=email].invalid:not(.browser-default):focus,
+input[type=url].invalid:not(.browser-default),
+input[type=url].invalid:not(.browser-default):focus,
+input[type=time].invalid:not(.browser-default),
+input[type=time].invalid:not(.browser-default):focus,
+input[type=date].invalid:not(.browser-default),
+input[type=date].invalid:not(.browser-default):focus,
+input[type=datetime].invalid:not(.browser-default),
+input[type=datetime].invalid:not(.browser-default):focus,
+input[type=datetime-local].invalid:not(.browser-default),
+input[type=datetime-local].invalid:not(.browser-default):focus,
+input[type=tel].invalid:not(.browser-default),
+input[type=tel].invalid:not(.browser-default):focus,
+input[type=number].invalid:not(.browser-default),
+input[type=number].invalid:not(.browser-default):focus,
+input[type=search].invalid:not(.browser-default),
+input[type=search].invalid:not(.browser-default):focus,
 textarea.materialize-textarea.invalid,
 textarea.materialize-textarea.invalid:focus, .select-wrapper.invalid > input.select-dropdown {
   border-bottom: 1px solid #F44336;

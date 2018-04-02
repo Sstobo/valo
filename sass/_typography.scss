@@ -80,3 +80,34 @@ ins {
 big {
   font-size: 125%;
 }
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.header-main {
+  color: $color__header-main;
+  letter-spacing: 2px;
+  @include font-size(2);
+  font-weight: bold;
+  margin: 0;
+  @include tablet {
+    @include font-size(3);
+    letter-spacing: 3px;
+  }
+  @include desktop {
+    @include font-size(4);
+  }
+}
+.subheader {
+  margin: 10px 0 0 0;
+  @include font-size(1);
+  @include tablet {
+    @include font-size(2);
+    font-weight: 300;
+  }
+
+  @include desktop {
+    @include font-size(2);
+  }
+}
