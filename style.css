@@ -8043,8 +8043,8 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 .site-footer {
   background-color: black; }
   .site-footer .site-info {
-    margin-right: 50px;
-    margin-left: 50px;
+    margin-right: 5%;
+    margin-left: 5%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
