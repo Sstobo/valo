@@ -90,7 +90,12 @@
 .press-releases-title {
   font-family: $font__main;
   font-weight: 500;
-  font-size: 3rem;
+  @include tablet {
+    font-size: 2rem;
+  }
+  @include desktop {
+    font-size: 3rem;
+  }
   color: $color__header-main;
   text-align: center;
 }

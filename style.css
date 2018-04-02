@@ -877,9 +877,14 @@ object {
 .press-releases-title {
   font-family: "Roboto";
   font-weight: 500;
-  font-size: 3rem;
   color: #161616;
   text-align: center; }
+  @media all and (min-width: 600px) {
+    .press-releases-title {
+      font-size: 2rem; } }
+  @media all and (min-width: 1000px) {
+    .press-releases-title {
+      font-size: 3rem; } }
 
 .blue-line {
   width: 50px;
