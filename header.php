@@ -49,15 +49,15 @@
 							<img class="header-logo-image" src="<?php echo get_template_directory_uri() . '/assets/Logo SVG/VALO black logo-01.svg'; ?>"/></a></div>
 
 					<nav id="site-navigation" class="main-navigation" role="navigation">
-						<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">
+						<!-- <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">
 							<?php esc_html( 'Primary Menu' ); ?>
-						</button>
+						</button> -->
 						<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
 					</nav>
 					<!-- #site-navigation -->
 
-					<div class="header-contact">
-						<div class="header-phone-icon">0</div>
+					<div class="header-contact-fullscreen">
+						<div class="header-phone-icon"></div>
 						<div class="header-phone-wrap">
 						<div class="header-phone">1-917-660-6000</div>
 						<div class="header-blurb">Get in touch today</div>
