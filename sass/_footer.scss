@@ -1,0 +1,102 @@
+.site-footer {
+  background-color: black;
+
+  .site-info {
+    margin-right: 50px;
+    margin-left: 50px;
+
+    h1 {
+      font-size: 20px;
+      color: #fff;
+      font-family: $font__main;
+    }
+    p {
+      font-size: 16px;
+      color: #fff;
+      margin: 8px 0;
+      font-family: $font__main;
+    }
+
+    a {
+      margin: 8px 0;
+      color: #fff;
+    }
+
+    a:hover {
+      color: $color__accent;
+    }
+
+    h3 {
+      color: $color__accent;
+      font-size: 20px;
+      font-family: $font__main;
+      font-weight: bold;
+    }
+
+    display: flex;
+    flex-direction: column;
+    @include footer_row {
+      flex-direction: row;
+    }
+    flex-wrap: wrap;
+
+    min-height: 250px;
+    .contact-us {
+      flex-basis: 30%;
+      margin-bottom: 30px;
+      padding: 10px;
+    }
+    .useful-links {
+      display: flex;
+      flex-direction: column;
+      flex-basis: 30%;
+      margin-bottom: 30px;
+      padding: 10px;
+    }
+    .news {
+      flex-basis: 40%;
+      margin-bottom: 30px;
+      padding: 10px 0 10px 10px;
+    }
+    .logo {
+      display: flex;
+      flex-direction: column;
+      @include footer_row {
+        flex-direction: row;
+      }
+      justify-content: space-between;
+      align-items: center;
+
+      flex-basis: 100%;
+      border-top: 1px solid $color__border-abbr;
+
+      #logo {
+        height: 100px;
+        width: 150px;
+      }
+    }
+
+    #email-link {
+      color: $color__accent;
+      font-family: $font__main;
+      font-weight: bold;
+      font-size: 20px;
+    }
+
+    #email-link:hover {
+      text-decoration: underline;
+    }
+    .caps {
+      text-transform: uppercase;
+    }
+
+    .journal-date {
+      font-size: 12px;
+    }
+    #copy {
+      font-family: $font__main;
+      font-size: 14px;
+      color: $color__border-abbr;
+    }
+  }
+}
