@@ -384,10 +384,13 @@ body {
   background: #fff;
   /* Fallback for when there is no custom background color defined. */ }
 
-blockquote, q {
-  quotes: "" ""; }
-  blockquote:before, blockquote:after, q:before, q:after {
-    content: ""; }
+blockquote,
+q {
+  quotes: '' ''; }
+  blockquote:before, blockquote:after,
+  q:before,
+  q:after {
+    content: ''; }
 
 hr {
   background-color: #ccc;
@@ -395,7 +398,8 @@ hr {
   height: 1px;
   margin-bottom: 1.5rem; }
 
-ul, ol {
+ul,
+ol {
   margin: 0 0 1.5rem 3rem; }
 
 ul {
@@ -424,6 +428,21 @@ img {
 table {
   margin: 0 0 1.5rem;
   width: 100%; }
+
+.button-main {
+  background-color: #00aeef;
+  color: #fff;
+  border-radius: 10px;
+  padding: 12px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-size: 0.625rem; }
+  @media all and (min-width: 600px) {
+    .button-main {
+      font-size: 16px;
+      font-size: 1rem; } }
 
 /*--------------------------------------------------------------
 # Forms
@@ -772,6 +791,12 @@ object {
   @media all and (min-width: 1000px) {
     .hero-container {
       height: 80vh; } }
+
+.button-hero {
+  padding: 6px 20px; }
+  @media all and (min-width: 600px) {
+    .button-hero {
+      padding: 12px 30px; } }
 
 .materialize-red {
   background-color: #e51c23 !important; }

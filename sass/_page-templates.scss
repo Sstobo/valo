@@ -25,3 +25,10 @@
     height: 80vh;
   }
 }
+
+.button-hero {
+  padding: 6px 20px;
+  @include tablet {
+    padding: 12px 30px;
+  }
+}
