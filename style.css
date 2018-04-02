@@ -720,6 +720,68 @@ object {
   padding-top: 140px; }
 
 /* Front page */
+.press-releases-wrapper {
+  background: url("http://localhost:8888/Valo/wp-content/themes/valo/assets/Backgrounds/clean-gray-abstract-background.png") bottom left no-repeat;
+  background-size: 100% 100%;
+  padding: 4vh;
+  padding-top: 3vh; }
+
+.press-releases-title {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 3rem;
+  color: #161616;
+  text-align: center; }
+
+.blue-line {
+  width: 50px;
+  height: 5px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#fff), color-stop(#00aeef), to(#fff));
+  background: linear-gradient(#fff, #00aeef, #fff);
+  margin: 0 auto; }
+
+.press-releases-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-height: 30vh; }
+
+.press-release {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 28vh;
+  width: 28vw;
+  background-color: #00aeef;
+  margin: 2vh;
+  padding: 8vh; }
+  .press-release h6 {
+    font-size: 1.5rem;
+    color: #fff;
+    text-align: center; }
+  .press-release p {
+    font-family: "Roboto";
+    font-weight: 300;
+    color: #fff;
+    text-align: center; }
+
 .materialize-red {
   background-color: #e51c23 !important; }
 
