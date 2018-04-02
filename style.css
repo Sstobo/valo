@@ -351,14 +351,14 @@ big {
       font-size: 4rem; } }
 
 .subheader {
-  margin: 0;
-  font-weight: 300;
+  margin: 10px 0 0 0;
   font-size: 16px;
   font-size: 1rem; }
   @media all and (min-width: 600px) {
     .subheader {
       font-size: 32px;
-      font-size: 2rem; } }
+      font-size: 2rem;
+      font-weight: 300; } }
   @media all and (min-width: 1000px) {
     .subheader {
       font-size: 32px;
@@ -781,16 +781,22 @@ object {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  min-height: 260px;
   background: url("../../assets/still-header/valo-still-header-01.svg");
   background-repeat: no-repeat;
   background-position: bottom;
-  background-size: contain; }
+  background-size: cover; }
   @media all and (min-width: 600px) {
     .hero-container {
-      background-size: cover; } }
+      background-size: cover;
+      min-height: 400px; } }
   @media all and (min-width: 1000px) {
     .hero-container {
       height: 80vh; } }
+
+.header-container {
+  text-align: center;
+  margin-bottom: 1rem; }
 
 .button-hero {
   padding: 6px 20px; }
