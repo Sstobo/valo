@@ -30,16 +30,19 @@ get_header(); ?>
 				<div class="blue-line"></div>
 				<div class="press-releases-container"> 
           <div class="press-release">
-						<h6>Valo Smart City as a Service</h6>
-						<p>Company News, Press Releases • January 25, 2018</p>
+						 <h6>Valo Smart City as a Service</h6>
+						   <span>Company News, Press Releases • </span>
+					   	 <span>January 25, 2018</span>
 					</div>
 					 <div class="press-release">
-						 	<h6>Internet of Thing Technology</h6>
-							 	<p>Company News, Press Releases • January 25, 2018</p>
+						  <h6>Internet of Thing Technology</h6>
+								<span>Company News, Press Releases • </span>
+					     	<span>January 25, 2018</span>
 					</div>
 					 <div class="press-release">
 						 	<h6>Valo Smart City secures funding</h6>
-							 	<p>Company News, Press Releases • January 25, 2018</p>
+							 	<span>Company News, Press Releases • </span>
+						    <span>January 25, 2018</span>
 					</div>
 				</div>
     </section>
