@@ -85,4 +85,11 @@ table {
   @include tablet {
     @include font-size(1);
   }
+
+  &:hover {
+    background-color: #3f3f3f;
+  }
+  &:visited {
+    color: #fff;
+  }
 }

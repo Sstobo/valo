@@ -40,3 +40,40 @@
     padding: 12px 30px;
   }
 }
+
+.animate-slidein {
+  animation-duration: 1.8s;
+  animation-name: slidein;
+}
+.animate-fadein {
+  animation-duration: 3s;
+  animation-name: fadein;
+}
+
+@keyframes slidein {
+  from {
+    transform: translateY(200px);
+    opacity: 0;
+    // width: 300%;
+  }
+  50% {
+    transform: translateY(75px);
+    opacity: 0.2;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  to {
+    opacity: 100%;
+  }
+}
