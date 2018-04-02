@@ -811,6 +811,62 @@ object {
     .button-hero {
       padding: 12px 30px; } }
 
+.animate-slidein {
+  -webkit-animation-duration: 1.8s;
+          animation-duration: 1.8s;
+  -webkit-animation-name: slidein;
+          animation-name: slidein; }
+
+.animate-fadein {
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-name: fadein;
+          animation-name: fadein; }
+
+@-webkit-keyframes slidein {
+  from {
+    -webkit-transform: translateY(200px);
+            transform: translateY(200px);
+    opacity: 0; }
+  50% {
+    -webkit-transform: translateY(75px);
+            transform: translateY(75px);
+    opacity: 0.2; }
+  to {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1; } }
+
+@keyframes slidein {
+  from {
+    -webkit-transform: translateY(200px);
+            transform: translateY(200px);
+    opacity: 0; }
+  50% {
+    -webkit-transform: translateY(75px);
+            transform: translateY(75px);
+    opacity: 0.2; }
+  to {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1; } }
+
+@-webkit-keyframes fadein {
+  from {
+    opacity: 0; }
+  50% {
+    opacity: 0; }
+  to {
+    opacity: 100%; } }
+
+@keyframes fadein {
+  from {
+    opacity: 0; }
+  50% {
+    opacity: 0; }
+  to {
+    opacity: 100%; } }
+
 .materialize-red {
   background-color: #e51c23 !important; }
 

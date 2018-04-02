@@ -16,7 +16,7 @@ get_header(); ?>
 		  		<h1 class="header-main animate-slidein"><span class="uppercase">Valo</span> Smart City</h1>
 					<h2 class="subheader animate-fadein">The future of Smart City as a Service (SCaaS)</h2>
 				</div>
-				<a href="#" class="button-main button-hero">Watch Video</a>
+				<a href="#" class="button-main button-hero animate-fadein">Watch Video</a>
 			</section>
 			<section class="container">
 				<h2>Creating a foundation for smart cities.</h2>
