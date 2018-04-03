@@ -4,7 +4,7 @@ $tablet_width: 600px;
 $header_width: 900px;
 
 .header-wrapper {
-    height: 140px;
+    height: 110px;
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -12,7 +12,6 @@ $header_width: 900px;
     position: fixed;
     margin-top: -40px;
     padding-top: 10px;
-    padding-bottom: 30px;
     background-color: white;
     .fa-mobile {
         display: none;
@@ -24,32 +23,38 @@ $header_width: 900px;
     }
 }
 }
+.main-navigation {
+    height: 100%;
+}
 .header-logo-image {
-    height: 140px;
+    z-index: 1000;
+    height: 100%;
     padding-left: 24%;
-    width: 170px;
-    padding-bottom: 30px;
+    min-width: 130px;
+    min-height: 110px;
     @media (min-width: 700px) {
-        height: 180px;
+        height: 100%;
         padding-left: 24%;
         width: 220px;
     }
 }
 .header-logo {
+    z-index: 1000;
     opacity: 50%;
     height: 100%;
-    width: 16%;
-    min-width: 200px;
-}
-.nav {
-    background-color: white !important;
+    width: 20%;
 }
 #mega-toggle-block-1 {
-    padding-top: 20px;
+    padding-top: 26px;
+}
+#mega-menu-primary {
+    top: 20px !important;
+    opacity: 1;
+    box-shadow: 1px 1px 4px 1px grey !important;
 }
 .header-contact-desktop {
-    background-color: white;
     display: none;
+    height: 100%;
     @media (min-width: 700px) {
         position: relative;
         display: block;
