@@ -134,6 +134,7 @@
   padding-left: 10px;
   @include large {
     height: 32vh;
+    min-height: 406px;
     width: 25vw;
     padding-top: 50px;
     padding-bottom: 50px;
