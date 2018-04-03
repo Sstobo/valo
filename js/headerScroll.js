@@ -14,7 +14,7 @@ $(window).scroll(function () {
    if(scrollY > 0 && header.is(':not(:animated)')){
        header.animate({
             opacity: .90,
-            height: "110px"
+            height: "120px"
                 
         }, 300);
     }
