@@ -117,4 +117,7 @@ big {
   color: $color__header-main;
   font-weight: bold;
   text-align: center;
+  @include desktop {
+    @include font-size(2);
+  }
 }

@@ -18,8 +18,9 @@ get_header(); ?>
 				</div>
 				<a href="#" class="button-main button-hero animate-fadein">Watch Video</a>
 			</section>
-			<section class="container">
+			<section class="formula-container">
 				<h2 class="header-section">Creating a foundation for smart cities.</h2>
+				<div class="title-blue-line"></div>
 				<picture>
     			<source srcset="<?php echo get_template_directory_uri() . '/assets/icons-SVG/valo-formula-mobile.png'?>" media="(max-width: 600px)">
     			<source srcset="<?php echo get_template_directory_uri() . '/assets/icons-SVG/valo-formula-desktop.png'?>">

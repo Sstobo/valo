@@ -373,6 +373,10 @@ big {
   color: #161616;
   font-weight: bold;
   text-align: center; }
+  @media all and (min-width: 1000px) {
+    .header-section {
+      font-size: 32px;
+      font-size: 2rem; } }
 
 /*--------------------------------------------------------------
 # Elements
@@ -816,14 +820,16 @@ object {
   background: url("../../assets/still-header/valo-still-header-01.png");
   background-repeat: no-repeat;
   background-position: bottom;
-  background-size: cover; }
+  background-size: cover;
+  margin: 0 auto; }
   @media all and (min-width: 600px) {
     .hero-container {
       background-size: cover;
       min-height: 400px; } }
   @media all and (min-width: 1000px) {
     .hero-container {
-      height: 80vh; } }
+      height: 80vh;
+      max-width: 1280px; } }
 
 .header-container {
   text-align: center;
@@ -882,6 +888,13 @@ object {
     opacity: 0; }
   to {
     opacity: 100%; } }
+
+/* Formula Section */
+.formula-container {
+  margin: 0 auto;
+  padding: 5% 10%; }
+  .formula-container img {
+    width: 100%; }
 
 /* Integrator Section */
 .integrator-section-wrapper {
