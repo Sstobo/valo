@@ -1005,7 +1005,7 @@ object {
       -ms-flex-pack: center;
           justify-content: center;
   position: fixed;
-  margin-top: -40px;
+  margin-top: -34px;
   padding-top: 10px;
   background-color: white; }
   .header-wrapper .fa-mobile {
@@ -1025,7 +1025,7 @@ object {
   height: 100%;
   padding-left: 24%;
   min-width: 130px;
-  min-height: 110px; }
+  min-height: 120px; }
   @media (min-width: 700px) {
     .header-logo-image {
       height: 100%;
@@ -1046,6 +1046,10 @@ object {
   opacity: 1;
   -webkit-box-shadow: 1px 1px 4px 1px grey !important;
           box-shadow: 1px 1px 4px 1px grey !important; }
+  @media (min-width: 1100px) {
+    #mega-menu-primary {
+      -webkit-box-shadow: none !important;
+              box-shadow: none !important; } }
 
 .header-contact-desktop {
   display: none;
