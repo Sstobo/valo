@@ -1,14 +1,22 @@
 .signup-container {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   margin: 3% 15%;
 
   #form-title {
     font-family: $font__main;
     color: black;
-    font-size: 35px;
+    font-size: 20px;
     font-weight: bold;
+    @include tablet {
+      font-size: 35px;
+    }
+
+    @include footer_row {
+      font-size: 30px;
+    }
   }
 
   #form-title:after {
@@ -21,9 +29,31 @@
   }
 
   .wpcf7-form {
-    min-width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    @include footer_row {
+      min-width: 800px;
+    }
+
+    @include tablet {
+      display: block;
+      min-width: 600px;
+    }
+
     input {
       border: 1px solid #e6e6e6;
+    }
+
+    input:focus {
+      outline: none;
+    }
+
+    input[type='text'],
+    input[type='email'] {
+      width: 100%;
+      height: 40px;
     }
 
     input:not(.browser-default):focus:not([readonly]) {
@@ -39,6 +69,7 @@
       background: $color__accent;
       color: #fff;
       box-shadow: none;
+
       text-shadow: none;
       color: #fff;
       font-family: $font__main;
@@ -46,6 +77,9 @@
       font-size: 16px;
       font-weight: bold;
       padding: 10px 20px;
+    }
+    input[type='submit']:hover {
+      background: $color__border-abbr;
     }
     .wpcf7-not-valid-tip {
       color: $color__accent;
@@ -89,6 +123,7 @@
     a {
       margin: 8px 0;
       color: #fff;
+      text-decoration: none;
     }
     a:hover {
       color: $color__accent;
