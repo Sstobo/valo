@@ -67,7 +67,7 @@
 						<p class="journal-date">January 30, 2018</p>
 					</div>
 					<div class="logo">
-						<img src="<?php echo get_template_directory_uri() . '/assets/Logo SVG/VALO white logo-01.svg'?>" id="logo"/>
+						<img src="<?php echo get_template_directory_uri() . '/assets/Logo SVG/VALO white logo-01.png'?>" id="logo"/>
 						<p id="copy"> &copy Valo Smart City 2018. All Rights Reserved.</p> 
 					</div>
 
@@ -81,5 +81,5 @@
 	</body>
 
 	  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-      <script type="text/javascript" src="js/materialize.min.js"></script>
+      <!-- <script type="text/javascript" src="js/materialize.min.js"></script> -->
 </html>

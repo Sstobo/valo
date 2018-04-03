@@ -15,7 +15,7 @@
 		<link rel="profile" href="http://gmpg.org/xfn/11">
 		<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 		<!--Import Google Icon Font-->
-		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
 		<!--Import materialize.css-->
 		<!-- <link type="text/css" rel="stylesheet" href="sass/components/materialize.scss" media="screen,projection" /> -->
 
@@ -46,7 +46,7 @@
 				
 				<div class="header-logo">
 				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-				<img class="header-logo-image" src="<?php echo get_template_directory_uri() . '/assets/Logo SVG/VALO black logo-01.svg'; ?>"/></a>
+				<img class="header-logo-image" src="<?php echo get_template_directory_uri() . '/assets/Logo SVG/VALO black logo-01.png'; ?>"/></a>
 				</div>
 
 					<nav id="site-navigation" class="main-navigation" role="navigation">
