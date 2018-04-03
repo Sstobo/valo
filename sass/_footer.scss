@@ -96,7 +96,11 @@
 //end form
 
 .site-footer {
-  background-color: black;
+  background: url('../../assets/Backgrounds/footer-background.jpg');
+  background-size: cover;
+  background-position: top;
+  // background-position: bottom;
+  background-repeat: no-repeat;
   padding-top: 25px;
   .site-info {
     margin-right: 4%;
@@ -226,7 +230,7 @@
       flex-basis: 100%;
       border-top: 0.3px solid $color__border-abbr;
       #logo {
-        height: 100px;
+        height: auto;
         width: 150px;
       }
     }

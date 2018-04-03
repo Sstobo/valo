@@ -1167,7 +1167,10 @@ object {
       border: none; }
 
 .site-footer {
-  background-color: black;
+  background: url("../../assets/Backgrounds/footer-background.jpg");
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
   padding-top: 25px; }
   .site-footer .site-info {
     margin-right: 4%;
@@ -1310,7 +1313,7 @@ object {
               -ms-flex-direction: row;
                   flex-direction: row; } }
       .site-footer .site-info .logo #logo {
-        height: 100px;
+        height: auto;
         width: 150px; }
     .site-footer .site-info #email-link {
       color: #00aeef;

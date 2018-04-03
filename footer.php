@@ -21,7 +21,7 @@
 				<div class="site-info">
 					<div class="contact-us">
 				    <p class="caps title">Contact Us</p>
-						<p id="phone">1-917-660-6000</p>
+						<a href="tel:1-917-660-6000" id="phone">1-917-660-6000</a>
 						<p class="caps email-title">Email</p>
 						<a href="mailto: info@valosmartcity.com" id="email-link">info@valosmartcity.com</a>
 						<p class="caps ">Main Office Address</p>
