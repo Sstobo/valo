@@ -72,7 +72,7 @@ get_header(); ?>
 					   	 <span>January 25, 2018</span>
 					</div>
 					 <div class="press-release">
-						  <h3><a href="https://cbdev.solutions/valosmartcity/vivamus-diam-tellus-efficitur-id-felis-quis/" title="Internet of Thing Technology" rel="bookmark">Internet of Thing Technology</a></h3>
+						  <h3><a href="https://cbdev.solutions/valosmartcity/vivamus-diam-tellus-efficitur-id-felis-quis/" title="Internet of Thing Technology" rel="bookmark">Internet of Things Technology</a></h3>
 								<span>Company News, Press Releases • </span>
 					     	<span>January 25, 2018</span>
 					</div>
