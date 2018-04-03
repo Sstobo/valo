@@ -26,9 +26,31 @@ get_header(); ?>
     			<img srcset="<?php echo get_template_directory_uri() . '/assets/icons-SVG/valo-formula-mobile.png'?>" alt="Smart Lighting + Smart Cities = Valo">
 				</picture>
 			</section>
-			<section class="transparent-container">
-			<h2><span class="uppercase">Valo</span> is a smart city integrator that aims to better people’s lives around the world through Internet of Things (IoT) technology.</h2>
+
+			<!-- Integrator section -->
+			<section class="integrator-section-wrapper">
+				<h2 class="integrator-section-title"><span class="uppercase">Valo</span> is a smart city integrator that aims to better people’s lives around the world through Internet of Things (IoT) technology.</h2>
+				<div class="title-blue-line"></div>
+				<div class="integrator-section-container"> 
+          <div class="integrator-item">
+						 <img class="integrator-icon" srcset="<?php echo get_template_directory_uri() . '/assets/icons-SVG/valo-products-01.png'?>" />
+						  <h3>Smart Technology for Smart Cities</h3>
+						 <button class="button-main button-integrator">Products</button>
+					</div>
+					 <div class="integrator-item">
+							<img class="integrator-icon" srcset="<?php echo get_template_directory_uri() . '/assets/icons-SVG/valo-services-01.png'?>" />
+							<h3>Opportunities for Cities and Their Citizens</h3> 
+						 <button class="button-main button-integrator">Services</button>
+					</div>
+					 <div class="integrator-item">
+						  <img class="integrator-icon" srcset="<?php echo get_template_directory_uri() . '/assets/icons-SVG/valo-applications-01.png'?>" />
+							 <h3>Making Communities and Cities better</h3>
+						 <button class="button-main button-integrator">Applications</button>
+					 </div>
+				</div>
 			</section>
+			<!-- close Integrator section -->
+
 			<section class="container"></section>
 
 			<!-- contact banner -->
@@ -39,24 +61,30 @@ get_header(); ?>
 			</section>
 			<!-- close contact banner -->
 
+			<!-- Press Releases -->
 			<section class="press-releases-wrapper">
 				<h2 class="press-releases-title">Latest Press Releases</h2>
-				<div class="blue-line"></div>
+				<div class="title-blue-line"></div>
 				<div class="press-releases-container"> 
           <div class="press-release">
-						<h6>Valo Smart City as a Service</h6>
-						<p>Company News, Press Releases • January 25, 2018</p>
+						 <h3><a href="https://cbdev.solutions/valosmartcity/valo-smart-city-as-a-service/" title="Valo Smart City as a Service" rel="bookmark">Valo Smart City as a Service</a></h3>
+						   <span>Company News, Press Releases • </span>
+					   	 <span>January 25, 2018</span>
 					</div>
 					 <div class="press-release">
-						 	<h6>Internet of Thing Technology</h6>
-							 	<p>Company News, Press Releases • January 25, 2018</p>
+						  <h3><a href="https://cbdev.solutions/valosmartcity/vivamus-diam-tellus-efficitur-id-felis-quis/" title="Internet of Thing Technology" rel="bookmark">Internet of Things Technology</a></h3>
+								<span>Company News, Press Releases • </span>
+					     	<span>January 25, 2018</span>
 					</div>
 					 <div class="press-release">
-						 	<h6>Valo Smart City secures funding</h6>
-							 	<p>Company News, Press Releases • January 25, 2018</p>
-					</div>
+						 	<h3><a href="https://cbdev.solutions/valosmartcity/vsalo-smart-city-secures-funding/" title="Valo Smart City Secures Funding" rel="bookmark">Valo Smart City Secures Funding</a></h3>
+							 	<span>Company News, Press Releases • </span>
+						    <span>January 25, 2018</span>
+					 </div>
 				</div>
-    </section><!-- #content-wrapper -->
+			</section>
+			<!-- close Press Releases -->
+    </section>
 		</main><!-- #main -->
 	</div><!-- #primary -->
 

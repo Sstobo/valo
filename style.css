@@ -444,6 +444,7 @@ table {
   text-decoration: none;
   color: #fff;
   border-radius: 10px;
+  border: none;
   padding: 12px;
   letter-spacing: 1px;
   font-weight: bold;
@@ -541,6 +542,13 @@ a {
     outline: thin dotted; }
   a:hover, a:active {
     outline: 0; }
+
+a,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+  color: inherit; }
 
 /* Menus */
 .main-navigation {
@@ -782,6 +790,13 @@ object {
 .content-wrapper {
   padding-top: 140px; }
 
+.title-blue-line {
+  width: 50px;
+  height: 5px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#fff), color-stop(#00aeef), to(#fff));
+  background: linear-gradient(#fff, #00aeef, #fff);
+  margin: 0 auto; }
+
 /* Front page */
 .hero-container {
   display: -webkit-box;
@@ -868,39 +883,150 @@ object {
   to {
     opacity: 100%; } }
 
+/* Integrator Section */
+.integrator-section-wrapper {
+  background: url("http://localhost:8888/Valo/wp-content/themes/valo/assets/Backgrounds/clean-gray-abstract-background.png") bottom left no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  padding: 4vh;
+  padding-top: 3vh; }
+
+.integrator-section-title {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 24px;
+  color: #161616;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 20px;
+  max-width: 69%; }
+  @media all and (min-width: 1200px) {
+    .integrator-section-title {
+      max-width: 59%; } }
+
+.integrator-section-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: 30vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 3vh; }
+  @media all and (min-width: 1200px) {
+    .integrator-section-container {
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center; } }
+
+.integrator-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 35vh;
+  width: 50vw;
+  min-width: 386px;
+  min-height: 325px;
+  background-color: #fff;
+  margin-left: 2vh;
+  margin-right: 2vh;
+  padding-top: 30px;
+  padding-right: 10px;
+  padding-bottom: 30px;
+  padding-left: 10px; }
+  @media all and (min-width: 1200px) {
+    .integrator-item {
+      height: 32vh;
+      min-height: 406px;
+      width: 25vw;
+      padding-top: 50px;
+      padding-bottom: 50px; } }
+  .integrator-item h3 {
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    margin-top: 22px;
+    margin-bottom: 15px; }
+    .integrator-item h3 :hover {
+      color: #fff;
+      text-decoration: none; }
+    .integrator-item h3 :visited {
+      color: #fff;
+      text-decoration: none; }
+  .integrator-item span {
+    font-size: 13px;
+    font-family: "Roboto";
+    font-weight: 300;
+    color: #fff;
+    text-align: center; }
+
+.integrator-icon {
+  max-width: 100px;
+  max-height: 100px; }
+
+.button-integrator {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  padding-left: 20px;
+  padding-right: 20px; }
+
 /* Press Releases */
 .press-releases-wrapper {
   background: url("http://localhost:8888/Valo/wp-content/themes/valo/assets/Backgrounds/clean-gray-abstract-background.png") bottom left no-repeat;
   background-size: 100% 100%;
+  background-attachment: fixed;
   padding: 4vh;
   padding-top: 3vh; }
 
 .press-releases-title {
   font-family: "Roboto";
   font-weight: 500;
-  font-size: 3rem;
+  font-size: 34px;
   color: #161616;
-  text-align: center; }
-
-.blue-line {
-  width: 50px;
-  height: 5px;
-  background: -webkit-gradient(linear, left top, left bottom, from(#fff), color-stop(#00aeef), to(#fff));
-  background: linear-gradient(#fff, #00aeef, #fff);
-  margin: 0 auto; }
+  text-align: center;
+  margin-bottom: 20px; }
 
 .press-releases-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
+  -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  min-height: 30vh; }
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: 30vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  @media all and (min-width: 600px) {
+    .press-releases-container {
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center; } }
 
 .press-release {
   display: -webkit-box;
@@ -916,16 +1042,30 @@ object {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 28vh;
-  width: 28vw;
+  height: 35vh;
+  width: 80vw;
   background-color: #00aeef;
   margin: 2vh;
-  padding: 8vh; }
-  .press-release h6 {
-    font-size: 1.5rem;
-    color: #fff;
-    text-align: center; }
-  .press-release p {
+  padding: 2vh; }
+  @media all and (min-width: 600px) {
+    .press-release {
+      height: 23vh;
+      width: 28vw; } }
+  .press-release h3 {
+    font-family: sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 5px; }
+    .press-release h3 :hover {
+      color: #fff;
+      text-decoration: none; }
+    .press-release h3 :visited {
+      color: #fff;
+      text-decoration: none; }
+  .press-release span {
+    font-size: 13px;
     font-family: "Roboto";
     font-weight: 300;
     color: #fff;
