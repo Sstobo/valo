@@ -125,3 +125,66 @@
     text-align: center;
   }
 }
+
+//front page banner
+.banner {
+  height: 50vh;
+  width: 100%;
+  background: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+
+  @include footer_row {
+    height: 30vh;
+    flex-direction: row;
+  }
+
+  #banner-logo {
+    height: 100px;
+    width: 250px;
+
+    @include footer_row {
+      margin-left: 15%;
+    }
+  }
+
+  #banner-contact-button {
+    height: 40px;
+    width: auto;
+    min-width: 130px;
+    background: $color__accent;
+    text-shadow: none;
+    box-shadow: none;
+    color: #fff;
+    font-family: $font__main;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px 15px;
+
+    @include footer_row {
+      margin-right: 17%;
+    }
+  }
+
+  #banner-contact-button:hover {
+    background: $color__border-abbr;
+  }
+
+  p {
+    max-width: 300px;
+    font-family: $font__main;
+    color: #fff;
+    font-size: 20px;
+
+    @include footer_row {
+      margin-right: 6%;
+    }
+  }
+}
+//close banner

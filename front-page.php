@@ -26,6 +26,15 @@ get_header(); ?>
 			<h2><span class="uppercase">Valo</span> is a smart city integrator that aims to better people’s lives around the world through Internet of Things (IoT) technology.</h2>
 			</section>
 			<section class="container"></section>
+
+			<!-- contact banner -->
+			<section class="banner">
+			<img src="<?php echo get_template_directory_uri() . '/assets/Logo SVG/VALO white logo-01.svg'?>" id="banner-logo"/>
+			<p>Discover how VALO can help make your city better </p>
+			<button id="banner-contact-button">Contact Us</button>
+			</section>
+			<!-- close contact banner -->
+
 			<section class="press-releases-wrapper">
 				<h2 class="press-releases-title">Latest Press Releases</h2>
 				<div class="blue-line"></div>

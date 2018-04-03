@@ -17,7 +17,7 @@
 		<!--Import Google Icon Font-->
 		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 		<!--Import materialize.css-->
-		<link type="text/css" rel="stylesheet" href="sass/components/materialize.scss" media="screen,projection" />
+		<!-- <link type="text/css" rel="stylesheet" href="sass/components/materialize.scss" media="screen,projection" /> -->
 
 		<!--Let browser know website is optimized for mobile-->
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -46,10 +46,8 @@
 				
 				<div class="header-logo">
 				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-				<img class="header-logo-image" src="<?php echo get_template_directory_uri() . '/assets/Logo SVG/VALO black logo-01.svg'; ?>"/></a></div>
-
-<!-- <div class="header-contact-mobile">Contact Info<div> -->
-				
+				<img class="header-logo-image" src="<?php echo get_template_directory_uri() . '/assets/Logo SVG/VALO black logo-01.svg'; ?>"/></a>
+				</div>
 
 					<nav id="site-navigation" class="main-navigation" role="navigation">
 						<!-- <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false">
@@ -63,9 +61,7 @@
 						<h3> 1-917-660-6000 </h3>
 						<p1> Get in touch today <p1>
 						<div>
-
 				</div>
 			</header>
-			<!-- #masthead -->
 
 			<div id="content" class="site-content">
