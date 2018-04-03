@@ -19,7 +19,12 @@ get_header(); ?>
 				<a href="#" class="button-main button-hero animate-fadein">Watch Video</a>
 			</section>
 			<section class="container">
-				<h2>Creating a foundation for smart cities.</h2>
+				<h2 class="header-section">Creating a foundation for smart cities.</h2>
+				<picture>
+    			<source srcset="<?php echo get_template_directory_uri() . '/assets/icons-SVG/valo-formula-mobile.png'?>" media="(max-width: 600px)">
+    			<source srcset="<?php echo get_template_directory_uri() . '/assets/icons-SVG/valo-formula-desktop.png'?>">
+    			<img srcset="<?php echo get_template_directory_uri() . '/assets/icons-SVG/valo-formula-mobile.png'?>" alt="Smart Lighting + Smart Cities = Valo">
+				</picture>
 			</section>
 			<section class="transparent-container">
 			<h2><span class="uppercase">Valo</span> is a smart city integrator that aims to better people’s lives around the world through Internet of Things (IoT) technology.</h2>
@@ -28,7 +33,7 @@ get_header(); ?>
 
 			<!-- contact banner -->
 			<section class="banner">
-			<img src="<?php echo get_template_directory_uri() . '/assets/Logo SVG/VALO white logo-01.svg'?>" id="banner-logo"/>
+			<img src="<?php echo get_template_directory_uri() . '/assets/Logo SVG/VALO white logo-01.png'?>" id="banner-logo"/>
 			<p>Discover how VALO can help make your city better </p>
 			<button id="banner-contact-button">Contact Us</button>
 			</section>
@@ -51,7 +56,7 @@ get_header(); ?>
 							 	<p>Company News, Press Releases • January 25, 2018</p>
 					</div>
 				</div>
-    </section>
+    </section><!-- #content-wrapper -->
 		</main><!-- #main -->
 	</div><!-- #primary -->
 

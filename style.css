@@ -367,6 +367,13 @@ big {
       font-size: 32px;
       font-size: 2rem; } }
 
+.header-section {
+  font-size: 24px;
+  font-size: 1.5rem;
+  color: #161616;
+  font-weight: bold;
+  text-align: center; }
+
 /*--------------------------------------------------------------
 # Elements
 --------------------------------------------------------------*/
@@ -434,6 +441,7 @@ table {
 
 .button-main {
   background-color: #00aeef;
+  text-decoration: none;
   color: #fff;
   border-radius: 10px;
   padding: 12px;
@@ -447,7 +455,8 @@ table {
       font-size: 16px;
       font-size: 1rem; } }
   .button-main:hover {
-    background-color: #3f3f3f; }
+    background-color: #3f3f3f;
+    color: #fff; }
   .button-main:visited {
     color: #fff; }
 
@@ -789,7 +798,7 @@ object {
       -ms-flex-align: center;
           align-items: center;
   min-height: 260px;
-  background: url("../../assets/still-header/valo-still-header-01.svg");
+  background: url("../../assets/still-header/valo-still-header-01.png");
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: cover; }
@@ -828,10 +837,6 @@ object {
     -webkit-transform: translateY(200px);
             transform: translateY(200px);
     opacity: 0; }
-  50% {
-    -webkit-transform: translateY(75px);
-            transform: translateY(75px);
-    opacity: 0.2; }
   to {
     -webkit-transform: translateY(0);
             transform: translateY(0);
@@ -842,10 +847,6 @@ object {
     -webkit-transform: translateY(200px);
             transform: translateY(200px);
     opacity: 0; }
-  50% {
-    -webkit-transform: translateY(75px);
-            transform: translateY(75px);
-    opacity: 0.2; }
   to {
     -webkit-transform: translateY(0);
             transform: translateY(0);
@@ -1004,7 +1005,7 @@ object {
       -ms-flex-pack: center;
           justify-content: center;
   position: fixed;
-  margin-top: -40px;
+  margin-top: -34px;
   padding-top: 10px;
   background-color: white; }
   .header-wrapper .fa-mobile {
@@ -1024,7 +1025,7 @@ object {
   height: 100%;
   padding-left: 24%;
   min-width: 130px;
-  min-height: 110px; }
+  min-height: 120px; }
   @media (min-width: 700px) {
     .header-logo-image {
       height: 100%;
@@ -1045,6 +1046,10 @@ object {
   opacity: 1;
   -webkit-box-shadow: 1px 1px 4px 1px grey !important;
           box-shadow: 1px 1px 4px 1px grey !important; }
+  @media (min-width: 1100px) {
+    #mega-menu-primary {
+      -webkit-box-shadow: none !important;
+              box-shadow: none !important; } }
 
 .header-contact-desktop {
   display: none;
@@ -1323,3 +1328,117 @@ object {
       font-family: "Roboto";
       font-size: 14px;
       color: #666; }
+
+.products-wrapper {
+  height: 100%;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 110px; }
+
+.products-hero {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 44px;
+  padding: 12px; }
+
+.products-service-wrapper {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+  @media (min-width: 1000px) {
+    .products-service-wrapper {
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row; } }
+  .products-service-wrapper .products-lighting {
+    height: 300px;
+    width: 100%;
+    background-color: #eeeeee;
+    text-align: center;
+    padding: 34px 12px 12px 12px; }
+    @media (min-width: 1000px) {
+      .products-service-wrapper .products-lighting {
+        width: 50%;
+        height: 500px;
+        padding-top: 124px; } }
+    .products-service-wrapper .products-lighting .products-img {
+      height: 100px;
+      width: 100px;
+      margin: 0 auto; }
+    .products-service-wrapper .products-lighting h2 {
+      text-align: center;
+      width: 60%;
+      margin: 0 auto;
+      margin-bottom: 14px; }
+  .products-service-wrapper .products-platform {
+    height: 300px;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    padding: 34px 12px 12px 12px; }
+    @media (min-width: 1000px) {
+      .products-service-wrapper .products-platform {
+        width: 50%;
+        height: 500px;
+        padding-top: 124px; } }
+    .products-service-wrapper .products-platform .products-img {
+      height: 100px;
+      width: 100px;
+      margin: 0 auto; }
+    .products-service-wrapper .products-platform h2 {
+      text-align: center;
+      width: 60%;
+      margin: 0 auto;
+      margin-bottom: 14px; }
+  .products-service-wrapper .products-cameras {
+    height: 300px;
+    width: 100%;
+    background-color: #eeeeee;
+    text-align: center;
+    padding: 34px 12px 12px 12px; }
+    @media (min-width: 1000px) {
+      .products-service-wrapper .products-cameras {
+        width: 50%;
+        height: 500px;
+        padding-top: 124px; } }
+    .products-service-wrapper .products-cameras .products-img {
+      height: 100px;
+      width: 100px;
+      margin: 0 auto; }
+    .products-service-wrapper .products-cameras h2 {
+      text-align: center;
+      width: 80%;
+      margin: 0 auto;
+      margin-bottom: 14px; }
+  .products-service-wrapper .products-networks {
+    height: 300px;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    padding: 34px 12px 12px 12px; }
+    @media (min-width: 1000px) {
+      .products-service-wrapper .products-networks {
+        width: 50%;
+        height: 500px;
+        padding-top: 124px; } }
+    .products-service-wrapper .products-networks .products-img {
+      height: 100px;
+      width: 100px;
+      margin: 0 auto; }
+    .products-service-wrapper .products-networks h2 {
+      text-align: center;
+      width: 60%;
+      margin: 0 auto;
+      margin-bottom: 14px; }

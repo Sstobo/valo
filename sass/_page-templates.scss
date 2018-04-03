@@ -15,7 +15,7 @@
   justify-content: flex-start;
   align-items: center;
   min-height: 260px;
-  background: url('../../assets/still-header/valo-still-header-01.svg');
+  background: url('../../assets/still-header/valo-still-header-01.png');
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: cover;
@@ -55,10 +55,6 @@
     transform: translateY(200px);
     opacity: 0;
     // width: 300%;
-  }
-  50% {
-    transform: translateY(75px);
-    opacity: 0.2;
   }
   to {
     transform: translateY(0);
