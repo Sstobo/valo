@@ -39,17 +39,17 @@ get_header(); ?>
 				<div class="blue-line"></div>
 				<div class="press-releases-container"> 
           <div class="press-release">
-						 <h6>Valo Smart City as a Service</h6>
+						 <h3><a href="https://cbdev.solutions/valosmartcity/valo-smart-city-as-a-service/" title="Valo Smart City as a Service" rel="bookmark">Valo Smart City as a Service</a></h3>
 						   <span>Company News, Press Releases • </span>
 					   	 <span>January 25, 2018</span>
 					</div>
 					 <div class="press-release">
-						  <h6>Internet of Thing Technology</h6>
+						  <h3>Internet of Thing Technology</h3>
 								<span>Company News, Press Releases • </span>
 					     	<span>January 25, 2018</span>
 					</div>
 					 <div class="press-release">
-						 	<h6>Valo Smart City secures funding</h6>
+						 	<h3><a href="https://cbdev.solutions/valosmartcity/vsalo-smart-city-secures-funding/" title="Valo Smart City Secures Funding" rel="bookmark">Valo Smart City Secures Funding</a></h3>
 							 	<span>Company News, Press Releases • </span>
 						    <span>January 25, 2018</span>
 					</div>
