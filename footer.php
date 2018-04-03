@@ -20,13 +20,13 @@
 		
 				<div class="site-info">
 					<div class="contact-us">
-				    <h1>Contact Us</h1>
-						<h3>1-917-660-6000</h3>
-						<p class="caps">Email</p>
-						<a href="mailto: info@valocity.com" id="email-link">info@valocity.com</a>
-						<p class="caps">Main Office Address</p>
-						<p>655 Madison Ave 3rd Floor</p>
-						<p>New York, New York 10065 </p>
+				    <p class="caps title">Contact Us</p>
+						<a href="tel:1-917-660-6000" id="phone">1-917-660-6000</a>
+						<p class="caps email-title">Email</p>
+						<a href="mailto: info@valosmartcity.com" id="email-link">info@valosmartcity.com</a>
+						<p class="caps ">Main Office Address</p>
+						<p class="address">655 Madison Ave 3rd Floor</p>
+						<p class="address">New York, New York 10065 </p>
 
 					<div class="icon-container">
 						<span class="icon-background">
@@ -50,7 +50,7 @@
 					</div>
 
 					<div class="useful-links">
-						<h1>Useful Links</h1>
+						<p class="caps title">Useful Links</p>
 						<a href="#"> Company </a>
 						<a href="#"> Investor Presentations</a>
 						<a href="#">  Smart City LED Lighting</a>
@@ -58,7 +58,7 @@
 						<a href="#"> Smart Cameras and Software</a>
 					</div>
 					<div class="news">
-						<h1>News</h1>
+						<p class="caps title">News</p>
 						<a href="#">Valo Smart City as a service</a>
 						<p class="journal-date"> Janurary 30, 2018</p>
 						<a href="#" > Internet of Thing Technology </a>
