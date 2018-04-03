@@ -8,12 +8,11 @@
 }
 
 // Title accent line
-.blue-line {
+.title-blue-line {
   width: 50px;
   height: 5px;
   background: linear-gradient(#fff, $color__accent, #fff);
   margin: 0 auto;
-  margin-bottom: 3vh;
 }
 
 /* Front page */
@@ -101,7 +100,7 @@
   margin: 0 auto;
   text-align: center;
   margin-bottom: 20px;
-  max-width: 85%;
+  max-width: 69%;
   @include large {
     max-width: 59%;
   }
@@ -111,6 +110,7 @@
   flex-direction: column;
   min-height: 30vh;
   align-items: center;
+  margin-top: 3vh;
   @include large {
     flex-direction: row;
     justify-content: center;

@@ -30,7 +30,7 @@ get_header(); ?>
 			<!-- Integrator section -->
 			<section class="integrator-section-wrapper">
 				<h2 class="integrator-section-title"><span class="uppercase">Valo</span> is a smart city integrator that aims to better people’s lives around the world through Internet of Things (IoT) technology.</h2>
-				<div class="blue-line"></div>
+				<div class="title-blue-line"></div>
 				<div class="integrator-section-container"> 
           <div class="integrator-item">
 						 <img class="integrator-icon" srcset="<?php echo get_template_directory_uri() . '/assets/icons-SVG/valo-products-01.png'?>" />
@@ -64,7 +64,7 @@ get_header(); ?>
 			<!-- Press Releases -->
 			<section class="press-releases-wrapper">
 				<h2 class="press-releases-title">Latest Press Releases</h2>
-				<div class="blue-line"></div>
+				<div class="title-blue-line"></div>
 				<div class="press-releases-container"> 
           <div class="press-release">
 						 <h3><a href="https://cbdev.solutions/valosmartcity/valo-smart-city-as-a-service/" title="Valo Smart City as a Service" rel="bookmark">Valo Smart City as a Service</a></h3>
