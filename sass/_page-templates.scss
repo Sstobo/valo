@@ -113,8 +113,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 28vh;
-  width: 68vw;
+  height: 35vh;
+  width: 80vw;
   @include tablet {
     height: 23vh;
     width: 28vw;
@@ -125,10 +125,18 @@
   h3 {
     font-family: Sans-Serif;
     font-weight: 400;
-    color: #fff;
+    color: #ffffff;
     text-align: center;
     margin: 0;
     margin-bottom: 5px;
+    :hover {
+      color: #fff;
+      text-decoration: none;
+    }
+    :visited {
+      color: #fff;
+      text-decoration: none;
+    }
   }
   span {
     font-size: 13px;

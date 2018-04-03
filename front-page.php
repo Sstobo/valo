@@ -22,7 +22,30 @@ get_header(); ?>
 				<h2 class="header-section">Creating a foundation for smart cities.</h2>
 				<img srcset="<?php echo get_template_directory_uri() . '/assets/icons-SVG/valo-formula-desktop.svg'?>, <?php echo get_template_directory_uri() . '/assets/icons-SVG/valo-formula-mobile.svg'?> " alt="<?php echo $term->name ; ?>" />
 			</section>
-			<section class="transparent-container">
+
+			<!-- Integrator section -->
+			<section class="integrator-section-wrapper">
+				<h2><span class="uppercase">Valo</span> is a smart city integrator that aims to better people’s lives around the world through Internet of Things (IoT) technology.</h2>
+				<div class="blue-line"></div>
+				<div class="integrator-section-container"> 
+          <div class="smart">
+						 <h2>Smart Technology for Smart Cities</h2>
+						 <img src="<?php echo get_template_directory_uri() . '/assets/icons-SVG/valo-formula-desktop.svg'?>" />
+						 <button class="button-main">Products</button>
+					</div>
+					 <div class="opportunities">
+						  <h2>Opportunities for Cities and Their Citizens</h2><img src="<?php echo get_template_directory_uri() . '/assets/icons-SVG/valo-formula-desktop.svg'?>" />
+						 <button class="button-main">Products</button>
+					</div>
+					 <div class="making">
+						 <h2>Making Communities and Cities better</h2>
+						 <img src="<?php echo get_template_directory_uri() . '/assets/icons-SVG/valo-formula-desktop.svg'?>" />
+						 <button class="button-main">Products</button>
+					 </div>
+				</div>
+			</section>
+			<!-- close Integrator section -->
+
 			<h2><span class="uppercase">Valo</span> is a smart city integrator that aims to better people’s lives around the world through Internet of Things (IoT) technology.</h2>
 			</section>
 			<section class="container"></section>
@@ -35,6 +58,7 @@ get_header(); ?>
 			</section>
 			<!-- close contact banner -->
 
+			<!-- Press Releases -->
 			<section class="press-releases-wrapper">
 				<h2 class="press-releases-title">Latest Press Releases</h2>
 				<div class="blue-line"></div>
@@ -45,7 +69,7 @@ get_header(); ?>
 					   	 <span>January 25, 2018</span>
 					</div>
 					 <div class="press-release">
-						  <h3>Internet of Thing Technology</h3>
+						  <h3><a href="https://cbdev.solutions/valosmartcity/vivamus-diam-tellus-efficitur-id-felis-quis/" title="Internet of Thing Technology" rel="bookmark">Internet of Thing Technology</a></h3>
 								<span>Company News, Press Releases • </span>
 					     	<span>January 25, 2018</span>
 					</div>
@@ -53,8 +77,10 @@ get_header(); ?>
 						 	<h3><a href="https://cbdev.solutions/valosmartcity/vsalo-smart-city-secures-funding/" title="Valo Smart City Secures Funding" rel="bookmark">Valo Smart City Secures Funding</a></h3>
 							 	<span>Company News, Press Releases • </span>
 						    <span>January 25, 2018</span>
-					</div>
+					 </div>
 				</div>
+			</section>
+			<!-- close Press Releases -->
     </section>
 		</main><!-- #main -->
 	</div><!-- #primary -->
