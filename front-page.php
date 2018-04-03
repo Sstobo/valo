@@ -19,7 +19,8 @@ get_header(); ?>
 				<a href="#" class="button-main button-hero animate-fadein">Watch Video</a>
 			</section>
 			<section class="container">
-				<h2>Creating a foundation for smart cities.</h2>
+				<h2 class="header-section">Creating a foundation for smart cities.</h2>
+				<img srcset="<?php echo get_template_directory_uri() . '/assets/icons-SVG/valo-formula-desktop.svg'?>, <?php echo get_template_directory_uri() . '/assets/icons-SVG/valo-formula-mobile.svg'?> " alt="<?php echo $term->name ; ?>" />
 			</section>
 			<section class="transparent-container">
 			<h2><span class="uppercase">Valo</span> is a smart city integrator that aims to better people’s lives around the world through Internet of Things (IoT) technology.</h2>
