@@ -111,3 +111,10 @@ big {
     @include font-size(2);
   }
 }
+
+.header-section {
+  @include font-size(1.5);
+  color: $color__header-main;
+  font-weight: bold;
+  text-align: center;
+}
