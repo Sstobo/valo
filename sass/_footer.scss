@@ -1,6 +1,66 @@
+.signup-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 3% 15%;
+
+  #form-title {
+    font-family: $font__main;
+    color: black;
+    font-size: 35px;
+    font-weight: bold;
+  }
+
+  #form-title:after {
+    content: '';
+    border-bottom: 2px solid $color__accent;
+    width: 50px;
+    display: block;
+    margin: 0 auto;
+    padding-top: 20px;
+  }
+
+  .wpcf7-form {
+    min-width: 600px;
+    input {
+      border: 1px solid #e6e6e6;
+    }
+
+    input:not(.browser-default):focus:not([readonly]) {
+      border: 1px solid #e6e6e6;
+      box-shadow: none;
+    }
+    label {
+      font-family: $font__main;
+      color: black;
+      font-size: 14px;
+    }
+    input[type='submit'] {
+      background: $color__accent;
+      color: #fff;
+      box-shadow: none;
+      text-shadow: none;
+      color: #fff;
+      font-family: $font__main;
+      border-radius: 8px;
+      font-size: 16px;
+      font-weight: bold;
+      padding: 10px 20px;
+    }
+    .wpcf7-not-valid-tip {
+      color: $color__accent;
+      font-family: $font__main;
+    }
+    .wpcf7-response-output {
+      color: $color__accent;
+      font-family: $font__main;
+      border: none;
+    }
+  }
+}
+
 .site-footer {
   background-color: black;
-
   .site-info {
     margin-right: 5%;
     margin-left: 5%;
@@ -8,11 +68,9 @@
     flex-direction: column;
     flex-wrap: wrap;
     min-height: 250px;
-
     @include footer_row {
       flex-direction: row;
     }
-
     h1 {
       font-size: 20px;
       color: #fff;
@@ -24,41 +82,34 @@
       margin: 8px 0;
       font-family: $font__main;
     }
-
     i.fa {
       color: #fff;
-      font-size: 11px;
+      font-size: 13px;
     }
-
     a {
       margin: 8px 0;
       color: #fff;
     }
-
     a:hover {
       color: $color__accent;
     }
-
     h3 {
       color: $color__accent;
       font-size: 20px;
       font-family: $font__main;
       font-weight: bold;
     }
-
     .icon-container {
       display: flex;
       margin-left: 0;
-
       @include footer_row {
-        margin-left: 10%;
+        margin-left: 8%;
       }
     }
-
     .icon-background {
       background: $color__text-main;
-      height: 20px;
-      width: 20px;
+      height: 25px;
+      width: 25px;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -67,7 +118,9 @@
       padding: 5px;
       margin-right: 1%;
     }
-
+    .icon-background:hover {
+      background: $color__accent;
+    }
     .contact-us {
       flex-basis: 30%;
       margin-bottom: 30px;
@@ -93,30 +146,25 @@
       }
       justify-content: space-between;
       align-items: center;
-
       flex-basis: 100%;
       border-top: 1px solid $color__border-abbr;
-
       #logo {
         height: 100px;
         width: 150px;
       }
     }
-
     #email-link {
       color: $color__accent;
       font-family: $font__main;
       font-weight: bold;
       font-size: 20px;
     }
-
     #email-link:hover {
       text-decoration: underline;
     }
     .caps {
       text-transform: uppercase;
     }
-
     .journal-date {
       font-size: 12px;
     }

@@ -9,7 +9,15 @@
 
 			</div><!-- #content -->
 
+      <div class="signup-container">
+				<h1 id="form-title"> Sign Up for the Latest Valo News </h1>
+				<?php echo do_shortcode('[contact-form-7 id="5" title="Contact form 1"]');?>
+			</div>
+
+
 			<footer id="colophon" class="site-footer" role="contentinfo">
+			
+		
 				<div class="site-info">
 					<div class="contact-us">
 				    <h1>Contact Us</h1>
@@ -64,7 +72,8 @@
 					</div>
 
 				</div><!-- .site-info -->
-			</footer><!-- #colophon -->
+			
+		</footer><!-- #colophon -->
 		</div><!-- #page -->
 
 		<?php wp_footer(); ?>
