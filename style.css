@@ -1300,3 +1300,117 @@ object {
       font-family: "Roboto";
       font-size: 14px;
       color: #666; }
+
+.products-wrapper {
+  height: 100%;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 110px; }
+
+.products-hero {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 44px;
+  padding: 12px; }
+
+.products-service-wrapper {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+  @media (min-width: 1000px) {
+    .products-service-wrapper {
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row; } }
+  .products-service-wrapper .products-lighting {
+    height: 300px;
+    width: 100%;
+    background-color: #eeeeee;
+    text-align: center;
+    padding: 34px 12px 12px 12px; }
+    @media (min-width: 1000px) {
+      .products-service-wrapper .products-lighting {
+        width: 50%;
+        height: 500px;
+        padding-top: 124px; } }
+    .products-service-wrapper .products-lighting .products-img {
+      height: 100px;
+      width: 100px;
+      margin: 0 auto; }
+    .products-service-wrapper .products-lighting h2 {
+      text-align: center;
+      width: 60%;
+      margin: 0 auto;
+      margin-bottom: 14px; }
+  .products-service-wrapper .products-platform {
+    height: 300px;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    padding: 34px 12px 12px 12px; }
+    @media (min-width: 1000px) {
+      .products-service-wrapper .products-platform {
+        width: 50%;
+        height: 500px;
+        padding-top: 124px; } }
+    .products-service-wrapper .products-platform .products-img {
+      height: 100px;
+      width: 100px;
+      margin: 0 auto; }
+    .products-service-wrapper .products-platform h2 {
+      text-align: center;
+      width: 60%;
+      margin: 0 auto;
+      margin-bottom: 14px; }
+  .products-service-wrapper .products-cameras {
+    height: 300px;
+    width: 100%;
+    background-color: #eeeeee;
+    text-align: center;
+    padding: 34px 12px 12px 12px; }
+    @media (min-width: 1000px) {
+      .products-service-wrapper .products-cameras {
+        width: 50%;
+        height: 500px;
+        padding-top: 124px; } }
+    .products-service-wrapper .products-cameras .products-img {
+      height: 100px;
+      width: 100px;
+      margin: 0 auto; }
+    .products-service-wrapper .products-cameras h2 {
+      text-align: center;
+      width: 80%;
+      margin: 0 auto;
+      margin-bottom: 14px; }
+  .products-service-wrapper .products-networks {
+    height: 300px;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    padding: 34px 12px 12px 12px; }
+    @media (min-width: 1000px) {
+      .products-service-wrapper .products-networks {
+        width: 50%;
+        height: 500px;
+        padding-top: 124px; } }
+    .products-service-wrapper .products-networks .products-img {
+      height: 100px;
+      width: 100px;
+      margin: 0 auto; }
+    .products-service-wrapper .products-networks h2 {
+      text-align: center;
+      width: 60%;
+      margin: 0 auto;
+      margin-bottom: 14px; }

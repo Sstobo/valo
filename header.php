@@ -46,7 +46,7 @@
 				
 				<div class="header-logo">
 				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-				<img class="header-logo-image" src="<?php echo get_template_directory_uri() . '/assets/Logo SVG/VALO black logo-01.png'; ?>"/></a>
+				<img class="header-logo-image" src="<?php echo get_template_directory_uri() . '/assets/Logo SVG/VALO black logo-01.svg'; ?>"/></a>
 				</div>
 
 					<nav id="site-navigation" class="main-navigation" role="navigation">
