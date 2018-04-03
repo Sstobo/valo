@@ -93,25 +93,39 @@
   }
 }
 
+//end form
+
 .site-footer {
   background-color: black;
+  padding-top: 25px;
   .site-info {
-    margin-right: 5%;
-    margin-left: 5%;
+    margin-right: 4%;
+    margin-left: 4%;
     display: flex;
     flex-direction: column;
+    align-items: center;
+
     flex-wrap: wrap;
     min-height: 250px;
     @include footer_row {
       flex-direction: row;
+      align-items: flex-start;
     }
-    h1 {
-      font-size: 20px;
-      color: #fff;
-      font-family: $font__main;
+
+    .email-title {
+      margin-bottom: 0.5px;
+      font-size: 15px;
+    }
+
+    .title {
+      font-size: 18px;
+    }
+
+    .address {
+      color: #c2c9cc;
     }
     p {
-      font-size: 16px;
+      font-size: 15px;
       color: #fff;
       margin: 8px 0;
       font-family: $font__main;
@@ -128,50 +142,78 @@
     a:hover {
       color: $color__accent;
     }
-    h3 {
+
+    #phone {
       color: $color__accent;
-      font-size: 20px;
-      font-family: $font__main;
+      font-size: 22px;
       font-weight: bold;
     }
     .icon-container {
       display: flex;
-      margin-left: 0;
+
+      padding-top: 8px;
+      margin-left: 10%;
+
       @include footer_row {
-        margin-left: 8%;
+        margin-left: 0;
       }
     }
     .icon-background {
-      background: $color__text-main;
-      height: 25px;
-      width: 25px;
+      background: #252626;
+      height: 27px;
+      width: 27px;
       display: flex;
       justify-content: center;
       align-items: center;
       text-align: center;
       border-radius: 50%;
-      padding: 5px;
+      padding: 8px;
       margin-right: 1%;
     }
     .icon-background:hover {
       background: $color__accent;
     }
     .contact-us {
-      flex-basis: 30%;
+      text-align: center;
+      flex-basis: 32%;
       margin-bottom: 30px;
       padding: 10px;
+
+      @include footer_row {
+        text-align: left;
+      }
+
+      .title {
+        padding-bottom: 6px;
+      }
     }
     .useful-links {
+      text-align: center;
       display: flex;
       flex-direction: column;
-      flex-basis: 30%;
+      flex-basis: 32%;
       margin-bottom: 30px;
       padding: 10px;
+
+      @include footer_row {
+        text-align: left;
+      }
     }
     .news {
-      flex-basis: 40%;
+      text-align: center;
+
+      flex-basis: 36%;
       margin-bottom: 30px;
       padding: 10px 0 10px 10px;
+
+      @include footer_row {
+        text-align: left;
+      }
+
+      .title {
+        padding-bottom: 8px;
+        margin-top: 6px;
+      }
     }
     .logo {
       display: flex;
@@ -182,7 +224,7 @@
       justify-content: space-between;
       align-items: center;
       flex-basis: 100%;
-      border-top: 1px solid $color__border-abbr;
+      border-top: 0.3px solid $color__border-abbr;
       #logo {
         height: 100px;
         width: 150px;
@@ -192,7 +234,7 @@
       color: $color__accent;
       font-family: $font__main;
       font-weight: bold;
-      font-size: 20px;
+      font-size: 16px;
     }
     #email-link:hover {
       text-decoration: underline;
@@ -202,6 +244,7 @@
     }
     .journal-date {
       font-size: 12px;
+      color: #c2c9cc;
     }
     #copy {
       font-family: $font__main;
