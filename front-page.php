@@ -20,7 +20,11 @@ get_header(); ?>
 			</section>
 			<section class="container">
 				<h2 class="header-section">Creating a foundation for smart cities.</h2>
-				<img srcset="<?php echo get_template_directory_uri() . '/assets/icons-SVG/valo-formula-desktop.svg'?>, <?php echo get_template_directory_uri() . '/assets/icons-SVG/valo-formula-mobile.svg'?> " alt="<?php echo $term->name ; ?>" />
+				<picture>
+    			<source srcset="<?php echo get_template_directory_uri() . '/assets/icons-SVG/valo-formula-mobile.png'?>" media="(max-width: 600px)">
+    			<source srcset="<?php echo get_template_directory_uri() . '/assets/icons-SVG/valo-formula-desktop.png'?>">
+    			<img srcset="<?php echo get_template_directory_uri() . '/assets/icons-SVG/valo-formula-mobile.png'?>" alt="Smart Lighting + Smart Cities = Valo">
+				</picture>
 			</section>
 
 			<!-- Integrator section -->
@@ -46,13 +50,11 @@ get_header(); ?>
 			</section>
 			<!-- close Integrator section -->
 
-			<h2><span class="uppercase">Valo</span> is a smart city integrator that aims to better people’s lives around the world through Internet of Things (IoT) technology.</h2>
-			</section>
 			<section class="container"></section>
 
 			<!-- contact banner -->
 			<section class="banner">
-			<img src="<?php echo get_template_directory_uri() . '/assets/Logo SVG/VALO white logo-01.svg'?>" id="banner-logo"/>
+			<img src="<?php echo get_template_directory_uri() . '/assets/Logo SVG/VALO white logo-01.png'?>" id="banner-logo"/>
 			<p>Discover how VALO can help make your city better </p>
 			<button id="banner-contact-button">Contact Us</button>
 			</section>

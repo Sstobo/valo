@@ -441,6 +441,7 @@ table {
 
 .button-main {
   background-color: #00aeef;
+  text-decoration: none;
   color: #fff;
   border-radius: 10px;
   padding: 12px;
@@ -454,7 +455,8 @@ table {
       font-size: 16px;
       font-size: 1rem; } }
   .button-main:hover {
-    background-color: #3f3f3f; }
+    background-color: #3f3f3f;
+    color: #fff; }
   .button-main:visited {
     color: #fff; }
 
@@ -803,7 +805,7 @@ object {
       -ms-flex-align: center;
           align-items: center;
   min-height: 260px;
-  background: url("../../assets/still-header/valo-still-header-01.svg");
+  background: url("../../assets/still-header/valo-still-header-01.png");
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: cover; }
