@@ -20,7 +20,11 @@ get_header(); ?>
 			</section>
 			<section class="container">
 				<h2 class="header-section">Creating a foundation for smart cities.</h2>
-				<img srcset="<?php echo get_template_directory_uri() . '/assets/icons-SVG/valo-formula-desktop.png'?>, <?php echo get_template_directory_uri() . '/assets/icons-SVG/valo-formula-mobile.png'?> " alt="<?php echo $term->name ; ?>" />
+				<picture>
+    			<source srcset="<?php echo get_template_directory_uri() . '/assets/icons-SVG/valo-formula-mobile.png'?>" media="(max-width: 600px)">
+    			<source srcset="<?php echo get_template_directory_uri() . '/assets/icons-SVG/valo-formula-desktop.png'?>">
+    			<img srcset="<?php echo get_template_directory_uri() . '/assets/icons-SVG/valo-formula-mobile.png'?>" alt="Smart Lighting + Smart Cities = Valo">
+				</picture>
 			</section>
 			<section class="transparent-container">
 			<h2><span class="uppercase">Valo</span> is a smart city integrator that aims to better people’s lives around the world through Internet of Things (IoT) technology.</h2>
@@ -52,7 +56,7 @@ get_header(); ?>
 							 	<p>Company News, Press Releases • January 25, 2018</p>
 					</div>
 				</div>
-    </section>
+    </section><!-- #content-wrapper -->
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
