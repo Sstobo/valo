@@ -29,22 +29,23 @@ get_header(); ?>
 
 			<!-- Integrator section -->
 			<section class="integrator-section-wrapper">
-				<h2><span class="uppercase">Valo</span> is a smart city integrator that aims to better people’s lives around the world through Internet of Things (IoT) technology.</h2>
+				<h2 class="integrator-section-title"><span class="uppercase">Valo</span> is a smart city integrator that aims to better people’s lives around the world through Internet of Things (IoT) technology.</h2>
 				<div class="blue-line"></div>
 				<div class="integrator-section-container"> 
-          <div class="smart">
-						 <h2>Smart Technology for Smart Cities</h2>
-						 <img src="<?php echo get_template_directory_uri() . '/assets/icons-SVG/valo-formula-desktop.svg'?>" />
-						 <button class="button-main">Products</button>
+          <div class="integrator-item">
+						 <img class="integrator-icon" srcset="<?php echo get_template_directory_uri() . '/assets/icons-SVG/valo-products-01.png'?>" />
+						  <h3>Smart Technology for Smart Cities</h3>
+						 <button class="button-main button-integrator">Products</button>
 					</div>
-					 <div class="opportunities">
-						  <h2>Opportunities for Cities and Their Citizens</h2><img src="<?php echo get_template_directory_uri() . '/assets/icons-SVG/valo-formula-desktop.svg'?>" />
-						 <button class="button-main">Products</button>
+					 <div class="integrator-item">
+							<img class="integrator-icon" srcset="<?php echo get_template_directory_uri() . '/assets/icons-SVG/valo-services-01.png'?>" />
+							<h3>Opportunities for Cities and Their Citizens</h3> 
+						 <button class="button-main button-integrator">Services</button>
 					</div>
-					 <div class="making">
-						 <h2>Making Communities and Cities better</h2>
-						 <img src="<?php echo get_template_directory_uri() . '/assets/icons-SVG/valo-formula-desktop.svg'?>" />
-						 <button class="button-main">Products</button>
+					 <div class="integrator-item">
+						  <img class="integrator-icon" srcset="<?php echo get_template_directory_uri() . '/assets/icons-SVG/valo-applications-01.png'?>" />
+							 <h3>Making Communities and Cities better</h3>
+						 <button class="button-main button-integrator">Applications</button>
 					 </div>
 				</div>
 			</section>
