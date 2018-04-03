@@ -54,6 +54,19 @@ get_header(); ?>
 
 			<section class="container"></section>
 
+			<!-- iot of things section -->
+			<section class="iot-container">
+				<div class="iot-photo-container">
+				<img src="<?php echo get_template_directory_uri() . '/assets/icons-SVG/valo-info-01.png'?>" id="iot-logo"/>
+				</div>
+				<div class="iot-para-container">
+					<h2>Internet of Things (IoT) Technology is one of the Fastest Growing Sectors.</h2>
+					<p>Curabitur venenatis finibus ante et laoreet. Proin commodo, urna sed rhoncus bibendum, nibh metus blandit nibh, eget elementum enim magna eu velit. Aliquam purus sem, faucibus vestibulum risus. Maecenas gravida lacus nec dolor suscipit faucibus.</p>
+					<button id="iot-button"> download our corporate presentation</button>
+				</div>
+		 </section>
+		 <!-- close iot -->
+
 			<!-- contact banner -->
 			<section class="banner">
 			<img src="<?php echo get_template_directory_uri() . '/assets/Logo SVG/VALO white logo-01.png'?>" id="banner-logo"/>

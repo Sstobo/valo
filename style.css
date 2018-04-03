@@ -1103,7 +1103,7 @@ object {
   text-align: center; }
   @media all and (min-width: 800px) {
     .banner {
-      height: 30vh;
+      height: 35vh;
       -webkit-box-orient: horizontal;
       -webkit-box-direction: normal;
           -ms-flex-direction: row;
@@ -1143,6 +1143,59 @@ object {
     @media all and (min-width: 800px) {
       .banner p {
         margin-right: 6%; } }
+
+.iot-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 5%; }
+  @media all and (min-width: 800px) {
+    .iot-container {
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row;
+      -webkit-box-align: start;
+          -ms-flex-align: start;
+              align-items: flex-start; } }
+  .iot-container .iot-para-container {
+    width: 80vw;
+    text-align: center; }
+    @media all and (min-width: 800px) {
+      .iot-container .iot-para-container {
+        margin-left: 5%;
+        text-align: left;
+        width: 50vw; } }
+    .iot-container .iot-para-container h2 {
+      color: black; }
+    .iot-container .iot-para-container #iot-button {
+      width: auto;
+      background: #00aeef;
+      color: #fff;
+      -webkit-box-shadow: none;
+              box-shadow: none;
+      text-shadow: none;
+      font-family: "Roboto";
+      text-transform: uppercase;
+      font-weight: bold;
+      border-radius: 10px;
+      padding: 10px;
+      font-size: 14px; }
+  .iot-container .iot-photo-container {
+    margin-right: 5%; }
+    .iot-container .iot-photo-container #iot-logo {
+      width: 100vw;
+      height: auto; }
+      @media all and (min-width: 800px) {
+        .iot-container .iot-photo-container #iot-logo {
+          width: 60vw; } }
 
 .header-wrapper {
   height: 110px;
@@ -1248,11 +1301,11 @@ object {
   .signup-container #form-title {
     font-family: "Roboto";
     color: black;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold; }
     @media all and (min-width: 600px) {
       .signup-container #form-title {
-        font-size: 35px; } }
+        font-size: 25px; } }
     @media all and (min-width: 800px) {
       .signup-container #form-title {
         font-size: 30px; } }
