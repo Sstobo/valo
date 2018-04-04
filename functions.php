@@ -145,8 +145,7 @@ function ajax_filter_get_posts( $taxonomy ) {
  
   if ( $query->have_posts() ) : while ( $query->have_posts() ) : $query->the_post(); ?>
  
-    <h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-    <?php the_excerpt(); ?>
+		<?php get_template_part( 'template-parts/content-news' ); ?>
  
   <?php endwhile; ?>
   <?php else: ?>
