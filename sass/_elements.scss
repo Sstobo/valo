@@ -96,3 +96,20 @@ table {
     color: #fff;
   }
 }
+
+// Front-button Styles
+.button-with-shadow {
+  font-weight: 400;
+  box-shadow: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 13px;
+}
+.button-with-shadow:hover {
+  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18),
+    0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+}
+.button-with-shadow:focus {
+  outline: none;
+}
