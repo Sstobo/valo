@@ -13,12 +13,19 @@
 
 //Screen width mixins
 
+@mixin mobile {
+  @media all and (min-width: $mobile_width) {
+    @content;
+  }
+}
+
 @mixin tablet {
   @media all and (min-width: $tablet_width) {
     @content;
   }
 }
 
+// 1200px
 @mixin large {
   @media all and (min-width: $large_width) {
     @content;

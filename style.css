@@ -894,12 +894,18 @@ object {
 .integrator-section-title {
   font-family: "Roboto";
   font-weight: 700;
-  font-size: 24px;
+  font-size: 16px;
   color: #161616;
   margin: 0 auto;
   text-align: center;
   margin-bottom: 20px;
   max-width: 69%; }
+  @media all and (min-width: 450px) {
+    .integrator-section-title {
+      font-size: 18px; } }
+  @media all and (min-width: 600px) {
+    .integrator-section-title {
+      font-size: 24px; } }
   @media all and (min-width: 1200px) {
     .integrator-section-title {
       max-width: 59%; } }
@@ -942,7 +948,7 @@ object {
           align-items: center;
   height: 35vh;
   width: 50vw;
-  min-width: 386px;
+  min-width: 233px;
   min-height: 325px;
   background-color: #fff;
   margin-left: 2vh;
@@ -961,12 +967,18 @@ object {
   .integrator-item h3 {
     font-family: sans-serif;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 16px;
     text-align: center;
     color: black;
     font-weight: bold;
     margin-top: 22px;
     margin-bottom: 15px; }
+    @media all and (min-width: 450px) {
+      .integrator-item h3 {
+        font-size: 18px; } }
+    @media all and (min-width: 600px) {
+      .integrator-item h3 {
+        font-size: 24px; } }
     .integrator-item h3 :hover {
       color: #fff;
       text-decoration: none; }
@@ -985,10 +997,18 @@ object {
   max-height: 100px; }
 
 .button-integrator {
+  font-weight: 400;
   -webkit-box-shadow: none;
           box-shadow: none;
   padding-left: 20px;
   padding-right: 20px; }
+
+.button-integrator:hover {
+  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15); }
+
+.button-integrator:focus {
+  outline: none; }
 
 /* Press Releases */
 .press-releases-wrapper {
@@ -1049,7 +1069,7 @@ object {
   padding: 2vh; }
   @media all and (min-width: 600px) {
     .press-release {
-      height: 23vh;
+      height: 28vh;
       width: 28vw; } }
   .press-release h3 {
     font-family: sans-serif;
@@ -1057,19 +1077,41 @@ object {
     color: #ffffff;
     text-align: center;
     margin: 0;
-    margin-bottom: 5px; }
-    .press-release h3 :hover {
-      color: #fff;
-      text-decoration: none; }
-    .press-release h3 :visited {
-      color: #fff;
-      text-decoration: none; }
+    margin-bottom: 5px;
+    opacity: 1;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s; }
   .press-release span {
     font-size: 13px;
     font-family: "Roboto";
     font-weight: 300;
     color: #fff;
-    text-align: center; }
+    text-align: center;
+    opacity: 1;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s; }
+  .press-release p {
+    position: absolute;
+    padding-bottom: 40px;
+    color: #fff;
+    -webkit-transform: scale(0);
+            transform: scale(0);
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s; }
+
+.press-release:hover h3 {
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  opacity: 0; }
+
+.press-release:hover span {
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  opacity: 0; }
+
+.press-release:hover p {
+  -webkit-transform: scale(1);
+          transform: scale(1); }
 
 .banner {
   height: 50vh;
@@ -1122,6 +1164,8 @@ object {
         margin-right: 17%; } }
   .banner #banner-contact-button:hover {
     background: #666; }
+  .banner #banner-contact-button:focus {
+    outline: none; }
   .banner p {
     max-width: 300px;
     font-family: "Roboto";

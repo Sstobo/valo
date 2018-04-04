@@ -65,19 +65,22 @@ get_header(); ?>
 			<section class="press-releases-wrapper">
 				<h2 class="press-releases-title">Latest Press Releases</h2>
 				<div class="title-blue-line"></div>
-				<div class="press-releases-container"> 
-          <div class="press-release">
-						 <h3><a href="https://cbdev.solutions/valosmartcity/valo-smart-city-as-a-service/" title="Valo Smart City as a Service" rel="bookmark">Valo Smart City as a Service</a></h3>
-						   <span>Company News, Press Releases • </span>
-					   	 <span>January 25, 2018</span>
-					</div>
+				<div class="press-releases-container">
+            <div class="press-release">
+						   <h3>Valo Smart City as a Service</h3>
+							 <p><a href="https://cbdev.solutions/valosmartcity/valo-smart-city-as-a-service/" title="Valo Smart City as a   Service" rel="bookmark">Read More ‣</a></p>
+						     <span>Company News, Press Releases • </span>
+					   	   <span>January 25, 2018</span>
+					 </div>
 					 <div class="press-release">
-						  <h3><a href="https://cbdev.solutions/valosmartcity/vivamus-diam-tellus-efficitur-id-felis-quis/" title="Internet of Thing Technology" rel="bookmark">Internet of Things Technology</a></h3>
+						  <h3>Internet of Things Technology</h3>
+							<p><a href="https://cbdev.solutions/valosmartcity/vivamus-diam-tellus-efficitur-id-felis-quis/" title="Internet of Thing Technology" rel="bookmark">Read More ‣</a></p>
 								<span>Company News, Press Releases • </span>
 					     	<span>January 25, 2018</span>
-					</div>
+					 </div>
 					 <div class="press-release">
-						 	<h3><a href="https://cbdev.solutions/valosmartcity/vsalo-smart-city-secures-funding/" title="Valo Smart City Secures Funding" rel="bookmark">Valo Smart City Secures Funding</a></h3>
+						 	<h3>Valo Smart City Secures Funding</h3>
+							 <p><a href="https://cbdev.solutions/valosmartcity/vsalo-smart-city-secures-funding/" title="Valo Smart City Secures Funding" rel="bookmark">Read More ‣</a></p>
 							 	<span>Company News, Press Releases • </span>
 						    <span>January 25, 2018</span>
 					 </div>

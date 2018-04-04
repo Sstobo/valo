@@ -95,7 +95,13 @@
 .integrator-section-title {
   font-family: $font__main;
   font-weight: 700;
-  font-size: 24px;
+  font-size: 16px;
+  @include mobile {
+    font-size: 18px;
+  }
+  @include tablet {
+    font-size: 24px;
+  }
   color: $color__header-main;
   margin: 0 auto;
   text-align: center;
@@ -123,7 +129,7 @@
   align-items: center;
   height: 35vh;
   width: 50vw;
-  min-width: 386px;
+  min-width: 233px;
   min-height: 325px;
   background-color: #fff;
   margin-left: 2vh;
@@ -142,7 +148,13 @@
   h3 {
     font-family: $font__droid;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 16px;
+    @include mobile {
+      font-size: 18px;
+    }
+    @include tablet {
+      font-size: 24px;
+    }
     text-align: center;
     color: black;
     font-weight: bold;
@@ -170,9 +182,18 @@
   max-height: 100px;
 }
 .button-integrator {
+  font-weight: 400;
   box-shadow: none;
   padding-left: 20px;
   padding-right: 20px;
+}
+.button-integrator:hover {
+  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18),
+    0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+}
+.button-integrator:focus {
+  outline: none;
 }
 
 /* Press Releases */
@@ -211,7 +232,7 @@
   height: 35vh;
   width: 80vw;
   @include tablet {
-    height: 23vh;
+    height: 28vh;
     width: 28vw;
   }
   background-color: $color__accent;
@@ -224,14 +245,9 @@
     text-align: center;
     margin: 0;
     margin-bottom: 5px;
-    :hover {
-      color: #fff;
-      text-decoration: none;
-    }
-    :visited {
-      color: #fff;
-      text-decoration: none;
-    }
+    opacity: 1;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
   }
   span {
     font-size: 13px;
@@ -239,6 +255,30 @@
     font-weight: 300;
     color: #fff;
     text-align: center;
+    opacity: 1;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+  }
+  p {
+    position: absolute;
+    padding-bottom: 40px;
+    color: #fff;
+    transform: scale(0);
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+  }
+}
+.press-release:hover {
+  h3 {
+    transform: scale(0);
+    opacity: 0;
+  }
+  span {
+    transform: scale(0);
+    opacity: 0;
+  }
+  p {
+    transform: scale(1);
   }
 }
 
@@ -287,9 +327,11 @@
       margin-right: 17%;
     }
   }
-
   #banner-contact-button:hover {
     background: $color__border-abbr;
+  }
+  #banner-contact-button:focus {
+    outline: none;
   }
 
   p {
