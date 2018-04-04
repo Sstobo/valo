@@ -1721,3 +1721,159 @@ object {
       width: 60%;
       margin: 0 auto;
       margin-bottom: 14px; }
+
+.applications-security-wrapper {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row; }
+
+.applications-security-hero {
+  width: 100%;
+  height: 1100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 100px;
+  background-color: lightgrey; }
+  @media (min-width: 1000px) {
+    .applications-security-hero {
+      height: 600px;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row; } }
+
+.applications-security-img {
+  width: 100%;
+  height: 500px; }
+  @media (min-width: 1000px) {
+    .applications-security-img {
+      width: 50%;
+      height: 500px; } }
+
+.applications-security-post {
+  width: 100%;
+  height: 500px;
+  padding: 78px 44px 0 44px;
+  text-align: center; }
+  .applications-security-post .title-blue-line {
+    width: 100px; }
+  .applications-security-post .entry-title {
+    display: none; }
+  @media (min-width: 1000px) {
+    .applications-security-post {
+      width: 50%;
+      height: 500px; } }
+
+.applications-transpo-wrapper {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row; }
+
+.applications-transpo-hero {
+  width: 100%;
+  height: 1100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 100px;
+  background-color: white; }
+  @media (min-width: 1000px) {
+    .applications-transpo-hero {
+      height: 600px;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row; } }
+
+.applications-transpo-img {
+  width: 100%;
+  height: 500px; }
+  @media (min-width: 1000px) {
+    .applications-transpo-img {
+      width: 50%;
+      height: 500px; } }
+
+.applications-transpo-post {
+  width: 100%;
+  height: 500px;
+  padding: 78px 44px 0 44px;
+  text-align: center; }
+  .applications-transpo-post .title-blue-line {
+    width: 100px; }
+  .applications-transpo-post .entry-title {
+    display: none; }
+  @media (min-width: 1000px) {
+    .applications-transpo-post {
+      width: 50%;
+      height: 500px; } }
+
+.applications-transpo-wrapper2 {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row; }
+
+.applications-transpo-hero2 {
+  width: 100%;
+  height: 1100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 100px;
+  background-color: lightgrey; }
+  @media (min-width: 1000px) {
+    .applications-transpo-hero2 {
+      height: 600px;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row; } }
+
+.applications-transpo-img2 {
+  width: 100%;
+  height: 500px; }
+  @media (min-width: 1000px) {
+    .applications-transpo-img2 {
+      width: 50%;
+      height: 500px; } }
+
+.applications-transpo-post2 {
+  width: 100%;
+  height: 500px;
+  padding: 78px 44px 0 44px;
+  text-align: center; }
+  .applications-transpo-post2 .title-blue-line {
+    width: 100px; }
+  .applications-transpo-post2 .entry-title {
+    display: none; }
+  @media (min-width: 1000px) {
+    .applications-transpo-post2 {
+      width: 50%;
+      height: 500px; } }
