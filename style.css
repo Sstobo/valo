@@ -373,6 +373,10 @@ big {
   color: #161616;
   font-weight: bold;
   text-align: center; }
+  @media all and (min-width: 1000px) {
+    .header-section {
+      font-size: 32px;
+      font-size: 2rem; } }
 
 /*--------------------------------------------------------------
 # Elements
@@ -816,14 +820,16 @@ object {
   background: url("../../assets/still-header/valo-still-header-01.png");
   background-repeat: no-repeat;
   background-position: bottom;
-  background-size: cover; }
+  background-size: cover;
+  margin: 0 auto; }
   @media all and (min-width: 600px) {
     .hero-container {
       background-size: cover;
       min-height: 400px; } }
   @media all and (min-width: 1000px) {
     .hero-container {
-      height: 80vh; } }
+      height: 80vh;
+      max-width: 1280px; } }
 
 .header-container {
   text-align: center;
@@ -882,6 +888,13 @@ object {
     opacity: 0; }
   to {
     opacity: 100%; } }
+
+/* Formula Section */
+.formula-container {
+  margin: 0 auto;
+  padding: 5% 10%; }
+  .formula-container img {
+    width: 100%; }
 
 /* Integrator Section */
 .integrator-section-wrapper {
@@ -1132,7 +1145,7 @@ object {
   text-align: center; }
   @media all and (min-width: 800px) {
     .banner {
-      height: 30vh;
+      height: 35vh;
       -webkit-box-orient: horizontal;
       -webkit-box-direction: normal;
           -ms-flex-direction: row;
@@ -1174,6 +1187,59 @@ object {
     @media all and (min-width: 800px) {
       .banner p {
         margin-right: 6%; } }
+
+.iot-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 5%; }
+  @media all and (min-width: 800px) {
+    .iot-container {
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row;
+      -webkit-box-align: start;
+          -ms-flex-align: start;
+              align-items: flex-start; } }
+  .iot-container .iot-para-container {
+    width: 80vw;
+    text-align: center; }
+    @media all and (min-width: 800px) {
+      .iot-container .iot-para-container {
+        margin-left: 5%;
+        text-align: left;
+        width: 50vw; } }
+    .iot-container .iot-para-container h2 {
+      color: black; }
+    .iot-container .iot-para-container #iot-button {
+      width: auto;
+      background: #00aeef;
+      color: #fff;
+      -webkit-box-shadow: none;
+              box-shadow: none;
+      text-shadow: none;
+      font-family: "Roboto";
+      text-transform: uppercase;
+      font-weight: bold;
+      border-radius: 10px;
+      padding: 10px;
+      font-size: 14px; }
+  .iot-container .iot-photo-container {
+    margin-right: 5%; }
+    .iot-container .iot-photo-container #iot-logo {
+      width: 100vw;
+      height: auto; }
+      @media all and (min-width: 800px) {
+        .iot-container .iot-photo-container #iot-logo {
+          width: 60vw; } }
 
 .header-wrapper {
   height: 110px;
@@ -1279,11 +1345,11 @@ object {
   .signup-container #form-title {
     font-family: "Roboto";
     color: black;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold; }
     @media all and (min-width: 600px) {
       .signup-container #form-title {
-        font-size: 35px; } }
+        font-size: 25px; } }
     @media all and (min-width: 800px) {
       .signup-container #form-title {
         font-size: 30px; } }

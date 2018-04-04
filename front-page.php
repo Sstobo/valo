@@ -18,8 +18,9 @@ get_header(); ?>
 				</div>
 				<a href="#" class="button-main button-hero animate-fadein">Watch Video</a>
 			</section>
-			<section class="container">
+			<section class="formula-container">
 				<h2 class="header-section">Creating a foundation for smart cities.</h2>
+				<div class="title-blue-line"></div>
 				<picture>
     			<source srcset="<?php echo get_template_directory_uri() . '/assets/icons-SVG/valo-formula-mobile.png'?>" media="(max-width: 600px)">
     			<source srcset="<?php echo get_template_directory_uri() . '/assets/icons-SVG/valo-formula-desktop.png'?>">
@@ -52,6 +53,19 @@ get_header(); ?>
 			<!-- close Integrator section -->
 
 			<section class="container"></section>
+
+			<!-- iot of things section -->
+			<section class="iot-container">
+				<div class="iot-photo-container">
+				<img src="<?php echo get_template_directory_uri() . '/assets/icons-SVG/valo-info-01.png'?>" id="iot-logo"/>
+				</div>
+				<div class="iot-para-container">
+					<h2>Internet of Things (IoT) Technology is one of the Fastest Growing Sectors.</h2>
+					<p>Curabitur venenatis finibus ante et laoreet. Proin commodo, urna sed rhoncus bibendum, nibh metus blandit nibh, eget elementum enim magna eu velit. Aliquam purus sem, faucibus vestibulum risus. Maecenas gravida lacus nec dolor suscipit faucibus.</p>
+					<button id="iot-button"> download our corporate presentation</button>
+				</div>
+		 </section>
+		 <!-- close iot -->
 
 			<!-- contact banner -->
 			<section class="banner">

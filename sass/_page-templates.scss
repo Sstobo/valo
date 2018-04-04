@@ -27,13 +27,14 @@
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: cover;
-
+  margin: 0 auto;
   @include tablet {
     background-size: cover;
     min-height: 400px;
   }
   @include desktop {
     height: 80vh;
+    max-width: 1280px;
   }
 }
 
@@ -62,7 +63,6 @@
   from {
     transform: translateY(200px);
     opacity: 0;
-    // width: 300%;
   }
   to {
     transform: translateY(0);
@@ -79,6 +79,16 @@
   }
   to {
     opacity: 100%;
+  }
+}
+
+/* Formula Section */
+
+.formula-container {
+  margin: 0 auto;
+  padding: 5% 10%;
+  img {
+    width: 100%;
   }
 }
 
@@ -294,7 +304,7 @@
   text-align: center;
 
   @include footer_row {
-    height: 30vh;
+    height: 35vh;
     flex-direction: row;
   }
 
@@ -346,3 +356,57 @@
   }
 }
 //close banner
+
+//iot banner
+
+.iot-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5%;
+
+  @include footer_row {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .iot-para-container {
+    width: 80vw;
+    text-align: center;
+
+    @include footer_row {
+      margin-left: 5%;
+      text-align: left;
+      width: 50vw;
+    }
+
+    h2 {
+      color: black;
+    }
+    #iot-button {
+      width: auto;
+      background: $color__accent;
+      color: #fff;
+      box-shadow: none;
+      text-shadow: none;
+      font-family: $font__main;
+      text-transform: uppercase;
+      font-weight: bold;
+      border-radius: 10px;
+      padding: 10px;
+      font-size: 14px;
+    }
+  }
+
+  .iot-photo-container {
+    margin-right: 5%;
+    #iot-logo {
+      width: 100vw;
+      height: auto;
+
+      @include footer_row {
+        width: 60vw;
+      }
+    }
+  }
+}
