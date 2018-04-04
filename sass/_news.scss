@@ -1,0 +1,10 @@
+.filtered-posts {
+  display: flex;
+  flex-direction: column;
+}
+
+.post {
+  margin: 0 auto;
+  width: 90%;
+  max-width: 400px;
+}

@@ -11,7 +11,7 @@ jQuery(document).ready(function($) {
     var selecetd_taxonomy = $(this).attr('title');
 
     // After user click on tag, fade out list of posts
-    $('.tagged-posts').fadeOut();
+    $('.filtered-posts').fadeOut();
 
     data = {
       action: 'filter_posts', // function to execute
@@ -22,9 +22,9 @@ jQuery(document).ready(function($) {
     $.post(valo_vars.valo_ajax_url, data, function(response) {
       if (response) {
         // Display posts on page
-        $('.tagged-posts').html(response);
+        $('.filtered-posts').html(response);
         // Restore div visibility
-        $('.tagged-posts').fadeIn();
+        $('.filtered-posts').fadeIn();
       }
     });
   });
