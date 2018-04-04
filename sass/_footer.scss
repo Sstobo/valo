@@ -69,17 +69,18 @@
       background: $color__accent;
       color: #fff;
       box-shadow: none;
-
       text-shadow: none;
       color: #fff;
       font-family: $font__main;
+      letter-spacing: 1px;
       border-radius: 8px;
-      font-size: 16px;
-      font-weight: bold;
+      font-size: 13px;
+      font-weight: 400;
+      text-transform: uppercase;
       padding: 10px 20px;
     }
     input[type='submit']:hover {
-      background: $color__border-abbr;
+      background: #3f3f3f;
     }
     .wpcf7-not-valid-tip {
       color: $color__accent;

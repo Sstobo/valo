@@ -71,7 +71,7 @@ get_header(); ?>
 			<section class="banner">
 			<img src="<?php echo get_template_directory_uri() . '/assets/Logo SVG/VALO white logo-01.png'?>" id="banner-logo"/>
 			<p>Discover how VALO can help make your city better </p>
-			<button id="banner-contact-button">Contact Us</button>
+			<button class="button-main button-with-shadow" id="banner-contact-button">Contact Us</button>
 			</section>
 			<!-- close contact banner -->
 
