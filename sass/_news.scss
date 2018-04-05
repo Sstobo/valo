@@ -29,24 +29,26 @@
 }
 
 .filtered-posts {
+  margin: 0 auto;
+  width: 95%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   @include tablet {
     flex-direction: row;
-    justify-content: space-around;
+    align-items: flex-start;
+    justify-content: space-evenly;
     align-items: flex-start;
     flex-wrap: wrap;
   }
-}
-
-article {
-  margin: 0 auto;
-  width: 90%;
-  // max-width: 400px;
-  @include tablet {
-    width: 30%;
-    min-width: 300px;
+  article {
+    margin: 20px 20px;
+    width: 90%;
+    max-width: 400px;
+    @include tablet {
+      width: 30%;
+      min-width: 300px;
+    }
   }
 }

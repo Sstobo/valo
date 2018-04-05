@@ -333,6 +333,9 @@ ins {
 big {
   font-size: 125%; }
 
+article p {
+  line-height: 1.75; }
+
 .uppercase {
   text-transform: uppercase; }
 
@@ -1910,6 +1913,8 @@ object {
   border-bottom: 1px solid #00aeef; }
 
 .filtered-posts {
+  margin: 0 auto;
+  width: 95%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1929,18 +1934,20 @@ object {
       -webkit-box-direction: normal;
           -ms-flex-direction: row;
               flex-direction: row;
-      -ms-flex-pack: distribute;
-          justify-content: space-around;
       -webkit-box-align: start;
           -ms-flex-align: start;
               align-items: flex-start;
+      -webkit-box-pack: space-evenly;
+          -ms-flex-pack: space-evenly;
+              justify-content: space-evenly;
+      align-items: flex-start;
       -ms-flex-wrap: wrap;
           flex-wrap: wrap; } }
-
-article {
-  margin: 0 auto;
-  width: 90%; }
-  @media all and (min-width: 600px) {
-    article {
-      width: 30%;
-      min-width: 300px; } }
+  .filtered-posts article {
+    margin: 20px 20px;
+    width: 90%;
+    max-width: 400px; }
+    @media all and (min-width: 600px) {
+      .filtered-posts article {
+        width: 30%;
+        min-width: 300px; } }
