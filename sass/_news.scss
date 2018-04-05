@@ -7,11 +7,21 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  @include tablet {
+    min-height: 300px;
+  }
 }
 
 .news-categories {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  max-width: 400px;
   text-align: center;
-  margin: 0 auto;
+  margin: 60px auto;
+}
+.tax-filter {
+  padding: 0 20px;
 }
 
 .active-filter {
@@ -20,11 +30,23 @@
 
 .filtered-posts {
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
+  @include tablet {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
 }
 
-.post {
+article {
   margin: 0 auto;
   width: 90%;
-  max-width: 400px;
+  // max-width: 400px;
+  @include tablet {
+    width: 30%;
+    min-width: 300px;
+  }
 }
