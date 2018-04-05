@@ -9,8 +9,6 @@ get_header(); ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
-			<section class="content-wrapper">
-
 				<section class="hero-container-dark">
 					<h1>News</h1>
 				</section>
@@ -28,8 +26,8 @@ get_header(); ?>
        		 	$count = count( $terms );
 							
        		 	if ( $count > 0 ): ?>
-       		  	<div class="post-tags">
-							 <a href="#" class="tax-filter" title="">View All</a>
+       		  	<div class="news-categories">
+							 <a href="#" class="tax-filter active-filter" title="">View All</a>
        		    	<?php
        		    	foreach ( $terms as $term ) {
 									if ($term->slug === 'uncategorized') {
@@ -57,8 +55,6 @@ get_header(); ?>
        		  </div>
        		 <?php endif; ?>
 				</section>
-			
-			</section><!-- content-wrapper -->
 		</main><!-- #main -->
 	</div><!-- #primary -->
 

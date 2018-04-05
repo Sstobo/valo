@@ -7,6 +7,10 @@ jQuery(document).ready(function($) {
       event.returnValue = false;
     }
 
+    // Add underline to active filter
+    $('.tax-filter').removeClass('active-filter');
+    $(this).addClass('active-filter');
+
     // Get tag slug from title attirbute
     var selecetd_taxonomy = $(this).attr('title');
 

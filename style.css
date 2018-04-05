@@ -1317,6 +1317,9 @@ object {
 .header-contact-mobile {
   display: block; }
 
+.page-template-news #header-wrapper {
+  background: transparent; }
+
 .signup-container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1868,6 +1871,29 @@ object {
     .applications-transpo-post2 {
       width: 50%;
       height: 500px; } }
+
+.hero-container-dark {
+  background: url("../../assets/Backgrounds/footer-background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vh;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.news-categories {
+  text-align: center;
+  margin: 0 auto; }
+
+.active-filter {
+  border-bottom: 1px solid #00aeef; }
 
 .filtered-posts {
   display: -webkit-box;
