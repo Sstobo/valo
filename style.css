@@ -858,10 +858,11 @@ object {
   @media all and (min-width: 600px) {
     .hero-container {
       background-size: cover;
-      min-height: 400px; } }
-  @media all and (min-width: 1000px) {
+      min-height: 400px;
+      height: 50vh; } }
+  @media all and (min-width: 1200px) {
     .hero-container {
-      height: 80vh; } }
+      height: 65vh; } }
 
 .header-container {
   text-align: center;
@@ -1967,7 +1968,7 @@ object {
     width: 90%; }
     @media all and (min-width: 770px) {
       .filtered-posts article {
-        width: 30%;
+        width: 27vw;
         min-width: 300px; } }
 
 .news-image-wrapper {
@@ -1985,13 +1986,13 @@ object {
           align-items: center; }
   @media all and (min-width: 770px) {
     .news-image-wrapper {
-      height: 30vw;
+      height: 27vw;
       max-height: 380px;
       max-width: 380px; } }
   @media all and (min-width: 1200px) {
     .news-image-wrapper {
-      max-width: 480px;
-      max-height: 480px; } }
+      max-width: 560px;
+      max-height: 560px; } }
   .news-image-wrapper a {
     background: #000;
     height: 100%; }

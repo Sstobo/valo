@@ -31,9 +31,10 @@
   @include tablet {
     background-size: cover;
     min-height: 400px;
+    height: 50vh;
   }
-  @include desktop {
-    height: 80vh;
+  @include large {
+    height: 65vh;
   }
 }
 

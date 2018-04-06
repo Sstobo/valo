@@ -10,7 +10,7 @@
 
 	<?php if ( has_post_thumbnail() ) : ?>
     <div class="news-image-wrapper">
-			<a href="<?php esc_url( get_permalink() ) ?>">
+			<a href="<?php echo esc_url( get_permalink() ) ?>">
 				<?php the_post_thumbnail( 'large' ); ?>
 			</a>
     </div>

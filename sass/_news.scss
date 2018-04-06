@@ -54,7 +54,7 @@
     width: 90%;
 
     @media all and (min-width: 770px) {
-      width: 30%;
+      width: 27vw;
       min-width: 300px;
     }
   }
@@ -68,13 +68,13 @@
   justify-content: center;
   align-items: center;
   @media all and (min-width: 770px) {
-    height: 30vw;
+    height: 27vw;
     max-height: 380px;
     max-width: 380px;
   }
   @include large {
-    max-width: 480px;
-    max-height: 480px;
+    max-width: 560px;
+    max-height: 560px;
   }
   a {
     background: #000;
