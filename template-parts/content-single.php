@@ -9,18 +9,19 @@
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header">
-			<section class="hero-container-dark">
-					<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
-				</section>
+		<section class="hero-container-dark">
+			<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
+		</section>
 		<?php if ( has_post_thumbnail() ) : ?>
-			<?php the_post_thumbnail( 'large' ); ?>
+			<div class="article-image-wrapper">
+				<?php the_post_thumbnail( 'large' ); ?>
+					<div class="entry-meta">
+			<?php red_starter_posted_on(); ?> 
+		</div><!-- .entry-meta -->
+			</div>
 		<?php endif; ?>
 
-		
-
-		<div class="entry-meta">
-			<?php red_starter_posted_on(); ?> / <?php red_starter_comment_count(); ?> / <?php red_starter_posted_by(); ?>
-		</div><!-- .entry-meta -->
+	
 	</header><!-- .entry-header -->
 
 	<div class="entry-content">

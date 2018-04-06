@@ -1,14 +1,18 @@
 .hero-container-dark {
+  background-color: #000;
   background: url('../../assets/Backgrounds/footer-background.jpg');
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 50vh;
-  color: #fff;
+  height: 30vh;
+
   display: flex;
   justify-content: center;
   align-items: center;
   @include tablet {
+    height: 40vh;
     min-height: 300px;
+    max-height: 400px;
   }
 }
 
@@ -22,6 +26,9 @@
 }
 .tax-filter {
   padding: 0 20px;
+  &:hover {
+    border-bottom: 1px solid $color__accent;
+  }
 }
 
 .active-filter {
@@ -35,7 +42,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  @include tablet {
+  @media all and (min-width: 770px) {
     flex-direction: row;
     align-items: flex-start;
     justify-content: space-evenly;
@@ -45,10 +52,40 @@
   article {
     margin: 20px 20px;
     width: 90%;
-    max-width: 400px;
-    @include tablet {
+
+    @media all and (min-width: 770px) {
       width: 30%;
       min-width: 300px;
+    }
+  }
+}
+
+.news-image-wrapper {
+  overflow: hidden;
+  height: 90vw;
+  max-height: 550px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  @media all and (min-width: 770px) {
+    height: 30vw;
+    max-height: 380px;
+    max-width: 380px;
+  }
+  @include large {
+    max-width: 480px;
+    max-height: 480px;
+  }
+  a {
+    background: #000;
+    height: 100%;
+    .wp-post-image {
+      min-height: 100%;
+      max-width: none;
+      width: auto;
+      &:hover {
+        opacity: 0.6;
+      }
     }
   }
 }

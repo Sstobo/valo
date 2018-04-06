@@ -91,6 +91,7 @@ article p {
 .header-main {
   color: $color__header-main;
   letter-spacing: 2px;
+  margin-top: 10px;
   @include font-size(2);
   font-weight: bold;
   margin: 0;
@@ -103,7 +104,7 @@ article p {
   }
 }
 .subheader {
-  margin: 10px 0 0 0;
+  margin: 0;
   @include font-size(1);
   @include tablet {
     @include font-size(2);
@@ -122,5 +123,17 @@ article p {
   text-align: center;
   @include desktop {
     @include font-size(2);
+  }
+}
+
+.header-white {
+  color: #fff;
+  font-weight: bold;
+  @include font-size(1.5);
+  @include tablet {
+    @include font-size(2);
+  }
+  @include desktop {
+    @include font-size(2.85);
   }
 }
