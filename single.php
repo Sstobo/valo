@@ -10,22 +10,22 @@ get_header(); ?>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 
+			<section class="news-page-flex-container">
+				<section class="article-container">
+					<?php while ( have_posts() ) : the_post(); ?>
 
+						<?php get_template_part( 'template-parts/content', 'single' ); ?>
 
-		<?php while ( have_posts() ) : the_post(); ?>
+						<?php the_post_navigation(); ?>
 
-			<?php get_template_part( 'template-parts/content', 'single' ); ?>
+					<?php endwhile; // End of the loop. ?>
+				</section>
 
-			<?php the_post_navigation(); ?>
-
-			<?php
-				// If comments are open or we have at least one comment, load up the comment template.
-				if ( comments_open() || get_comments_number() ) :
-					comments_template();
-				endif;
-			?>
-
-		<?php endwhile; // End of the loop. ?>
+				<div class="request-consultation-container">
+					<?php echo do_shortcode('[contact-form-7 id="23" title="News Request Consulation"]');?>
+				</div>
+				
+			</section>
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
