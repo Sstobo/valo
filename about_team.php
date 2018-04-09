@@ -9,14 +9,14 @@ get_header(); ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
-			<?php while (have_posts()) : the_post(); ?>
-			<div class="management-team-container">
-			<h1>Managemment Team pages</h1>
-			</div>
-				<?php get_template_part('template-parts/content', 'page'); ?>
-
-			<?php endwhile; // End of the loop.?>
-
+			<section class="content-wrapper">
+					<?php while (have_posts()) : the_post(); ?>
+					<div class="management-team-container">
+					<h1>Managemment Team pages</h1>
+					</div>
+						<?php get_template_part('template-parts/content', 'page'); ?>
+					  <?php endwhile; // End of the loop.?>
+			</section>
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
