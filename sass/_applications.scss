@@ -4,39 +4,56 @@
         width: 100%;
         display: flex;
         flex-direction: row;
-        
+        padding-top: 100px;
+        margin-top: 100px;
     }
     .applications-security-hero{
         width: 100%;
         height: 1100px;
         display: flex;
         flex-direction: column;
-        padding-top: 100px;
-        background-color: lightgrey;
+        padding-top: 160px;
+        background-color: rgb(247, 247, 247);
         @media (min-width: $desktop_width) {
-            height: 600px;
+            height: 560px;
             flex-direction: row;
         }
     }
     .applications-security-img {
         width: 100%;
-        height: 500px;
+        height: 400px;
+        padding-top: 14px;
         @media (min-width: $desktop_width) {
             width: 50%;
-            height: 500px;
+            height: 400px;
     }
     }
+    .applications-security-image {
+        background-image: url("../../assets/icons-SVG/Valo-Smart-Security.jpg");
+        background-size: cover;
+        height: 364px;
+        width: 98%;
+        margin: 0 auto;
+    }
+
     .applications-security-post {
         width: 100%;
         height: 500px;
-        padding: 78px 44px 0 44px;
+        padding: 38px 44px 0 44px;
         text-align: center;
-        .title-blue-line   {
-            width: 100px;
-        }   
-        .entry-title { 
-            display:none;
+     
+        p {
+            text-align: center;
+            margin: 0 auto;
+            margin-top: 36px;
+            max-width: 600px;
+            @media (min-width: $desktop_width) {
+                text-align: left;
             }
+        }
+        .title-blue-line   {
+            width: 60px;
+        }   
         @media (min-width: $desktop_width) {
             width: 50%;
             height: 500px;
@@ -51,38 +68,43 @@
     }
     .applications-transpo-hero{
         width: 100%;
-        height: 1100px;
+        height: auto;
         display: flex;
         flex-direction: column;
-        padding-top: 100px;
-        background-color: white;
+        padding-top: 120px;
+        background-color: rgb(240, 240, 240);
         @media (min-width: $desktop_width) {
-            height: 600px;
+            height: 540px;
             flex-direction: row;
         }
     }
     .applications-transpo-img {
-        width: 100%;
-        height: 500px;
+        display: none;
         @media (min-width: $desktop_width) {
+        display: block;
             width: 50%;
             height: 500px;
     }
     }
+    .applications-transpo-image {
+    background-image: url("../../assets/icons-SVG/Valo-Smart-Transportation.jpg");
+    background-size: cover;
+    height: 420px;
+    width: 100%;
+    margin: 0 auto;
+    }
     .applications-transpo-post {
         width: 100%;
-        height: 500px;
-        padding: 78px 44px 0 44px;
+        height: auto;
+        padding: 38px 44px 0 44px;
+        margin-bottom: 44px;
         text-align: center;
         .title-blue-line {
             width: 100px;
         }
-        .entry-title { 
-            display:none;
-            }
         @media (min-width: $desktop_width) {
             width: 50%;
-            height: 500px;
+            height: 400px;
     }
     }
     .applications-transpo-wrapper2 {
@@ -92,29 +114,29 @@
     }
     .applications-transpo-hero2{
         width: 100%;
-        height: 1100px;
+        height: auto;
         display: flex;
         flex-direction: column;
-        padding-top: 100px;
-        background-color: lightgrey;
+        background-color: rgb(240, 240, 240);
         @media (min-width: $desktop_width) {
-            height: 600px;
+            height: 500px;
             flex-direction: row;
         }
     }
     .applications-transpo-img2 {
-        width: 100%;
-        height: 500px;
+        display: none;
         @media (min-width: $desktop_width) {
+        display: block;
             width: 50%;
-            height: 500px;
+            height: 480px;
     }
     }
     .applications-transpo-post2 {
         width: 100%;
-        height: 500px;
-        padding: 78px 44px 0 44px;
+        height: auto;
+        padding: 38px 44px 0 44px;
         text-align: center;
+        margin-bottom: 48px;
         .title-blue-line   {
             width: 100px;
         }   
@@ -123,8 +145,18 @@
             }
         @media (min-width: $desktop_width) {
             width: 50%;
-            height: 500px;
+            height: 480px;
     }
     }
-    
+    .applications-transpo-image2 {
+        display: none;
+        @media (min-width: $desktop_width) {
+        display: block;
+        background-image: url("../../assets/icons-SVG/parking-image-1.png");
+        background-size: cover;
+        height: 480px;
+        width: 100%;
+        margin: 0 auto;
+        }
+        }
 // next
