@@ -1,16 +1,20 @@
 .page-template-news,
 .single-post {
+  .header-wrapper {
+    background: transparent;
+  }
   .signup-container {
     display: none;
   }
 }
+
 .hero-container-dark {
   background-color: #000;
   background: url('../../assets/Backgrounds/footer-background.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 30vh;
+  height: 35vh;
 
   display: flex;
   justify-content: center;
@@ -96,6 +100,13 @@
   }
 }
 
+.entry-meta {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  background: #fff;
+}
+
 /*     Single News Page      */
 
 .news-page-flex-container {
@@ -103,33 +114,56 @@
   align-items: center;
   justify-content: flex-start;
   flex-direction: column;
+  @include desktop {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+  }
 
   .entry-header {
-    margin: 40px auto;
+    margin: 70px auto 45px auto;
     width: 90%;
+    position: relative;
   }
 
   .entry-content {
     margin: 0;
-    width: 90%;
+    width: 95%;
   }
 
   article {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
   }
 }
 
+.article-container {
+  @include desktop {
+    flex-grow: 2;
+  }
+}
+
+.post-navigation {
+  margin: 5%;
+  border-top: 1px solid $color__background-hr;
+  border-bottom: 1px solid $color__background-hr;
+  display: flex;
+  justify-content: flex-end;
+}
 .request-consultation-container {
   background: #f6f6f6;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   width: 90%;
-  margin: 3% 15%;
+  margin: 70px 3% 3% 0;
+  @include desktop {
+    min-width: 375px;
+    max-width: 375px;
+  }
   #form-title {
     font-family: $font__main;
     color: black;
@@ -154,12 +188,18 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100%;
     @include footer_row {
       min-width: 800px;
     }
     @include tablet {
       display: block;
       min-width: 600px;
+    }
+    @include desktop {
+      width: 90%;
+      min-width: auto;
+      margin: 0 auto;
     }
     input {
       border: 1px solid #e6e6e6;
