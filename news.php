@@ -9,15 +9,53 @@ get_header(); ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
+				<section class="hero-container-dark">
+					<h1 class="header-white">News</h1>
+				</section>
 
-			<?php while ( have_posts() ) : the_post(); ?>
+				<section class="articles-container">
+					<?php $args = array(
+            'post_type' => 'post',
+            'posts_per_page' => 10,
+       		 );
 
-				<?php get_template_part( 'template-parts/content', 'page' ); ?>
+        		$query = new WP_Query( $args );
 
-			<?php endwhile; // End of the loop. ?>
+       			$tax = 'category';
+       		 	$terms = get_terms( $tax );
+       		 	$count = count( $terms );
+							
+       		 	if ( $count > 0 ): ?>
+       		  	<div class="news-categories">
+							 <a href="#" class="tax-filter active-filter" title="">View All</a>
+       		    	<?php
+       		    	foreach ( $terms as $term ) {
+									if ($term->slug === 'uncategorized') {
+										continue;
+									}
+									else {
+       		    		$term_link = get_term_link( $term, $tax );
+									 echo '<a href="' . $term_link . '" class="tax-filter" title="' . $term->slug . '">' . $term->name . '</a> ';
+									}
+       		     	} ?>
+       		    </div>
+							<?php endif;
+							
+       		if ( $query->have_posts() ): ?>
 
+       		 	<div class="filtered-posts">
+       		 	  <?php while ( $query->have_posts() ) : $query->the_post(); ?>
+								<?php get_template_part( 'template-parts/content-news' ); ?>
+       		 	  <?php endwhile; ?>
+       		 	</div>
+							
+       		<?php else: ?>
+       			<div class="filtered-posts">
+       		  	<h2>No articles found</h2>
+       		  </div>
+       		 <?php endif; ?>
+				</section>
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
-<?php get_sidebar(); ?>
 <?php get_footer(); ?>

@@ -131,3 +131,60 @@ require get_template_directory() . '/inc/template-tags.php';
  * Custom functions that act independently of the theme templates.
  */
 require get_template_directory() . '/inc/extras.php';
+
+// Script for getting posts
+function ajax_filter_get_posts( $taxonomy ) {
+ 
+  // Verify nonce
+  if( !isset( $_POST['valo_nonce'] ) || !wp_verify_nonce( $_POST['valo_nonce'], 'valo_nonce' ) )
+    die('Permission denied');
+ 
+  $taxonomy = $_POST['taxonomy'];
+ 
+  // WP Query
+  $args = array(
+    'category_name' => $taxonomy,
+    'post_type' => 'post',
+    'posts_per_page' => 10,
+  );
+ 
+  // If taxonomy is not set, remove key from array and get all posts
+  if( !$taxonomy ) {
+    unset( $args['category_name'] );
+  }
+ 
+  $query = new WP_Query( $args );
+ 
+  if ( $query->have_posts() ) : while ( $query->have_posts() ) : $query->the_post(); ?>
+ 
+		<?php get_template_part( 'template-parts/content-news' ); ?>
+ 
+  <?php endwhile; ?>
+  <?php else: ?>
+    <h2>No posts found</h2>
+  <?php endif;
+ 
+  die();
+}
+ 
+add_action('wp_ajax_filter_posts', 'ajax_filter_get_posts');
+add_action('wp_ajax_nopriv_filter_posts', 'ajax_filter_get_posts');
+ 
+ 
+add_action('wp_ajax_myfilter', 'news_filter_function'); 
+add_action('wp_ajax_nopriv_myfilter', 'news_filter_function');
+
+function ajax_filter_posts_scripts() {
+
+  // Enqueue script
+  wp_register_script('valo_filter', get_template_directory_uri() . '/js/filter.js', false, null, false);
+  wp_enqueue_script('valo_filter');
+ 
+  wp_localize_script( 'valo_filter', 'valo_vars', array(
+        'valo_nonce' => wp_create_nonce( 'valo_nonce' ), // Create nonce which we later will use to verify AJAX request
+        'valo_ajax_url' => admin_url( 'admin-ajax.php' ),
+      )
+  );
+}
+add_action('wp_enqueue_scripts', 'ajax_filter_posts_scripts', 100);
+
