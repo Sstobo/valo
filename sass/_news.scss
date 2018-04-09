@@ -1,10 +1,20 @@
+.page-template-news,
+.single-post {
+  .header-wrapper {
+    background: transparent;
+  }
+  .signup-container {
+    display: none;
+  }
+}
+
 .hero-container-dark {
   background-color: #000;
   background: url('../../assets/Backgrounds/footer-background.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 30vh;
+  height: 35vh;
 
   display: flex;
   justify-content: center;
@@ -86,6 +96,157 @@
       &:hover {
         opacity: 0.6;
       }
+    }
+  }
+}
+
+.entry-meta {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  background: #fff;
+}
+
+/*     Single News Page      */
+
+.news-page-flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  @include desktop {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-evenly;
+  }
+
+  .entry-header {
+    margin: 70px auto 45px auto;
+    width: 90%;
+    position: relative;
+  }
+
+  .entry-content {
+    margin: 0;
+    width: 95%;
+  }
+
+  article {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+}
+
+.article-container {
+  @include desktop {
+    flex-grow: 2;
+  }
+}
+
+.post-navigation {
+  margin: 5%;
+  border-top: 1px solid $color__background-hr;
+  border-bottom: 1px solid $color__background-hr;
+  display: flex;
+  justify-content: flex-end;
+}
+.request-consultation-container {
+  background: #f6f6f6;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 90%;
+  margin: 70px 3% 3% 0;
+  @include desktop {
+    min-width: 375px;
+    max-width: 375px;
+  }
+  #form-title {
+    font-family: $font__main;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    @include tablet {
+      font-size: 25px;
+    }
+    @include footer_row {
+      font-size: 30px;
+    }
+  }
+  #form-title:after {
+    content: '';
+    border-bottom: 2px solid $color__accent;
+    width: 50px;
+    display: block;
+    margin: 0 auto;
+    padding-top: 20px;
+  }
+  .wpcf7-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    @include footer_row {
+      min-width: 800px;
+    }
+    @include tablet {
+      display: block;
+      min-width: 600px;
+    }
+    @include desktop {
+      width: 90%;
+      min-width: auto;
+      margin: 0 auto;
+    }
+    input {
+      border: 1px solid #e6e6e6;
+    }
+    input:focus {
+      outline: none;
+    }
+    input[type='text'],
+    input[type='email'],
+    input[type='tel'] {
+      width: 100%;
+      height: 40px;
+    }
+    input:not(.browser-default):focus:not([readonly]) {
+      border: 1px solid #e6e6e6;
+      box-shadow: none;
+    }
+    label {
+      font-family: $font__main;
+      color: black;
+      font-size: 14px;
+    }
+    input[type='submit'] {
+      background: $color__accent;
+      color: #fff;
+      box-shadow: none;
+      text-shadow: none;
+      color: #fff;
+      font-family: $font__main;
+      letter-spacing: 1px;
+      border-radius: 8px;
+      font-size: 13px;
+      font-weight: 400;
+      text-transform: uppercase;
+      padding: 10px 20px;
+    }
+    input[type='submit']:hover {
+      background: #3f3f3f;
+    }
+    .wpcf7-not-valid-tip {
+      color: $color__accent;
+      font-family: $font__main;
+    }
+    .wpcf7-response-output {
+      color: $color__accent;
+      font-family: $font__main;
+      border: none;
     }
   }
 }
