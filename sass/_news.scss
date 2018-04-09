@@ -96,6 +96,32 @@
   }
 }
 
+/*     Single News Page      */
+
+.news-page-flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+
+  .entry-header {
+    margin: 40px auto;
+    width: 90%;
+  }
+
+  .entry-content {
+    margin: 0;
+    width: 90%;
+  }
+
+  article {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
 .request-consultation-container {
   background: #f6f6f6;
   display: flex;
