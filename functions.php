@@ -93,6 +93,18 @@ add_action('wp_loaded', 'valo_scripts');
  * Enqueue scripts and styles.
  */
 
+
+
+function chromefix_inline_css()
+{ 
+    wp_add_inline_style( 'wp-admin', '#adminmenu { transform: translateZ(0); }' );
+}
+
+add_action('admin_enqueue_scripts', 'chromefix_inline_css');
+
+
+
+
 function my_theme_scripts() {
     wp_enqueue_script( 'my-great-script', get_template_directory_uri() . '/js/headerScroll.js', array( 'jquery' ), '1.0.0', true );
 }
@@ -108,7 +120,7 @@ function red_starter_scripts() {
 		wp_enqueue_script( 'comment-reply' );
 	}
 }
-add_action( 'wp_loaded', 'red_starter_scripts' );
+add_action( 'wp_enqueue_scripts', 'red_starter_scripts' );
 
 /**
  * Custom template tags for this theme.
