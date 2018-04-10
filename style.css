@@ -2220,6 +2220,14 @@ object {
 .single-post .signup-container {
   display: none; }
 
+.page-template-news .main-navigation,
+.page-template-news .header-logo,
+.page-template-news .header-logo-image,
+.single-post .main-navigation,
+.single-post .header-logo,
+.single-post .header-logo-image {
+  background-color: transparent; }
+
 .hero-container-dark {
   background-color: #000;
   background: url("../../assets/Backgrounds/footer-background.jpg");
@@ -2227,6 +2235,7 @@ object {
   background-size: cover;
   background-repeat: no-repeat;
   height: 35vh;
+  min-height: 330px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2239,7 +2248,6 @@ object {
   @media all and (min-width: 600px) {
     .hero-container-dark {
       height: 40vh;
-      min-height: 300px;
       max-height: 400px; } }
 
 .news-categories {
