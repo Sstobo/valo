@@ -10,14 +10,22 @@ get_header(); ?>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 
-			<?php while ( have_posts() ) : the_post(); ?>
+			<div class="investors-wrapper">
+				<div class="investors-main">
+					<div class="investors-left">
+					<h1>Investor Presentation</h1>
+			<div class="title-blue-line"></div>
+			<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<h2>Learn More with Our Corporate Presentation</h2>	
+				<button class="button-main button-with-shadow" id="banner-contact-button">Download Now</button>
+					</div>
+					<div class="investors-right"></div>
+				</div>
+			</div>
 
-				<?php get_template_part( 'template-parts/content', 'page' ); ?>
+		</main>
+		<!-- #main -->
+	</div>
+	<!-- #primary -->
 
-			<?php endwhile; // End of the loop. ?>
-
-		</main><!-- #main -->
-	</div><!-- #primary -->
-
-<?php get_sidebar(); ?>
-<?php get_footer(); ?>
+	<?php get_footer(); ?>
