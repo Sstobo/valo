@@ -9,6 +9,7 @@ get_header(); ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
+			<section class="content-wrapper">
 			<section class="hero-container-dark">
 				<?php the_title( '<h1 class="entry-title header-white">', '</h1>' ); ?>
 			</section>
@@ -31,7 +32,7 @@ get_header(); ?>
 				</div>
 
 			</section>
-
+			</section>
 		</main><!-- #main -->
 	</div><!-- #primary -->
 

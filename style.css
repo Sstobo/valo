@@ -2556,18 +2556,6 @@ object {
 .single-post .signup-container {
   display: none; }
 
-.page-template-news .main-navigation,
-.page-template-news .header-logo,
-.page-template-news .header-logo-image,
-.page-template-news .header-contact-desktop,
-.page-template-news .fa-mobile,
-.single-post .main-navigation,
-.single-post .header-logo,
-.single-post .header-logo-image,
-.single-post .header-contact-desktop,
-.single-post .fa-mobile {
-  background-color: transparent; }
-
 .hero-container-dark {
   background-color: #000;
   background: url("../../assets/Backgrounds/footer-background.jpg");

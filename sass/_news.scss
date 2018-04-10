@@ -1,21 +1,13 @@
 .page-template-news,
 .single-post {
   .header-wrapper {
-    background: transparent;
-  }
   .signup-container {
     display: none;
-  }
-  .main-navigation,
-  .header-logo,
-  .header-logo-image,
-  .header-contact-desktop,
-  .fa-mobile {
-    background-color: transparent;
   }
 }
 
 .hero-container-dark {
+  
   background-color: #000;
   background: url('../../assets/Backgrounds/footer-background.jpg');
   background-position: center;

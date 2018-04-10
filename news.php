@@ -9,7 +9,9 @@ get_header(); ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
+			<section class="content-wrapper">
 				<section class="hero-container-dark">
+					
 					<h1 class="header-white">News</h1>
 				</section>
 
@@ -54,6 +56,7 @@ get_header(); ?>
        		  	<h2>No articles found</h2>
        		  </div>
        		 <?php endif; ?>
+				</section>
 				</section>
 		</main><!-- #main -->
 	</div><!-- #primary -->
