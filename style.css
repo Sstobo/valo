@@ -396,6 +396,18 @@ article p {
       font-size: 45.6px;
       font-size: 2.85rem; } }
 
+.article-title {
+  font-size: 20px;
+  font-size: 1.25rem; }
+
+.read-more {
+  font-size: 13px;
+  font-size: 0.8125rem;
+  font-weight: 700; }
+
+.read-more-icon {
+  padding-left: 3px; }
+
 /*--------------------------------------------------------------
 # Elements
 --------------------------------------------------------------*/
@@ -633,23 +645,85 @@ a:active {
   .main-navigation ul {
     display: block; } }
 
-.site-main .comment-navigation, .site-main
-.posts-navigation, .site-main
+.comment-navigation,
+.posts-navigation,
 .post-navigation {
-  overflow: hidden; }
-
-.comment-navigation .nav-previous,
-.posts-navigation .nav-previous,
-.post-navigation .nav-previous {
-  float: left;
-  width: 50%; }
-
-.comment-navigation .nav-next,
-.posts-navigation .nav-next,
-.post-navigation .nav-next {
-  float: right;
-  text-align: right;
-  width: 50%; }
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+  .site-main .comment-navigation, .site-main
+  .posts-navigation, .site-main
+  .post-navigation {
+    overflow: hidden; }
+  .comment-navigation .nav-links,
+  .posts-navigation .nav-links,
+  .post-navigation .nav-links {
+    padding: 20px 0;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+    @media all and (min-width: 600px) {
+      .comment-navigation .nav-links,
+      .posts-navigation .nav-links,
+      .post-navigation .nav-links {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row; } }
+  .comment-navigation i,
+  .posts-navigation i,
+  .post-navigation i {
+    display: none; }
+    @media all and (min-width: 600px) {
+      .comment-navigation i,
+      .posts-navigation i,
+      .post-navigation i {
+        display: block; } }
+  .comment-navigation .post-nav-direction-header,
+  .posts-navigation .post-nav-direction-header,
+  .post-navigation .post-nav-direction-header {
+    display: block;
+    font-size: 13px;
+    font-size: 0.8125rem;
+    text-transform: uppercase;
+    color: #aaa; }
+  .comment-navigation .post-title,
+  .posts-navigation .post-title,
+  .post-navigation .post-title {
+    font-size: 20px;
+    font-size: 1.25rem; }
+  .comment-navigation .nav-previous,
+  .posts-navigation .nav-previous,
+  .post-navigation .nav-previous {
+    text-align: center;
+    margin-bottom: 20px; }
+    @media all and (min-width: 600px) {
+      .comment-navigation .nav-previous,
+      .posts-navigation .nav-previous,
+      .post-navigation .nav-previous {
+        margin-bottom: 0;
+        text-align: left; } }
+  .comment-navigation .nav-next,
+  .posts-navigation .nav-next,
+  .post-navigation .nav-next {
+    text-align: center; }
+    @media all and (min-width: 600px) {
+      .comment-navigation .nav-next,
+      .posts-navigation .nav-next,
+      .post-navigation .nav-next {
+        margin-left: auto;
+        text-align: right; } }
 
 /*--------------------------------------------------------------
 # Accessibility
@@ -1275,6 +1349,7 @@ object {
     @media (min-width: 1100px) {
       .header-wrapper .fa-mobile {
         background-color: white;
+        height: 100%;
         display: block;
         padding-top: 40px;
         padding-left: 20px;
@@ -1851,7 +1926,7 @@ object {
   background-color: #f7f7f7; }
   @media (min-width: 1000px) {
     .applications-transpo-hero {
-      height: 540px;
+      height: 560px;
       -webkit-box-orient: horizontal;
       -webkit-box-direction: normal;
           -ms-flex-direction: row;
@@ -1863,12 +1938,12 @@ object {
     .applications-transpo-img {
       display: block;
       width: 50%;
-      height: 500px; } }
+      height: 450px; } }
 
 .applications-transpo-image {
   background-image: url("../../assets/icons-SVG/Valo-Smart-Transportation.jpg");
   background-size: cover;
-  height: 420px;
+  height: 450px;
   width: 100%;
   margin: 0 auto; }
 
@@ -1885,10 +1960,13 @@ object {
       width: 50%;
       height: 420px; }
       .applications-transpo-post p {
-        width: 90%;
+        width: 94%;
         text-align: left;
         margin: 0 auto;
         margin-top: 34px; } }
+    @media (min-width: 1000px) and (min-width: 1400px) {
+      .applications-transpo-post p {
+        width: 70%; } }
 
 .applications-transpo-wrapper2 {
   width: 100%;
@@ -1942,10 +2020,13 @@ object {
       width: 50%;
       height: 480px; }
       .applications-transpo-post2 p {
-        width: 80%;
+        width: 94%;
         text-align: left;
         margin: 0 auto;
         margin-top: 34px; } }
+    @media (min-width: 1000px) and (min-width: 1400px) {
+      .applications-transpo-post2 p {
+        width: 70%; } }
 
 .applications-transpo-image2 {
   display: none; }
@@ -2016,10 +2097,13 @@ object {
       width: 50%;
       height: 420px; }
       .applications-muni-post p {
-        width: 90%;
+        width: 94%;
         text-align: left;
         margin: 0 auto;
         margin-top: 34px; } }
+    @media (min-width: 1000px) and (min-width: 1400px) {
+      .applications-muni-post p {
+        width: 70%; } }
 
 .applications-muni-wrapper2 {
   width: 100%;
@@ -2066,17 +2150,18 @@ object {
   margin-bottom: 48px; }
   .applications-muni-post2 .title-blue-line {
     width: 60px; }
-  .applications-muni-post2 .entry-title {
-    display: none; }
   @media (min-width: 1000px) {
     .applications-muni-post2 {
       width: 50%;
       height: 480px; }
       .applications-muni-post2 p {
-        width: 80%;
+        width: 94%;
         text-align: left;
         margin: 0 auto;
         margin-top: 34px; } }
+    @media (min-width: 1000px) and (min-width: 1400px) {
+      .applications-muni-post2 p {
+        width: 70%; } }
 
 .applications-muni-image2 {
   display: none; }
@@ -2147,10 +2232,13 @@ object {
       width: 50%;
       height: 420px; }
       .applications-enviro-post p {
-        width: 90%;
+        width: 94%;
         text-align: left;
         margin: 0 auto;
         margin-top: 34px; } }
+    @media (min-width: 1000px) and (min-width: 1400px) {
+      .applications-enviro-post p {
+        width: 70%; } }
 
 .applications-enviro-wrapper2 {
   width: 100%;
@@ -2204,10 +2292,13 @@ object {
       width: 50%;
       height: 480px; }
       .applications-enviro-post2 p {
-        width: 80%;
+        width: 94%;
         text-align: left;
         margin: 0 auto;
         margin-top: 34px; } }
+    @media (min-width: 1000px) and (min-width: 1400px) {
+      .applications-enviro-post2 p {
+        width: 70%; } }
 
 .applications-enviro-image2 {
   display: none; }
@@ -2219,6 +2310,152 @@ object {
       height: 460px;
       width: 100%;
       margin: 0 auto; } }
+
+.applications-wrapper {
+  height: 100%;
+  width: 100vw;
+  padding-top: 110px; }
+
+.applications-hero {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 44px;
+  padding: 12px;
+  height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row; }
+  .applications-hero .applications-hero-wrapper {
+    padding: 24px; }
+    @media (min-width: 1000px) {
+      .applications-hero .applications-hero-wrapper {
+        display: block;
+        height: 90%;
+        width: 50%;
+        margin-right: 48px;
+        text-align: left;
+        padding: 44px 194px 0 124px; } }
+  .applications-hero .applications-hero-img {
+    display: none; }
+    @media (min-width: 1000px) {
+      .applications-hero .applications-hero-img {
+        display: block;
+        height: 90%;
+        width: 40%;
+        background-color: grey; } }
+  @media (min-width: 1000px) {
+    .applications-hero {
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row; } }
+
+.applications-service-wrapper {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+  @media (min-width: 1000px) {
+    .applications-service-wrapper {
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row; } }
+  .applications-service-wrapper .applications-lighting {
+    height: 300px;
+    width: 100%;
+    background-color: #eeeeee;
+    text-align: center;
+    padding: 34px 12px 12px 12px; }
+    @media (min-width: 1000px) {
+      .applications-service-wrapper .applications-lighting {
+        width: 50%;
+        height: 500px;
+        padding-top: 124px; } }
+    .applications-service-wrapper .applications-lighting .applications-img {
+      height: 100px;
+      width: 100px;
+      margin: 0 auto;
+      margin-bottom: 14px; }
+    .applications-service-wrapper .applications-lighting h2 {
+      text-align: center;
+      width: 60%;
+      margin: 0 auto;
+      margin-bottom: 24px; }
+  .applications-service-wrapper .applications-platform {
+    height: 300px;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    padding: 34px 12px 12px 12px; }
+    @media (min-width: 1000px) {
+      .applications-service-wrapper .applications-platform {
+        width: 50%;
+        height: 500px;
+        padding-top: 124px; } }
+    .applications-service-wrapper .applications-platform .applications-img {
+      height: 100px;
+      width: 100px;
+      margin: 0 auto;
+      margin-bottom: 14px; }
+    .applications-service-wrapper .applications-platform h2 {
+      text-align: center;
+      width: 60%;
+      margin: 0 auto;
+      margin-bottom: 14px;
+      margin-bottom: 24px; }
+  .applications-service-wrapper .applications-cameras {
+    height: 300px;
+    width: 100%;
+    background-color: #eeeeee;
+    text-align: center;
+    padding: 34px 12px 12px 12px; }
+    @media (min-width: 1000px) {
+      .applications-service-wrapper .applications-cameras {
+        width: 50%;
+        height: 500px;
+        padding-top: 124px; } }
+    .applications-service-wrapper .applications-cameras .applications-img {
+      height: 100px;
+      width: 100px;
+      margin: 0 auto;
+      margin-bottom: 14px; }
+    .applications-service-wrapper .applications-cameras h2 {
+      text-align: center;
+      width: 80%;
+      margin: 0 auto;
+      margin-bottom: 14px;
+      margin-bottom: 24px; }
+  .applications-service-wrapper .applications-networks {
+    height: 300px;
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    padding: 34px 12px 12px 12px; }
+    @media (min-width: 1000px) {
+      .applications-service-wrapper .applications-networks {
+        width: 50%;
+        height: 500px;
+        padding-top: 124px; } }
+    .applications-service-wrapper .applications-networks .applications-img {
+      height: 100px;
+      width: 100px;
+      margin: 0 auto;
+      margin-bottom: 14px; }
+    .applications-service-wrapper .applications-networks h2 {
+      text-align: center;
+      width: 60%;
+      margin: 0 auto;
+      margin-bottom: 14px;
+      margin-bottom: 24px; }
 
 /*--------------------------------------------------------------
 # About Pages
@@ -2307,17 +2544,17 @@ object {
   div.signup-container {
     width: 50%;
     max-height: 358px;
-    margin-left: 0;
-    margin-right: 0; }
+    margin: 30px 0; }
     div.signup-container div.wpcf7 {
       padding-left: 150px; }
   .signup-image {
     width: 50%;
-    height: 419px;
+    height: 418px;
     position: absolute;
     left: 50%;
-    background: url("../../assets/Backgrounds/valo-sign-up-image-1.jpg");
-    background-size: cover; } }
+    background-image: url("../../assets/Backgrounds/valo-sign-up-image-1.jpg");
+    background-size: cover;
+    background-position: center; } }
 
 .page-template-news .header-wrapper,
 .single-post .header-wrapper {
@@ -2334,6 +2571,7 @@ object {
   background-size: cover;
   background-repeat: no-repeat;
   height: 35vh;
+  min-height: 330px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2346,7 +2584,6 @@ object {
   @media all and (min-width: 600px) {
     .hero-container-dark {
       height: 40vh;
-      min-height: 300px;
       max-height: 400px; } }
 
 .news-categories {
@@ -2357,12 +2594,13 @@ object {
       justify-content: space-around;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  width: 90%;
   max-width: 400px;
   text-align: center;
   margin: 60px auto; }
 
 .tax-filter {
-  padding: 0 20px; }
+  margin: 10px 20px; }
   .tax-filter:hover {
     border-bottom: 1px solid #00aeef; }
 
@@ -2408,6 +2646,57 @@ object {
         width: 27vw;
         min-width: 300px; } }
 
+.entry-header {
+  position: relative; }
+
+.entry-meta {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: #fff; }
+
+.fancy-entry-date {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px; }
+
+.month,
+.day,
+.year {
+  font-weight: 700;
+  position: relative;
+  margin-bottom: 2px;
+  padding: 1px; }
+
+.month,
+.year {
+  font-size: 12px;
+  font-size: 0.75rem; }
+
+.month::after,
+.day::after {
+  position: absolute;
+  display: block;
+  left: 50%;
+  margin-left: -7px;
+  bottom: -2px;
+  content: '';
+  height: 2px;
+  background-color: #00aeef;
+  width: 14px; }
+
+.day {
+  font-size: 22px;
+  font-size: 1.375rem; }
+
 .news-image-wrapper {
   overflow: hidden;
   height: 90vw;
@@ -2439,12 +2728,6 @@ object {
       width: auto; }
       .news-image-wrapper a .wp-post-image:hover {
         opacity: 0.6; }
-
-.entry-meta {
-  position: absolute;
-  top: 30px;
-  right: 30px;
-  background: #fff; }
 
 /*     Single News Page      */
 .news-page-flex-container {
@@ -2479,7 +2762,7 @@ object {
     position: relative; }
   .news-page-flex-container .entry-content {
     margin: 0;
-    width: 95%; }
+    width: 90%; }
   .news-page-flex-container article {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2563,13 +2846,10 @@ object {
         -ms-flex-align: center;
             align-items: center;
     width: 100%; }
-    @media all and (min-width: 800px) {
-      .request-consultation-container .wpcf7-form {
-        min-width: 800px; } }
     @media all and (min-width: 600px) {
       .request-consultation-container .wpcf7-form {
         display: block;
-        min-width: 600px; } }
+        min-width: 530px; } }
     @media all and (min-width: 1000px) {
       .request-consultation-container .wpcf7-form {
         width: 90%;
@@ -2786,3 +3066,74 @@ object {
           font-weight: 600;
           color: #00aeef;
           margin: 3px 0; }
+
+.page-template-investors .signup-container {
+  display: none; }
+
+.investors-wrapper {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding-top: 100px; }
+
+.investors-main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%; }
+  @media (min-width: 1000px) {
+    .investors-main {
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row;
+      height: 700px; } }
+
+.investors-left {
+  height: 600px;
+  width: 100%;
+  background-color: white;
+  padding: 8px 0 24px 8px;
+  text-align: center; }
+  .investors-left .title-blue-line {
+    width: 178px;
+    margin: 0 auto;
+    margin-bottom: 34px; }
+  .investors-left h1 {
+    margin-bottom: 34px; }
+  .investors-left p {
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 48px; }
+  @media (min-width: 1000px) {
+    .investors-left {
+      height: 600px;
+      width: 100%;
+      background-color: white;
+      padding: 48px 0 24px 138px;
+      text-align: left; }
+      .investors-left .title-blue-line {
+        width: 178px;
+        margin: 0;
+        margin-bottom: 34px; }
+      .investors-left h1 {
+        margin-bottom: 34px; }
+      .investors-left p {
+        margin: 0;
+        width: 70%;
+        margin-bottom: 48px; } }
+
+.investors-right {
+  height: 700px;
+  width: 100%;
+  background-image: url("../../assets/icons-SVG/investors-picture.jpg");
+  background-size: cover; }
