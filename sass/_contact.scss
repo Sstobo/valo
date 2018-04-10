@@ -2,28 +2,42 @@
   .entry-title {
     display: none;
   }
-
   .contact-container {
     display: flex;
-    height: 65vh;
+    height: 70vh;
     width: 100%;
     margin-bottom: 7%;
-
-    .contact-image {
-      flex-basis: 50%;
-      height: auto;
-      background: url('../../assets/icons-SVG/globe2.png');
-      background-size: 700px;
-      background-repeat: no-repeat;
-      background-position: -50px -10px;
+    background: url('../../assets/Backgrounds/clean-gray-abstract-background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 0;
+    border: 1px solid red;
+    justify-content: center;
+    @include desktop {
+      height: 65vh;
+      background-position: 0 -50px;
     }
-
+    .contact-image {
+      display: none;
+      @include desktop {
+        display: flex;
+        flex-basis: 50%;
+        height: auto;
+        background: url('../../assets/icons-SVG/globe2.png');
+        background-size: 700px;
+        background-repeat: no-repeat;
+        background-position: -50px 0px;
+      }
+    }
     .contact-info {
       flex-basis: 50%;
       display: flex;
       flex-direction: column;
       align-items: center;
-      margin-top: 25px;
+
+      @include desktop {
+        // margin-right: 3%;
+      }
 
       h1 {
         color: black;
@@ -38,9 +52,22 @@
         margin: 0 auto;
         padding-top: 20px;
       }
-
       .contact-content {
         display: flex;
+        border: 1px solid red;
+        min-width: 700px;
+
+        flex-direction: column;
+
+        @include tablet {
+          flex-direction: row;
+          justify-content: space-around;
+        }
+
+        @include desktop {
+          min-width: 600px;
+          justify-content: center;
+        }
 
         i {
           color: $color__accent;
@@ -48,7 +75,6 @@
           padding-right: 30%;
           margin-top: 4px;
         }
-
         .contact-title {
           color: black;
           font-family: $font__main;
@@ -59,20 +85,19 @@
           margin-bottom: 3px;
           padding-bottom: 3px;
         }
-
         .phone-address {
+          margin-left: 3%;
           display: flex;
           flex-direction: column;
           justify-content: space-between;
+          border: 1px solid green;
           .telephone {
             display: flex;
             margin-bottom: 15%;
-
             .telephone-info {
               p {
                 margin: 0;
               }
-
               #phone {
                 color: $color__accent;
                 font-size: 22px;
@@ -84,14 +109,17 @@
             display: flex;
             .address-info {
               p {
-                margin: 0;
-                color: black;
+                margin: 2px 0;
+                font-size: 16px;
+                font-weight: 300;
+                color: $color__text-main;
                 font-family: $font__main;
               }
             } //address-info
           } //address
         } //phone-address
         .email {
+          margin-right: 3%;
           display: flex;
           .email-info {
             p {
