@@ -1874,7 +1874,12 @@ object {
   @media (min-width: 1000px) {
     .applications-transpo-post {
       width: 50%;
-      height: 400px; } }
+      height: 420px; }
+      .applications-transpo-post p {
+        width: 90%;
+        text-align: left;
+        margin: 0 auto;
+        margin-top: 34px; } }
 
 .applications-transpo-wrapper2 {
   width: 100%;
@@ -1899,7 +1904,7 @@ object {
   background-color: #f0f0f0; }
   @media (min-width: 1000px) {
     .applications-transpo-hero2 {
-      height: 500px;
+      height: 460px;
       -webkit-box-orient: horizontal;
       -webkit-box-direction: normal;
           -ms-flex-direction: row;
@@ -1911,7 +1916,7 @@ object {
     .applications-transpo-img2 {
       display: block;
       width: 50%;
-      height: 480px; } }
+      height: 420px; } }
 
 .applications-transpo-post2 {
   width: 100%;
@@ -1926,7 +1931,12 @@ object {
   @media (min-width: 1000px) {
     .applications-transpo-post2 {
       width: 50%;
-      height: 480px; } }
+      height: 480px; }
+      .applications-transpo-post2 p {
+        width: 80%;
+        text-align: left;
+        margin: 0 auto;
+        margin-top: 34px; } }
 
 .applications-transpo-image2 {
   display: none; }
@@ -1935,7 +1945,7 @@ object {
       display: block;
       background-image: url("../../assets/icons-SVG/parking-image-1.png");
       background-size: cover;
-      height: 480px;
+      height: 460px;
       width: 100%;
       margin: 0 auto; } }
 
