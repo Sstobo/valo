@@ -1369,7 +1369,11 @@ object {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 3% 15%; }
+  margin: 3% 15%;
+  border: 1px solid red; }
+  @media all and (min-width: 800px) {
+    .signup-container {
+      width: auto; } }
   .signup-container #form-title {
     font-family: "Roboto";
     color: black;
@@ -1398,10 +1402,14 @@ object {
             flex-direction: column;
     -webkit-box-align: center;
         -ms-flex-align: center;
-            align-items: center; }
+            align-items: center;
+    border: 1px solid red; }
     @media all and (min-width: 800px) {
       .signup-container .wpcf7-form {
-        min-width: 800px; } }
+        min-width: 800px;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center; } }
     @media all and (min-width: 600px) {
       .signup-container .wpcf7-form {
         display: block;
@@ -2615,17 +2623,19 @@ object {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 70vh;
+  height: 100vh;
   width: 100%;
   margin-bottom: 7%;
   background: url("../../assets/Backgrounds/clean-gray-abstract-background.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 0 0;
-  border: 1px solid red;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center; }
+  @media all and (min-width: 600px) {
+    .contact-content-area .contact-container {
+      height: 70vh; } }
   @media all and (min-width: 1000px) {
     .contact-content-area .contact-container {
       height: 65vh;
@@ -2645,8 +2655,6 @@ object {
         background-repeat: no-repeat;
         background-position: -50px 0px; } }
   .contact-content-area .contact-container .contact-info {
-    -ms-flex-preferred-size: 50%;
-        flex-basis: 50%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2654,9 +2662,21 @@ object {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center; }
+    @media all and (min-width: 600px) {
+      .contact-content-area .contact-container .contact-info {
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center; } }
+    @media all and (min-width: 1000px) {
+      .contact-content-area .contact-container .contact-info {
+        -ms-flex-preferred-size: 50%;
+            flex-basis: 50%; } }
     .contact-content-area .contact-container .contact-info h1 {
       color: black;
       font-size: 40px;
@@ -2672,20 +2692,21 @@ object {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
-      border: 1px solid red;
-      min-width: 700px;
       -webkit-box-orient: vertical;
       -webkit-box-direction: normal;
           -ms-flex-direction: column;
               flex-direction: column; }
       @media all and (min-width: 600px) {
         .contact-content-area .contact-container .contact-info .contact-content {
+          margin-left: 0;
           -webkit-box-orient: horizontal;
           -webkit-box-direction: normal;
               -ms-flex-direction: row;
                   flex-direction: row;
-          -ms-flex-pack: distribute;
-              justify-content: space-around; } }
+          -webkit-box-pack: justify;
+              -ms-flex-pack: justify;
+                  justify-content: space-between;
+          min-width: 700px; } }
       @media all and (min-width: 1000px) {
         .contact-content-area .contact-container .contact-info .contact-content {
           min-width: 600px;
@@ -2695,8 +2716,10 @@ object {
       .contact-content-area .contact-container .contact-info .contact-content i {
         color: #00aeef;
         font-size: 42px;
-        padding-right: 30%;
+        padding-right: 15px;
         margin-top: 4px; }
+      .contact-content-area .contact-container .contact-info .contact-content .fa-map-marker {
+        margin-right: 10px; }
       .contact-content-area .contact-container .contact-info .contact-content .contact-title {
         color: black;
         font-family: "Roboto";
@@ -2717,8 +2740,10 @@ object {
                 flex-direction: column;
         -webkit-box-pack: justify;
             -ms-flex-pack: justify;
-                justify-content: space-between;
-        border: 1px solid green; }
+                justify-content: space-between; }
+        @media all and (min-width: 600px) {
+          .contact-content-area .contact-container .contact-info .contact-content .phone-address {
+            margin-left: 8%; } }
         .contact-content-area .contact-container .contact-info .contact-content .phone-address .telephone {
           display: -webkit-box;
           display: -ms-flexbox;
@@ -2741,10 +2766,18 @@ object {
             color: #565656;
             font-family: "Roboto"; }
       .contact-content-area .contact-container .contact-info .contact-content .email {
-        margin-right: 3%;
         display: -webkit-box;
         display: -ms-flexbox;
-        display: flex; }
+        display: flex;
+        margin-left: 1%;
+        margin-top: 40px; }
+        @media all and (min-width: 600px) {
+          .contact-content-area .contact-container .contact-info .contact-content .email {
+            margin-right: 8%;
+            margin-top: 0; } }
+        @media all and (min-width: 1000px) {
+          .contact-content-area .contact-container .contact-info .contact-content .email {
+            margin-right: 0; } }
         .contact-content-area .contact-container .contact-info .contact-content .email .email-info p {
           margin: 0; }
         .contact-content-area .contact-container .contact-info .contact-content .email .email-info a {
