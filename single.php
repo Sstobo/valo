@@ -19,7 +19,9 @@ get_header(); ?>
 
 						<?php get_template_part( 'template-parts/content', 'single' ); ?>
 
-						<?php the_post_navigation(); ?>
+						<?php the_post_navigation(array('prev_text' => __('<i class="fa fa-angle-left" aria-hidden="true"></i><span class="post-nav-direction-header">Previous</span> <span class="post-title">%title</span>'),
+																						'next_text' => __('<i class="fa fa-angle-right" aria-hidden="true"></i><span class="post-nav-direction-header">Next</span><span class="post-title">%title</span>'),
+																						'screen_reader_text' => __( 'Continue Reading' ),)); ?>
 
 					<?php endwhile; // End of the loop. ?>
 				</section>
