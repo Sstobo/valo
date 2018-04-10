@@ -2548,10 +2548,6 @@ object {
     background: url("../../assets/Backgrounds/valo-sign-up-image-1.jpg");
     background-size: cover; } }
 
-.page-template-news .header-wrapper,
-.single-post .header-wrapper {
-  background: transparent; }
-
 .page-template-news .signup-container,
 .single-post .signup-container {
   display: none; }
