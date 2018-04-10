@@ -1569,8 +1569,6 @@ object {
       margin: 0 auto;
       margin-bottom: 14px; }
 
-<<<<<<< HEAD
-=======
 h1 {
   color: black;
   font-size: 38px; }
@@ -1579,7 +1577,6 @@ h2 {
   color: black;
   font-size: 28px; }
 
->>>>>>> 040b9328a8def8c919b21a70edd0bf3a50a13118
 .applications-security-wrapper {
   width: 100%;
   display: -webkit-box;
@@ -2963,18 +2960,12 @@ h2 {
   background-image: url("../../assets/icons-SVG/investors-picture.jpg");
   background-size: cover; }
 
-<<<<<<< HEAD
 #wpcf7-f5-o1 {
   padding-left: 0; }
 
 .signup-wrapper {
   width: 100%;
   height: auto;
-=======
-.signup-wrapper {
-  width: 100%;
-  height: 400px;
->>>>>>> 040b9328a8def8c919b21a70edd0bf3a50a13118
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -3003,14 +2994,10 @@ h2 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-<<<<<<< HEAD
-  margin: 3% 15%; }
+  margin-top: 34px; }
   @media all and (min-width: 800px) {
     .signup-container {
       width: auto; } }
-=======
-  margin-top: 34px; }
->>>>>>> 040b9328a8def8c919b21a70edd0bf3a50a13118
   .signup-container #form-title {
     font-family: "Roboto";
     color: black;
@@ -3042,14 +3029,10 @@ h2 {
             align-items: center; }
     @media all and (min-width: 800px) {
       .signup-container .wpcf7-form {
-<<<<<<< HEAD
         min-width: 800px;
         -webkit-box-align: center;
             -ms-flex-align: center;
                 align-items: center; } }
-=======
-        min-width: 800px; } }
->>>>>>> 040b9328a8def8c919b21a70edd0bf3a50a13118
     @media all and (min-width: 600px) {
       .signup-container .wpcf7-form {
         display: block;
