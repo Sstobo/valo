@@ -29,7 +29,7 @@ get_header(); ?>
                     <div class="products-platform">
                     <img class="products-img" src="<?php echo get_template_directory_uri() . '/assets/icons-SVG/smart-buildings.png'; ?>"/></a>
                         <h2>Smart City Platform</h2>
-                        <a href="#" class="button-main button-hero">Learn more</a>
+                        <a href="<?php echo esc_url( home_url( '/product-platform/' ) ); ?>" class="button-main button-hero">Learn more</a>
                     </div>
                     <div class="products-cameras">
                     <img class="products-img" src="<?php echo get_template_directory_uri() . '/assets/icons-SVG/digital-camera.png'; ?>"/></a>

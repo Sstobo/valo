@@ -2186,3 +2186,107 @@ object {
       color: #00aeef;
       font-family: "Roboto";
       border: none; }
+
+.contact-content-area .entry-title {
+  display: none; }
+
+.contact-content-area .contact-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 65vh;
+  width: 100%;
+  margin-bottom: 7%; }
+  .contact-content-area .contact-container .contact-image {
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+    height: auto;
+    background: url("../../assets/icons-SVG/globe2.png");
+    background-size: 700px;
+    background-repeat: no-repeat;
+    background-position: -50px -10px; }
+  .contact-content-area .contact-container .contact-info {
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 25px; }
+    .contact-content-area .contact-container .contact-info h1 {
+      color: black;
+      font-size: 40px;
+      margin-bottom: 50px; }
+    .contact-content-area .contact-container .contact-info h1:after {
+      content: '';
+      border-bottom: 4px solid #00aeef;
+      width: 110px;
+      display: block;
+      margin: 0 auto;
+      padding-top: 20px; }
+    .contact-content-area .contact-container .contact-info .contact-content {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; }
+      .contact-content-area .contact-container .contact-info .contact-content i {
+        color: #00aeef;
+        font-size: 42px;
+        padding-right: 30%;
+        margin-top: 4px; }
+      .contact-content-area .contact-container .contact-info .contact-content .contact-title {
+        color: black;
+        font-family: "Roboto";
+        font-weight: 800;
+        font-size: 16px;
+        letter-spacing: 0.5px;
+        margin: 0;
+        margin-bottom: 3px;
+        padding-bottom: 3px; }
+      .contact-content-area .contact-container .contact-info .contact-content .phone-address {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between; }
+        .contact-content-area .contact-container .contact-info .contact-content .phone-address .telephone {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          margin-bottom: 15%; }
+          .contact-content-area .contact-container .contact-info .contact-content .phone-address .telephone .telephone-info p {
+            margin: 0; }
+          .contact-content-area .contact-container .contact-info .contact-content .phone-address .telephone .telephone-info #phone {
+            color: #00aeef;
+            font-size: 22px;
+            font-weight: bold; }
+        .contact-content-area .contact-container .contact-info .contact-content .phone-address .address {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex; }
+          .contact-content-area .contact-container .contact-info .contact-content .phone-address .address .address-info p {
+            margin: 0;
+            color: black;
+            font-family: "Roboto"; }
+      .contact-content-area .contact-container .contact-info .contact-content .email {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex; }
+        .contact-content-area .contact-container .contact-info .contact-content .email .email-info p {
+          margin: 0; }
+        .contact-content-area .contact-container .contact-info .contact-content .email .email-info a {
+          display: block;
+          font-family: "Roboto";
+          font-weight: 600;
+          color: #00aeef;
+          margin: 3px 0; }
