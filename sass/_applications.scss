@@ -75,7 +75,7 @@
         padding-top: 110px;
         background-color: rgb(247, 247, 247);
         @media (min-width: $desktop_width) {
-            height: 540px;
+            height: 560px;
             flex-direction: row;
         }
     }
@@ -84,13 +84,13 @@
         @media (min-width: $desktop_width) {
         display: block;
             width: 50%;
-            height: 500px;
+            height: 450px;
     }
     }
     .applications-transpo-image {
     background-image: url("../../assets/icons-SVG/Valo-Smart-Transportation.jpg");
     background-size: cover;
-    height: 420px;
+    height: 450px;
     width: 100%;
     margin: 0 auto;
     }
@@ -107,11 +107,14 @@
             width: 50%;
             height: 420px;
             p {
-                width: 90%;
+                width: 94%;
                 text-align: left;
                 margin: 0 auto;
                 margin-top: 34px;
+                @media (min-width: 1400px) {
+                    width: 70%;
             }
+        }
     }
     }
     .applications-transpo-wrapper2 {
@@ -154,11 +157,14 @@
             width: 50%;
             height: 480px;
             p {
-                width: 80%;
+                width: 94%;
                 text-align: left;
                 margin: 0 auto;
                 margin-top: 34px;
+                @media (min-width: 1400px) {
+                    width: 70%;
             }
+        }
     }
     }
     .applications-transpo-image2 {
@@ -218,11 +224,14 @@
             width: 50%;
             height: 420px;
             p {
-                width: 90%;
+                width: 94%;
                 text-align: left;
                 margin: 0 auto;
                 margin-top: 34px;
+                @media (min-width: 1400px) {
+                    width: 70%;
             }
+        }
     }
     }
     .applications-muni-wrapper2 {
@@ -258,18 +267,18 @@
         .title-blue-line   {
             width: 60px;
         }   
-        .entry-title { 
-            display:none;
-            }
         @media (min-width: $desktop_width) {
             width: 50%;
             height: 480px;
             p {
-                width: 80%;
+                width: 94%;
                 text-align: left;
                 margin: 0 auto;
                 margin-top: 34px;
+                @media (min-width: 1400px) {
+                    width: 70%;
             }
+        }
     }
     }
     .applications-muni-image2 {
@@ -285,114 +294,120 @@
         }
 
 // ENVIRO
-.applications-enviro-wrapper {
-    width: 100%;
-    display: flex;
-    flex-direction: row; 
-}
-.applications-enviro-hero{
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    padding-top: 110px;
-    background-color: rgb(247, 247, 247);
-    @media (min-width: $desktop_width) {
-        height: 530px;
-        flex-direction: row;
+    .applications-enviro-wrapper {
+        width: 100%;
+        display: flex;
+        flex-direction: row; 
     }
-}
-.applications-enviro-img {
-    display: none;
-    @media (min-width: $desktop_width) {
-    display: block;
-        width: 50%;
-        height: 500px;
-}
-}
-.applications-enviro-image {
-background-image: url("../../assets/icons-SVG/valo-smart-weather.jpg");
-background-size: cover;
-height: 420px;
-width: 100%;
-margin: 0 auto;
-}
-.applications-enviro-post {
-    width: 100%;
-    height: auto;
-    padding: 38px 44px 0 44px;
-    margin-bottom: 44px;
-    text-align: center;
-    .title-blue-line {
-        width: 60px;
+    .applications-enviro-hero{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        padding-top: 110px;
+        background-color: rgb(247, 247, 247);
+        @media (min-width: $desktop_width) {
+            height: 530px;
+            flex-direction: row;
+        }
     }
-    @media (min-width: $desktop_width) {
-        width: 50%;
-        height: 420px;
-        p {
-            width: 90%;
-            text-align: left;
-            margin: 0 auto;
-            margin-top: 34px;
-        }
-}
-}
-.applications-enviro-wrapper2 {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-}
-.applications-enviro-hero2{
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    background-color: rgb(247, 247, 247);
-    @media (min-width: $desktop_width) {
-        height: 460px;
-        flex-direction: row;
+    .applications-enviro-img {
+        display: none;
+        @media (min-width: $desktop_width) {
+        display: block;
+            width: 50%;
+            height: 500px;
     }
-}
-.applications-enviro-img2 {
-    display: none;
-    @media (min-width: $desktop_width) {
-    display: block;
-        width: 50%;
-        height: 420px;
-}
-}
-.applications-enviro-post2 {
-    width: 100%;
-    height: auto;
-    padding: 38px 44px 0 44px;
-    text-align: center;
-    margin-bottom: 48px;
-    .title-blue-line   {
-        width: 60px;
-    }   
-    .entry-title { 
-        display:none;
-        }
-    @media (min-width: $desktop_width) {
-        width: 50%;
-        height: 480px;
-        p {
-            width: 80%;
-            text-align: left;
-            margin: 0 auto;
-            margin-top: 34px;
-        }
-}
-}
-.applications-enviro-image2 {
-    display: none;
-    @media (min-width: $desktop_width) {
-    display: block;
-    background-image: url("../../assets/icons-SVG/valo-muni-skyline.jpg");
+    }
+    .applications-enviro-image {
+    background-image: url("../../assets/icons-SVG/valo-smart-weather.jpg");
     background-size: cover;
-    height: 460px;
+    height: 420px;
     width: 100%;
     margin: 0 auto;
     }
+    .applications-enviro-post {
+        width: 100%;
+        height: auto;
+        padding: 38px 44px 0 44px;
+        margin-bottom: 44px;
+        text-align: center;
+        .title-blue-line {
+            width: 60px;
+        }
+        @media (min-width: $desktop_width) {
+            width: 50%;
+            height: 420px;
+            p {
+                width: 94%;
+                text-align: left;
+                margin: 0 auto;
+                margin-top: 34px;
+                @media (min-width: 1400px) {
+                    width: 70%;
+            }
+        }
     }
+    }
+    .applications-enviro-wrapper2 {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+    .applications-enviro-hero2{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(247, 247, 247);
+        @media (min-width: $desktop_width) {
+            height: 460px;
+            flex-direction: row;
+        }
+    }
+    .applications-enviro-img2 {
+        display: none;
+        @media (min-width: $desktop_width) {
+        display: block;
+            width: 50%;
+            height: 420px;
+    }
+    }
+    .applications-enviro-post2 {
+        width: 100%;
+        height: auto;
+        padding: 38px 44px 0 44px;
+        text-align: center;
+        margin-bottom: 48px;
+        .title-blue-line   {
+            width: 60px;
+        }   
+        .entry-title { 
+            display:none;
+            }
+        @media (min-width: $desktop_width) {
+            width: 50%;
+            height: 480px;
+            p {
+                width: 94%;
+                text-align: left;
+                margin: 0 auto;
+                margin-top: 34px;
+                @media (min-width: 1400px) {
+                    width: 70%;
+            }
+        }
+    }
+    }
+    .applications-enviro-image2 {
+        display: none;
+        @media (min-width: $desktop_width) {
+        display: block;
+        background-image: url("../../assets/icons-SVG/valo-muni-skyline.jpg");
+        background-size: cover;
+        height: 460px;
+        width: 100%;
+        margin: 0 auto;
+        }
+        }
 // next
