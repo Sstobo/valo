@@ -2286,6 +2286,105 @@ object {
       width: 100%;
       margin: 0 auto; } }
 
+/*--------------------------------------------------------------
+# About Pages
+--------------------------------------------------------------*/
+.content-wrapper {
+  padding-top: 100px; }
+
+.title-blue-line {
+  width: 150px;
+  height: 5px;
+  background: #00aeef;
+  margin: 0 auto; }
+
+/* About Team */
+.management-team-title-container {
+  height: 200px;
+  width: 100%;
+  background: url("../../assets/Backgrounds/footer-background.jpg");
+  background-size: cover;
+  padding: 5% 10%; }
+  @media all and (min-width: 990px) {
+    .management-team-title-container {
+      padding: 5% 20%; } }
+  .management-team-title-container h2 {
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 2.5%; }
+
+.management-team-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #f7f7f7; }
+  @media all and (min-width: 990px) {
+    .management-team-container {
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap; } }
+  .management-team-container .ike-sutton,
+  .management-team-container .steve-altman,
+  .management-team-container .david-harper,
+  .management-team-container .tim-davranov {
+    background-color: #fff; }
+
+.single-team-member-container {
+  width: 95%;
+  margin: 2.5%;
+  padding: 25px 50px; }
+  @media all and (min-width: 990px) {
+    .single-team-member-container {
+      height: 500px;
+      width: 45%; } }
+  .single-team-member-container p {
+    font-family: sans-serif;
+    word-spacing: normal;
+    line-height: 1.9;
+    color: #3f3f3f;
+    font-size: 15px; }
+
+.name-and-position h3 {
+  color: #00aeef;
+  font-size: 24px;
+  margin-top: 0;
+  margin-bottom: 10px; }
+
+.name-and-position span {
+  color: #000000;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 1em; }
+
+.contact a {
+  color: #00aeef;
+  font-weight: 700; }
+
+@media all and (min-width: 990px) {
+  div.signup-container {
+    width: 50%;
+    max-height: 358px;
+    margin-left: 0;
+    margin-right: 0; }
+    div.signup-container div.wpcf7 {
+      padding-left: 150px; }
+  .signup-image {
+    width: 50%;
+    height: 419px;
+    position: absolute;
+    left: 50%;
+    background: url("../../assets/Backgrounds/valo-sign-up-image-1.jpg");
+    background-size: cover; } }
+
 .page-template-news .header-wrapper,
 .single-post .header-wrapper {
   background: transparent; }
@@ -2646,17 +2745,35 @@ object {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 65vh;
+  height: 70vh;
   width: 100%;
-  margin-bottom: 7%; }
+  margin-bottom: 7%;
+  background: url("../../assets/Backgrounds/clean-gray-abstract-background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 0;
+  border: 1px solid red;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  @media all and (min-width: 1000px) {
+    .contact-content-area .contact-container {
+      height: 65vh;
+      background-position: 0 -50px; } }
   .contact-content-area .contact-container .contact-image {
-    -ms-flex-preferred-size: 50%;
-        flex-basis: 50%;
-    height: auto;
-    background: url("../../assets/icons-SVG/globe2.png");
-    background-size: 700px;
-    background-repeat: no-repeat;
-    background-position: -50px -10px; }
+    display: none; }
+    @media all and (min-width: 1000px) {
+      .contact-content-area .contact-container .contact-image {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-preferred-size: 50%;
+            flex-basis: 50%;
+        height: auto;
+        background: url("../../assets/icons-SVG/globe2.png");
+        background-size: 700px;
+        background-repeat: no-repeat;
+        background-position: -50px 0px; } }
   .contact-content-area .contact-container .contact-info {
     -ms-flex-preferred-size: 50%;
         flex-basis: 50%;
@@ -2669,8 +2786,7 @@ object {
             flex-direction: column;
     -webkit-box-align: center;
         -ms-flex-align: center;
-            align-items: center;
-    margin-top: 25px; }
+            align-items: center; }
     .contact-content-area .contact-container .contact-info h1 {
       color: black;
       font-size: 40px;
@@ -2685,7 +2801,27 @@ object {
     .contact-content-area .contact-container .contact-info .contact-content {
       display: -webkit-box;
       display: -ms-flexbox;
-      display: flex; }
+      display: flex;
+      border: 1px solid red;
+      min-width: 700px;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column; }
+      @media all and (min-width: 600px) {
+        .contact-content-area .contact-container .contact-info .contact-content {
+          -webkit-box-orient: horizontal;
+          -webkit-box-direction: normal;
+              -ms-flex-direction: row;
+                  flex-direction: row;
+          -ms-flex-pack: distribute;
+              justify-content: space-around; } }
+      @media all and (min-width: 1000px) {
+        .contact-content-area .contact-container .contact-info .contact-content {
+          min-width: 600px;
+          -webkit-box-pack: center;
+              -ms-flex-pack: center;
+                  justify-content: center; } }
       .contact-content-area .contact-container .contact-info .contact-content i {
         color: #00aeef;
         font-size: 42px;
@@ -2701,6 +2837,7 @@ object {
         margin-bottom: 3px;
         padding-bottom: 3px; }
       .contact-content-area .contact-container .contact-info .contact-content .phone-address {
+        margin-left: 3%;
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
@@ -2710,7 +2847,8 @@ object {
                 flex-direction: column;
         -webkit-box-pack: justify;
             -ms-flex-pack: justify;
-                justify-content: space-between; }
+                justify-content: space-between;
+        border: 1px solid green; }
         .contact-content-area .contact-container .contact-info .contact-content .phone-address .telephone {
           display: -webkit-box;
           display: -ms-flexbox;
@@ -2727,10 +2865,13 @@ object {
           display: -ms-flexbox;
           display: flex; }
           .contact-content-area .contact-container .contact-info .contact-content .phone-address .address .address-info p {
-            margin: 0;
-            color: black;
+            margin: 2px 0;
+            font-size: 16px;
+            font-weight: 300;
+            color: #565656;
             font-family: "Roboto"; }
       .contact-content-area .contact-container .contact-info .contact-content .email {
+        margin-right: 3%;
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex; }
