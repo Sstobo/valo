@@ -1267,7 +1267,7 @@ object {
       -ms-flex-pack: center;
           justify-content: center;
   position: fixed;
-  margin-top: -34px;
+  margin-top: -44px;
   padding-top: 30px;
   background-color: white; }
   .header-wrapper .fa-mobile {
@@ -1317,7 +1317,8 @@ object {
   top: 20px !important;
   opacity: 1;
   -webkit-box-shadow: 1px 1px 4px 1px grey !important;
-          box-shadow: 1px 1px 4px 1px grey !important; }
+          box-shadow: 1px 1px 4px 1px grey !important;
+  z-index: 2000; }
   @media (min-width: 1100px) {
     #mega-menu-primary {
       -webkit-box-shadow: none !important;
@@ -1776,7 +1777,7 @@ object {
   background-color: #f7f7f7; }
   @media (min-width: 1000px) {
     .applications-security-hero {
-      height: 560px;
+      height: 590px;
       -webkit-box-orient: horizontal;
       -webkit-box-direction: normal;
           -ms-flex-direction: row;
@@ -1838,8 +1839,8 @@ object {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding-top: 120px;
-  background-color: #f0f0f0; }
+  padding-top: 110px;
+  background-color: #f7f7f7; }
   @media (min-width: 1000px) {
     .applications-transpo-hero {
       height: 540px;
@@ -1870,7 +1871,7 @@ object {
   margin-bottom: 44px;
   text-align: center; }
   .applications-transpo-post .title-blue-line {
-    width: 100px; }
+    width: 60px; }
   @media (min-width: 1000px) {
     .applications-transpo-post {
       width: 50%;
@@ -1901,7 +1902,7 @@ object {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background-color: #f0f0f0; }
+  background-color: #f7f7f7; }
   @media (min-width: 1000px) {
     .applications-transpo-hero2 {
       height: 460px;
@@ -1925,7 +1926,7 @@ object {
   text-align: center;
   margin-bottom: 48px; }
   .applications-transpo-post2 .title-blue-line {
-    width: 100px; }
+    width: 60px; }
   .applications-transpo-post2 .entry-title {
     display: none; }
   @media (min-width: 1000px) {
@@ -1944,6 +1945,268 @@ object {
     .applications-transpo-image2 {
       display: block;
       background-image: url("../../assets/icons-SVG/parking-image-1.png");
+      background-size: cover;
+      height: 460px;
+      width: 100%;
+      margin: 0 auto; } }
+
+.applications-muni-wrapper {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row; }
+
+.applications-muni-hero {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 110px;
+  background-color: #f7f7f7; }
+  @media (min-width: 1000px) {
+    .applications-muni-hero {
+      height: 530px;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row; } }
+
+.applications-muni-img {
+  display: none; }
+  @media (min-width: 1000px) {
+    .applications-muni-img {
+      display: block;
+      width: 50%;
+      height: 500px; } }
+
+.applications-muni-image {
+  background-image: url("../../assets/icons-SVG/valo-muni-skyline.jpg");
+  background-size: cover;
+  height: 420px;
+  width: 100%;
+  margin: 0 auto; }
+
+.applications-muni-post {
+  width: 100%;
+  height: auto;
+  padding: 38px 44px 0 44px;
+  margin-bottom: 44px;
+  text-align: center; }
+  .applications-muni-post .title-blue-line {
+    width: 60px; }
+  @media (min-width: 1000px) {
+    .applications-muni-post {
+      width: 50%;
+      height: 420px; }
+      .applications-muni-post p {
+        width: 90%;
+        text-align: left;
+        margin: 0 auto;
+        margin-top: 34px; } }
+
+.applications-muni-wrapper2 {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row; }
+
+.applications-muni-hero2 {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #f7f7f7; }
+  @media (min-width: 1000px) {
+    .applications-muni-hero2 {
+      height: 460px;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row; } }
+
+.applications-muni-img2 {
+  display: none; }
+  @media (min-width: 1000px) {
+    .applications-muni-img2 {
+      display: block;
+      width: 50%;
+      height: 420px; } }
+
+.applications-muni-post2 {
+  width: 100%;
+  height: auto;
+  padding: 38px 44px 0 44px;
+  text-align: center;
+  margin-bottom: 48px; }
+  .applications-muni-post2 .title-blue-line {
+    width: 60px; }
+  .applications-muni-post2 .entry-title {
+    display: none; }
+  @media (min-width: 1000px) {
+    .applications-muni-post2 {
+      width: 50%;
+      height: 480px; }
+      .applications-muni-post2 p {
+        width: 80%;
+        text-align: left;
+        margin: 0 auto;
+        margin-top: 34px; } }
+
+.applications-muni-image2 {
+  display: none; }
+  @media (min-width: 1000px) {
+    .applications-muni-image2 {
+      display: block;
+      background-image: url("../../assets/icons-SVG/valo-muni-street.jpg");
+      background-size: cover;
+      height: 460px;
+      width: 100%;
+      margin: 0 auto; } }
+
+.applications-enviro-wrapper {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row; }
+
+.applications-enviro-hero {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 110px;
+  background-color: #f7f7f7; }
+  @media (min-width: 1000px) {
+    .applications-enviro-hero {
+      height: 530px;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row; } }
+
+.applications-enviro-img {
+  display: none; }
+  @media (min-width: 1000px) {
+    .applications-enviro-img {
+      display: block;
+      width: 50%;
+      height: 500px; } }
+
+.applications-enviro-image {
+  background-image: url("../../assets/icons-SVG/valo-smart-weather.jpg");
+  background-size: cover;
+  height: 420px;
+  width: 100%;
+  margin: 0 auto; }
+
+.applications-enviro-post {
+  width: 100%;
+  height: auto;
+  padding: 38px 44px 0 44px;
+  margin-bottom: 44px;
+  text-align: center; }
+  .applications-enviro-post .title-blue-line {
+    width: 60px; }
+  @media (min-width: 1000px) {
+    .applications-enviro-post {
+      width: 50%;
+      height: 420px; }
+      .applications-enviro-post p {
+        width: 90%;
+        text-align: left;
+        margin: 0 auto;
+        margin-top: 34px; } }
+
+.applications-enviro-wrapper2 {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row; }
+
+.applications-enviro-hero2 {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #f7f7f7; }
+  @media (min-width: 1000px) {
+    .applications-enviro-hero2 {
+      height: 460px;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row; } }
+
+.applications-enviro-img2 {
+  display: none; }
+  @media (min-width: 1000px) {
+    .applications-enviro-img2 {
+      display: block;
+      width: 50%;
+      height: 420px; } }
+
+.applications-enviro-post2 {
+  width: 100%;
+  height: auto;
+  padding: 38px 44px 0 44px;
+  text-align: center;
+  margin-bottom: 48px; }
+  .applications-enviro-post2 .title-blue-line {
+    width: 60px; }
+  .applications-enviro-post2 .entry-title {
+    display: none; }
+  @media (min-width: 1000px) {
+    .applications-enviro-post2 {
+      width: 50%;
+      height: 480px; }
+      .applications-enviro-post2 p {
+        width: 80%;
+        text-align: left;
+        margin: 0 auto;
+        margin-top: 34px; } }
+
+.applications-enviro-image2 {
+  display: none; }
+  @media (min-width: 1000px) {
+    .applications-enviro-image2 {
+      display: block;
+      background-image: url("../../assets/icons-SVG/valo-muni-skyline.jpg");
       background-size: cover;
       height: 460px;
       width: 100%;
