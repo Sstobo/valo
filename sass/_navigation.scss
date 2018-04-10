@@ -121,15 +121,48 @@ a:active {
   .site-main & {
     overflow: hidden;
   }
+  display: flex;
+  justify-content: space-between;
 
+  .nav-links {
+    padding: 20px 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    @include tablet {
+      flex-direction: row;
+    }
+  }
+  i {
+    display: none;
+    @include tablet {
+      display: block;
+    }
+  }
+  .post-nav-direction-header {
+    display: block;
+    @include font-size(0.8125);
+    text-transform: uppercase;
+    color: #aaa;
+  }
+  .post-title {
+    @include font-size(1.25);
+  }
   .nav-previous {
-    float: left;
-    width: 50%;
+    text-align: center;
+    margin-bottom: 20px;
+    @include tablet {
+      margin-bottom: 0;
+      text-align: left;
+    }
   }
 
   .nav-next {
-    float: right;
-    text-align: right;
-    width: 50%;
+    text-align: center;
+    @include tablet {
+      margin-left: auto;
+      text-align: right;
+    }
   }
 }

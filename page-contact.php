@@ -16,7 +16,7 @@ get_header(); ?>
 
 		
 			<section class="contact-info">
-				<h1>Connect With <span>Valo</span></h1>
+				<h1>Connect With <span class="uppercase">Valo</span></h1>
 
 
 				<div class="contact-content">

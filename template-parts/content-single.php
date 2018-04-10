@@ -13,7 +13,7 @@
 			<div class="article-image-wrapper">
 				<?php the_post_thumbnail( 'full' ); ?>
 				<div class="entry-meta">
-					<?php red_starter_posted_on(); ?> 
+					<?php posted_on(); ?> 
 				</div><!-- .entry-meta -->
 			</div>
 		<?php endif; ?>
