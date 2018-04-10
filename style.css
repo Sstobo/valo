@@ -2397,10 +2397,12 @@ object {
 .page-template-news .header-logo,
 .page-template-news .header-logo-image,
 .page-template-news .header-contact-desktop,
+.page-template-news .fa-mobile,
 .single-post .main-navigation,
 .single-post .header-logo,
 .single-post .header-logo-image,
-.single-post .header-contact-desktop {
+.single-post .header-contact-desktop,
+.single-post .fa-mobile {
   background-color: transparent; }
 
 .hero-container-dark {
@@ -2601,7 +2603,7 @@ object {
     position: relative; }
   .news-page-flex-container .entry-content {
     margin: 0;
-    width: 95%; }
+    width: 90%; }
   .news-page-flex-container article {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2685,13 +2687,10 @@ object {
         -ms-flex-align: center;
             align-items: center;
     width: 100%; }
-    @media all and (min-width: 800px) {
-      .request-consultation-container .wpcf7-form {
-        min-width: 800px; } }
     @media all and (min-width: 600px) {
       .request-consultation-container .wpcf7-form {
         display: block;
-        min-width: 600px; } }
+        min-width: 530px; } }
     @media all and (min-width: 1000px) {
       .request-consultation-container .wpcf7-form {
         width: 90%;

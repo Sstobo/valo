@@ -9,7 +9,8 @@
   .main-navigation,
   .header-logo,
   .header-logo-image,
-  .header-contact-desktop {
+  .header-contact-desktop,
+  .fa-mobile {
     background-color: transparent;
   }
 }
@@ -171,7 +172,7 @@
 
   .entry-content {
     margin: 0;
-    width: 95%;
+    width: 90%;
   }
 
   article {
@@ -232,12 +233,9 @@
     flex-direction: column;
     align-items: center;
     width: 100%;
-    @include footer_row {
-      min-width: 800px;
-    }
     @include tablet {
       display: block;
-      min-width: 600px;
+      min-width: 530px;
     }
     @include desktop {
       width: 90%;
