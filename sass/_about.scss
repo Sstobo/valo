@@ -86,12 +86,14 @@
   }
 }
 @media all and (min-width: 990px) {
-  div.signup-container {
-    width: 50%;
-    max-height: 358px;
-    margin: 30px 0;
-    div.wpcf7 {
-      padding-left: 150px;
+  .page-template-about_team {
+    .signup-container {
+      width: 50%;
+      max-height: 358px;
+      margin: 30px 0;
+      .wpcf7 {
+        padding-left: 150px;
+      }
     }
   }
   .signup-image {
@@ -103,4 +105,12 @@
     background-size: cover;
     background-position: center;
   }
+}
+
+/* About Company */
+
+.placeholder {
+  background-image: url('../../assets/Backgrounds/placeholder.jpg');
+  background-size: cover;
+  background-position: center;
 }
