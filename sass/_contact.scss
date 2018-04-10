@@ -1,0 +1,112 @@
+.contact-content-area {
+  .entry-title {
+    display: none;
+  }
+
+  .contact-container {
+    display: flex;
+    height: 65vh;
+    width: 100%;
+    margin-bottom: 7%;
+
+    .contact-image {
+      flex-basis: 50%;
+      height: auto;
+      background: url('../../assets/icons-SVG/globe2.png');
+      background-size: 700px;
+      background-repeat: no-repeat;
+      background-position: -50px -10px;
+    }
+
+    .contact-info {
+      flex-basis: 50%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 25px;
+
+      h1 {
+        color: black;
+        font-size: 40px;
+        margin-bottom: 50px;
+      }
+      h1:after {
+        content: '';
+        border-bottom: 4px solid $color__accent;
+        width: 110px;
+        display: block;
+        margin: 0 auto;
+        padding-top: 20px;
+      }
+
+      .contact-content {
+        display: flex;
+
+        i {
+          color: $color__accent;
+          font-size: 42px;
+          padding-right: 30%;
+          margin-top: 4px;
+        }
+
+        .contact-title {
+          color: black;
+          font-family: $font__main;
+          font-weight: 800;
+          font-size: 16px;
+          letter-spacing: 0.5px;
+          margin: 0;
+          margin-bottom: 3px;
+          padding-bottom: 3px;
+        }
+
+        .phone-address {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          .telephone {
+            display: flex;
+            margin-bottom: 15%;
+
+            .telephone-info {
+              p {
+                margin: 0;
+              }
+
+              #phone {
+                color: $color__accent;
+                font-size: 22px;
+                font-weight: bold;
+              }
+            } //t-info
+          } //telphone
+          .address {
+            display: flex;
+            .address-info {
+              p {
+                margin: 0;
+                color: black;
+                font-family: $font__main;
+              }
+            } //address-info
+          } //address
+        } //phone-address
+        .email {
+          display: flex;
+          .email-info {
+            p {
+              margin: 0;
+            }
+            a {
+              display: block;
+              font-family: $font__main;
+              font-weight: 600;
+              color: $color__accent;
+              margin: 3px 0;
+            }
+          } //email-info
+        } //email
+      }
+    }
+  }
+}
