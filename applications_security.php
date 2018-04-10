@@ -11,16 +11,17 @@ get_header(); ?>
 		<main id="main" class="site-main" role="main">
 	</div class="applications-security-wrapper">
 		<div class="applications-security-hero">
+		<div class="applications-security-post">
+			<h1>Smart Security</h1>
+			<div class="title-blue-line"></div>
+			<p>LED street lights create safer environments by lighting common areas. Cameras and motion sensors connected to Valo’s smart street lights can automatically turn lights on or off depending if people are in the vicinity. Video monitoring and facial recognition supports security and law enforcement by identifying potential threats or infractions.</p>
+		</div>
+
 			<div class="applications-security-img">
+			<div class="applications-security-image"></div>
 			</div>
 
-			<div class="applications-security-post">
-			<h1><?php echo esc_html( get_the_title() ); ?></h1>
-			<div class="title-blue-line"></div>
-				<?php while ( have_posts() ) : the_post(); ?>
-				<?php get_template_part( 'template-parts/content', 'page' ); ?>
-				<?php endwhile; // End of the loop. ?>
-			</div>
+			
 		</div>
 	</div>
 	</main>

@@ -19,7 +19,7 @@
       header.animate(
         {
           opacity: 0.9,
-          height: '120px'
+          height: '140px',
         },
         300
       );
