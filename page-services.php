@@ -29,41 +29,53 @@ get_header(); ?>
 
           <div class="add-links">
             <div class="paid-add">
-              <div class="title">
+              <div class="title no-border">
                 <p>Paid Advertising</p>
-                <i class="fa fa-chevron-up up" aria-hidden="true"></i>
-                <i class="fa fa-chevron-down down hide" aria-hidden="true"></i>
+                <div class="service-icon-container up ">
+                  <i class="fa fa-chevron-up " aria-hidden="true"></i>
+                </div>
 
+                <div class="service-icon-container down hide">
+                  <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                </div>
               </div>
 
               <div class="text height">
-                Paid adverts are displayed on cell phones and mobile devices when accessing the free public WiFi.
+                <p>Paid adverts are displayed on cell phones and mobile devices when accessing the free public WiFi.</p>
               </div>
             </div> <!-- close paid add-->
 
              <div class="click-add">
              <div class="title">
                 <p>Click-Through Advertising</p>
-                <i class="fa fa-chevron-up up hide" aria-hidden="true"></i>
-                <i class="fa fa-chevron-down down" aria-hidden="true"></i>
+                <div class="service-icon-container up hide">
+                  <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                </div>
+                <div class="service-icon-container down">
+                  <i class="fa fa-chevron-down " aria-hidden="true"></i>
+                </div>
 
               </div>
 
               <div class="text">
-                Paid advertising when consumers click advertisements to get more information.
+                <p>Paid advertising when consumers click advertisements to get more information.</p>
               </div>
             </div> <!-- close click add-->
 
             <div class="beacon-add">
                <div class="title">
                 <p>Beacon Advertising</p>
-                <i class="fa fa-chevron-up up hide" aria-hidden="true"></i>
-                <i class="fa fa-chevron-down down" aria-hidden="true"></i>
+                <div class="service-icon-container up hide">
+                  <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                </div>
+                <div class="service-icon-container down">
+                  <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                </div>
 
               </div>
 
               <div class="text">
-                Paid ads where advertisers push coupons and adverts based on location and the proximity to services being offered.
+                <p>Paid ads where advertisers push coupons and adverts based on location and the proximity to services being offered.</p>
               </div>
             </div> <!-- close beacon add-->
 
