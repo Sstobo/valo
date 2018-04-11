@@ -3,11 +3,72 @@
     display: none;
   }
 
-  .wifi {
-    background: $color__background-pre;
+  font-family: $font__main;
+
+  h3 {
+    color: $color__accent;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+  }
+  p {
+    color: black;
+    font-size: 15px;
+    line-height: 30px;
   }
 
+  .services-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+
+    p {
+      max-width: 60%;
+      text-align: center;
+    }
+  }
+
+  .wifi {
+    background: $color__background-pre;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0;
+
+    #wifi-image {
+      width: 100px;
+    }
+
+    p {
+      margin: 0;
+      margin-top: 15px;
+      max-width: 60%;
+      text-align: center;
+    }
+
+    h1 {
+      margin: 0;
+    }
+  } //wifi
+
   .adverts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+    .add-para {
+      max-width: 70%;
+      align-self: center;
+    }
+    #add-deliv {
+      margin-right: 8%;
+      font-family: $font__main;
+      font-weight: bold;
+      color: black;
+    }
     .add-links {
       margin-left: 15%;
       margin-right: 15%;
@@ -64,6 +125,7 @@
           margin: 0;
           margin-bottom: 10px;
           padding-bottom: 10px;
+          line-height: 24px;
         }
       }
 
@@ -77,6 +139,83 @@
       .height {
         max-height: 80px;
         transition: max-height 0.4 ease-in;
+      }
+    } //addlinks
+  } //adverts
+
+  .partner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .partner-header-section {
+      padding: 40px 0;
+      background: $color__background-pre;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      p {
+        max-width: 70%;
+      }
+      h1 {
+        max-width: 70%;
+        text-align: center;
+      }
+      #bulb-image {
+        width: 100px;
+      }
+    }
+    .partner-image-section {
+      display: flex;
+      flex-direction: column;
+
+      .network {
+        background: $color__background-team;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 30px 0;
+        p {
+          max-width: 70%;
+          text-align: center;
+        }
+        #street-light-image {
+          width: 100px;
+        }
+      } //network
+      .cost {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 30px 0;
+
+        #cost-image {
+          width: 100px;
+        }
+
+        p {
+          max-width: 70%;
+          text-align: center;
+        }
+      } //cost
+      .city {
+        padding: 30px 0;
+        background: $color__background-team;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        #city-image {
+          width: 100px;
+        }
+        p {
+          max-width: 70%;
+          text-align: center;
+        }
       }
     }
   }
