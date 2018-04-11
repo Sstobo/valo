@@ -1,17 +1,17 @@
-.signup-wrapper {
-  width: 100%;
-  height: 400px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+#wpcf7-f5-o1 {
+  padding-left: 0;
 }
+
 .signup-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin-top: 34px;
+
+  @include footer_row {
+    width: auto;
+  }
 
   #form-title {
     font-family: $font__main;
@@ -43,11 +43,15 @@
 
     @include footer_row {
       min-width: 800px;
+      align-items: center;
     }
 
     @include tablet {
       display: block;
       min-width: 600px;
+    }
+
+    @include large {
     }
 
     input {
