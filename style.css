@@ -2303,25 +2303,19 @@ h2 {
     background-size: cover;
     background-position: center; } }
 
-<<<<<<< HEAD
-.page-template-news .signup-container,
-.page-template-news .signup-wrapper,
-.single-post .signup-container,
-.single-post .signup-wrapper {
-=======
 /* About Company */
 .placeholder {
   background-image: url("../../assets/Backgrounds/placeholder.jpg");
   background-size: cover;
   background-position: center; }
 
-.page-template-news .header-wrapper .signup-container,
-.single-post .header-wrapper .signup-container {
->>>>>>> 5b8c1f5d2b2db9f23c808df39ae18a8d200ae112
+.page-template-news .signup-container,
+.page-template-news .signup-wrapper,
+.single-post .signup-container,
+.single-post .signup-wrapper {
   display: none; }
 
-.page-template-news .hero-container-dark,
-.single-post .hero-container-dark {
+.hero-container-dark {
   background-color: #000;
   background: url("../../assets/Backgrounds/footer-background.jpg");
   background-position: center;
@@ -2339,13 +2333,11 @@ h2 {
       -ms-flex-align: center;
           align-items: center; }
   @media all and (min-width: 600px) {
-    .page-template-news .hero-container-dark,
-    .single-post .hero-container-dark {
+    .hero-container-dark {
       height: 40vh;
       max-height: 400px; } }
 
-.page-template-news .news-categories,
-.single-post .news-categories {
+.news-categories {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2361,25 +2353,28 @@ h2 {
     .news-categories {
       max-width: 600px; } }
 
-<<<<<<< HEAD
+.news-categories {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 90%;
+  max-width: 400px;
+  text-align: center;
+  margin: 60px auto; }
+
 .tax-filter {
-  margin: 10px 20px 10px 0; }
-  .tax-filter:hover {
-=======
-.page-template-news .tax-filter,
-.single-post .tax-filter {
   margin: 10px 20px; }
-  .page-template-news .tax-filter:hover,
-  .single-post .tax-filter:hover {
->>>>>>> 5b8c1f5d2b2db9f23c808df39ae18a8d200ae112
+  .tax-filter:hover {
     border-bottom: 1px solid #00aeef; }
 
-.page-template-news .active-filter,
-.single-post .active-filter {
+.active-filter {
   border-bottom: 1px solid #00aeef; }
 
-.page-template-news .filtered-posts,
-.single-post .filtered-posts {
+.filtered-posts {
   margin: 0 auto;
   width: 95%;
   display: -webkit-box;
@@ -2396,8 +2391,7 @@ h2 {
       -ms-flex-direction: column;
           flex-direction: column; }
   @media all and (min-width: 770px) {
-    .page-template-news .filtered-posts,
-    .single-post .filtered-posts {
+    .filtered-posts {
       -webkit-box-orient: horizontal;
       -webkit-box-direction: normal;
           -ms-flex-direction: row;
@@ -2411,13 +2405,11 @@ h2 {
       align-items: flex-start;
       -ms-flex-wrap: wrap;
           flex-wrap: wrap; } }
-  .page-template-news .filtered-posts article,
-  .single-post .filtered-posts article {
+  .filtered-posts article {
     margin: 20px 20px;
     width: 90%; }
     @media all and (min-width: 770px) {
-      .page-template-news .filtered-posts article,
-      .single-post .filtered-posts article {
+      .filtered-posts article {
         width: 27vw;
         min-width: 300px; } }
 
