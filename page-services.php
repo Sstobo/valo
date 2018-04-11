@@ -11,11 +11,16 @@ get_header(); ?>
 		<main id="main" class="site-main" role="main">
       <section class="content-wrapper">
 
+       <section class="service-wrapper">
         <section class="services-header">
+          
           <h1>Services</h1>
           <p><span class="uppercase">valo’s</span> street lights and Smart City platform provide beneficial opportunities for both cities and their citizens. The advanced technology in <spanclass="uppercase" >Valo’s</span> street lights and controllers allow cities to save money and resources, while offering convenient amenities to city inhabitants. The main services offered by <span class="uppercase">Valo</span> are:</p>
+         
 
         </section> <!-- close services header -->
+        <div class="service-image"></div>
+      </section> <!-- service wrapper-->
 
         <section class="wifi">
           <div class="wifi-image">
@@ -26,7 +31,12 @@ get_header(); ?>
           <p>Free public WiFi access can be delivered with Valo’s gigabit WiFi unit which creates wireless hotspots where people can access the internet at no cost. Public WiFi has many benefits for cities and users, such as convenient access to services, support for tourism, and communication channels for disaster relief.</p>
         </section><!-- close wifi-->
 
-        <section class="adverts">
+
+        <section class="advert-wrapper">
+          <div class="advert-image"></div>
+        
+          <section class="adverts">
+         
           <p class="add-para">With the <span class="uppercase">Valo</span> platform, cities bare no cost for providing public WiFi as costs are covered via advertising revenue. WiFi enabled street lights are estimated to gain $450 USD yearly in ad revenue per light. This revenue is then shared between the city (20%) and Valo (80%).</p>
           <p id="add-deliv">Advertising is delivered in three ways: </p>
 
@@ -86,6 +96,7 @@ get_header(); ?>
 
 
         </section><!--close adverts-->
+    </section> <!-- close ad wrapper --> 
 
         <section class="partner">
           <div class="partner-header-section">
