@@ -3,80 +3,302 @@
     display: none;
   }
 
-  .wifi {
-    background: $color__background-pre;
+  font-family: $font__main;
+
+  h3 {
+    color: $color__accent;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+  }
+  p {
+    color: black;
+    font-size: 15px;
+    line-height: 30px;
+  }
+  .service-wrapper {
+    display: flex;
+
+    .services-header {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 40px 0;
+
+      @include desktop {
+        flex-basis: 50%;
+        align-items: flex-start;
+        justify-content: flex-start;
+        text-align: left;
+        padding: 0 0 80px 7%;
+      }
+
+      p {
+        max-width: 60%;
+        text-align: center;
+
+        @include desktop {
+          text-align: left;
+          max-width: 80%;
+        }
+      }
+    }
+    .service-image {
+      display: none;
+      @include desktop {
+        flex-basis: 50%;
+        margin: 20px 5% 2% 5%;
+        display: flex;
+        max-width: 500px;
+        max-height: 500px;
+        min-width: 400px;
+        min-height: 400px;
+        background: gray;
+      }
+    }
   }
 
-  .adverts {
-    .add-links {
-      margin-left: 15%;
-      margin-right: 15%;
+  .wifi {
+    background: $color__background-pre;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0;
 
-      .title {
+    #wifi-image {
+      width: 100px;
+    }
+
+    p {
+      margin: 0;
+      margin-top: 15px;
+      max-width: 60%;
+      text-align: center;
+    }
+
+    h1 {
+      margin: 0;
+      @include desktop {
+        font-size: 30px;
+      }
+    }
+  } //wifi
+
+  .advert-wrapper {
+    display: flex;
+    @include desktop {
+      margin-top: 50px;
+    }
+    .advert-image {
+      display: none;
+      @include desktop {
+        flex-basis: 50%;
         display: flex;
-        justify-content: space-between;
-        align-content: center;
-        z-index: 1000;
-        border-top: 1px solid $color__background-screen;
+        width: 400px;
+        height: 400px;
+        background: gray;
+        margin-left: 4%;
+        min-width: 400px;
+        min-height: 400px;
+        max-width: 500px;
+        max-height: 500px;
+      }
+    }
+    .adverts {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 40px 0;
 
-        p {
-          color: black;
-          font-family: $font__main;
-          font-size: 18px;
-          text-transform: uppercase;
-          margin: 10px 0;
+      @include desktop {
+        flex-basis: 50%;
+      }
+
+      .add-para {
+        max-width: 70%;
+        align-self: center;
+
+        @include desktop {
+          margin-top: 0;
         }
-        .service-icon-container:not(.hide) {
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          align-self: center;
-          width: 15px;
-          height: 15px;
-          text-align: center;
-          background: #e6e6e6;
+      }
+      #add-deliv {
+        margin-left: 15%;
+        font-family: $font__main;
+        font-weight: bold;
+        color: black;
+        align-self: flex-start;
+        @include desktop {
+          margin-top: 0;
+          margin-bottom: 0;
+        }
+      }
+      .add-links {
+        margin-left: 15%;
+        margin-right: 15%;
 
-          i {
-            font-size: 10px;
+        .title {
+          display: flex;
+          justify-content: space-between;
+          align-content: center;
+          z-index: 1000;
+          border-top: 1px solid $color__background-screen;
+
+          p {
+            color: black;
+            font-family: $font__main;
+            font-size: 18px;
+            text-transform: uppercase;
+            margin: 10px 0;
+          }
+          .service-icon-container:not(.hide) {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            align-self: center;
+            width: 15px;
+            height: 15px;
+            text-align: center;
+            background: #e6e6e6;
+
+            i {
+              font-size: 10px;
+            }
           }
         }
-      }
-      .title:hover {
-        cursor: pointer;
-        color: $color__accent;
-
-        p {
+        .title:hover {
+          cursor: pointer;
           color: $color__accent;
+
+          p {
+            color: $color__accent;
+          }
+        }
+        .text {
+          max-height: 0;
+          overflow: hidden;
+          transition: max-height 0.4s ease-out;
+
+          font-size: 15px;
+          line-height: 25px;
+          font-family: $font__main;
+          color: black;
+          padding-bottom: 5px;
+
+          p {
+            margin: 0;
+            margin-bottom: 10px;
+            padding-bottom: 10px;
+            line-height: 24px;
+
+            @include desktop {
+              margin-bottom: 0;
+              padding-bottom: 0;
+            }
+          }
+        }
+
+        .no-border {
+          border-top: none;
+        }
+
+        .hide {
+          display: none;
+        }
+        .height {
+          max-height: 80px;
+          transition: max-height 0.4 ease-in;
+        }
+      } //addlinks
+    } //adverts
+  }
+
+  .partner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .partner-header-section {
+      padding: 40px 0;
+      background: $color__background-pre;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      p {
+        max-width: 70%;
+        text-align: center;
+        @include tablet {
+          max-width: 60%;
         }
       }
-      .text {
-        max-height: 0;
-        overflow: hidden;
-        transition: max-height 0.4s ease-out;
+      h1 {
+        max-width: 70%;
+        font-size: 30px;
+        text-align: center;
+        @include tablet {
+          margin: 4px 0;
+        }
+      }
+      #bulb-image {
+        width: 100px;
+      }
+    }
+    .partner-image-section {
+      display: flex;
+      flex-direction: column;
+      @include footer_row {
+        flex-direction: row;
+      }
 
-        font-size: 15px;
-        line-height: 25px;
-        font-family: $font__main;
-        color: black;
-        padding-bottom: 5px;
+      .network {
+        flex-basis: 33.3%;
+        background: $color__background-team;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 30px 0;
+        p {
+          max-width: 70%;
+          text-align: center;
+        }
+        #street-light-image {
+          width: 100px;
+        }
+      } //network
+      .cost {
+        flex-basis: 33.3%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 30px 0;
+
+        #cost-image {
+          width: 100px;
+        }
 
         p {
-          margin: 0;
-          margin-bottom: 10px;
-          padding-bottom: 10px;
+          max-width: 70%;
+          text-align: center;
         }
-      }
+      } //cost
+      .city {
+        flex-basis: 33.3%;
+        padding: 30px 0;
+        background: $color__background-team;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
 
-      .no-border {
-        border-top: none;
-      }
-
-      .hide {
-        display: none;
-      }
-      .height {
-        max-height: 80px;
-        transition: max-height 0.4 ease-in;
+        #city-image {
+          width: 100px;
+        }
+        p {
+          max-width: 70%;
+          text-align: center;
+        }
       }
     }
   }
