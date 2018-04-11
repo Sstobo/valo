@@ -1,0 +1,36 @@
+.content-area-services {
+  .entry-title {
+    display: none;
+  }
+
+  .wifi {
+    background: $color__background-pre;
+  }
+
+  .adverts {
+    .add-links {
+      .title {
+        display: flex;
+        border: 1px solid black;
+        z-index: 1000;
+        p {
+          color: black;
+          font-family: $font__main;
+          text-transform: uppercase;
+        }
+      }
+      .text {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.3s ease-out;
+      }
+      .hide {
+        display: none;
+      }
+      .height {
+        max-height: 20px;
+        transition: all 0.3 ease-in;
+      }
+    }
+  }
+}

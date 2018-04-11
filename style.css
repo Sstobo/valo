@@ -2935,6 +2935,37 @@ h2 {
   background-image: url("../../assets/icons-SVG/investors-picture.jpg");
   background-size: cover; }
 
+.content-area-services .entry-title {
+  display: none; }
+
+.content-area-services .wifi {
+  background: #eee; }
+
+.content-area-services .adverts .add-links .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 1px solid black;
+  z-index: 1000; }
+  .content-area-services .adverts .add-links .title p {
+    color: black;
+    font-family: "Roboto";
+    text-transform: uppercase; }
+
+.content-area-services .adverts .add-links .text {
+  max-height: 0;
+  overflow: hidden;
+  -webkit-transition: max-height 0.3s ease-out;
+  transition: max-height 0.3s ease-out; }
+
+.content-area-services .adverts .add-links .hide {
+  display: none; }
+
+.content-area-services .adverts .add-links .height {
+  max-height: 20px;
+  -webkit-transition: all 0.3 ease-in;
+  transition: all 0.3 ease-in; }
+
 #wpcf7-f5-o1 {
   padding-left: 0; }
 
