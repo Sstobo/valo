@@ -13,6 +13,9 @@ get_header(); ?>
 				<section class="hero-container-dark">
 					
 					<h1 class="header-white">News</h1>
+					<div>
+						<a class="news-hero-links" href="<?php echo esc_url( home_url( '/' ));?>">Home</a><span>/</span><span class="news-hero-links">News</span>
+					</div>
 				</section>
 
 				<section class="articles-container">

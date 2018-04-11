@@ -162,6 +162,11 @@
   flex-direction: column;
   align-items: center;
 
+  .copy-top {
+    display: flex;
+    margin-right: 2%;
+  }
+
   @include footer_row {
     flex-direction: row;
     justify-content: space-between;
@@ -178,6 +183,7 @@
   #contact-copy {
     @include footer_row {
       padding-right: 2%;
+      width: auto;
     }
   }
 }

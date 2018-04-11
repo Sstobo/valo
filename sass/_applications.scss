@@ -1,12 +1,18 @@
 // SECURITY
-h1 {
-    color: black;
-    font-size: 38px;
-}
-h2 {
-    color: black;
-    font-size: 28px;
-}
+    h1 {
+        color: black;
+        font-size: 28px;
+        @media (min-width: $desktop_width) {
+            font-size: 38px;
+        }
+    }
+    h2 {
+        color: black;
+        font-size: 20px;
+        @media (min-width: $desktop_width) {
+            font-size: 28px;
+        }
+    }
     .applications-security-wrapper {
         width: 100%;
         display: flex;
@@ -16,14 +22,15 @@ h2 {
     }
     .applications-security-hero{
         width: 100%;
-        height: 1100px;
+        height: 1000px;
         display: flex;
         flex-direction: column;
-        padding-top: 160px;
+        justify-content: center;
+        align-items: center;
+        padding-top: 130px;
         background-color: rgb(247, 247, 247);
         @media (min-width: $desktop_width) {
-            height: 590px;
-           
+            height: 590px; 
             flex-direction: row;
         }
     }
@@ -82,7 +89,7 @@ h2 {
         padding-top: 110px;
         background-color: rgb(247, 247, 247);
         @media (min-width: $desktop_width) {
-            height: 560px;
+            height: 590px;
             flex-direction: row;
         }
     }
@@ -91,19 +98,19 @@ h2 {
         @media (min-width: $desktop_width) {
         display: block;
             width: 50%;
-            height: 450px;
+            height: 480px;
     }
     }
     .applications-transpo-image {
     background-image: url("../../assets/icons-SVG/Valo-Smart-Transportation.jpg");
     background-size: cover;
-    height: 450px;
+    height: 480px;
     width: 100%;
     margin: 0 auto;
     }
     .applications-transpo-post {
         width: 100%;
-        height: auto;
+        height: 500px;
         padding: 38px 44px 0 44px;
         margin-bottom: 44px;
         text-align: center;
@@ -111,10 +118,11 @@ h2 {
             width: 60px;
         }
         @media (min-width: $desktop_width) {
+            padding: 38px 24px 0 24px;
             width: 50%;
-            height: 420px;
+            height: 460px;
             p {
-                width: 94%;
+                width: 98%;
                 text-align: left;
                 margin: 0 auto;
                 margin-top: 34px;
@@ -145,7 +153,7 @@ h2 {
         @media (min-width: $desktop_width) {
         display: block;
             width: 50%;
-            height: 420px;
+            height: 460px;
     }
     }
     .applications-transpo-post2 {
@@ -161,10 +169,11 @@ h2 {
             display:none;
             }
         @media (min-width: $desktop_width) {
+            padding: 38px 24px 0 24px;
             width: 50%;
-            height: 480px;
+            height: 460px;
             p {
-                width: 94%;
+                width: 98%;
                 text-align: left;
                 margin: 0 auto;
                 margin-top: 34px;
@@ -199,7 +208,7 @@ h2 {
         padding-top: 110px;
         background-color: rgb(247, 247, 247);
         @media (min-width: $desktop_width) {
-            height: 530px;
+            height: 590px;
             flex-direction: row;
         }
     }
@@ -208,13 +217,13 @@ h2 {
         @media (min-width: $desktop_width) {
         display: block;
             width: 50%;
-            height: 500px;
+            height: 590px;
     }
     }
     .applications-muni-image {
     background-image: url("../../assets/icons-SVG/valo-muni-skyline.jpg");
     background-size: cover;
-    height: 420px;
+    height: 480px;
     width: 100%;
     margin: 0 auto;
     }
@@ -228,10 +237,11 @@ h2 {
             width: 60px;
         }
         @media (min-width: $desktop_width) {
+            padding: 38px 24px 0 24px;
             width: 50%;
-            height: 420px;
+            height: 460px;
             p {
-                width: 94%;
+                width: 98%;
                 text-align: left;
                 margin: 0 auto;
                 margin-top: 34px;
@@ -253,7 +263,7 @@ h2 {
         flex-direction: column;
         background-color: rgb(247, 247, 247);
         @media (min-width: $desktop_width) {
-            height: 460px;
+            height: 480px;
             flex-direction: row;
         }
     }
@@ -262,7 +272,7 @@ h2 {
         @media (min-width: $desktop_width) {
         display: block;
             width: 50%;
-            height: 420px;
+            height: 480px;
     }
     }
     .applications-muni-post2 {
@@ -275,10 +285,11 @@ h2 {
             width: 60px;
         }   
         @media (min-width: $desktop_width) {
+            padding: 38px 24px 0 24px;
             width: 50%;
-            height: 480px;
+            height: 460px;
             p {
-                width: 94%;
+                width: 98%;
                 text-align: left;
                 margin: 0 auto;
                 margin-top: 34px;
@@ -294,7 +305,7 @@ h2 {
         display: block;
         background-image: url("../../assets/icons-SVG/valo-muni-street.jpg");
         background-size: cover;
-        height: 460px;
+        height: 480px;
         width: 100%;
         margin: 0 auto;
         }
@@ -314,7 +325,7 @@ h2 {
         padding-top: 110px;
         background-color: rgb(247, 247, 247);
         @media (min-width: $desktop_width) {
-            height: 530px;
+            height: 580px;
             flex-direction: row;
         }
     }
@@ -323,13 +334,13 @@ h2 {
         @media (min-width: $desktop_width) {
         display: block;
             width: 50%;
-            height: 500px;
+            height: 580px;
     }
     }
     .applications-enviro-image {
     background-image: url("../../assets/icons-SVG/valo-smart-weather.jpg");
     background-size: cover;
-    height: 420px;
+    height: 470px;
     width: 100%;
     margin: 0 auto;
     }
@@ -343,10 +354,11 @@ h2 {
             width: 60px;
         }
         @media (min-width: $desktop_width) {
+            padding: 38px 24px 0 24px;
             width: 50%;
-            height: 420px;
+            height: 460px;
             p {
-                width: 94%;
+                width: 98%;
                 text-align: left;
                 margin: 0 auto;
                 margin-top: 34px;
@@ -368,7 +380,7 @@ h2 {
         flex-direction: column;
         background-color: rgb(247, 247, 247);
         @media (min-width: $desktop_width) {
-            height: 460px;
+            height: 480px;
             flex-direction: row;
         }
     }
@@ -377,7 +389,7 @@ h2 {
         @media (min-width: $desktop_width) {
         display: block;
             width: 50%;
-            height: 420px;
+            height:480px;
     }
     }
     .applications-enviro-post2 {
@@ -393,10 +405,11 @@ h2 {
             display:none;
             }
         @media (min-width: $desktop_width) {
+            padding: 38px 24px 0 24px;
             width: 50%;
-            height: 480px;
+            height: 460px;
             p {
-                width: 94%;
+                width: 98%;
                 text-align: left;
                 margin: 0 auto;
                 margin-top: 34px;
@@ -412,7 +425,7 @@ h2 {
         display: block;
         background-image: url("../../assets/icons-SVG/valo-muni-skyline.jpg");
         background-size: cover;
-        height: 460px;
+        height: 480px;
         width: 100%;
         margin: 0 auto;
         }
@@ -423,35 +436,49 @@ h2 {
 .applications-wrapper {
     height: 100%;
     width: 100vw;
-    padding-top: 110px;
+    padding-top: 150px;
 }
 .applications-hero {
     width: 100%;
     text-align: center;
     margin-bottom: 44px;
     padding: 12px;
-    height: 500px;
+    height: 300px;
     display: flex;
     flex-direction: row;
+    @media (min-width: $desktop_width) {
+        height: 500px;
+    }
     .applications-hero-wrapper {
         padding: 24px;
         @media (min-width: $desktop_width) {
             display: block;
-            height: 90%;
+            height: 500px;
             width: 50%;
             margin-right: 48px;
             text-align: left;
-            padding: 44px 194px 0 124px;
+            padding: 0px 64px 0 24px;
+        }
+        @media (min-width: 1300px) {
+            display: block;
+            height: 500px;
+            width: 50%;
+            margin-right: 48px;
+            text-align: left;
+            padding: 14px 14px 0 124px;
               
     }
 }
     .applications-hero-img {
         display: none;
         @media (min-width: $desktop_width) {
+            background-image: url("../../assets/icons-SVG/valo-applications.jpg");
+            background-size: cover;
             display: block;
             height: 90%;
             width: 40%;
             background-color: grey;
+        
         }
     }
     @media (min-width: $desktop_width) {
@@ -483,10 +510,14 @@ h2 {
             margin-bottom: 14px;
         }
         h2 {
+            min-height: 40px;
             text-align: center;
             width: 60%;
             margin: 0 auto;
             margin-bottom: 24px;
+            @media (min-width: $desktop_width) {
+                min-height: 80px;
+            }
         }
     }
     .applications-platform {
@@ -507,11 +538,15 @@ h2 {
             margin-bottom: 14px;
         }
         h2 {
+            min-height: 40px;
             text-align: center;
             width: 60%;
             margin: 0 auto;
             margin-bottom: 14px;
             margin-bottom: 24px;
+            @media (min-width: $desktop_width) {
+                min-height: 80px;
+            }
         }
     }
     .applications-cameras {
@@ -532,11 +567,15 @@ h2 {
             margin-bottom: 14px;
         }
         h2 {
+            min-height: 40px;
             text-align: center;
             width: 80%;
             margin: 0 auto;
             margin-bottom: 14px;
             margin-bottom: 24px;
+            @media (min-width: $desktop_width) {
+                min-height: 80px;
+            }
         }
     }
     .applications-networks {
@@ -557,11 +596,15 @@ h2 {
             margin-bottom: 14px;
         }
         h2 {
+            min-height: 40px;
             text-align: center;
             width: 60%;
             margin: 0 auto;
             margin-bottom: 14px;
             margin-bottom: 24px;
+            @media (min-width: $desktop_width) {
+                min-height: 80px;
+            }
         }
     }
 }

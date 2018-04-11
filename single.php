@@ -12,6 +12,20 @@ get_header(); ?>
 			<section class="content-wrapper">
 			<section class="hero-container-dark">
 				<?php the_title( '<h1 class="entry-title header-white">', '</h1>' ); ?>
+				<div>
+					<a class="news-hero-links" href="<?php echo esc_url( home_url( '/' ));?>">Home</a>
+					<span>/</span>
+					<?php  $categories = get_the_category(); 
+
+					if ( ! empty($categories)) {
+						echo '<a class="news-hero-links" href="' . esc_url(get_category_link($categories[0]->term_id ) ) . '">'
+						. $categories[0]->name . '</a>'
+						. '<span>/</span>'
+						. '<span class="news-hero-links">' . get_the_title() . '</span>';
+					}
+					
+					?>
+				</div>
 			</section>
 
 			<section class="news-page-flex-container">

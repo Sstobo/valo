@@ -385,6 +385,7 @@ article p {
 .header-white {
   color: #fff;
   font-weight: bold;
+  margin: 0;
   font-size: 24px;
   font-size: 1.5rem; }
   @media all and (min-width: 600px) {
@@ -1571,11 +1572,17 @@ object {
 
 h1 {
   color: black;
-  font-size: 38px; }
+  font-size: 28px; }
+  @media (min-width: 1000px) {
+    h1 {
+      font-size: 38px; } }
 
 h2 {
   color: black;
-  font-size: 28px; }
+  font-size: 20px; }
+  @media (min-width: 1000px) {
+    h2 {
+      font-size: 28px; } }
 
 .applications-security-wrapper {
   width: 100%;
@@ -1591,7 +1598,7 @@ h2 {
 
 .applications-security-hero {
   width: 100%;
-  height: 1100px;
+  height: 1000px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1599,7 +1606,13 @@ h2 {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding-top: 160px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 130px;
   background-color: #f7f7f7; }
   @media (min-width: 1000px) {
     .applications-security-hero {
@@ -1669,7 +1682,7 @@ h2 {
   background-color: #f7f7f7; }
   @media (min-width: 1000px) {
     .applications-transpo-hero {
-      height: 560px;
+      height: 590px;
       -webkit-box-orient: horizontal;
       -webkit-box-direction: normal;
           -ms-flex-direction: row;
@@ -1681,18 +1694,18 @@ h2 {
     .applications-transpo-img {
       display: block;
       width: 50%;
-      height: 450px; } }
+      height: 480px; } }
 
 .applications-transpo-image {
   background-image: url("../../assets/icons-SVG/Valo-Smart-Transportation.jpg");
   background-size: cover;
-  height: 450px;
+  height: 480px;
   width: 100%;
   margin: 0 auto; }
 
 .applications-transpo-post {
   width: 100%;
-  height: auto;
+  height: 500px;
   padding: 38px 44px 0 44px;
   margin-bottom: 44px;
   text-align: center; }
@@ -1700,10 +1713,11 @@ h2 {
     width: 60px; }
   @media (min-width: 1000px) {
     .applications-transpo-post {
+      padding: 38px 24px 0 24px;
       width: 50%;
-      height: 420px; }
+      height: 460px; }
       .applications-transpo-post p {
-        width: 94%;
+        width: 98%;
         text-align: left;
         margin: 0 auto;
         margin-top: 34px; } }
@@ -1746,7 +1760,7 @@ h2 {
     .applications-transpo-img2 {
       display: block;
       width: 50%;
-      height: 420px; } }
+      height: 460px; } }
 
 .applications-transpo-post2 {
   width: 100%;
@@ -1760,10 +1774,11 @@ h2 {
     display: none; }
   @media (min-width: 1000px) {
     .applications-transpo-post2 {
+      padding: 38px 24px 0 24px;
       width: 50%;
-      height: 480px; }
+      height: 460px; }
       .applications-transpo-post2 p {
-        width: 94%;
+        width: 98%;
         text-align: left;
         margin: 0 auto;
         margin-top: 34px; } }
@@ -1806,7 +1821,7 @@ h2 {
   background-color: #f7f7f7; }
   @media (min-width: 1000px) {
     .applications-muni-hero {
-      height: 530px;
+      height: 590px;
       -webkit-box-orient: horizontal;
       -webkit-box-direction: normal;
           -ms-flex-direction: row;
@@ -1818,12 +1833,12 @@ h2 {
     .applications-muni-img {
       display: block;
       width: 50%;
-      height: 500px; } }
+      height: 590px; } }
 
 .applications-muni-image {
   background-image: url("../../assets/icons-SVG/valo-muni-skyline.jpg");
   background-size: cover;
-  height: 420px;
+  height: 480px;
   width: 100%;
   margin: 0 auto; }
 
@@ -1837,10 +1852,11 @@ h2 {
     width: 60px; }
   @media (min-width: 1000px) {
     .applications-muni-post {
+      padding: 38px 24px 0 24px;
       width: 50%;
-      height: 420px; }
+      height: 460px; }
       .applications-muni-post p {
-        width: 94%;
+        width: 98%;
         text-align: left;
         margin: 0 auto;
         margin-top: 34px; } }
@@ -1871,7 +1887,7 @@ h2 {
   background-color: #f7f7f7; }
   @media (min-width: 1000px) {
     .applications-muni-hero2 {
-      height: 460px;
+      height: 480px;
       -webkit-box-orient: horizontal;
       -webkit-box-direction: normal;
           -ms-flex-direction: row;
@@ -1883,7 +1899,7 @@ h2 {
     .applications-muni-img2 {
       display: block;
       width: 50%;
-      height: 420px; } }
+      height: 480px; } }
 
 .applications-muni-post2 {
   width: 100%;
@@ -1895,10 +1911,11 @@ h2 {
     width: 60px; }
   @media (min-width: 1000px) {
     .applications-muni-post2 {
+      padding: 38px 24px 0 24px;
       width: 50%;
-      height: 480px; }
+      height: 460px; }
       .applications-muni-post2 p {
-        width: 94%;
+        width: 98%;
         text-align: left;
         margin: 0 auto;
         margin-top: 34px; } }
@@ -1913,7 +1930,7 @@ h2 {
       display: block;
       background-image: url("../../assets/icons-SVG/valo-muni-street.jpg");
       background-size: cover;
-      height: 460px;
+      height: 480px;
       width: 100%;
       margin: 0 auto; } }
 
@@ -1941,7 +1958,7 @@ h2 {
   background-color: #f7f7f7; }
   @media (min-width: 1000px) {
     .applications-enviro-hero {
-      height: 530px;
+      height: 580px;
       -webkit-box-orient: horizontal;
       -webkit-box-direction: normal;
           -ms-flex-direction: row;
@@ -1953,12 +1970,12 @@ h2 {
     .applications-enviro-img {
       display: block;
       width: 50%;
-      height: 500px; } }
+      height: 580px; } }
 
 .applications-enviro-image {
   background-image: url("../../assets/icons-SVG/valo-smart-weather.jpg");
   background-size: cover;
-  height: 420px;
+  height: 470px;
   width: 100%;
   margin: 0 auto; }
 
@@ -1972,10 +1989,11 @@ h2 {
     width: 60px; }
   @media (min-width: 1000px) {
     .applications-enviro-post {
+      padding: 38px 24px 0 24px;
       width: 50%;
-      height: 420px; }
+      height: 460px; }
       .applications-enviro-post p {
-        width: 94%;
+        width: 98%;
         text-align: left;
         margin: 0 auto;
         margin-top: 34px; } }
@@ -2006,7 +2024,7 @@ h2 {
   background-color: #f7f7f7; }
   @media (min-width: 1000px) {
     .applications-enviro-hero2 {
-      height: 460px;
+      height: 480px;
       -webkit-box-orient: horizontal;
       -webkit-box-direction: normal;
           -ms-flex-direction: row;
@@ -2018,7 +2036,7 @@ h2 {
     .applications-enviro-img2 {
       display: block;
       width: 50%;
-      height: 420px; } }
+      height: 480px; } }
 
 .applications-enviro-post2 {
   width: 100%;
@@ -2032,10 +2050,11 @@ h2 {
     display: none; }
   @media (min-width: 1000px) {
     .applications-enviro-post2 {
+      padding: 38px 24px 0 24px;
       width: 50%;
-      height: 480px; }
+      height: 460px; }
       .applications-enviro-post2 p {
-        width: 94%;
+        width: 98%;
         text-align: left;
         margin: 0 auto;
         margin-top: 34px; } }
@@ -2050,21 +2069,21 @@ h2 {
       display: block;
       background-image: url("../../assets/icons-SVG/valo-muni-skyline.jpg");
       background-size: cover;
-      height: 460px;
+      height: 480px;
       width: 100%;
       margin: 0 auto; } }
 
 .applications-wrapper {
   height: 100%;
   width: 100vw;
-  padding-top: 110px; }
+  padding-top: 150px; }
 
 .applications-hero {
   width: 100%;
   text-align: center;
   margin-bottom: 44px;
   padding: 12px;
-  height: 500px;
+  height: 300px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2072,20 +2091,33 @@ h2 {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row; }
+  @media (min-width: 1000px) {
+    .applications-hero {
+      height: 500px; } }
   .applications-hero .applications-hero-wrapper {
     padding: 24px; }
     @media (min-width: 1000px) {
       .applications-hero .applications-hero-wrapper {
         display: block;
-        height: 90%;
+        height: 500px;
         width: 50%;
         margin-right: 48px;
         text-align: left;
-        padding: 44px 194px 0 124px; } }
+        padding: 0px 64px 0 24px; } }
+    @media (min-width: 1300px) {
+      .applications-hero .applications-hero-wrapper {
+        display: block;
+        height: 500px;
+        width: 50%;
+        margin-right: 48px;
+        text-align: left;
+        padding: 14px 14px 0 124px; } }
   .applications-hero .applications-hero-img {
     display: none; }
     @media (min-width: 1000px) {
       .applications-hero .applications-hero-img {
+        background-image: url("../../assets/icons-SVG/valo-applications.jpg");
+        background-size: cover;
         display: block;
         height: 90%;
         width: 40%;
@@ -2129,10 +2161,14 @@ h2 {
       margin: 0 auto;
       margin-bottom: 14px; }
     .applications-service-wrapper .applications-lighting h2 {
+      min-height: 40px;
       text-align: center;
       width: 60%;
       margin: 0 auto;
       margin-bottom: 24px; }
+      @media (min-width: 1000px) {
+        .applications-service-wrapper .applications-lighting h2 {
+          min-height: 80px; } }
   .applications-service-wrapper .applications-platform {
     height: 300px;
     width: 100%;
@@ -2150,11 +2186,15 @@ h2 {
       margin: 0 auto;
       margin-bottom: 14px; }
     .applications-service-wrapper .applications-platform h2 {
+      min-height: 40px;
       text-align: center;
       width: 60%;
       margin: 0 auto;
       margin-bottom: 14px;
       margin-bottom: 24px; }
+      @media (min-width: 1000px) {
+        .applications-service-wrapper .applications-platform h2 {
+          min-height: 80px; } }
   .applications-service-wrapper .applications-cameras {
     height: 300px;
     width: 100%;
@@ -2172,11 +2212,15 @@ h2 {
       margin: 0 auto;
       margin-bottom: 14px; }
     .applications-service-wrapper .applications-cameras h2 {
+      min-height: 40px;
       text-align: center;
       width: 80%;
       margin: 0 auto;
       margin-bottom: 14px;
       margin-bottom: 24px; }
+      @media (min-width: 1000px) {
+        .applications-service-wrapper .applications-cameras h2 {
+          min-height: 80px; } }
   .applications-service-wrapper .applications-networks {
     height: 300px;
     width: 100%;
@@ -2194,11 +2238,15 @@ h2 {
       margin: 0 auto;
       margin-bottom: 14px; }
     .applications-service-wrapper .applications-networks h2 {
+      min-height: 40px;
       text-align: center;
       width: 60%;
       margin: 0 auto;
       margin-bottom: 14px;
       margin-bottom: 24px; }
+      @media (min-width: 1000px) {
+        .applications-service-wrapper .applications-networks h2 {
+          min-height: 80px; } }
 
 /*--------------------------------------------------------------
 # About Pages
@@ -2415,12 +2463,13 @@ h2 {
   background: #00aeef;
   text-align: left; }
 
-.page-template-news .header-wrapper .signup-container,
-.single-post .header-wrapper .signup-container {
+.page-template-news .signup-container,
+.page-template-news .signup-wrapper,
+.single-post .signup-container,
+.single-post .signup-wrapper {
   display: none; }
 
-.page-template-news .hero-container-dark,
-.single-post .hero-container-dark {
+.hero-container-dark {
   background-color: #000;
   background: url("../../assets/Backgrounds/footer-background.jpg");
   background-position: center;
@@ -2431,6 +2480,10 @@ h2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -2438,13 +2491,32 @@ h2 {
       -ms-flex-align: center;
           align-items: center; }
   @media all and (min-width: 600px) {
-    .page-template-news .hero-container-dark,
-    .single-post .hero-container-dark {
+    .hero-container-dark {
       height: 40vh;
       max-height: 400px; } }
+  .hero-container-dark .news-hero-links {
+    color: #fff;
+    font-size: 13px;
+    font-size: 0.8125rem;
+    padding: 0 5px; }
 
-.page-template-news .news-categories,
-.single-post .news-categories {
+.news-categories {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 90%;
+  max-width: 400px;
+  text-align: center;
+  margin: 60px auto; }
+  @media all and (min-width: 1000px) {
+    .news-categories {
+      max-width: 600px; } }
+
+.news-categories {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2457,24 +2529,21 @@ h2 {
   text-align: center;
   margin: 60px auto; }
 
-.page-template-news .tax-filter,
-.single-post .tax-filter {
+.tax-filter {
   margin: 10px 20px; }
-  .page-template-news .tax-filter:hover,
-  .single-post .tax-filter:hover {
+  .tax-filter:hover {
     border-bottom: 1px solid #00aeef; }
 
-.page-template-news .active-filter,
-.single-post .active-filter {
+.active-filter {
   border-bottom: 1px solid #00aeef; }
 
-.page-template-news .filtered-posts,
-.single-post .filtered-posts {
+.filtered-posts {
   margin: 0 auto;
   width: 95%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  min-height: 500px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -2486,8 +2555,7 @@ h2 {
       -ms-flex-direction: column;
           flex-direction: column; }
   @media all and (min-width: 770px) {
-    .page-template-news .filtered-posts,
-    .single-post .filtered-posts {
+    .filtered-posts {
       -webkit-box-orient: horizontal;
       -webkit-box-direction: normal;
           -ms-flex-direction: row;
@@ -2501,13 +2569,11 @@ h2 {
       align-items: flex-start;
       -ms-flex-wrap: wrap;
           flex-wrap: wrap; } }
-  .page-template-news .filtered-posts article,
-  .single-post .filtered-posts article {
+  .filtered-posts article {
     margin: 20px 20px;
     width: 90%; }
     @media all and (min-width: 770px) {
-      .page-template-news .filtered-posts article,
-      .single-post .filtered-posts article {
+      .filtered-posts article {
         width: 27vw;
         min-width: 300px; } }
 
@@ -2948,6 +3014,11 @@ h2 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center; }
+  .contact-footer .copy-top {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-right: 2%; }
   @media all and (min-width: 800px) {
     .contact-footer {
       -webkit-box-orient: horizontal;
@@ -2965,7 +3036,28 @@ h2 {
         padding-left: 2%; } }
   @media all and (min-width: 800px) {
     .contact-footer #contact-copy {
-      padding-right: 2%; } }
+      padding-right: 2%;
+      width: auto; } }
+
+.page-template-download {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row; }
+  .page-template-download .entry-title {
+    display: none; }
+  .page-template-download .download-wrapper {
+    padding-top: 200px;
+    height: auto;
+    width: 60%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0 auto; }
 
 .page-template-investors .signup-container {
   display: none; }
@@ -3041,77 +3133,345 @@ h2 {
   background-image: url("../../assets/icons-SVG/investors-picture.jpg");
   background-size: cover; }
 
-.content-area-services .entry-title {
-  display: none; }
-
-.content-area-services .wifi {
-  background: #eee; }
-
-.content-area-services .adverts .add-links {
-  margin-left: 15%;
-  margin-right: 15%; }
-  .content-area-services .adverts .add-links .title {
+.content-area-services {
+  font-family: "Roboto"; }
+  .content-area-services .entry-title {
+    display: none; }
+  .content-area-services h3 {
+    color: #00aeef;
+    font-size: 20px;
+    letter-spacing: 0.5px; }
+  .content-area-services p {
+    color: black;
+    font-size: 15px;
+    line-height: 30px; }
+  .content-area-services .service-wrapper {
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -ms-flex-line-pack: center;
-        align-content: center;
-    z-index: 1000;
-    border-top: 1px solid #f1f1f1; }
-    .content-area-services .adverts .add-links .title p {
-      color: black;
-      font-family: "Roboto";
-      font-size: 18px;
-      text-transform: uppercase;
-      margin: 10px 0; }
-    .content-area-services .adverts .add-links .title .service-icon-container:not(.hide) {
+    display: flex; }
+    .content-area-services .service-wrapper .services-header {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
       -webkit-box-pack: center;
           -ms-flex-pack: center;
               justify-content: center;
       -webkit-box-align: center;
           -ms-flex-align: center;
               align-items: center;
-      -ms-flex-item-align: center;
-          align-self: center;
-      width: 15px;
-      height: 15px;
-      text-align: center;
-      background: #e6e6e6; }
-      .content-area-services .adverts .add-links .title .service-icon-container:not(.hide) i {
-        font-size: 10px; }
-  .content-area-services .adverts .add-links .title:hover {
-    cursor: pointer;
-    color: #00aeef; }
-    .content-area-services .adverts .add-links .title:hover p {
-      color: #00aeef; }
-  .content-area-services .adverts .add-links .text {
-    max-height: 0;
-    overflow: hidden;
-    -webkit-transition: max-height 0.4s ease-out;
-    transition: max-height 0.4s ease-out;
-    font-size: 15px;
-    line-height: 25px;
-    font-family: "Roboto";
-    color: black;
-    padding-bottom: 5px; }
-    .content-area-services .adverts .add-links .text p {
+      padding: 40px 0; }
+      @media all and (min-width: 1000px) {
+        .content-area-services .service-wrapper .services-header {
+          -ms-flex-preferred-size: 50%;
+              flex-basis: 50%;
+          -webkit-box-align: start;
+              -ms-flex-align: start;
+                  align-items: flex-start;
+          -webkit-box-pack: start;
+              -ms-flex-pack: start;
+                  justify-content: flex-start;
+          text-align: left;
+          padding: 0 0 80px 7%; } }
+      .content-area-services .service-wrapper .services-header p {
+        max-width: 60%;
+        text-align: center; }
+        @media all and (min-width: 1000px) {
+          .content-area-services .service-wrapper .services-header p {
+            text-align: left;
+            max-width: 80%; } }
+    .content-area-services .service-wrapper .service-image {
+      display: none; }
+      @media all and (min-width: 1000px) {
+        .content-area-services .service-wrapper .service-image {
+          -ms-flex-preferred-size: 50%;
+              flex-basis: 50%;
+          margin: 20px 5% 2% 5%;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          max-width: 500px;
+          max-height: 500px;
+          min-width: 400px;
+          min-height: 400px;
+          background: gray; } }
+  .content-area-services .wifi {
+    background: #eee;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 60px 0; }
+    .content-area-services .wifi #wifi-image {
+      width: 100px; }
+    .content-area-services .wifi p {
       margin: 0;
-      margin-bottom: 10px;
-      padding-bottom: 10px; }
-  .content-area-services .adverts .add-links .no-border {
-    border-top: none; }
-  .content-area-services .adverts .add-links .hide {
-    display: none; }
-  .content-area-services .adverts .add-links .height {
-    max-height: 80px;
-    -webkit-transition: max-height 0.4 ease-in;
-    transition: max-height 0.4 ease-in; }
+      margin-top: 15px;
+      max-width: 60%;
+      text-align: center; }
+    .content-area-services .wifi h1 {
+      margin: 0; }
+      @media all and (min-width: 1000px) {
+        .content-area-services .wifi h1 {
+          font-size: 30px; } }
+  .content-area-services .advert-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    @media all and (min-width: 1000px) {
+      .content-area-services .advert-wrapper {
+        margin-top: 50px; } }
+    .content-area-services .advert-wrapper .advert-image {
+      display: none; }
+      @media all and (min-width: 1000px) {
+        .content-area-services .advert-wrapper .advert-image {
+          -ms-flex-preferred-size: 50%;
+              flex-basis: 50%;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          width: 400px;
+          height: 400px;
+          background: gray;
+          margin-left: 4%;
+          min-width: 400px;
+          min-height: 400px;
+          max-width: 500px;
+          max-height: 500px; } }
+    .content-area-services .advert-wrapper .adverts {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      padding: 40px 0; }
+      @media all and (min-width: 1000px) {
+        .content-area-services .advert-wrapper .adverts {
+          -ms-flex-preferred-size: 50%;
+              flex-basis: 50%; } }
+      .content-area-services .advert-wrapper .adverts .add-para {
+        max-width: 70%;
+        -ms-flex-item-align: center;
+            align-self: center; }
+        @media all and (min-width: 1000px) {
+          .content-area-services .advert-wrapper .adverts .add-para {
+            margin-top: 0; } }
+      .content-area-services .advert-wrapper .adverts #add-deliv {
+        margin-left: 15%;
+        font-family: "Roboto";
+        font-weight: bold;
+        color: black;
+        -ms-flex-item-align: start;
+            align-self: flex-start; }
+        @media all and (min-width: 1000px) {
+          .content-area-services .advert-wrapper .adverts #add-deliv {
+            margin-top: 0;
+            margin-bottom: 0; } }
+      .content-area-services .advert-wrapper .adverts .add-links {
+        margin-left: 15%;
+        margin-right: 15%; }
+        .content-area-services .advert-wrapper .adverts .add-links .title {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-pack: justify;
+              -ms-flex-pack: justify;
+                  justify-content: space-between;
+          -ms-flex-line-pack: center;
+              align-content: center;
+          z-index: 1000;
+          border-top: 1px solid #f1f1f1; }
+          .content-area-services .advert-wrapper .adverts .add-links .title p {
+            color: black;
+            font-family: "Roboto";
+            font-size: 18px;
+            text-transform: uppercase;
+            margin: 10px 0; }
+          .content-area-services .advert-wrapper .adverts .add-links .title .service-icon-container:not(.hide) {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                    justify-content: center;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
+            -ms-flex-item-align: center;
+                align-self: center;
+            width: 15px;
+            height: 15px;
+            text-align: center;
+            background: #e6e6e6; }
+            .content-area-services .advert-wrapper .adverts .add-links .title .service-icon-container:not(.hide) i {
+              font-size: 10px; }
+        .content-area-services .advert-wrapper .adverts .add-links .title:hover {
+          cursor: pointer;
+          color: #00aeef; }
+          .content-area-services .advert-wrapper .adverts .add-links .title:hover p {
+            color: #00aeef; }
+        .content-area-services .advert-wrapper .adverts .add-links .text {
+          max-height: 0;
+          overflow: hidden;
+          -webkit-transition: max-height 0.4s ease-out;
+          transition: max-height 0.4s ease-out;
+          font-size: 15px;
+          line-height: 25px;
+          font-family: "Roboto";
+          color: black;
+          padding-bottom: 5px; }
+          .content-area-services .advert-wrapper .adverts .add-links .text p {
+            margin: 0;
+            margin-bottom: 10px;
+            padding-bottom: 10px;
+            line-height: 24px; }
+            @media all and (min-width: 1000px) {
+              .content-area-services .advert-wrapper .adverts .add-links .text p {
+                margin-bottom: 0;
+                padding-bottom: 0; } }
+        .content-area-services .advert-wrapper .adverts .add-links .no-border {
+          border-top: none; }
+        .content-area-services .advert-wrapper .adverts .add-links .hide {
+          display: none; }
+        .content-area-services .advert-wrapper .adverts .add-links .height {
+          max-height: 80px;
+          -webkit-transition: max-height 0.4 ease-in;
+          transition: max-height 0.4 ease-in; }
+  .content-area-services .partner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    .content-area-services .partner .partner-header-section {
+      padding: 40px 0;
+      background: #eee;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center; }
+      .content-area-services .partner .partner-header-section p {
+        max-width: 70%;
+        text-align: center; }
+        @media all and (min-width: 600px) {
+          .content-area-services .partner .partner-header-section p {
+            max-width: 60%; } }
+      .content-area-services .partner .partner-header-section h1 {
+        max-width: 70%;
+        font-size: 30px;
+        text-align: center; }
+        @media all and (min-width: 600px) {
+          .content-area-services .partner .partner-header-section h1 {
+            margin: 4px 0; } }
+      .content-area-services .partner .partner-header-section #bulb-image {
+        width: 100px; }
+    .content-area-services .partner .partner-image-section {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column; }
+      @media all and (min-width: 800px) {
+        .content-area-services .partner .partner-image-section {
+          -webkit-box-orient: horizontal;
+          -webkit-box-direction: normal;
+              -ms-flex-direction: row;
+                  flex-direction: row; } }
+      .content-area-services .partner .partner-image-section .network {
+        -ms-flex-preferred-size: 33.3%;
+            flex-basis: 33.3%;
+        background: #f7f7f7;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        padding: 30px 0; }
+        .content-area-services .partner .partner-image-section .network p {
+          max-width: 70%;
+          text-align: center; }
+        .content-area-services .partner .partner-image-section .network #street-light-image {
+          width: 100px; }
+      .content-area-services .partner .partner-image-section .cost {
+        -ms-flex-preferred-size: 33.3%;
+            flex-basis: 33.3%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        padding: 30px 0; }
+        .content-area-services .partner .partner-image-section .cost #cost-image {
+          width: 100px; }
+        .content-area-services .partner .partner-image-section .cost p {
+          max-width: 70%;
+          text-align: center; }
+      .content-area-services .partner .partner-image-section .city {
+        -ms-flex-preferred-size: 33.3%;
+            flex-basis: 33.3%;
+        padding: 30px 0;
+        background: #f7f7f7;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center; }
+        .content-area-services .partner .partner-image-section .city #city-image {
+          width: 100px; }
+        .content-area-services .partner .partner-image-section .city p {
+          max-width: 70%;
+          text-align: center; }
 
 #wpcf7-f5-o1 {
   padding-left: 0; }
