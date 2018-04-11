@@ -2566,7 +2566,9 @@ object {
     background-position: center; } }
 
 .page-template-news .signup-container,
-.single-post .signup-container {
+.page-template-news .signup-wrapper,
+.single-post .signup-container,
+.single-post .signup-wrapper {
   display: none; }
 
 .hero-container-dark {
@@ -2603,9 +2605,12 @@ object {
   max-width: 400px;
   text-align: center;
   margin: 60px auto; }
+  @media all and (min-width: 1000px) {
+    .news-categories {
+      max-width: 600px; } }
 
 .tax-filter {
-  margin: 10px 20px; }
+  margin: 10px 20px 10px 0; }
   .tax-filter:hover {
     border-bottom: 1px solid #00aeef; }
 

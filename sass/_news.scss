@@ -1,6 +1,7 @@
 .page-template-news,
 .single-post {
-  .signup-container {
+  .signup-container,
+  .signup-wrapper {
     display: none;
   }
 }
@@ -17,7 +18,6 @@
   align-items: center;
   @include tablet {
     height: 40vh;
-
     max-height: 400px;
   }
 }
@@ -30,9 +30,12 @@
   max-width: 400px;
   text-align: center;
   margin: 60px auto;
+  @include desktop {
+    max-width: 600px;
+  }
 }
 .tax-filter {
-  margin: 10px 20px;
+  margin: 10px 20px 10px 0;
   &:hover {
     border-bottom: 1px solid $color__accent;
   }
