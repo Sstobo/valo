@@ -2463,6 +2463,200 @@ h2 {
   background: #00aeef;
   text-align: left; }
 
+.advantage-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+  @media all and (min-width: 990px) {
+    .advantage-container {
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row; } }
+
+.the-valo-advantage {
+  height: 380px;
+  width: 100%;
+  padding: 30px 8%;
+  background-color: #00aeef; }
+  @media all and (min-width: 990px) {
+    .the-valo-advantage {
+      height: 445px;
+      max-width: 25%;
+      padding: 30px 2%; } }
+  .the-valo-advantage .lightbulb-icon {
+    height: 70px;
+    width: 60px;
+    float: right; }
+  .the-valo-advantage h2 {
+    color: #fff;
+    font-family: "Roboto";
+    margin-bottom: 0;
+    padding-top: 10px;
+    font-size: 34px;
+    line-height: 44px; }
+  .the-valo-advantage span {
+    color: #fff;
+    font-family: "Roboto";
+    line-height: 1.9; }
+
+.high-costs {
+  height: 300px;
+  width: 100%;
+  padding: 30px 8%;
+  background-color: #f7f7f7; }
+  @media all and (min-width: 990px) {
+    .high-costs {
+      height: 445px;
+      max-width: 25%;
+      padding: 40px 2.7%; } }
+  .high-costs h1 {
+    color: #00aeef;
+    text-align: right;
+    margin-bottom: 15px;
+    margin-top: 0; }
+  .high-costs h3 {
+    color: #000;
+    font-family: sans-serif;
+    line-height: 1.9;
+    margin-top: 0;
+    font-size: 24px;
+    line-height: 34px; }
+  .high-costs p {
+    color: #000;
+    font-family: "Roboto";
+    font-size: 15px;
+    line-height: 1.9; }
+
+.lack-of-capital {
+  height: 300px;
+  width: 100%;
+  padding: 30px 8%; }
+  @media all and (min-width: 990px) {
+    .lack-of-capital {
+      height: 445px;
+      max-width: 25%;
+      padding: 40px 2.5%; } }
+  .lack-of-capital h1 {
+    color: #00aeef;
+    text-align: right;
+    margin-bottom: 15px;
+    margin-top: 0; }
+  .lack-of-capital h3 {
+    color: #000;
+    font-family: sans-serif;
+    line-height: 1.9;
+    margin-top: 0;
+    font-size: 24px;
+    line-height: 34px; }
+  .lack-of-capital p {
+    color: #000;
+    font-family: "Roboto";
+    font-size: 15px;
+    line-height: 1.9; }
+
+.no-financial {
+  height: 300px;
+  width: 100%;
+  padding: 30px 8%;
+  background-color: #ededed; }
+  @media all and (min-width: 990px) {
+    .no-financial {
+      height: 445px;
+      max-width: 25%;
+      padding: 40px 2.5%; } }
+  .no-financial h1 {
+    color: #00aeef;
+    text-align: right;
+    margin-bottom: 15px;
+    margin-top: 0; }
+  .no-financial h3 {
+    color: #000;
+    font-family: sans-serif;
+    line-height: 1.9;
+    margin-top: 0;
+    font-size: 24px;
+    line-height: 34px; }
+  .no-financial p {
+    color: #000;
+    font-family: "Roboto";
+    font-size: 15px;
+    line-height: 1.9; }
+
+.advantage-container-two {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+  @media all and (min-width: 990px) {
+    .advantage-container-two {
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row; } }
+
+.financing {
+  height: 300px;
+  width: 100%;
+  padding: 20px 8%; }
+  @media all and (min-width: 990px) {
+    .financing {
+      height: 229px;
+      width: 50%;
+      padding: 20px 4%; } }
+  .financing h1 {
+    color: #00aeef;
+    text-align: right;
+    margin-bottom: 15px;
+    margin-top: 0; }
+  .financing h3 {
+    color: #000;
+    font-family: sans-serif;
+    line-height: 1.9;
+    margin-top: 0;
+    font-size: 24px;
+    line-height: 34px; }
+  .financing p {
+    color: #000;
+    font-family: "Roboto";
+    font-size: 15px;
+    line-height: 1.9; }
+
+.lack-of-data {
+  height: 300px;
+  width: 100%;
+  padding: 20px 8%;
+  background-color: #00aeef; }
+  @media all and (min-width: 990px) {
+    .lack-of-data {
+      height: 229px;
+      width: 50%;
+      padding: 20px 4%; } }
+  .lack-of-data h1 {
+    color: #fff;
+    text-align: right;
+    margin-bottom: 15px;
+    margin-top: 0; }
+  .lack-of-data h3 {
+    color: #fff;
+    font-family: sans-serif;
+    line-height: 1.9;
+    margin-top: 0;
+    font-size: 24px;
+    line-height: 34px; }
+  .lack-of-data p {
+    color: #fff;
+    font-family: "Roboto";
+    font-size: 15px;
+    line-height: 1.9; }
+
 .page-template-news .signup-container,
 .page-template-news .signup-wrapper,
 .single-post .signup-container,
