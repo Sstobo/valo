@@ -4,15 +4,17 @@
   }
   .contact-container {
     display: flex;
-    height: 70vh;
+    height: 100vh;
     width: 100%;
     margin-bottom: 7%;
     background: url('../../assets/Backgrounds/clean-gray-abstract-background.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 0 0;
-    border: 1px solid red;
     justify-content: center;
+    @include tablet {
+      height: 70vh;
+    }
     @include desktop {
       height: 65vh;
       background-position: 0 -50px;
@@ -30,15 +32,17 @@
       }
     }
     .contact-info {
-      flex-basis: 50%;
       display: flex;
       flex-direction: column;
+      justify-content: center;
       align-items: center;
-
+      @include tablet {
+        align-items: center;
+      }
       @include desktop {
         // margin-right: 3%;
+        flex-basis: 50%;
       }
-
       h1 {
         color: black;
         font-size: 40px;
@@ -54,26 +58,25 @@
       }
       .contact-content {
         display: flex;
-        border: 1px solid red;
-        min-width: 700px;
-
         flex-direction: column;
-
         @include tablet {
+          margin-left: 0;
           flex-direction: row;
-          justify-content: space-around;
+          justify-content: space-between;
+          min-width: 700px;
         }
-
         @include desktop {
           min-width: 600px;
           justify-content: center;
         }
-
         i {
           color: $color__accent;
           font-size: 42px;
-          padding-right: 30%;
+          padding-right: 15px;
           margin-top: 4px;
+        }
+        .fa-map-marker {
+          margin-right: 10px;
         }
         .contact-title {
           color: black;
@@ -90,7 +93,9 @@
           display: flex;
           flex-direction: column;
           justify-content: space-between;
-          border: 1px solid green;
+          @include tablet {
+            margin-left: 8%;
+          }
           .telephone {
             display: flex;
             margin-bottom: 15%;
@@ -119,8 +124,16 @@
           } //address
         } //phone-address
         .email {
-          margin-right: 3%;
           display: flex;
+          margin-left: 1%;
+          margin-top: 40px;
+          @include tablet {
+            margin-right: 8%;
+            margin-top: 0;
+          }
+          @include desktop {
+            margin-right: 0;
+          }
           .email-info {
             p {
               margin: 0;
@@ -135,6 +148,36 @@
           } //email-info
         } //email
       }
+    }
+  }
+}
+
+.contact-footer {
+  height: auto;
+  background: url('../../assets/Backgrounds/footer-background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  @include footer_row {
+    flex-direction: row;
+    justify-content: space-between;
+    min-height: 100px;
+  }
+
+  #contact-logo {
+    width: 150px;
+    @include footer_row {
+      padding-left: 2%;
+    }
+  }
+
+  #contact-copy {
+    @include footer_row {
+      padding-right: 2%;
     }
   }
 }
