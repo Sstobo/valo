@@ -2951,6 +2951,78 @@ h2 {
   background-image: url("../../assets/icons-SVG/investors-picture.jpg");
   background-size: cover; }
 
+.content-area-services .entry-title {
+  display: none; }
+
+.content-area-services .wifi {
+  background: #eee; }
+
+.content-area-services .adverts .add-links {
+  margin-left: 15%;
+  margin-right: 15%; }
+  .content-area-services .adverts .add-links .title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    z-index: 1000;
+    border-top: 1px solid #f1f1f1; }
+    .content-area-services .adverts .add-links .title p {
+      color: black;
+      font-family: "Roboto";
+      font-size: 18px;
+      text-transform: uppercase;
+      margin: 10px 0; }
+    .content-area-services .adverts .add-links .title .service-icon-container:not(.hide) {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      -ms-flex-item-align: center;
+          align-self: center;
+      width: 15px;
+      height: 15px;
+      text-align: center;
+      background: #e6e6e6; }
+      .content-area-services .adverts .add-links .title .service-icon-container:not(.hide) i {
+        font-size: 10px; }
+  .content-area-services .adverts .add-links .title:hover {
+    cursor: pointer;
+    color: #00aeef; }
+    .content-area-services .adverts .add-links .title:hover p {
+      color: #00aeef; }
+  .content-area-services .adverts .add-links .text {
+    max-height: 0;
+    overflow: hidden;
+    -webkit-transition: max-height 0.4s ease-out;
+    transition: max-height 0.4s ease-out;
+    font-size: 15px;
+    line-height: 25px;
+    font-family: "Roboto";
+    color: black;
+    padding-bottom: 5px; }
+    .content-area-services .adverts .add-links .text p {
+      margin: 0;
+      margin-bottom: 10px;
+      padding-bottom: 10px; }
+  .content-area-services .adverts .add-links .no-border {
+    border-top: none; }
+  .content-area-services .adverts .add-links .hide {
+    display: none; }
+  .content-area-services .adverts .add-links .height {
+    max-height: 80px;
+    -webkit-transition: max-height 0.4 ease-in;
+    transition: max-height 0.4 ease-in; }
+
 #wpcf7-f5-o1 {
   padding-left: 0; }
 
