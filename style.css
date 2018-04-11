@@ -1598,18 +1598,42 @@ object {
   fill: #00aeef; }
 
 .product-network-container {
-  background: #f6f6f6;
-  padding-bottom: 60px; }
+  background: #f6f6f6; }
 
-.product-network {
-  margin-bottom: 60px; }
+@media all and (min-width: 1000px) {
+  .product-network {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-bottom: 0; } }
+
+.product-network-image-container {
+  display: none; }
+  @media all and (min-width: 1000px) {
+    .product-network-image-container {
+      background-position: center;
+      display: block;
+      -ms-flex-preferred-size: 50%;
+          flex-basis: 50%;
+      width: 50%; } }
 
 .product-text-container {
   width: 90%;
   max-width: 750px;
   margin: 0 auto;
   line-height: 28px;
-  font-weight: 400; }
+  font-weight: 400;
+  padding-bottom: 60px; }
+  @media all and (min-width: 1000px) {
+    .product-text-container {
+      -ms-flex-preferred-size: 50%;
+          flex-basis: 50%;
+      width: 50%;
+      padding-left: 5%;
+      padding-right: 5%; } }
+
+.wifi-image {
+  background: url("../../assets/images/valo-city-wifi.jpg"); }
 
 .wifi-list {
   display: -webkit-box;
@@ -1629,6 +1653,9 @@ object {
     .wifi-list-item {
       -ms-flex-preferred-size: 50%;
           flex-basis: 50%; } }
+
+.network-image {
+  background: url("../../assets/images/valo-lora-gateway.jpg"); }
 
 h1 {
   color: black;

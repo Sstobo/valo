@@ -13,11 +13,23 @@
 
 .product-network-container {
   background: #f6f6f6;
-  padding-bottom: 60px;
 }
 
 .product-network {
-  margin-bottom: 60px;
+  @include desktop {
+    display: flex;
+    padding-bottom: 0;
+  }
+}
+
+.product-network-image-container {
+  display: none;
+  @include desktop {
+    background-position: center;
+    display: block;
+    flex-basis: 50%;
+    width: 50%;
+  }
 }
 
 .product-text-container {
@@ -26,6 +38,17 @@
   margin: 0 auto;
   line-height: 28px;
   font-weight: 400;
+  padding-bottom: 60px;
+  @include desktop {
+    flex-basis: 50%;
+    width: 50%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+
+.wifi-image {
+  background: url('../../assets/images/valo-city-wifi.jpg');
 }
 
 .wifi-list {
@@ -38,4 +61,7 @@
   @include tablet {
     flex-basis: 50%;
   }
+}
+.network-image {
+  background: url('../../assets/images/valo-lora-gateway.jpg');
 }

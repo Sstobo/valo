@@ -32,7 +32,8 @@ get_header(); ?>
 			<section class="content-wrapper product-network-container">
 
 				<section class="product-network product-network-wifi">
-					
+					<div class="product-network-image-container wifi-image">
+					</div>
 					<div class="product-text-container">
 						<h2 class="header-section underline">Gigabit Wifi</h2>
 						<p>Optional gigabit WiFi capabilities are available through VALO’s street lighting platform, which can give citizens access to fast Internet over their cell phones. Gigabit WiFi supports more bandwidth, and can accommodate more devices and users, than previous wireless standards. Additionally, gigabit WiFi supports higher data rates over longer distances, and better wireless performance.</p>
@@ -64,6 +65,9 @@ get_header(); ?>
 							<p>VALO offers Long Range (LoRa) wireless wide-area network capabilities with its street light platform. LoRa allows for long range communication between sensors, while using a low bit rate. This patented technology offers many advantages over traditional wireless wide area networks (WAN). For instance, a LoRa networks is easy to deploy due to its simple architecture and minimal cost. Additionally, LoRa consumes less power meaning batteries last longer.</p>
 							<p>VALO’s LoRa transceiver can cover an area of 2 miles (3.2km) in diameter, and connects with up to 2000 street lights. This means that a city of one million people, with 25,000 street lights, only requires a maximum of 20 LoRa transceivers to cover the entire city. The gateway can then be connected by hard-wire Ethernet to the Internet.</p>
 						</div>
+						<div class="product-network-image-container network-image">
+						</div>
+					
 				</section>
 
 			</section>
