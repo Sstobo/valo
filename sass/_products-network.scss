@@ -1,0 +1,41 @@
+.icon {
+  // display: inline-block;
+  min-width: 42px;
+  min-height: 42px;
+  max-height: 42px;
+  max-width: 42px;
+  align-self: flex-start;
+  margin: 10px 10px 10px 0;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: $color__accent;
+}
+
+.product-network-container {
+  background: #f6f6f6;
+  padding-bottom: 60px;
+}
+
+.product-network {
+  margin-bottom: 60px;
+}
+
+.product-text-container {
+  width: 90%;
+  max-width: 750px;
+  margin: 0 auto;
+  line-height: 28px;
+  font-weight: 400;
+}
+
+.wifi-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.wifi-list-item {
+  display: flex;
+  align-items: center;
+  @include tablet {
+    flex-basis: 50%;
+  }
+}
