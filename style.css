@@ -2927,24 +2927,55 @@ h2 {
     .contact-footer #contact-copy {
       padding-right: 2%; } }
 
+.download-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .download-header h1 {
+    text-align: center; }
+
+.download-content {
+  width: 90%;
+  height: 200px;
+  margin-bottom: 48px;
+  margin-top: 48px; }
+
 .page-template-download {
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row; }
+  display: flex; }
+  .page-template-download .entry-content {
+    width: 60%;
+    min-width: 400px;
+    margin: 0 auto; }
+  .page-template-download .signup-container {
+    display: none; }
   .page-template-download .entry-title {
     display: none; }
   .page-template-download .download-wrapper {
     padding-top: 200px;
     height: auto;
-    width: 60%;
+    width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     margin: 0 auto; }
 
 .page-template-investors .signup-container {
