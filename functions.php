@@ -177,7 +177,7 @@ add_action('wp_ajax_nopriv_myfilter', 'news_filter_function');
 function ajax_filter_posts_scripts() {
 
   // Enqueue script
-  wp_register_script('valo_filter', get_template_directory_uri() . '/js/filter.js', false, null, false);
+  wp_register_script('valo_filter', get_template_directory_uri() . '/js/filter.js', array('jquery'), null, true);
   wp_enqueue_script('valo_filter');
  
   wp_localize_script( 'valo_filter', 'valo_vars', array(
