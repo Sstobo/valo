@@ -2908,6 +2908,11 @@ h2 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center; }
+  .contact-footer .copy-top {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-right: 2%; }
   @media all and (min-width: 800px) {
     .contact-footer {
       -webkit-box-orient: horizontal;
@@ -2925,7 +2930,8 @@ h2 {
         padding-left: 2%; } }
   @media all and (min-width: 800px) {
     .contact-footer #contact-copy {
-      padding-right: 2%; } }
+      padding-right: 2%;
+      width: auto; } }
 
 .download-header {
   display: -webkit-box;
