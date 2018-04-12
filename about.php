@@ -71,7 +71,45 @@ get_header(); ?>
 											<h3>Lack of Data</h3>
 											<p>Existing street lights provide no real-time information on city assets or services</p>
 									</div>
-							</div>		
+							</div>
+							<section class="about-platform-wrapper">
+									<h3>Valo’s platform addresses these problems while providing<br>
+                    multiple benefits for cities and the people living within them:</h3>
+									<div class="title-blue-line"></div>
+								<div class="about-platform-container">
+									<div class="about-platform-left-container">
+            				<div class="about-platform-left-top">
+											<p>VALO installs and maintains new LED street lights for the city with no out-of-pocket costs for the city</p>
+											<div class="icon">	
+												<i class="fa fa-wrench fa-2x" aria-hidden="true"></i>
+											</div>	
+										</div>
+										<div class="about-platform-left-bottom">
+							 				<p>VALO shares cost savings with the city which provides new funds for city projects</p>
+											 <div class="icon">	
+													<i class="fa fa-book fa-2x" aria-hidden="true"></i>
+											 </div>	
+					 					</div>
+									</div>
+									<div class="about-platform-center-container">
+										<img class="phone-icon" srcset="<?php echo get_template_directory_uri() . '/assets/images/valo-phone.jpg'?>" />
+									</div>	
+									<div class="about-platform-right-container">
+            				<div class="about-platform-right-top">
+												<div class="icon">	
+													<i class="fa fa-money fa-2x" aria-hidden="true"></i>
+											 </div>	
+											<p class="p1">VALO creates new revenues for the city via data and advertising</p>
+										</div>
+										<div class="about-platform-right-bottom">
+											<div class="icon">	
+													<i class="fa fa-wifi fa-2x" aria-hidden="true"></i>
+											 </div>	
+							 				<p class="p1">VALO provides new services for the city’s citizens, such as public WiFi</p>
+					 					</div>
+									</div>
+								</div>		
+							</section>
 					</div>
 			</section>
 		</main><!-- #main -->

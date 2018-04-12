@@ -418,3 +418,90 @@
     line-height: 1.9;
   }
 }
+.about-platform-wrapper {
+  background: url('http://localhost:8888/Valo/wp-content/themes/valo/assets/Backgrounds/clean-gray-abstract-background.png')
+    bottom left no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  padding: 50px 10% 0;
+  h3 {
+    text-align: center;
+  }
+}
+.about-platform-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+.about-platform-left-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.about-platform-left-top {
+  display: flex;
+  flex-direction: row;
+  p {
+    width: 129px;
+  }
+  .icon {
+    padding-left: 20%;
+    align-self: center;
+    color: $color__accent;
+  }
+}
+.about-platform-left-bottom {
+  display: flex;
+  flex-direction: row;
+  p {
+    width: 129px;
+  }
+  .icon {
+    padding-left: 20%;
+    align-self: center;
+    color: $color__accent;
+  }
+}
+.about-platform-center-container {
+  padding: 0;
+  margin: 0;
+}
+.phone-icon {
+  overflow: hidden;
+  transform: translate3d(0px, 100px, 0px);
+  width: 275px;
+  height: 453px;
+}
+.in-view {
+  transform: translate3d(0px, -60px, 0px);
+}
+.about-platform-right-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.about-platform-right-top {
+  display: flex;
+  flex-direction: row;
+  p {
+    width: 129px;
+  }
+  .icon {
+    padding-right: 20%;
+    align-self: center;
+    color: $color__accent;
+  }
+}
+.about-platform-right-bottom {
+  display: flex;
+  flex-direction: row;
+  p {
+    width: 129px;
+  }
+  .icon {
+    padding-right: 20%;
+    align-self: center;
+    color: $color__accent;
+  }
+}
