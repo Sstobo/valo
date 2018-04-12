@@ -2435,6 +2435,12 @@ h2 {
     background-position: center; } }
 
 /* About Company */
+.page-template-about .about-title-blue-line {
+  width: 150px;
+  height: 5px;
+  background: #00aeef;
+  margin: 0 auto; }
+
 .page-template-about .about-top-row-container {
   display: -webkit-box;
   display: -ms-flexbox;

@@ -106,6 +106,12 @@
 /* About Company */
 
 .page-template-about {
+  .about-title-blue-line {
+    width: 150px;
+    height: 5px;
+    background: $color__accent;
+    margin: 0 auto;
+  }
   .about-top-row-container {
     display: flex;
     flex-direction: row;
