@@ -10,14 +10,14 @@ get_header(); ?>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 			<section class="content-wrapper">
-				<div class="management-team-title-container">
+				<div class="about-team-management-team-title-container">
 					<h2>Management Team</h2>
 					<div class="title-blue-line"></div>
 				</div>
-				<div class="management-team-container">
+				<div class="about-team-management-team-container">
 					<?php while (have_posts()) : the_post(); ?>
-					<div class="single-team-member-container ike-sutton">
-						<div class="name-and-position">
+					<div class="about-team-single-team-member-container ike-sutton">
+						<div class="about-team-name-and-position">
 							<h3>
 								<strong>Ike Sutton</strong>
 							</h3>
@@ -28,7 +28,7 @@ get_header(); ?>
 							Chairman of the Board for numerous companies, including SavWatt USA Inc., Huayue Electronics Inc., Kaymia Global Solutions
 							Inc., and Tarsier Ltd. He holds a Bachelor of Arts degree in Business Administration from Pace University.
 						</p>
-						<div class="contact">
+						<div class="about-team-contact">
 							<strong>CONTACT
 								<br>
 							</strong>
@@ -36,8 +36,8 @@ get_header(); ?>
 							<a ref="#">EMAIL</a>
 						</div>
 					</div>
-					<div class="single-team-member-container terrance-dittrich">
-						<div class="name-and-position">
+					<div class="about-team-single-team-member-container terrance-dittrich">
+						<div class="about-team-name-and-position">
 							<h3>
 								<strong>Terrance Dittrich</strong>
 							</h3>
@@ -50,7 +50,7 @@ get_header(); ?>
 							Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
 							occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 						</p>
-						<div class="contact">
+						<div class="about-team-contact">
 							<strong>CONTACT
 								<br>
 							</strong>
@@ -58,8 +58,8 @@ get_header(); ?>
 							<a ref="#">EMAIL</a>
 						</div>
 					</div>
-					<div class="single-team-member-container alan-fogleman">
-						<div class="name-and-position">
+					<div class="about-team-single-team-member-container alan-fogleman">
+						<div class="about-team-name-and-position">
 							<h3>
 								<strong>Alan Fogleman</strong>
 							</h3>
@@ -72,7 +72,7 @@ get_header(); ?>
 							Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
 							occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 						</p>
-						<div class="contact">
+						<div class="about-team-contact">
 							<strong>CONTACT
 								<br>
 							</strong>
@@ -80,8 +80,8 @@ get_header(); ?>
 							<a ref="#">EMAIL</a>
 						</div>
 					</div>
-					<div class="single-team-member-container steve-altman">
-						<div class="name-and-position">
+					<div class="about-team-single-team-member-container steve-altman">
+						<div class="about-team-name-and-position">
 							<h3>
 								<strong>Steve Altman</strong>
 							</h3>
@@ -94,7 +94,7 @@ get_header(); ?>
 							Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
 							occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 						</p>
-						<div class="contact">
+						<div class="about-team-contact">
 							<strong>CONTACT
 								<br>
 							</strong>
@@ -102,8 +102,8 @@ get_header(); ?>
 							<a ref="#">EMAIL</a>
 						</div>
 					</div>
-					<div class="single-team-member-container david-harper">
-						<div class="name-and-position">
+					<div class="about-team-single-team-member-container david-harper">
+						<div class="about-team-name-and-position">
 							<h3>
 								<strong>David Harper</strong>
 							</h3>
@@ -116,7 +116,7 @@ get_header(); ?>
 							Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
 							occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 						</p>
-						<div class="contact">
+						<div class="about-team-contact">
 							<strong>CONTACT
 								<br>
 							</strong>
@@ -124,8 +124,8 @@ get_header(); ?>
 							<a ref="#">EMAIL</a>
 						</div>
 					</div>
-					<div class="single-team-member-container wanda-halpert">
-						<div class="name-and-position">
+					<div class="about-team-single-team-member-container wanda-halpert">
+						<div class="about-team-name-and-position">
 							<h3>
 								<strong>Wanda Halpert</strong>
 							</h3>
@@ -138,7 +138,7 @@ get_header(); ?>
 							plans have been well received by bankers, investors, large and small capital companies, shareholders, auditors, securities
 							counsel, brokers, and investor relations professionals.
 						</p>
-						<div class="contact">
+						<div class="about-team-contact">
 							<strong>CONTACT
 								<br>
 							</strong>
@@ -146,8 +146,8 @@ get_header(); ?>
 							<a ref="#">EMAIL</a>
 						</div>
 					</div>
-					<div class="single-team-member-container julio-ferreira">
-						<div class="name-and-position">
+					<div class="about-team-single-team-member-container julio-ferreira">
+						<div class="about-team-name-and-position">
 							<h3>
 								<strong>Julio Ferreira</strong>
 							</h3>
@@ -160,7 +160,7 @@ get_header(); ?>
 							Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
 							occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 						</p>
-						<div class="contact">
+						<div class="about-team-contact">
 							<strong>CONTACT
 								<br>
 							</strong>
@@ -168,8 +168,8 @@ get_header(); ?>
 							<a ref="#">EMAIL</a>
 						</div>
 					</div>
-					<div class="single-team-member-container tim-davranov">
-						<div class="name-and-position">
+					<div class="about-team-single-team-member-container tim-davranov">
+						<div class="about-team-name-and-position">
 							<h3>
 								<strong>Tim Davranov</strong>
 							</h3>
@@ -182,7 +182,7 @@ get_header(); ?>
 							Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
 							occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 						</p>
-						<div class="contact">
+						<div class="about-team-contact">
 							<strong>CONTACT
 								<br>
 							</strong>
@@ -192,7 +192,7 @@ get_header(); ?>
 					</div>
 				</div>
 				<?php endwhile; // End of the loop.?>
-				<div class="signup-image">
+				<div class="about-team-signup-image">
 				</div>
 			</section>
 		</main>

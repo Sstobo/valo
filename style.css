@@ -2337,33 +2337,30 @@ h2 {
 /*--------------------------------------------------------------
 # About Pages
 --------------------------------------------------------------*/
-.content-wrapper {
-  padding-top: 100px; }
-
-.about-title-blue-line {
+/* about_team */
+.page-template-about_team .about-title-blue-line {
   width: 150px;
   height: 5px;
   background: #00aeef;
   margin: 0 auto; }
 
-/* about_team */
-.management-team-title-container {
+.page-template-about_team .about-team-management-team-title-container {
   height: 200px;
   width: 100%;
   background: url("../../assets/Backgrounds/footer-background.jpg");
   background-size: cover;
   padding: 5% 10%; }
   @media all and (min-width: 990px) {
-    .management-team-title-container {
+    .page-template-about_team .about-team-management-team-title-container {
       padding: 5% 20%; } }
-  .management-team-title-container h2 {
+  .page-template-about_team .about-team-management-team-title-container h2 {
     text-align: center;
     color: #fff;
     font-size: 40px;
     margin-top: 0;
     margin-bottom: 2.5%; }
 
-.management-team-container {
+.page-template-about_team .about-team-management-team-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2373,47 +2370,47 @@ h2 {
           flex-direction: column;
   background-color: #f7f7f7; }
   @media all and (min-width: 990px) {
-    .management-team-container {
+    .page-template-about_team .about-team-management-team-container {
       -webkit-box-orient: horizontal;
       -webkit-box-direction: normal;
           -ms-flex-direction: row;
               flex-direction: row;
       -ms-flex-wrap: wrap;
           flex-wrap: wrap; } }
-  .management-team-container .ike-sutton,
-  .management-team-container .steve-altman,
-  .management-team-container .david-harper,
-  .management-team-container .tim-davranov {
+  .page-template-about_team .about-team-management-team-container .ike-sutton,
+  .page-template-about_team .about-team-management-team-container .steve-altman,
+  .page-template-about_team .about-team-management-team-container .david-harper,
+  .page-template-about_team .about-team-management-team-container .tim-davranov {
     background-color: #fff; }
 
-.single-team-member-container {
+.page-template-about_team .about-team-single-team-member-container {
   width: 95%;
   margin: 2.5%;
   padding: 25px 50px; }
   @media all and (min-width: 990px) {
-    .single-team-member-container {
+    .page-template-about_team .about-team-single-team-member-container {
       height: 500px;
       width: 45%; } }
-  .single-team-member-container p {
+  .page-template-about_team .about-team-single-team-member-container p {
     font-family: sans-serif;
     word-spacing: normal;
     line-height: 1.9;
     color: #3f3f3f;
     font-size: 15px; }
 
-.name-and-position h3 {
+.page-template-about_team .about-team-name-and-position h3 {
   color: #00aeef;
   font-size: 24px;
   margin-top: 0;
   margin-bottom: 10px; }
 
-.name-and-position span {
+.page-template-about_team .about-team-name-and-position span {
   color: #000000;
   font-weight: 700;
   font-size: 15px;
   line-height: 1em; }
 
-.contact a {
+.page-template-about_team .about-team-contact a {
   color: #00aeef;
   font-weight: 700; }
 
@@ -2428,9 +2425,9 @@ h2 {
             align-items: left; }
   .page-template-about_team div.wpcf7 {
     padding-left: 150px; }
-  .signup-image {
+  .page-template-about_team .about-team-signup-image {
     width: 50%;
-    height: 400px;
+    height: 418px;
     position: absolute;
     left: 50%;
     background-image: url("../../assets/Backgrounds/valo-sign-up-image-1.jpg");

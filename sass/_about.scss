@@ -2,91 +2,85 @@
 # About Pages
 --------------------------------------------------------------*/
 
-// Clear header
-.content-wrapper {
-  padding-top: 100px;
-}
-
-// Title accent line
-.about-title-blue-line {
-  width: 150px;
-  height: 5px;
-  background: $color__accent;
-  margin: 0 auto;
-}
-
 /* about_team */
 
-.management-team-title-container {
-  height: 200px;
-  width: 100%;
-  background: url('../../assets/Backgrounds/footer-background.jpg');
-  background-size: cover;
-  padding: 5% 10%;
+.page-template-about_team {
+  // Title accent line
+  .about-title-blue-line {
+    width: 150px;
+    height: 5px;
+    background: $color__accent;
+    margin: 0 auto;
+  }
+  .about-team-management-team-title-container {
+    height: 200px;
+    width: 100%;
+    background: url('../../assets/Backgrounds/footer-background.jpg');
+    background-size: cover;
+    padding: 5% 10%;
+    @media all and (min-width: 990px) {
+      padding: 5% 20%;
+    }
+    h2 {
+      text-align: center;
+      color: #fff;
+      font-size: 40px;
+      margin-top: 0;
+      margin-bottom: 2.5%;
+    }
+  }
+  .about-team-management-team-container {
+    display: flex;
+    flex-direction: column;
+    @media all and (min-width: 990px) {
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+    background-color: $color__background-team;
+    .ike-sutton,
+    .steve-altman,
+    .david-harper,
+    .tim-davranov {
+      background-color: #fff;
+    }
+  }
+  .about-team-single-team-member-container {
+    width: 95%;
+    @media all and (min-width: 990px) {
+      height: 500px;
+      width: 45%;
+    }
+    margin: 2.5%;
+    padding: 25px 50px;
+    p {
+      font-family: $font__droid;
+      word-spacing: normal;
+      line-height: 1.9; //Todo: adjust for font
+      color: #3f3f3f;
+      font-size: 15px;
+    }
+  }
+  .about-team-name-and-position {
+    h3 {
+      color: $color__accent;
+      font-size: 24px;
+      margin-top: 0;
+      margin-bottom: 10px;
+    }
+    span {
+      color: #000000;
+      font-weight: 700;
+      font-size: 15px;
+      line-height: 1em;
+    }
+  }
+  .about-team-contact {
+    a {
+      color: $color__accent;
+      font-weight: 700;
+    }
+  }
   @media all and (min-width: 990px) {
-    padding: 5% 20%;
-  }
-  h2 {
-    text-align: center;
-    color: #fff;
-    font-size: 40px;
-    margin-top: 0;
-    margin-bottom: 2.5%;
-  }
-}
-.management-team-container {
-  display: flex;
-  flex-direction: column;
-  @media all and (min-width: 990px) {
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-  background-color: $color__background-team;
-  .ike-sutton,
-  .steve-altman,
-  .david-harper,
-  .tim-davranov {
-    background-color: #fff;
-  }
-}
-.single-team-member-container {
-  width: 95%;
-  @media all and (min-width: 990px) {
-    height: 500px;
-    width: 45%;
-  }
-  margin: 2.5%;
-  padding: 25px 50px;
-  p {
-    font-family: $font__droid;
-    word-spacing: normal;
-    line-height: 1.9; //Todo: adjust for font
-    color: #3f3f3f;
-    font-size: 15px;
-  }
-}
-.name-and-position {
-  h3 {
-    color: $color__accent;
-    font-size: 24px;
-    margin-top: 0;
-    margin-bottom: 10px;
-  }
-  span {
-    color: #000000;
-    font-weight: 700;
-    font-size: 15px;
-    line-height: 1em;
-  }
-}
-.contact {
-  a {
-    color: $color__accent;
-    font-weight: 700;
-  }
-}
-@media all and (min-width: 990px) {
-  .page-template-about_team {
     div.signup-container {
       width: 50%;
       max-height: 358px;
@@ -98,19 +92,20 @@
     div.wpcf7 {
       padding-left: 150px;
     }
-  }
-  .signup-image {
-    width: 50%;
-    height: 400px;
-    position: absolute;
-    left: 50%;
-    background-image: url('../../assets/Backgrounds/valo-sign-up-image-1.jpg');
-    background-size: cover;
-    background-position: center;
+    .about-team-signup-image {
+      width: 50%;
+      height: 418px;
+      position: absolute;
+      left: 50%;
+      background-image: url('../../assets/Backgrounds/valo-sign-up-image-1.jpg');
+      background-size: cover;
+      background-position: center;
+    }
   }
 }
 
 /* About Company */
+
 .page-template-about {
   .about-top-row-container {
     display: flex;
