@@ -182,8 +182,26 @@
 
   #contact-copy {
     @include footer_row {
-      padding-right: 2%;
+      padding-right: 8%;
       width: auto;
+    }
+  }
+  .fix {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    height: 50px;
+    width: 50px;
+    background: black;
+    opacity: 0.3;
+
+    .fa {
+      font-size: 28px;
+      color: #fff;
     }
   }
 }

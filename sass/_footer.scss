@@ -8,6 +8,7 @@
   justify-content: center;
   align-items: center;
   margin-top: 34px;
+  margin-bottom: 30px;
 
   @include footer_row {
     width: auto;
@@ -267,6 +268,24 @@
       font-family: $font__main;
       font-size: 14px;
       color: $color__border-abbr;
+    }
+
+    .fix {
+      display: flex;
+      display: none;
+      justify-content: center;
+      align-items: center;
+      position: fixed;
+      bottom: 20px;
+      right: 10px;
+      height: 50px;
+      width: 50px;
+      background: black;
+      opacity: 0.3;
+
+      .fa {
+        font-size: 28px;
+      }
     }
   }
 }

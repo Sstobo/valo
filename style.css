@@ -2930,8 +2930,28 @@ h2 {
         padding-left: 2%; } }
   @media all and (min-width: 800px) {
     .contact-footer #contact-copy {
-      padding-right: 2%;
+      padding-right: 8%;
       width: auto; } }
+  .contact-footer .fix {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    height: 50px;
+    width: 50px;
+    background: black;
+    opacity: 0.3; }
+    .contact-footer .fix .fa {
+      font-size: 28px;
+      color: #fff; }
 
 .page-template-download {
   width: 100%;
@@ -3384,7 +3404,8 @@ h2 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: 34px; }
+  margin-top: 34px;
+  margin-bottom: 30px; }
   @media all and (min-width: 800px) {
     .signup-container {
       width: auto; } }
@@ -3632,3 +3653,23 @@ h2 {
       font-family: "Roboto";
       font-size: 14px;
       color: #666; }
+    .site-footer .site-info .fix {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      display: none;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      position: fixed;
+      bottom: 20px;
+      right: 10px;
+      height: 50px;
+      width: 50px;
+      background: black;
+      opacity: 0.3; }
+      .site-footer .site-info .fix .fa {
+        font-size: 28px; }
