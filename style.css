@@ -3142,9 +3142,12 @@ h2 {
             flex-basis: 50%;
         height: auto;
         background: url("../../assets/icons-SVG/globe2.png");
-        background-size: 700px;
+        background-size: cover;
         background-repeat: no-repeat;
-        background-position: -50px 0px; } }
+        background-position: 50% 50%; } }
+    @media all and (min-width: 1200px) {
+      .contact-content-area .contact-container .contact-image {
+        background-position: 30% -10%; } }
   .contact-content-area .contact-container .contact-info {
     display: -webkit-box;
     display: -ms-flexbox;
