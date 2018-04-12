@@ -1,6 +1,6 @@
 (function($) {
-  //Cache reference to window and animation items
-  var $animation_elements = $('.about-platform-center-container');
+  //Cache reference to window and animation items for performance
+  var $animation_elements = $('.about-phone-icon');
   var $window = $(window);
   $window.on('scroll', check_if_in_view);
   $window.on('scroll resize', check_if_in_view);
@@ -18,8 +18,6 @@
       var element_top_position = $element.offset().top;
       var element_bottom_position = element_top_position + element_height;
       console.log(window_top_position);
-
-      //check to see if this current container is within viewport
       if (
         element_bottom_position >= window_top_position &&
         element_top_position <= window_bottom_position

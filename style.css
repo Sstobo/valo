@@ -2346,7 +2346,7 @@ h2 {
   background: #00aeef;
   margin: 0 auto; }
 
-/* About Team */
+/* about_team */
 .management-team-title-container {
   height: 200px;
   width: 100%;
@@ -2809,18 +2809,22 @@ h2 {
 
 .about-platform-center-container {
   padding: 0;
-  margin: 0; }
-
-.phone-icon {
+  margin: 0;
   overflow: hidden;
-  -webkit-transform: translate3d(0px, 100px, 0px);
-          transform: translate3d(0px, 100px, 0px);
+  position: relative; }
+
+.about-phone-icon {
   width: 275px;
-  height: 453px; }
+  height: 0px;
+  margin-top: 453px; }
 
 .in-view {
-  -webkit-transform: translate3d(0px, -60px, 0px);
-          transform: translate3d(0px, -60px, 0px); }
+  margin-top: 0;
+  height: 453px;
+  -webkit-transform-origin: left bottom;
+          transform-origin: left bottom;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s; }
 
 .about-platform-right-container {
   display: -webkit-box;
