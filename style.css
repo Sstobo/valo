@@ -3462,10 +3462,14 @@ h2 {
         margin-bottom: 48px; } }
 
 .investors-right {
+  display: none;
   height: 700px;
   width: 100%;
   background-image: url("../../assets/icons-SVG/investors-picture.jpg");
   background-size: cover; }
+  @media (min-width: 1000px) {
+    .investors-right {
+      display: block; } }
 
 .content-area-services {
   font-family: "Roboto"; }
