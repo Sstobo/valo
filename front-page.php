@@ -69,7 +69,7 @@ get_header(); ?>
 			<section class="banner">
 			<img alt="Valo logo" src="<?php echo get_template_directory_uri() . '/assets/Logo SVG/VALO white logo-01.png'?>" id="banner-logo"/>
 			<p>Discover how VALO can help make your city better </p>
-			<button class="button-main button-with-shadow" id="banner-contact-button">Contact Us</button>
+			<a href="<?php echo esc_url(home_url('/contact')); ?>" class="button-main button-with-shadow" id="banner-contact-button">Contact Us</a>
 			</section>
 			<!-- close contact banner -->
 
