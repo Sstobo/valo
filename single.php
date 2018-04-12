@@ -42,7 +42,7 @@ get_header(); ?>
 				</section>
 
 				<div class="request-consultation-container">
-					<?php echo do_shortcode('[contact-form-7 id="23" title="News Request Consulation"]');?>
+					<?php echo do_shortcode('[contact-form-7 id="113" title="News Request Consultation"]');?>
 				</div>
 
 			</section>
