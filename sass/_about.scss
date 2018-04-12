@@ -430,20 +430,36 @@
 }
 .about-platform-container {
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  margin-top: 40px;
+  flex-direction: column;
+  @media all and (min-width: 785px) {
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 40px;
+  }
 }
 .about-platform-left-container {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: center;
+  margin-right: 30px;
+  @media all and (min-width: 785px) {
+    justify-content: space-evenly;
+  }
 }
 .about-platform-left-top {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  margin-top: 20px;
   p {
-    width: 129px;
+    width: 60%;
+  }
+  @media all and (min-width: 785px) {
+    justify-content: flex-start;
+    margin-top: 0px;
+    p {
+      width: 129px;
+    }
   }
   .icon {
     padding-left: 20%;
@@ -454,8 +470,15 @@
 .about-platform-left-bottom {
   display: flex;
   flex-direction: row;
+  justify-content: center;
   p {
-    width: 129px;
+    width: 60%;
+  }
+  @media all and (min-width: 785px) {
+    justify-content: flex-start;
+    p {
+      width: 129px;
+    }
   }
   .icon {
     padding-left: 20%;
@@ -465,31 +488,43 @@
 }
 .about-platform-center-container {
   padding: 0;
-  margin: 0;
-  overflow: hidden;
-  position: relative;
+  margin: 0 auto;
+  margin-bottom: -7px;
 }
 .about-phone-icon {
   width: 275px;
-  height: 0px;
-  margin-top: 453px;
+  height: 453px;
+  margin-top: 0;
+  @media all and (min-width: 785px) {
+    height: 0px;
+    margin-top: 453px;
+  }
 }
-.in-view {
+.about-phone-in-view {
   margin-top: 0;
   height: 453px;
-  transform-origin: left bottom;
   transition-duration: 0.5s;
 }
 .about-platform-right-container {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  margin-left: 30px;
 }
 .about-platform-right-top {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  margin-top: 20px;
   p {
-    width: 129px;
+    width: 60%;
+  }
+  @media all and (min-width: 785px) {
+    justify-content: flex-end;
+    margin-top: 0px;
+    p {
+      width: 129px;
+    }
   }
   .icon {
     padding-right: 20%;
@@ -500,8 +535,15 @@
 .about-platform-right-bottom {
   display: flex;
   flex-direction: row;
+  justify-content: center;
   p {
-    width: 129px;
+    width: 60%;
+  }
+  @media all and (min-width: 785px) {
+    justify-content: flex-end;
+    p {
+      width: 129px;
+    }
   }
   .icon {
     padding-right: 20%;

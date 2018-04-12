@@ -92,7 +92,7 @@ get_header(); ?>
 					 					</div>
 									</div>
 									<div class="about-platform-center-container">
-										<img class="about-phone-icon" srcset="<?php echo get_template_directory_uri() . '/assets/images/valo-phone.jpg'?>" />
+										<img class="about-phone-icon" srcset="<?php echo get_template_directory_uri() . '/assets/images/valo-phone.png'?>" />
 									</div>	
 									<div class="about-platform-right-container">
             				<div class="about-platform-right-top">

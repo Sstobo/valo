@@ -22,9 +22,9 @@
         element_bottom_position >= window_top_position &&
         element_top_position <= window_bottom_position
       ) {
-        $element.addClass('in-view');
+        $element.addClass('about-phone-in-view');
       } else {
-        $element.removeClass('in-view');
+        $element.removeClass('about-phone-in-view');
       }
     });
   }
