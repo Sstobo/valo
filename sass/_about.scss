@@ -15,7 +15,7 @@
   margin: 0 auto;
 }
 
-/* About Team */
+/* about_team */
 
 .management-team-title-container {
   height: 200px;
@@ -416,5 +416,138 @@
     font-family: $font__main;
     font-size: 15px;
     line-height: 1.9;
+  }
+}
+.about-platform-wrapper {
+  background: url('http://localhost:8888/Valo/wp-content/themes/valo/assets/Backgrounds/clean-gray-abstract-background.png')
+    bottom left no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  padding: 50px 10% 0;
+  h3 {
+    text-align: center;
+  }
+}
+.about-platform-container {
+  display: flex;
+  flex-direction: column;
+  @media all and (min-width: 785px) {
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 40px;
+  }
+}
+.about-platform-left-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 30px;
+  @media all and (min-width: 785px) {
+    justify-content: space-evenly;
+  }
+}
+.about-platform-left-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 20px;
+  p {
+    width: 60%;
+  }
+  @media all and (min-width: 785px) {
+    justify-content: flex-start;
+    margin-top: 0px;
+    p {
+      width: 129px;
+    }
+  }
+  .icon {
+    padding-left: 20%;
+    align-self: center;
+    color: $color__accent;
+  }
+}
+.about-platform-left-bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  p {
+    width: 60%;
+  }
+  @media all and (min-width: 785px) {
+    justify-content: flex-start;
+    p {
+      width: 129px;
+    }
+  }
+  .icon {
+    padding-left: 20%;
+    align-self: center;
+    color: $color__accent;
+  }
+}
+.about-platform-center-container {
+  padding: 0;
+  margin: 0 auto;
+  margin-bottom: -7px;
+}
+.about-phone-icon {
+  width: 275px;
+  height: 453px;
+  margin-top: 0;
+  @media all and (min-width: 785px) {
+    height: 0px;
+    margin-top: 453px;
+  }
+}
+.about-phone-in-view {
+  margin-top: 0;
+  height: 453px;
+  transition-duration: 0.5s;
+}
+.about-platform-right-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-left: 30px;
+}
+.about-platform-right-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 20px;
+  p {
+    width: 60%;
+  }
+  @media all and (min-width: 785px) {
+    justify-content: flex-end;
+    margin-top: 0px;
+    p {
+      width: 129px;
+    }
+  }
+  .icon {
+    padding-right: 20%;
+    align-self: center;
+    color: $color__accent;
+  }
+}
+.about-platform-right-bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  p {
+    width: 60%;
+  }
+  @media all and (min-width: 785px) {
+    justify-content: flex-end;
+    p {
+      width: 129px;
+    }
+  }
+  .icon {
+    padding-right: 20%;
+    align-self: center;
+    color: $color__accent;
   }
 }
