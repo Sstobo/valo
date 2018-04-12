@@ -58,25 +58,21 @@
 						<a href="<?php echo esc_url(home_url('/products/products_cameras_software'));?>"> Smart Cameras and Software</a>
 					</div>
 
+					<?php $args = array( 'post_type' => 'post', 'posts_per_page' => 3 ); $query = new WP_Query( $args );?>
 
-					
-
-					
 					<div class="news">
 						<p class="caps title">News</p>
-						<?php if (have_posts()) : $i = 1; while ( have_posts() && $i < 4 ) : the_post(); ?>
+						<?php while ( $query->have_posts() ) : $query->the_post(); ?>
 
-							
-									<a href="<?php the_permalink() ?>"><?php the_title() ?></a>
-									<p class="journal-date"><?php the_time(' F jS, Y') ?></p>
-							
+							<a href="<?php the_permalink();?>"><?php the_title(); ?></a>
+							<p class="journal-date"><?php the_time(' F jS, Y') ?></p>
 
-						<?php $i++; endwhile; ?>
-						<?php else : ?>
-						<p> News stories coming soon!</p>
+						<?php endwhile; ?>
+					</div>
+					
 
-						<?php endif ?>
-					</div>			
+					
+					
 					
 
 
