@@ -33,4 +33,18 @@ jQuery(document).ready(function($) {
       }
     });
   });
+  $('.share-post').hover(
+    () => {
+      $('.soc-font-icon').css({ display: 'inline-block' });
+      $('.soc-links-container').animate({
+        opacity: 1
+      });
+    },
+    () => {
+      $('.soc-font-icon').animate({ display: 'none' });
+      $('.soc-links-container').animate({
+        opacity: 0
+      });
+    }
+  );
 });

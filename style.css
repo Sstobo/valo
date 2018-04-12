@@ -2804,13 +2804,15 @@ h2 {
 .active-filter {
   border-bottom: 1px solid #00aeef; }
 
-.filtered-posts {
+.filtered-posts-container {
   margin: 0 auto;
   width: 95%;
+  min-height: 600px; }
+
+.filtered-posts {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  min-height: 500px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -3093,6 +3095,76 @@ h2 {
       color: #00aeef;
       font-family: "Roboto";
       border: none; }
+
+.share-post {
+  margin: 0 auto;
+  width: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+  .share-post p {
+    font-weight: 700; }
+
+.soc-links-container {
+  -webkit-box-shadow: 0 0 8px rgba(3, 3, 3, 0.2);
+          box-shadow: 0 0 8px rgba(3, 3, 3, 0.2);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 50px;
+  width: 300px;
+  opacity: 0.1; }
+
+.soc-font-icon {
+  padding: 5px 15px;
+  border: 1px solid;
+  display: none; }
+
+.facebook {
+  color: #425ec0;
+  border-color: #c6ceec; }
+  .facebook:hover {
+    border-color: #425ec0; }
+
+.linkedin {
+  color: #0070c0;
+  border-color: #b2d4ec; }
+  .linkedin:hover {
+    border-color: #0070c0; }
+
+.pinterest {
+  color: #c9232e;
+  border-color: #efbdc0; }
+  .pinterest:hover {
+    border-color: #c9232e; }
+
+.google {
+  color: #e2392f;
+  border-color: #efbdc0; }
+  .google:hover {
+    border-color: #e2392f; }
+
+.twitter {
+  color: #25b6e8;
+  border-color: #bde9f8; }
+  .twitter:hover {
+    border-color: #25b6e8; }
 
 .contact-content-area .entry-title {
   display: none; }
