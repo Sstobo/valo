@@ -15,7 +15,7 @@ get_header(); ?>
 			<section class="contact-image"></section>
 
 		
-			<section id="top"class="contact-info">
+			<section class="contact-info">
 				<h1>Connect With <span class="uppercase">Valo</span></h1>
 
 
@@ -90,13 +90,16 @@ get_header(); ?>
 			<img src="<?php echo get_template_directory_uri() . '/assets/Logo SVG/VALO white logo-01.png'?>" id="contact-logo"/>
 			<div class="copy-top">
 				<p id="contact-copy"> &copy Valo Smart City 2018. All Rights Reserved.</p> 
-				<a href="#top">top</a>	
+				<div class="fix"> 
+					<i class="fa fa-long-arrow-up" aria-hidden="true"></i>
+				</div>
+					
 			</div>
 		</div>
 
 		</main><!-- #main -->
 
-		 <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+		
 		
 	</div><!-- #primary -->
 

@@ -112,6 +112,8 @@ add_action( 'wp_loaded', 'my_theme_scripts' );
 
 
 function red_starter_scripts() {
+
+	wp_enqueue_script('jquery');
 	wp_enqueue_style( 'red-starter-style', get_stylesheet_uri() );
 
 	wp_enqueue_script( 'red-starter-skip-link-focus-fix', get_template_directory_uri() . '/build/js/skip-link-focus-fix.min.js', array(), '20130115', true );

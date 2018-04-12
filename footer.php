@@ -68,7 +68,12 @@
 					</div>
 					<div class="logo">
 						<img src="<?php echo get_template_directory_uri() . '/assets/Logo SVG/VALO white logo-01.png'?>" id="logo"/>
-						<p id="copy"> &copy Valo Smart City 2018. All Rights Reserved.</p> 
+						<p id="copy"> &copy Valo Smart City 2018. All Rights Reserved.</p>
+						<div class="fix"> 
+							<i class="fa fa-long-arrow-up" aria-hidden="true"></i>
+
+						</div>
+
 					</div>
 
 				</div><!-- .site-info -->

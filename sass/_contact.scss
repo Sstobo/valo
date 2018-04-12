@@ -21,14 +21,19 @@
     }
     .contact-image {
       display: none;
+
       @include desktop {
         display: flex;
         flex-basis: 50%;
         height: auto;
         background: url('../../assets/icons-SVG/globe2.png');
-        background-size: 700px;
+        background-size: cover;
         background-repeat: no-repeat;
-        background-position: -50px 0px;
+        background-position: 50% 50%;
+      }
+
+      @include large {
+        background-position: 30% -10%;
       }
     }
     .contact-info {
@@ -40,7 +45,6 @@
         align-items: center;
       }
       @include desktop {
-        // margin-right: 3%;
         flex-basis: 50%;
       }
       h1 {
@@ -182,8 +186,26 @@
 
   #contact-copy {
     @include footer_row {
-      padding-right: 2%;
+      padding-right: 8%;
       width: auto;
+    }
+  }
+  .fix {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    height: 50px;
+    width: 50px;
+    background: black;
+    opacity: 0.3;
+
+    .fa {
+      font-size: 28px;
+      color: #fff;
     }
   }
 }
