@@ -2340,7 +2340,7 @@ h2 {
 .content-wrapper {
   padding-top: 100px; }
 
-.title-blue-line {
+.about-title-blue-line {
   width: 150px;
   height: 5px;
   background: #00aeef;
@@ -2438,7 +2438,7 @@ h2 {
     background-position: center; } }
 
 /* About Company */
-.top-row-container {
+.page-template-about .about-top-row-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2447,37 +2447,37 @@ h2 {
       -ms-flex-direction: row;
           flex-direction: row; }
 
-.single-item-vision {
+.page-template-about .about-single-item-vision {
   height: 500px;
   padding: 45px 8.5%; }
   @media all and (max-width: 768px) {
-    .single-item-vision {
+    .page-template-about .about-single-item-vision {
       height: 300px; } }
   @media all and (max-width: 425px) {
-    .single-item-vision {
+    .page-template-about .about-single-item-vision {
       height: 400px; } }
-  .single-item-vision h2 {
+  .page-template-about .about-single-item-vision h2 {
     font-weight: 700;
     font-size: 40px;
     margin-top: 0; }
-  .single-item-vision p {
+  .page-template-about .about-single-item-vision p {
     font-weight: 400;
     font-size: 15;
     font-family: sans-serif; }
   @media all and (min-width: 990px) {
-    .single-item-vision {
+    .page-template-about .about-single-item-vision {
       width: 50%; } }
 
-.top-row-image {
+.page-template-about .about-top-row-image {
   display: none;
   height: 500px;
   width: 50%;
   padding: 45px 7%; }
   @media all and (min-width: 990px) {
-    .top-row-image {
+    .page-template-about .about-top-row-image {
       display: block; } }
 
-.vision-image {
+.page-template-about .about-vision-image {
   display: none;
   height: 100%;
   width: auto;
@@ -2486,10 +2486,10 @@ h2 {
   background-repeat: no-repeat;
   background-position: center; }
   @media all and (min-width: 990px) {
-    .vision-image {
+    .page-template-about .about-vision-image {
       display: block; } }
 
-.our-purpose-container {
+.page-template-about .about-our-purpose-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2498,15 +2498,15 @@ h2 {
       -ms-flex-direction: row;
           flex-direction: row; }
 
-.our-purpose-image {
+.page-template-about .about-our-purpose-image {
   display: none;
   height: 600px;
   width: 50%; }
   @media all and (min-width: 990px) {
-    .our-purpose-image {
+    .page-template-about .about-our-purpose-image {
       display: block; } }
 
-.purpose-image {
+.page-template-about .about-purpose-image {
   display: none;
   height: 100%;
   width: auto;
@@ -2515,41 +2515,41 @@ h2 {
   background-repeat: no-repeat;
   background-position: center; }
   @media all and (min-width: 990px) {
-    .purpose-image {
+    .page-template-about .about-purpose-image {
       display: block; } }
 
-.single-item-purpose {
+.page-template-about .about-single-item-purpose {
   height: 600px;
   padding: 45px 7%; }
   @media all and (max-width: 375px) {
-    .single-item-purpose {
+    .page-template-about .about-single-item-purpose {
       height: 700px; } }
-  .single-item-purpose h2 {
+  .page-template-about .about-single-item-purpose h2 {
     font-weight: 700;
     font-size: 40px;
     margin-top: 0;
     margin-bottom: 5px; }
-  .single-item-purpose p {
+  .page-template-about .about-single-item-purpose p {
     font-weight: 400;
     font-size: 15;
     line-height: 1.9;
     font-family: sans-serif; }
-  .single-item-purpose h3 {
+  .page-template-about .about-single-item-purpose h3 {
     font-weight: 700;
     color: #000000;
     margin-bottom: 30px;
     font-size: 24px; }
   @media all and (min-width: 990px) {
-    .single-item-purpose {
+    .page-template-about .about-single-item-purpose {
       width: 50%; } }
 
-.purpose-blue-line {
+.page-template-about .about-purpose-blue-line {
   width: 150px;
   height: 5px;
   background: #00aeef;
   text-align: left; }
 
-.advantage-container {
+.page-template-about .about-advantage-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2558,122 +2558,122 @@ h2 {
       -ms-flex-direction: column;
           flex-direction: column; }
   @media all and (min-width: 990px) {
-    .advantage-container {
+    .page-template-about .about-advantage-container {
       -webkit-box-orient: horizontal;
       -webkit-box-direction: normal;
           -ms-flex-direction: row;
               flex-direction: row; } }
 
-.the-valo-advantage {
+.page-template-about .about-the-valo-advantage {
   height: 380px;
   width: 100%;
   padding: 30px 8%;
   background-color: #00aeef; }
   @media all and (min-width: 990px) {
-    .the-valo-advantage {
+    .page-template-about .about-the-valo-advantage {
       height: 445px;
       max-width: 25%;
       padding: 30px 2%; } }
-  .the-valo-advantage .lightbulb-icon {
+  .page-template-about .about-the-valo-advantage .about-lightbulb-icon {
     height: 70px;
     width: 60px;
     float: right; }
-  .the-valo-advantage h2 {
+  .page-template-about .about-the-valo-advantage h2 {
     color: #fff;
     font-family: "Roboto";
     margin-bottom: 0;
     padding-top: 10px;
     font-size: 34px;
     line-height: 44px; }
-  .the-valo-advantage span {
+  .page-template-about .about-the-valo-advantage span {
     color: #fff;
     font-family: "Roboto";
     line-height: 1.9; }
 
-.high-costs {
+.page-template-about .about-high-costs {
   height: 300px;
   width: 100%;
   padding: 30px 8%;
   background-color: #f7f7f7; }
   @media all and (min-width: 990px) {
-    .high-costs {
+    .page-template-about .about-high-costs {
       height: 445px;
       max-width: 25%;
       padding: 40px 2.7%; } }
-  .high-costs h1 {
+  .page-template-about .about-high-costs h1 {
     color: #00aeef;
     text-align: right;
     margin-bottom: 15px;
     margin-top: 0; }
-  .high-costs h3 {
+  .page-template-about .about-high-costs h3 {
     color: #000;
     font-family: sans-serif;
     line-height: 1.9;
     margin-top: 0;
     font-size: 24px;
     line-height: 34px; }
-  .high-costs p {
+  .page-template-about .about-high-costs p {
     color: #000;
     font-family: "Roboto";
     font-size: 15px;
     line-height: 1.9; }
 
-.lack-of-capital {
+.page-template-about .about-lack-of-capital {
   height: 300px;
   width: 100%;
   padding: 30px 8%; }
   @media all and (min-width: 990px) {
-    .lack-of-capital {
+    .page-template-about .about-lack-of-capital {
       height: 445px;
       max-width: 25%;
       padding: 40px 2.5%; } }
-  .lack-of-capital h1 {
+  .page-template-about .about-lack-of-capital h1 {
     color: #00aeef;
     text-align: right;
     margin-bottom: 15px;
     margin-top: 0; }
-  .lack-of-capital h3 {
+  .page-template-about .about-lack-of-capital h3 {
     color: #000;
     font-family: sans-serif;
     line-height: 1.9;
     margin-top: 0;
     font-size: 24px;
     line-height: 34px; }
-  .lack-of-capital p {
+  .page-template-about .about-lack-of-capital p {
     color: #000;
     font-family: "Roboto";
     font-size: 15px;
     line-height: 1.9; }
 
-.no-financial {
+.page-template-about .about-no-financial {
   height: 300px;
   width: 100%;
   padding: 30px 8%;
   background-color: #ededed; }
   @media all and (min-width: 990px) {
-    .no-financial {
+    .page-template-about .about-no-financial {
       height: 445px;
       max-width: 25%;
       padding: 40px 2.5%; } }
-  .no-financial h1 {
+  .page-template-about .about-no-financial h1 {
     color: #00aeef;
     text-align: right;
     margin-bottom: 15px;
     margin-top: 0; }
-  .no-financial h3 {
+  .page-template-about .about-no-financial h3 {
     color: #000;
     font-family: sans-serif;
     line-height: 1.9;
     margin-top: 0;
     font-size: 24px;
     line-height: 34px; }
-  .no-financial p {
+  .page-template-about .about-no-financial p {
     color: #000;
     font-family: "Roboto";
     font-size: 15px;
     line-height: 1.9; }
 
-.advantage-container-two {
+.page-template-about .about-advantage-container-two {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2682,76 +2682,76 @@ h2 {
       -ms-flex-direction: column;
           flex-direction: column; }
   @media all and (min-width: 990px) {
-    .advantage-container-two {
+    .page-template-about .about-advantage-container-two {
       -webkit-box-orient: horizontal;
       -webkit-box-direction: normal;
           -ms-flex-direction: row;
               flex-direction: row; } }
 
-.financing {
+.page-template-about .about-financing {
   height: 300px;
   width: 100%;
   padding: 20px 8%; }
   @media all and (min-width: 990px) {
-    .financing {
+    .page-template-about .about-financing {
       height: 229px;
       width: 50%;
       padding: 20px 4%; } }
-  .financing h1 {
+  .page-template-about .about-financing h1 {
     color: #00aeef;
     text-align: right;
     margin-bottom: 15px;
     margin-top: 0; }
-  .financing h3 {
+  .page-template-about .about-financing h3 {
     color: #000;
     font-family: sans-serif;
     line-height: 1.9;
     margin-top: 0;
     font-size: 24px;
     line-height: 34px; }
-  .financing p {
+  .page-template-about .about-financing p {
     color: #000;
     font-family: "Roboto";
     font-size: 15px;
     line-height: 1.9; }
 
-.lack-of-data {
+.page-template-about .about-lack-of-data {
   height: 300px;
   width: 100%;
   padding: 20px 8%;
   background-color: #00aeef; }
   @media all and (min-width: 990px) {
-    .lack-of-data {
+    .page-template-about .about-lack-of-data {
       height: 229px;
       width: 50%;
       padding: 20px 4%; } }
-  .lack-of-data h1 {
+  .page-template-about .about-lack-of-data h1 {
     color: #fff;
     text-align: right;
     margin-bottom: 15px;
     margin-top: 0; }
-  .lack-of-data h3 {
+  .page-template-about .about-lack-of-data h3 {
     color: #fff;
     font-family: sans-serif;
     line-height: 1.9;
     margin-top: 0;
     font-size: 24px;
     line-height: 34px; }
-  .lack-of-data p {
+  .page-template-about .about-lack-of-data p {
     color: #fff;
     font-family: "Roboto";
     font-size: 15px;
     line-height: 1.9; }
 
-.about-platform-wrapper {
+.page-template-about .about-platform-wrapper {
   background: url("http://localhost:8888/Valo/wp-content/themes/valo/assets/Backgrounds/clean-gray-abstract-background.png") bottom left no-repeat;
   background-size: 100% 100%;
   background-attachment: fixed;
   padding: 50px 10% 0; }
-  .about-platform-wrapper h3 {
+  .page-template-about .about-platform-wrapper h3 {
     text-align: center; }
 
-.about-platform-container {
+.page-template-about .about-platform-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2760,7 +2760,7 @@ h2 {
       -ms-flex-direction: column;
           flex-direction: column; }
   @media all and (min-width: 785px) {
-    .about-platform-container {
+    .page-template-about .about-platform-container {
       -webkit-box-orient: horizontal;
       -webkit-box-direction: normal;
           -ms-flex-direction: row;
@@ -2769,7 +2769,7 @@ h2 {
           justify-content: space-around;
       margin-top: 40px; } }
 
-.about-platform-left-container {
+.page-template-about .about-platform-left-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2782,12 +2782,12 @@ h2 {
           justify-content: center;
   margin-right: 30px; }
   @media all and (min-width: 785px) {
-    .about-platform-left-container {
+    .page-template-about .about-platform-left-container {
       -webkit-box-pack: space-evenly;
           -ms-flex-pack: space-evenly;
               justify-content: space-evenly; } }
 
-.about-platform-left-top {
+.page-template-about .about-platform-left-top {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2799,23 +2799,23 @@ h2 {
       -ms-flex-pack: center;
           justify-content: center;
   margin-top: 20px; }
-  .about-platform-left-top p {
+  .page-template-about .about-platform-left-top p {
     width: 60%; }
   @media all and (min-width: 785px) {
-    .about-platform-left-top {
+    .page-template-about .about-platform-left-top {
       -webkit-box-pack: start;
           -ms-flex-pack: start;
               justify-content: flex-start;
       margin-top: 0px; }
-      .about-platform-left-top p {
+      .page-template-about .about-platform-left-top p {
         width: 129px; } }
-  .about-platform-left-top .icon {
+  .page-template-about .about-platform-left-top .about-icon {
     padding-left: 20%;
     -ms-flex-item-align: center;
         align-self: center;
     color: #00aeef; }
 
-.about-platform-left-bottom {
+.page-template-about .about-platform-left-bottom {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2826,42 +2826,42 @@ h2 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center; }
-  .about-platform-left-bottom p {
+  .page-template-about .about-platform-left-bottom p {
     width: 60%; }
   @media all and (min-width: 785px) {
-    .about-platform-left-bottom {
+    .page-template-about .about-platform-left-bottom {
       -webkit-box-pack: start;
           -ms-flex-pack: start;
               justify-content: flex-start; }
-      .about-platform-left-bottom p {
+      .page-template-about .about-platform-left-bottom p {
         width: 129px; } }
-  .about-platform-left-bottom .icon {
+  .page-template-about .about-platform-left-bottom .about-icon {
     padding-left: 20%;
     -ms-flex-item-align: center;
         align-self: center;
     color: #00aeef; }
 
-.about-platform-center-container {
+.page-template-about .about-platform-center-container {
   padding: 0;
   margin: 0 auto;
   margin-bottom: -7px; }
 
-.about-phone-icon {
+.page-template-about .about-phone-icon {
   width: 275px;
   height: 453px;
   margin-top: 0; }
   @media all and (min-width: 785px) {
-    .about-phone-icon {
+    .page-template-about .about-phone-icon {
       height: 0px;
       margin-top: 453px; } }
 
-.about-phone-in-view {
+.page-template-about .about-phone-in-view {
   margin-top: 0;
   height: 453px;
   -webkit-transition-duration: 0.5s;
           transition-duration: 0.5s; }
 
-.about-platform-right-container {
+.page-template-about .about-platform-right-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2874,7 +2874,7 @@ h2 {
           justify-content: space-evenly;
   margin-left: 30px; }
 
-.about-platform-right-top {
+.page-template-about .about-platform-right-top {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2886,23 +2886,23 @@ h2 {
       -ms-flex-pack: center;
           justify-content: center;
   margin-top: 20px; }
-  .about-platform-right-top p {
+  .page-template-about .about-platform-right-top p {
     width: 60%; }
   @media all and (min-width: 785px) {
-    .about-platform-right-top {
+    .page-template-about .about-platform-right-top {
       -webkit-box-pack: end;
           -ms-flex-pack: end;
               justify-content: flex-end;
       margin-top: 0px; }
-      .about-platform-right-top p {
+      .page-template-about .about-platform-right-top p {
         width: 129px; } }
-  .about-platform-right-top .icon {
+  .page-template-about .about-platform-right-top .about-icon {
     padding-right: 20%;
     -ms-flex-item-align: center;
         align-self: center;
     color: #00aeef; }
 
-.about-platform-right-bottom {
+.page-template-about .about-platform-right-bottom {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2913,16 +2913,16 @@ h2 {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center; }
-  .about-platform-right-bottom p {
+  .page-template-about .about-platform-right-bottom p {
     width: 60%; }
   @media all and (min-width: 785px) {
-    .about-platform-right-bottom {
+    .page-template-about .about-platform-right-bottom {
       -webkit-box-pack: end;
           -ms-flex-pack: end;
               justify-content: flex-end; }
-      .about-platform-right-bottom p {
+      .page-template-about .about-platform-right-bottom p {
         width: 129px; } }
-  .about-platform-right-bottom .icon {
+  .page-template-about .about-platform-right-bottom .about-icon {
     padding-right: 20%;
     -ms-flex-item-align: center;
         align-self: center;
