@@ -20,22 +20,22 @@ get_header(); ?>
                 </div>
                 <div class="applications-service-wrapper">
                     <div class="applications-lighting">
-                    <img class="applications-img" src="<?php echo get_template_directory_uri() . '/assets/icons-SVG/applications-vehicle.png'; ?>"/></a>
+                    <img alt="A green car" class="applications-img" src="<?php echo get_template_directory_uri() . '/assets/icons-SVG/applications-vehicle.png'; ?>"/></a>
                         <h2>Smart Transportation</h2>
                         <a href="<?php echo get_page_link( get_page_by_title("Smart Transportation" )->ID ); ?>"class="button-main button-hero">Learn more</a>
                     </div>
                     <div class="applications-platform">
-                    <img class="applications-img" src="<?php echo get_template_directory_uri() . '/assets/icons-SVG/applications-recycle.png'; ?>"/></a>
+                    <img alt="A car"  class="applications-img" src="<?php echo get_template_directory_uri() . '/assets/icons-SVG/applications-recycle.png'; ?>"/></a>
                         <h2>Smart Municipal Services</h2>
                        <a href="<?php echo get_page_link( get_page_by_title( "Smart Municipal Services" )->ID ); ?>"class="button-main button-hero">Learn more</a>
                     </div>
                     <div class="applications-cameras">
-                    <img class="applications-img" src="<?php echo get_template_directory_uri() . '/assets/icons-SVG/applications-security-panel.png'; ?>"/></a>
+                    <img alt="Security panel" class="applications-img" src="<?php echo get_template_directory_uri() . '/assets/icons-SVG/applications-security-panel.png'; ?>"/></a>
                         <h2>Smart Security</h2>
                         <a href="<?php echo get_page_link( get_page_by_title( "Smart City Security" )->ID ); ?>"class="button-main button-hero">Learn more</a>
                     </div>
                     <div class="applications-networks">
-                    <img class="applications-img" src="<?php echo get_template_directory_uri() . '/assets/icons-SVG/applications-zero-emission.png'; ?>"/></a>
+                    <img alt="Zero emmision icon" class="applications-img" src="<?php echo get_template_directory_uri() . '/assets/icons-SVG/applications-zero-emission.png'; ?>"/></a>
                         <h2>Smart Environmental Monitoring
                         </h2>
                         <a href="<?php echo get_page_link( get_page_by_title( "Smart Environmental Monitoring" )->ID ); ?>"class="button-main button-hero">Learn more</a>

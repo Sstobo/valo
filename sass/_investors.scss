@@ -108,8 +108,12 @@
 }
 }
 .investors-right {
+    display: none;
     height: 700px;
     width: 100%;
     background-image: url("../../assets/icons-SVG/investors-picture.jpg");
     background-size: cover;
+    @media (min-width: $desktop_width) {
+        display: block;
+    }
 }

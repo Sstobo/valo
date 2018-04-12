@@ -67,7 +67,7 @@
 						<p class="journal-date">January 30, 2018</p>
 					</div>
 					<div class="logo">
-						<img src="<?php echo get_template_directory_uri() . '/assets/Logo SVG/VALO white logo-01.png'?>" id="logo"/>
+						<img alt="Valo logo" src="<?php echo get_template_directory_uri() . '/assets/Logo SVG/VALO white logo-01.png'?>" id="logo"/>
 						<p id="copy"> &copy Valo Smart City 2018. All Rights Reserved.</p>
 						<div class="fix"> 
 							<i class="fa fa-long-arrow-up" aria-hidden="true"></i>

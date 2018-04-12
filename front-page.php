@@ -34,17 +34,17 @@ get_header(); ?>
 				<div class="title-blue-line"></div>
 				<div class="integrator-section-container"> 
           <div class="integrator-item">
-						 <img class="integrator-icon" srcset="<?php echo get_template_directory_uri() . '/assets/icons-SVG/valo-products-01.png'?>" />
+						 <img alt="Products" class="integrator-icon" srcset="<?php echo get_template_directory_uri() . '/assets/icons-SVG/valo-products-01.png'?>" />
 						  <h3>Smart Technology for Smart Cities</h3>
 						 <a href="<?php echo esc_url(home_url('/products/')); ?>"><button class="button-main button-with-shadow">Products</button></a>
 					</div>
 					 <div class="integrator-item">
-							<img class="integrator-icon" srcset="<?php echo get_template_directory_uri() . '/assets/icons-SVG/valo-services-01.png'?>" />
+							<img alt="Services icon" class="integrator-icon" srcset="<?php echo get_template_directory_uri() . '/assets/icons-SVG/valo-services-01.png'?>" />
 							<h3>Opportunities for Cities and Their Citizens</h3> 
 						 <a href="<?php echo esc_url(home_url('/services/')); ?>"><button class="button-main button-with-shadow">Services</button></a>
 					</div>
 					 <div class="integrator-item">
-						  <img class="integrator-icon" srcset="<?php echo get_template_directory_uri() . '/assets/icons-SVG/valo-applications-01.png'?>" />
+						  <img alt="Applications icon" class="integrator-icon" srcset="<?php echo get_template_directory_uri() . '/assets/icons-SVG/valo-applications-01.png'?>" />
 							 <h3>Making Communities and Cities better</h3>
 						 <a href="<?php echo esc_url(home_url('/applications/')); ?>"><button class="button-main button-with-shadow">Applications</button></a>
 					 </div>
@@ -55,7 +55,7 @@ get_header(); ?>
 			<!-- iot of things section -->
 			<section class="iot-container">
 				<div class="iot-photo-container">
-				<img src="<?php echo get_template_directory_uri() . '/assets/icons-SVG/valo-info-01.png'?>" id="iot-logo"/>
+				<img alt="Info icon" src="<?php echo get_template_directory_uri() . '/assets/icons-SVG/valo-info-01.png'?>" id="iot-logo"/>
 				</div>
 				<div class="iot-para-container">
 					<h2>Internet of Things (IoT) Technology is one of the Fastest Growing Sectors.</h2>
@@ -67,7 +67,7 @@ get_header(); ?>
 
 			<!-- contact banner -->
 			<section class="banner">
-			<img src="<?php echo get_template_directory_uri() . '/assets/Logo SVG/VALO white logo-01.png'?>" id="banner-logo"/>
+			<img alt="Valo logo" src="<?php echo get_template_directory_uri() . '/assets/Logo SVG/VALO white logo-01.png'?>" id="banner-logo"/>
 			<p>Discover how VALO can help make your city better </p>
 			<button class="button-main button-with-shadow" id="banner-contact-button">Contact Us</button>
 			</section>

@@ -87,7 +87,7 @@ get_header(); ?>
 			</div>
 
 		<div class="contact-footer">
-			<img src="<?php echo get_template_directory_uri() . '/assets/Logo SVG/VALO white logo-01.png'?>" id="contact-logo"/>
+			<img alt="footer logo" src="<?php echo get_template_directory_uri() . '/assets/Logo SVG/VALO white logo-01.png'?>" id="contact-logo"/>
 			<div class="copy-top">
 				<p id="contact-copy"> &copy Valo Smart City 2018. All Rights Reserved.</p> 
 				<div class="fix"> 
