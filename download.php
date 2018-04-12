@@ -15,8 +15,7 @@ get_header(); ?>
         <h1>Download our latest investor information package</h1>
         </div>
         <div class="title-blue-line"></div>
-
-
+        
         <div class="download-content">
 			<?php while ( have_posts() ) : the_post(); ?>
 
@@ -24,8 +23,6 @@ get_header(); ?>
 
 			<?php endwhile; // End of the loop. ?>
             </div>
-
-            
         </div>
 		</main><!-- #main -->
 	</div><!-- #primary -->
