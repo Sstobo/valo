@@ -2794,20 +2794,7 @@ h2 {
   margin: 60px auto; }
   @media all and (min-width: 1000px) {
     .news-categories {
-      max-width: 600px; } }
-
-.news-categories {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  width: 90%;
-  max-width: 400px;
-  text-align: center;
-  margin: 60px auto; }
+      max-width: 700px; } }
 
 .tax-filter {
   margin: 10px 20px; }
