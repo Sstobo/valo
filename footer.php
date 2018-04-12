@@ -51,21 +51,36 @@
 
 					<div class="useful-links">
 						<p class="caps title">Useful Links</p>
-						<a href="#"> Company </a>
-						<a href="#"> Investor Presentations</a>
-						<a href="#">  Smart City LED Lighting</a>
-						<a href="#">  Smart City Platform </a>
-						<a href="#"> Smart Cameras and Software</a>
+						<a href="<?php echo esc_url(home_url('/about/about_company'));?>"> Company </a>
+						<a href="<?php echo esc_url(home_url('/investors'));?>"> Investor Presentations</a>
+						<a href="<?php echo esc_url(home_url('/products/products_lighting'));?>">  Smart City LED Lighting</a>
+						<a href="<?php echo esc_url(home_url('/products/products_city_platform'));?>">  Smart City Platform </a>
+						<a href="<?php echo esc_url(home_url('/products/products_cameras_software'));?>"> Smart Cameras and Software</a>
 					</div>
+
+
+					
+
+					
 					<div class="news">
 						<p class="caps title">News</p>
-						<a href="#">Valo Smart City as a service</a>
-						<p class="journal-date"> Janurary 30, 2018</p>
-						<a href="#" > Internet of Thing Technology </a>
-						<p class="journal-date">January 30, 2018</p>
-						<a href="#">Valo Smart City reserves funding </a>
-						<p class="journal-date">January 30, 2018</p>
-					</div>
+						<?php if (have_posts()) : $i = 1; while ( have_posts() && $i < 4 ) : the_post(); ?>
+
+							
+									<a href="<?php the_permalink() ?>"><?php the_title() ?></a>
+									<p class="journal-date"><?php the_time(' F jS, Y') ?></p>
+							
+
+						<?php $i++; endwhile; ?>
+						<?php else : ?>
+						<p> News stories coming soon!</p>
+
+						<?php endif ?>
+					</div>			
+					
+
+
+
 					<div class="logo">
 						<img alt="Valo logo" src="<?php echo get_template_directory_uri() . '/assets/Logo SVG/VALO white logo-01.png'?>" id="logo"/>
 						<p id="copy"> &copy Valo Smart City 2018. All Rights Reserved.</p>

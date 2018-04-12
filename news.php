@@ -48,10 +48,12 @@ get_header(); ?>
 							
        		if ( $query->have_posts() ): ?>
 
-       		 	<div class="filtered-posts">
-       		 	  <?php while ( $query->have_posts() ) : $query->the_post(); ?>
-								<?php get_template_part( 'template-parts/content-news' ); ?>
-       		 	  <?php endwhile; ?>
+       		 	<div class="filtered-posts-container">
+							<div class="filtered-posts">
+       		 	  	<?php while ( $query->have_posts() ) : $query->the_post(); ?>
+									<?php get_template_part( 'template-parts/content-news' ); ?>
+								<?php endwhile; ?>
+							</div>
        		 	</div>
 							
        		<?php else: ?>
