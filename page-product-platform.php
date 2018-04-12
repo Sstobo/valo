@@ -37,21 +37,33 @@ get_header(); ?>
 					<div class="platform-manager-image">test test</div>
 				</div>
 
-			<div class="platform-icon-box-wrapper">
-				<div class="platform-icon-box">1</div>
-				<div class="platform-icon-box platform-icon-box-grey">2</div>
-				<div class="platform-icon-box">3</div>
-				<div class="platform-icon-box platform-icon-box-grey">4</div>
-				<div class="platform-icon-box">5</div>
-				<div class="platform-icon-box platform-icon-box-grey">6</div>
-			</div>
+				<div class="platform-icon-box-wrapper">
+					<div class="platform-icon-box">1</div>
+					<div class="platform-icon-box platform-icon-box-grey">2</div>
+					<div class="platform-icon-box">3</div>
+					<div class="platform-icon-box platform-icon-box-grey">4</div>
+					<div class="platform-icon-box">5</div>
+					<div class="platform-icon-box platform-icon-box-grey">6</div>
+				</div>
 
-			<div class="platform-manager">
+				<div class="platform-manager">
 					<div class="platform-manager-text">
 						<h1>Sensors</h1>
-						<p>VALO offers a variety of sensors for smart city applications, such as traffic and parking monitoring, waste management, air quality and water monitoring, and weather detection. The sensors, listed below, can be used in conjunction with Valo’s Smart City platform.</div>
+						<p>VALO offers a variety of sensors for smart city applications, such as traffic and parking monitoring, waste management,
+							air quality and water monitoring, and weather detection. The sensors, listed below, can be used in conjunction with
+							Valo’s Smart City platform.</div>
 					<div class="platform-manager-image">test test</div>
 				</div>
+
+			<div class="platform-event-sensors">
+				<div class="platform-sensors-box"></div>
+				<div class="platform-sensors-box"></div>
+				<div class="platform-sensors-box"></div>
+				
+			
+			
+			
+			</div>
 			</div>
 		</main>
 		<!-- #main -->
