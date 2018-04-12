@@ -372,6 +372,7 @@ article p {
       font-size: 2rem; } }
 
 .header-section {
+  position: relative;
   font-size: 24px;
   font-size: 1.5rem;
   color: #161616;
@@ -408,6 +409,20 @@ article p {
 
 .read-more-icon {
   padding-left: 3px; }
+
+.underline {
+  padding: 25px; }
+
+.underline::after {
+  position: absolute;
+  display: block;
+  left: 50%;
+  margin-left: -25px;
+  bottom: -2px;
+  content: '';
+  height: 2px;
+  background-color: #00aeef;
+  width: 50px; }
 
 /*--------------------------------------------------------------
 # Elements
@@ -1244,7 +1259,6 @@ object {
           -ms-flex-direction: row;
               flex-direction: row; } }
   .banner #banner-logo {
-    height: 100px;
     width: 250px; }
     @media all and (min-width: 800px) {
       .banner #banner-logo {
@@ -1569,6 +1583,78 @@ object {
       width: 60%;
       margin: 0 auto;
       margin-bottom: 14px; }
+
+.icon {
+  min-width: 42px;
+  min-height: 42px;
+  max-height: 42px;
+  max-width: 42px;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  margin: 10px 10px 10px 0;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: #00aeef; }
+
+.product-network-container {
+  background: #f6f6f6; }
+
+@media all and (min-width: 1000px) {
+  .product-network {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-bottom: 0; } }
+
+.product-network-image-container {
+  display: none; }
+  @media all and (min-width: 1000px) {
+    .product-network-image-container {
+      background-position: center;
+      display: block;
+      -ms-flex-preferred-size: 50%;
+          flex-basis: 50%;
+      width: 50%; } }
+
+.product-text-container {
+  width: 90%;
+  max-width: 750px;
+  margin: 0 auto;
+  line-height: 28px;
+  font-weight: 400;
+  padding-bottom: 60px; }
+  @media all and (min-width: 1000px) {
+    .product-text-container {
+      -ms-flex-preferred-size: 50%;
+          flex-basis: 50%;
+      width: 50%;
+      padding-left: 5%;
+      padding-right: 5%; } }
+
+.wifi-image {
+  background: url("../../assets/images/valo-city-wifi.jpg"); }
+
+.wifi-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap; }
+
+.wifi-list-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  @media all and (min-width: 600px) {
+    .wifi-list-item {
+      -ms-flex-preferred-size: 50%;
+          flex-basis: 50%; } }
+
+.network-image {
+  background: url("../../assets/images/valo-lora-gateway.jpg"); }
 
 h1 {
   color: black;
@@ -2352,10 +2438,310 @@ h2 {
     background-position: center; } }
 
 /* About Company */
-.placeholder {
+.top-row-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row; }
+
+.single-item-vision {
+  height: 500px;
+  padding: 45px 8.5%; }
+  @media all and (max-width: 768px) {
+    .single-item-vision {
+      height: 300px; } }
+  @media all and (max-width: 425px) {
+    .single-item-vision {
+      height: 400px; } }
+  .single-item-vision h2 {
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: 0; }
+  .single-item-vision p {
+    font-weight: 400;
+    font-size: 15;
+    font-family: sans-serif; }
+  @media all and (min-width: 990px) {
+    .single-item-vision {
+      width: 50%; } }
+
+.top-row-image {
+  display: none;
+  height: 500px;
+  width: 50%;
+  padding: 45px 7%; }
+  @media all and (min-width: 990px) {
+    .top-row-image {
+      display: block; } }
+
+.vision-image {
+  display: none;
+  height: 100%;
+  width: auto;
   background-image: url("../../assets/Backgrounds/placeholder.jpg");
   background-size: cover;
+  background-repeat: no-repeat;
   background-position: center; }
+  @media all and (min-width: 990px) {
+    .vision-image {
+      display: block; } }
+
+.our-purpose-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row; }
+
+.our-purpose-image {
+  display: none;
+  height: 600px;
+  width: 50%; }
+  @media all and (min-width: 990px) {
+    .our-purpose-image {
+      display: block; } }
+
+.purpose-image {
+  display: none;
+  height: 100%;
+  width: auto;
+  background-image: url("../../assets/Backgrounds/purpose-image.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+  @media all and (min-width: 990px) {
+    .purpose-image {
+      display: block; } }
+
+.single-item-purpose {
+  height: 600px;
+  padding: 45px 7%; }
+  @media all and (max-width: 375px) {
+    .single-item-purpose {
+      height: 700px; } }
+  .single-item-purpose h2 {
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 5px; }
+  .single-item-purpose p {
+    font-weight: 400;
+    font-size: 15;
+    line-height: 1.9;
+    font-family: sans-serif; }
+  .single-item-purpose h3 {
+    font-weight: 700;
+    color: #000000;
+    margin-bottom: 30px;
+    font-size: 24px; }
+  @media all and (min-width: 990px) {
+    .single-item-purpose {
+      width: 50%; } }
+
+.purpose-blue-line {
+  width: 150px;
+  height: 5px;
+  background: #00aeef;
+  text-align: left; }
+
+.advantage-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+  @media all and (min-width: 990px) {
+    .advantage-container {
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row; } }
+
+.the-valo-advantage {
+  height: 380px;
+  width: 100%;
+  padding: 30px 8%;
+  background-color: #00aeef; }
+  @media all and (min-width: 990px) {
+    .the-valo-advantage {
+      height: 445px;
+      max-width: 25%;
+      padding: 30px 2%; } }
+  .the-valo-advantage .lightbulb-icon {
+    height: 70px;
+    width: 60px;
+    float: right; }
+  .the-valo-advantage h2 {
+    color: #fff;
+    font-family: "Roboto";
+    margin-bottom: 0;
+    padding-top: 10px;
+    font-size: 34px;
+    line-height: 44px; }
+  .the-valo-advantage span {
+    color: #fff;
+    font-family: "Roboto";
+    line-height: 1.9; }
+
+.high-costs {
+  height: 300px;
+  width: 100%;
+  padding: 30px 8%;
+  background-color: #f7f7f7; }
+  @media all and (min-width: 990px) {
+    .high-costs {
+      height: 445px;
+      max-width: 25%;
+      padding: 40px 2.7%; } }
+  .high-costs h1 {
+    color: #00aeef;
+    text-align: right;
+    margin-bottom: 15px;
+    margin-top: 0; }
+  .high-costs h3 {
+    color: #000;
+    font-family: sans-serif;
+    line-height: 1.9;
+    margin-top: 0;
+    font-size: 24px;
+    line-height: 34px; }
+  .high-costs p {
+    color: #000;
+    font-family: "Roboto";
+    font-size: 15px;
+    line-height: 1.9; }
+
+.lack-of-capital {
+  height: 300px;
+  width: 100%;
+  padding: 30px 8%; }
+  @media all and (min-width: 990px) {
+    .lack-of-capital {
+      height: 445px;
+      max-width: 25%;
+      padding: 40px 2.5%; } }
+  .lack-of-capital h1 {
+    color: #00aeef;
+    text-align: right;
+    margin-bottom: 15px;
+    margin-top: 0; }
+  .lack-of-capital h3 {
+    color: #000;
+    font-family: sans-serif;
+    line-height: 1.9;
+    margin-top: 0;
+    font-size: 24px;
+    line-height: 34px; }
+  .lack-of-capital p {
+    color: #000;
+    font-family: "Roboto";
+    font-size: 15px;
+    line-height: 1.9; }
+
+.no-financial {
+  height: 300px;
+  width: 100%;
+  padding: 30px 8%;
+  background-color: #ededed; }
+  @media all and (min-width: 990px) {
+    .no-financial {
+      height: 445px;
+      max-width: 25%;
+      padding: 40px 2.5%; } }
+  .no-financial h1 {
+    color: #00aeef;
+    text-align: right;
+    margin-bottom: 15px;
+    margin-top: 0; }
+  .no-financial h3 {
+    color: #000;
+    font-family: sans-serif;
+    line-height: 1.9;
+    margin-top: 0;
+    font-size: 24px;
+    line-height: 34px; }
+  .no-financial p {
+    color: #000;
+    font-family: "Roboto";
+    font-size: 15px;
+    line-height: 1.9; }
+
+.advantage-container-two {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+  @media all and (min-width: 990px) {
+    .advantage-container-two {
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row; } }
+
+.financing {
+  height: 300px;
+  width: 100%;
+  padding: 20px 8%; }
+  @media all and (min-width: 990px) {
+    .financing {
+      height: 229px;
+      width: 50%;
+      padding: 20px 4%; } }
+  .financing h1 {
+    color: #00aeef;
+    text-align: right;
+    margin-bottom: 15px;
+    margin-top: 0; }
+  .financing h3 {
+    color: #000;
+    font-family: sans-serif;
+    line-height: 1.9;
+    margin-top: 0;
+    font-size: 24px;
+    line-height: 34px; }
+  .financing p {
+    color: #000;
+    font-family: "Roboto";
+    font-size: 15px;
+    line-height: 1.9; }
+
+.lack-of-data {
+  height: 300px;
+  width: 100%;
+  padding: 20px 8%;
+  background-color: #00aeef; }
+  @media all and (min-width: 990px) {
+    .lack-of-data {
+      height: 229px;
+      width: 50%;
+      padding: 20px 4%; } }
+  .lack-of-data h1 {
+    color: #fff;
+    text-align: right;
+    margin-bottom: 15px;
+    margin-top: 0; }
+  .lack-of-data h3 {
+    color: #fff;
+    font-family: sans-serif;
+    line-height: 1.9;
+    margin-top: 0;
+    font-size: 24px;
+    line-height: 34px; }
+  .lack-of-data p {
+    color: #fff;
+    font-family: "Roboto";
+    font-size: 15px;
+    line-height: 1.9; }
 
 .page-template-news .signup-container,
 .page-template-news .signup-wrapper,
@@ -2756,9 +3142,12 @@ h2 {
             flex-basis: 50%;
         height: auto;
         background: url("../../assets/icons-SVG/globe2.png");
-        background-size: 700px;
+        background-size: cover;
         background-repeat: no-repeat;
-        background-position: -50px 0px; } }
+        background-position: 50% 50%; } }
+    @media all and (min-width: 1200px) {
+      .contact-content-area .contact-container .contact-image {
+        background-position: 30% -10%; } }
   .contact-content-area .contact-container .contact-info {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2930,8 +3319,28 @@ h2 {
         padding-left: 2%; } }
   @media all and (min-width: 800px) {
     .contact-footer #contact-copy {
-      padding-right: 2%;
+      padding-right: 8%;
       width: auto; } }
+  .contact-footer .fix {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: fixed;
+    bottom: 20px;
+    right: 10px;
+    height: 50px;
+    width: 50px;
+    background: black;
+    opacity: 0.3; }
+    .contact-footer .fix .fa {
+      font-size: 28px;
+      color: #fff; }
 
 .download-header {
   display: -webkit-box;
@@ -3415,7 +3824,8 @@ h2 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: 34px; }
+  margin-top: 34px;
+  margin-bottom: 30px; }
   @media all and (min-width: 800px) {
     .signup-container {
       width: auto; } }
@@ -3663,6 +4073,26 @@ h2 {
       font-family: "Roboto";
       font-size: 14px;
       color: #666; }
+    .site-footer .site-info .fix {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      display: none;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      position: fixed;
+      bottom: 20px;
+      right: 10px;
+      height: 50px;
+      width: 50px;
+      background: black;
+      opacity: 0.3; }
+      .site-footer .site-info .fix .fa {
+        font-size: 28px; }
 
 .platform-wrapper {
   width: 100%;
