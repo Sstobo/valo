@@ -1,13 +1,29 @@
 jQuery(document).ready(function($) {
-  console.log('hithere');
-  $(document).on('click', 'a[href^="#"]', function(event) {
-    event.preventDefault();
+  window.onscroll = function() {
+    scrollFunction();
+  };
 
-    $('html, body').animate(
-      {
-        scrollTop: $($.attr(this, 'href')).offset().top
-      },
-      1500
-    );
+  $('.fix').on('click', function() {
+    topFunction();
   });
+
+  function topFunction() {
+    window.scroll({
+      top: 0,
+      behavior: 'smooth'
+    });
+  }
+
+  function scrollFunction() {
+    if (
+      document.body.scrollTop > 1000 ||
+      document.documentElement.scrollTop > 1000
+    ) {
+      $('.fix').css('display', 'flex');
+    } else {
+      $('.fix').css('display', 'none');
+    }
+  }
 });
+
+

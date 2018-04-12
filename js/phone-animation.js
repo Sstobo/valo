@@ -1,12 +1,14 @@
 (function($) {
   //Cache reference to window and animation items
-  var $animation_elements = $('.animation-element');
+  var $animation_elements = $('.about-platform-center-container');
   var $window = $(window);
   $window.on('scroll', check_if_in_view);
   $window.on('scroll resize', check_if_in_view);
   $window.trigger('scroll');
   function check_if_in_view() {
+    console.log(window_top_position);
     var window_height = $window.height();
+    console.log(window_height);
     var window_top_position = $window.scrollTop();
     var window_bottom_position = window_top_position + window_height;
 
@@ -15,6 +17,7 @@
       var element_height = $element.outerHeight();
       var element_top_position = $element.offset().top;
       var element_bottom_position = element_top_position + element_height;
+      console.log(window_top_position);
 
       //check to see if this current container is within viewport
       if (
