@@ -4084,6 +4084,12 @@ h2 {
     margin-right: 3%;
     margin-left: 3%;
     font-size: 24px; }
+    @media all and (min-width: 600px) {
+      .error404 .not-found-banner h2 {
+        font-size: 30px; } }
+    @media all and (min-width: 1000px) {
+      .error404 .not-found-banner h2 {
+        font-size: 36px; } }
 
 .error404 .error-404 {
   display: -webkit-box;
@@ -4474,6 +4480,160 @@ h2 {
   .search-results .page-header h1 {
     color: #fff;
     font-family: "Roboto"; }
+
+.search-results .search-results-container {
+  padding: 40px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  @media all and (min-width: 600px) {
+    .search-results .search-results-container {
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap; } }
+  .search-results .search-results-container .entry-header {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    background: #eee;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    min-width: 350px; }
+    @media all and (min-width: 600px) {
+      .search-results .search-results-container .entry-header {
+        -ms-flex-preferred-size: 50%;
+            flex-basis: 50%; } }
+    @media all and (min-width: 800px) {
+      .search-results .search-results-container .entry-header {
+        -ms-flex-preferred-size: 33.3%;
+            flex-basis: 33.3%; } }
+    .search-results .search-results-container .entry-header .byline {
+      margin-right: 2%;
+      font-family: "Roboto";
+      font-size: 12px;
+      color: #666; }
+    .search-results .search-results-container .entry-header .date {
+      margin-left: 4%;
+      font-family: "Roboto";
+      font-size: 12px;
+      color: #666; }
+    .search-results .search-results-container .entry-header .dot {
+      position: absolute;
+      top: 57px;
+      font-size: 16px; }
+    .search-results .search-results-container .entry-header .entry-title {
+      font-size: 20px;
+      font-family: "Roboto";
+      color: black;
+      margin-bottom: 4px;
+      text-transform: capitalize; }
+    .search-results .search-results-container .entry-header .entry-title:hover {
+      color: #00aeef; }
+  .search-results .search-results-container .entry-summary {
+    display: none; }
+
+.no-results {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .no-results .signup-container {
+    display: none; }
+
+.search-no-results .signup-container {
+  display: none; }
+
+.search-no-results .page-content {
+  padding: 40px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .search-no-results .page-content p {
+    color: black;
+    font-family: "Roboto";
+    max-width: 75%;
+    text-align: center; }
+  .search-no-results .page-content .search-form {
+    position: relative;
+    min-width: 90%;
+    padding-left: 7%; }
+    @media all and (min-width: 600px) {
+      .search-no-results .page-content .search-form {
+        min-width: 700px; } }
+    @media all and (min-width: 800px) {
+      .search-no-results .page-content .search-form {
+        min-width: 900px; } }
+    @media all and (min-width: 1000px) {
+      .search-no-results .page-content .search-form {
+        min-width: 1100px; } }
+    .search-no-results .page-content .search-form input {
+      min-width: 90%;
+      height: 35px;
+      padding-left: 15px;
+      font-family: "Roboto";
+      color: black; }
+    .search-no-results .page-content .search-form input::-webkit-input-placeholder {
+      color: #eee;
+      font-family: "Roboto";
+      padding-left: 15px; }
+    .search-no-results .page-content .search-form input:-ms-input-placeholder {
+      color: #eee;
+      font-family: "Roboto";
+      padding-left: 15px; }
+    .search-no-results .page-content .search-form input::-ms-input-placeholder {
+      color: #eee;
+      font-family: "Roboto";
+      padding-left: 15px; }
+    .search-no-results .page-content .search-form input::placeholder {
+      color: #eee;
+      font-family: "Roboto";
+      padding-left: 15px; }
+    .search-no-results .page-content .search-form .search-submit {
+      border: none;
+      background: none;
+      -webkit-box-shadow: none;
+              box-shadow: none;
+      position: absolute;
+      right: 8%;
+      bottom: 6px; }
+      .search-no-results .page-content .search-form .search-submit i {
+        font-size: 16px; }
 
 .platform-wrapper {
   width: 100%;

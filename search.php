@@ -18,11 +18,13 @@ get_header(); ?>
 			</header><!-- .page-header -->
 
 			<?php /* Start the Loop */ ?>
+			<section class="search-results-container">
 			<?php while ( have_posts() ) : the_post(); ?>
 
 				<?php get_template_part( 'template-parts/content', 'search' ); ?>
 
 			<?php endwhile; ?>
+			</section>
 
 			<?php red_starter_numbered_pagination(); ?>
 
