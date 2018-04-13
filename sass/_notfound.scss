@@ -66,6 +66,14 @@
         input {
           min-width: 90%;
           height: 35px;
+          padding-left: 15px;
+          font-family: $font__main;
+          color: black;
+        }
+        input::placeholder {
+          color: $color__background-pre;
+          font-family: $font__main;
+          padding-left: 15px;
         }
         .search-submit {
           border: none;

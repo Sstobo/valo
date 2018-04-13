@@ -4133,7 +4133,26 @@ h2 {
           min-width: 1100px; } }
       .error404 .error-404 .page-content .search-form input {
         min-width: 90%;
-        height: 35px; }
+        height: 35px;
+        padding-left: 15px;
+        font-family: "Roboto";
+        color: black; }
+      .error404 .error-404 .page-content .search-form input::-webkit-input-placeholder {
+        color: #eee;
+        font-family: "Roboto";
+        padding-left: 15px; }
+      .error404 .error-404 .page-content .search-form input:-ms-input-placeholder {
+        color: #eee;
+        font-family: "Roboto";
+        padding-left: 15px; }
+      .error404 .error-404 .page-content .search-form input::-ms-input-placeholder {
+        color: #eee;
+        font-family: "Roboto";
+        padding-left: 15px; }
+      .error404 .error-404 .page-content .search-form input::placeholder {
+        color: #eee;
+        font-family: "Roboto";
+        padding-left: 15px; }
       .error404 .error-404 .page-content .search-form .search-submit {
         border: none;
         background: none;
@@ -4431,6 +4450,30 @@ h2 {
       opacity: 0.3; }
       .site-footer .site-info .fix .fa {
         font-size: 28px; }
+
+.search-results .signup-container {
+  display: none; }
+
+.search-results .page-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 300px;
+  position: relative;
+  background: url("../../assets/Backgrounds/footer-background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 1500px;
+  width: 100%; }
+  .search-results .page-header h1 {
+    color: #fff;
+    font-family: "Roboto"; }
 
 .platform-wrapper {
   width: 100%;

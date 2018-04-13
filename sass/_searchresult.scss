@@ -1,0 +1,23 @@
+.search-results {
+  .signup-container {
+    display: none;
+  }
+
+  .page-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    position: relative;
+    background: url('../../assets/Backgrounds/footer-background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 1500px;
+    width: 100%;
+
+    h1 {
+      color: #fff;
+      font-family: $font__main;
+    }
+  }
+}
