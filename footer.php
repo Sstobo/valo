@@ -9,7 +9,7 @@
 
 			</div><!-- #content -->
 
-      		<div class="signup-container">
+      <div class="signup-container">
 				<h1 id="form-title"> Sign Up for the Latest Valo News </h1>
 				<?php echo do_shortcode('[contact-form-7 id="4" title="Contact form 1"]');?>
 			</div>

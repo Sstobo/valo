@@ -4058,6 +4058,93 @@ h2 {
           max-width: 70%;
           text-align: center; }
 
+.error404 .signup-container {
+  display: none; }
+
+.error404 .not-found-banner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 300px;
+  position: relative;
+  background: url("../../assets/Backgrounds/footer-background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 1500px;
+  width: 100%; }
+  .error404 .not-found-banner h2 {
+    color: #fff;
+    font-family: "Roboto";
+    margin-right: 3%;
+    margin-left: 3%;
+    font-size: 24px; }
+
+.error404 .error-404 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 40px 0; }
+  .error404 .error-404 .page-title {
+    font-size: 24px; }
+    @media all and (min-width: 600px) {
+      .error404 .error-404 .page-title {
+        font-size: 30px; } }
+  .error404 .error-404 .page-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    .error404 .error-404 .page-content p {
+      max-width: 70%;
+      text-align: center;
+      color: black;
+      font-family: "Roboto"; }
+    .error404 .error-404 .page-content .search-form {
+      position: relative;
+      min-width: 90%;
+      padding-left: 7%; }
+      @media all and (min-width: 600px) {
+        .error404 .error-404 .page-content .search-form {
+          min-width: 700px; } }
+      @media all and (min-width: 800px) {
+        .error404 .error-404 .page-content .search-form {
+          min-width: 900px; } }
+      @media all and (min-width: 1000px) {
+        .error404 .error-404 .page-content .search-form {
+          min-width: 1100px; } }
+      .error404 .error-404 .page-content .search-form input {
+        min-width: 90%;
+        height: 35px; }
+      .error404 .error-404 .page-content .search-form .search-submit {
+        border: none;
+        background: none;
+        -webkit-box-shadow: none;
+                box-shadow: none;
+        position: absolute;
+        right: 8%;
+        bottom: 6px; }
+        .error404 .error-404 .page-content .search-form .search-submit i {
+          font-size: 16px; }
+
 #wpcf7-f5-o1 {
   padding-left: 0; }
 
