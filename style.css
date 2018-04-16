@@ -2545,7 +2545,7 @@ h2 {
       width: 50%; } }
 
 .page-template-about .about-purpose-blue-line {
-  border-bottom: 2px solid #00aeef;
+  border-bottom: 5px solid #00aeef;
   width: 50px;
   display: block;
   margin: 0; }
@@ -2750,7 +2750,9 @@ h2 {
   background-attachment: fixed;
   padding: 50px 10% 0; }
   .page-template-about .about-platform-wrapper h3 {
-    text-align: center; }
+    text-align: center;
+    font-weight: 700;
+    color: #000; }
 
 .page-template-about .about-platform-container {
   display: -webkit-box;

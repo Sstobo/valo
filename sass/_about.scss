@@ -214,11 +214,10 @@
     }
   }
   .about-purpose-blue-line {
-    border-bottom: 2px solid $color__accent;
+    border-bottom: 5px solid $color__accent;
     width: 50px;
     display: block;
     margin: 0;
-    // padding-top: 20px;
   }
   .about-advantage-container {
     display: flex;
@@ -427,6 +426,8 @@
     padding: 50px 10% 0;
     h3 {
       text-align: center;
+      font-weight: 700;
+      color: #000;
     }
   }
   .about-platform-container {
