@@ -2545,10 +2545,10 @@ h2 {
       width: 50%; } }
 
 .page-template-about .about-purpose-blue-line {
-  width: 150px;
-  height: 5px;
-  background: #00aeef;
-  text-align: left; }
+  border-bottom: 2px solid #00aeef;
+  width: 50px;
+  display: block;
+  margin: 0; }
 
 .page-template-about .about-advantage-container {
   display: -webkit-box;
