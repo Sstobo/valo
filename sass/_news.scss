@@ -6,23 +6,13 @@
   }
 }
 .hero-container-dark {
-  background-color: #000;
-  background: url('../../assets/Backgrounds/footer-background.jpg');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 35vh;
-  min-height: 330px;
+  max-height: 100px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  @include tablet {
-    height: 40vh;
-    max-height: 400px;
-  }
   .news-hero-links {
-    color: #fff;
+    color: $color__header-main;
     @include font-size(0.8125);
     padding: 0 5px;
   }
@@ -150,6 +140,11 @@
       }
     }
   }
+}
+
+.news-content-container {
+  width: 85%;
+  margin: 0 auto;
 }
 
 /*     Single News Page      */
