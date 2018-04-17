@@ -68,10 +68,11 @@
 							<p class="journal-date"><?php the_time(' F jS, Y') ?></p>
 
 						<?php endwhile; ?>
+						<?php wp_reset_query() ?>
 					</div>
 					
 
-					
+
 					
 					
 
