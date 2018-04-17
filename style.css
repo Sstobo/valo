@@ -3716,23 +3716,27 @@ h2 {
     .investors-right {
       display: block; } }
 
-.content-area-services {
+.page-id-22 .content-area-services {
   font-family: "Roboto"; }
-  .content-area-services .entry-title {
+  .page-id-22 .content-area-services .entry-title {
     display: none; }
-  .content-area-services h3 {
+  .page-id-22 .content-area-services h3 {
     color: #00aeef;
     font-size: 20px;
     letter-spacing: 0.5px; }
-  .content-area-services p {
+  .page-id-22 .content-area-services h2 {
+    font-weight: bold;
+    font-size: 40px;
+    margin: 0; }
+  .page-id-22 .content-area-services p {
     color: black;
     font-size: 15px;
-    line-height: 30px; }
-  .content-area-services .service-wrapper {
+    line-height: 25px; }
+  .page-id-22 .content-area-services .service-wrapper {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex; }
-    .content-area-services .service-wrapper .services-header {
+    .page-id-22 .content-area-services .service-wrapper .services-header {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
@@ -3746,9 +3750,9 @@ h2 {
       -webkit-box-align: center;
           -ms-flex-align: center;
               align-items: center;
-      padding: 40px 0; }
+      margin-top: 40px; }
       @media all and (min-width: 1000px) {
-        .content-area-services .service-wrapper .services-header {
+        .page-id-22 .content-area-services .service-wrapper .services-header {
           -ms-flex-preferred-size: 50%;
               flex-basis: 50%;
           -webkit-box-align: start;
@@ -3759,17 +3763,17 @@ h2 {
                   justify-content: flex-start;
           text-align: left;
           padding: 0 0 80px 7%; } }
-      .content-area-services .service-wrapper .services-header p {
+      .page-id-22 .content-area-services .service-wrapper .services-header p {
         max-width: 60%;
         text-align: center; }
         @media all and (min-width: 1000px) {
-          .content-area-services .service-wrapper .services-header p {
+          .page-id-22 .content-area-services .service-wrapper .services-header p {
             text-align: left;
             max-width: 80%; } }
-    .content-area-services .service-wrapper .service-image {
+    .page-id-22 .content-area-services .service-wrapper .service-image {
       display: none; }
       @media all and (min-width: 1000px) {
-        .content-area-services .service-wrapper .service-image {
+        .page-id-22 .content-area-services .service-wrapper .service-image {
           -ms-flex-preferred-size: 50%;
               flex-basis: 50%;
           margin: 20px 5% 2% 5%;
@@ -3781,7 +3785,7 @@ h2 {
           min-width: 400px;
           min-height: 400px;
           background: gray; } }
-  .content-area-services .wifi {
+  .page-id-22 .content-area-services .wifi {
     background: #eee;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -3797,29 +3801,29 @@ h2 {
         -ms-flex-align: center;
             align-items: center;
     padding: 60px 0; }
-    .content-area-services .wifi #wifi-image {
+    .page-id-22 .content-area-services .wifi #wifi-image {
       width: 100px; }
-    .content-area-services .wifi p {
+    .page-id-22 .content-area-services .wifi p {
       margin: 0;
       margin-top: 15px;
       max-width: 60%;
       text-align: center; }
-    .content-area-services .wifi h1 {
+    .page-id-22 .content-area-services .wifi h2 {
       margin: 0; }
       @media all and (min-width: 1000px) {
-        .content-area-services .wifi h1 {
-          font-size: 30px; } }
-  .content-area-services .advert-wrapper {
+        .page-id-22 .content-area-services .wifi h2 {
+          font-size: 40px; } }
+  .page-id-22 .content-area-services .advert-wrapper {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex; }
     @media all and (min-width: 1000px) {
-      .content-area-services .advert-wrapper {
+      .page-id-22 .content-area-services .advert-wrapper {
         margin-top: 50px; } }
-    .content-area-services .advert-wrapper .advert-image {
+    .page-id-22 .content-area-services .advert-wrapper .advert-image {
       display: none; }
       @media all and (min-width: 1000px) {
-        .content-area-services .advert-wrapper .advert-image {
+        .page-id-22 .content-area-services .advert-wrapper .advert-image {
           -ms-flex-preferred-size: 50%;
               flex-basis: 50%;
           display: -webkit-box;
@@ -3833,7 +3837,7 @@ h2 {
           min-height: 400px;
           max-width: 500px;
           max-height: 500px; } }
-    .content-area-services .advert-wrapper .adverts {
+    .page-id-22 .content-area-services .advert-wrapper .adverts {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
@@ -3849,17 +3853,17 @@ h2 {
               align-items: center;
       padding: 40px 0; }
       @media all and (min-width: 1000px) {
-        .content-area-services .advert-wrapper .adverts {
+        .page-id-22 .content-area-services .advert-wrapper .adverts {
           -ms-flex-preferred-size: 50%;
               flex-basis: 50%; } }
-      .content-area-services .advert-wrapper .adverts .add-para {
+      .page-id-22 .content-area-services .advert-wrapper .adverts .add-para {
         max-width: 70%;
         -ms-flex-item-align: center;
             align-self: center; }
         @media all and (min-width: 1000px) {
-          .content-area-services .advert-wrapper .adverts .add-para {
+          .page-id-22 .content-area-services .advert-wrapper .adverts .add-para {
             margin-top: 0; } }
-      .content-area-services .advert-wrapper .adverts #add-deliv {
+      .page-id-22 .content-area-services .advert-wrapper .adverts #add-deliv {
         margin-left: 15%;
         font-family: "Roboto";
         font-weight: bold;
@@ -3867,13 +3871,13 @@ h2 {
         -ms-flex-item-align: start;
             align-self: flex-start; }
         @media all and (min-width: 1000px) {
-          .content-area-services .advert-wrapper .adverts #add-deliv {
+          .page-id-22 .content-area-services .advert-wrapper .adverts #add-deliv {
             margin-top: 0;
             margin-bottom: 0; } }
-      .content-area-services .advert-wrapper .adverts .add-links {
+      .page-id-22 .content-area-services .advert-wrapper .adverts .add-links {
         margin-left: 15%;
         margin-right: 15%; }
-        .content-area-services .advert-wrapper .adverts .add-links .title {
+        .page-id-22 .content-area-services .advert-wrapper .adverts .add-links .title {
           display: -webkit-box;
           display: -ms-flexbox;
           display: flex;
@@ -3884,13 +3888,13 @@ h2 {
               align-content: center;
           z-index: 1000;
           border-top: 1px solid #f1f1f1; }
-          .content-area-services .advert-wrapper .adverts .add-links .title p {
+          .page-id-22 .content-area-services .advert-wrapper .adverts .add-links .title p {
             color: black;
             font-family: "Roboto";
             font-size: 18px;
             text-transform: uppercase;
             margin: 10px 0; }
-          .content-area-services .advert-wrapper .adverts .add-links .title .service-icon-container:not(.hide) {
+          .page-id-22 .content-area-services .advert-wrapper .adverts .add-links .title .service-icon-container:not(.hide) {
             display: -webkit-box;
             display: -ms-flexbox;
             display: flex;
@@ -3906,14 +3910,14 @@ h2 {
             height: 15px;
             text-align: center;
             background: #e6e6e6; }
-            .content-area-services .advert-wrapper .adverts .add-links .title .service-icon-container:not(.hide) i {
+            .page-id-22 .content-area-services .advert-wrapper .adverts .add-links .title .service-icon-container:not(.hide) i {
               font-size: 10px; }
-        .content-area-services .advert-wrapper .adverts .add-links .title:hover {
+        .page-id-22 .content-area-services .advert-wrapper .adverts .add-links .title:hover {
           cursor: pointer;
           color: #00aeef; }
-          .content-area-services .advert-wrapper .adverts .add-links .title:hover p {
+          .page-id-22 .content-area-services .advert-wrapper .adverts .add-links .title:hover p {
             color: #00aeef; }
-        .content-area-services .advert-wrapper .adverts .add-links .text {
+        .page-id-22 .content-area-services .advert-wrapper .adverts .add-links .text {
           max-height: 0;
           overflow: hidden;
           -webkit-transition: max-height 0.4s ease-out;
@@ -3923,24 +3927,24 @@ h2 {
           font-family: "Roboto";
           color: black;
           padding-bottom: 5px; }
-          .content-area-services .advert-wrapper .adverts .add-links .text p {
+          .page-id-22 .content-area-services .advert-wrapper .adverts .add-links .text p {
             margin: 0;
             margin-bottom: 10px;
             padding-bottom: 10px;
             line-height: 24px; }
             @media all and (min-width: 1000px) {
-              .content-area-services .advert-wrapper .adverts .add-links .text p {
+              .page-id-22 .content-area-services .advert-wrapper .adverts .add-links .text p {
                 margin-bottom: 0;
                 padding-bottom: 0; } }
-        .content-area-services .advert-wrapper .adverts .add-links .no-border {
+        .page-id-22 .content-area-services .advert-wrapper .adverts .add-links .no-border {
           border-top: none; }
-        .content-area-services .advert-wrapper .adverts .add-links .hide {
+        .page-id-22 .content-area-services .advert-wrapper .adverts .add-links .hide {
           display: none; }
-        .content-area-services .advert-wrapper .adverts .add-links .height {
+        .page-id-22 .content-area-services .advert-wrapper .adverts .add-links .height {
           max-height: 80px;
           -webkit-transition: max-height 0.4 ease-in;
           transition: max-height 0.4 ease-in; }
-  .content-area-services .partner {
+  .page-id-22 .content-area-services .partner {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -3951,7 +3955,7 @@ h2 {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center; }
-    .content-area-services .partner .partner-header-section {
+    .page-id-22 .content-area-services .partner .partner-header-section {
       padding: 40px 0;
       background: #eee;
       display: -webkit-box;
@@ -3967,22 +3971,22 @@ h2 {
       -webkit-box-align: center;
           -ms-flex-align: center;
               align-items: center; }
-      .content-area-services .partner .partner-header-section p {
+      .page-id-22 .content-area-services .partner .partner-header-section p {
         max-width: 70%;
         text-align: center; }
         @media all and (min-width: 600px) {
-          .content-area-services .partner .partner-header-section p {
+          .page-id-22 .content-area-services .partner .partner-header-section p {
             max-width: 60%; } }
-      .content-area-services .partner .partner-header-section h1 {
+      .page-id-22 .content-area-services .partner .partner-header-section h2 {
         max-width: 70%;
         font-size: 30px;
         text-align: center; }
         @media all and (min-width: 600px) {
-          .content-area-services .partner .partner-header-section h1 {
+          .page-id-22 .content-area-services .partner .partner-header-section h2 {
             margin: 4px 0; } }
-      .content-area-services .partner .partner-header-section #bulb-image {
+      .page-id-22 .content-area-services .partner .partner-header-section #bulb-image {
         width: 100px; }
-    .content-area-services .partner .partner-image-section {
+    .page-id-22 .content-area-services .partner .partner-image-section {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
@@ -3991,12 +3995,12 @@ h2 {
           -ms-flex-direction: column;
               flex-direction: column; }
       @media all and (min-width: 800px) {
-        .content-area-services .partner .partner-image-section {
+        .page-id-22 .content-area-services .partner .partner-image-section {
           -webkit-box-orient: horizontal;
           -webkit-box-direction: normal;
               -ms-flex-direction: row;
                   flex-direction: row; } }
-      .content-area-services .partner .partner-image-section .network {
+      .page-id-22 .content-area-services .partner .partner-image-section .network {
         -ms-flex-preferred-size: 33.3%;
             flex-basis: 33.3%;
         background: #f7f7f7;
@@ -4011,12 +4015,12 @@ h2 {
             -ms-flex-align: center;
                 align-items: center;
         padding: 30px 0; }
-        .content-area-services .partner .partner-image-section .network p {
+        .page-id-22 .content-area-services .partner .partner-image-section .network p {
           max-width: 70%;
           text-align: center; }
-        .content-area-services .partner .partner-image-section .network #street-light-image {
+        .page-id-22 .content-area-services .partner .partner-image-section .network #street-light-image {
           width: 100px; }
-      .content-area-services .partner .partner-image-section .cost {
+      .page-id-22 .content-area-services .partner .partner-image-section .cost {
         -ms-flex-preferred-size: 33.3%;
             flex-basis: 33.3%;
         display: -webkit-box;
@@ -4030,12 +4034,12 @@ h2 {
             -ms-flex-align: center;
                 align-items: center;
         padding: 30px 0; }
-        .content-area-services .partner .partner-image-section .cost #cost-image {
+        .page-id-22 .content-area-services .partner .partner-image-section .cost #cost-image {
           width: 100px; }
-        .content-area-services .partner .partner-image-section .cost p {
+        .page-id-22 .content-area-services .partner .partner-image-section .cost p {
           max-width: 70%;
           text-align: center; }
-      .content-area-services .partner .partner-image-section .city {
+      .page-id-22 .content-area-services .partner .partner-image-section .city {
         -ms-flex-preferred-size: 33.3%;
             flex-basis: 33.3%;
         padding: 30px 0;
@@ -4050,11 +4054,52 @@ h2 {
         -webkit-box-align: center;
             -ms-flex-align: center;
                 align-items: center; }
-        .content-area-services .partner .partner-image-section .city #city-image {
+        .page-id-22 .content-area-services .partner .partner-image-section .city #city-image {
           width: 100px; }
-        .content-area-services .partner .partner-image-section .city p {
+        .page-id-22 .content-area-services .partner .partner-image-section .city p {
           max-width: 70%;
           text-align: center; }
+
+.page-id-22 .signup-container #form-title-services {
+  display: block;
+  max-width: 60%;
+  text-align: center;
+  font-family: "Roboto";
+  color: black;
+  font-size: 18px;
+  font-weight: bold; }
+  @media all and (min-width: 600px) {
+    .page-id-22 .signup-container #form-title-services {
+      font-size: 25px; } }
+  @media all and (min-width: 800px) {
+    .page-id-22 .signup-container #form-title-services {
+      font-size: 30px; } }
+  @media all and (min-width: 1000px) {
+    .page-id-22 .signup-container #form-title-services {
+      font-size: 40px; } }
+
+.page-id-22 .signup-container #form-title-services:after {
+  content: '';
+  border-bottom: 5px solid #00aeef;
+  width: 50px;
+  display: block;
+  margin: 0 auto;
+  padding-top: 20px; }
+
+.page-id-22 .signup-container #services-para {
+  display: block;
+  color: black;
+  font-style: italic;
+  font-family: "Roboto";
+  max-width: 75%;
+  text-align: center;
+  font-size: 16px; }
+  @media all and (min-width: 800px) {
+    .page-id-22 .signup-container #services-para {
+      font-size: 20px; } }
+
+.page-id-22 .signup-container #form-title {
+  display: none; }
 
 .error404 .signup-container {
   display: none; }
@@ -4190,6 +4235,10 @@ h2 {
   @media all and (min-width: 800px) {
     .signup-container {
       width: auto; } }
+  .signup-container #form-title-services {
+    display: none; }
+  .signup-container #services-para {
+    display: none; }
   .signup-container #form-title {
     font-family: "Roboto";
     color: black;
@@ -4201,9 +4250,12 @@ h2 {
     @media all and (min-width: 800px) {
       .signup-container #form-title {
         font-size: 30px; } }
+    @media all and (min-width: 1000px) {
+      .signup-container #form-title {
+        font-size: 40px; } }
   .signup-container #form-title:after {
     content: '';
-    border-bottom: 2px solid #00aeef;
+    border-bottom: 5px solid #00aeef;
     width: 50px;
     display: block;
     margin: 0 auto;

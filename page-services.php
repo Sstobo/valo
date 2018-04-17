@@ -14,7 +14,7 @@ get_header(); ?>
        <section class="service-wrapper">
         <section class="services-header">
           
-          <h1>Services</h1>
+          <h2>Services</h2>
           <p><span class="uppercase">valo’s</span> street lights and Smart City platform provide beneficial opportunities for both cities and their citizens. The advanced technology in <spanclass="uppercase" >Valo’s</span> street lights and controllers allow cities to save money and resources, while offering convenient amenities to city inhabitants. The main services offered by <span class="uppercase">Valo</span> are:</p>
          
 
@@ -27,7 +27,7 @@ get_header(); ?>
               <img alt="Wifi logo" src="<?php echo get_template_directory_uri() . '/assets/icons-SVG/servicewifi.png'?>" id="wifi-image"/>
           </div>
 
-          <h1>Free Public Wifi</h1>
+          <h2>Free Public Wifi</h2>
           <p>Free public WiFi access can be delivered with Valo’s gigabit WiFi unit which creates wireless hotspots where people can access the internet at no cost. Public WiFi has many benefits for cities and users, such as convenient access to services, support for tourism, and communication channels for disaster relief.</p>
         </section><!-- close wifi-->
 
@@ -103,7 +103,7 @@ get_header(); ?>
             <div class="partner-image">
               <img alt="Service icon" src="<?php echo get_template_directory_uri() . '/assets/icons-SVG/servicebulb.png'?>" id="bulb-image"/>
             </div>
-            <h1> Public Private Partnerships</h1>
+            <h2> Public Private Partnerships</h2>
             <p><span class="uppercase">Valo</span> offers an optional Public Private Partnership with cities and municipalities. This partnership saves money for the city, and potential revenue is shared between the partners. By leveraging profits and costs, the Public Private Partnership has several advantages:</p>
           </div><!-- close partner header -->
 
