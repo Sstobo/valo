@@ -40,12 +40,12 @@ get_header(); ?>
 					</div>
 					 <div class="integrator-item">
 							<img alt="Services icon" class="integrator-icon" srcset="<?php echo get_template_directory_uri() . '/assets/icons-SVG/valo-services-01.png'?>" />
-							<h3>Opportunities for Cities and Their Citizens</h3> 
+							<h3>Opportunities for Cities & Their Citizens</h3> 
 						 <a href="<?php echo esc_url(home_url('/services/')); ?>"><button class="button-main button-with-shadow">Services</button></a>
 					</div>
 					 <div class="integrator-item">
 						  <img alt="Applications icon" class="integrator-icon" srcset="<?php echo get_template_directory_uri() . '/assets/icons-SVG/valo-applications-01.png'?>" />
-							 <h3>Making Communities and Cities better</h3>
+							 <h3>Making Communities & Cities better</h3>
 						 <a href="<?php echo esc_url(home_url('/applications/')); ?>"><button class="button-main button-with-shadow">Applications</button></a>
 					 </div>
 				</div>
@@ -55,10 +55,10 @@ get_header(); ?>
 			<!-- iot of things section -->
 			<section class="iot-container">
 				<div class="iot-photo-container">
-				<img alt="Info icon" src="<?php echo get_template_directory_uri() . '/assets/icons-SVG/valo-info-01.png'?>" id="iot-logo"/>
+				<img alt="Info icon" src="<?php echo get_template_directory_uri() . '/assets/icons-SVG/valo-info-01.svg'?>" id="iot-logo"/>
 				</div>
 				<div class="iot-para-container">
-					<h2>Internet of Things (IoT) Technology is one of the Fastest Growing Sectors.</h2>
+					<h3>Internet of Things (IoT) Technology is one of the Fastest Growing Sectors.</h3>
 					<p>Curabitur venenatis finibus ante et laoreet. Proin commodo, urna sed rhoncus bibendum, nibh metus blandit nibh, eget elementum enim magna eu velit. Aliquam purus sem, faucibus vestibulum risus. Maecenas gravida lacus nec dolor suscipit faucibus.</p>
 					<button class="button-main button-with-shadow"> <span class="uppercase">download our corporate presentation</span></button>
 				</div>

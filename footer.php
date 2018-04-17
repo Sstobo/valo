@@ -9,8 +9,10 @@
 
 			</div><!-- #content -->
 
-      		<div class="signup-container">
-				<h1 id="form-title"> Sign Up for the Latest Valo News </h1>
+      <div class="signup-container">
+				<h1 id="form-title"> Sign Up for the Latest <span class="uppercase">Valo</span> News </h1>
+				<h1 id="form-title-services">Get More Information on our Public Private Partnerships</h1>
+				<p id="services-para">Contact us today to get more information on our Public Private Partnerships</p>
 				<?php echo do_shortcode('[contact-form-7 id="4" title="Contact form 1"]');?>
 			</div>
 
@@ -58,25 +60,22 @@
 						<a href="<?php echo esc_url(home_url('/products/products_cameras_software'));?>"> Smart Cameras and Software</a>
 					</div>
 
+					<?php $args = array( 'post_type' => 'post', 'posts_per_page' => 3 ); $query = new WP_Query( $args );?>
 
-					
-
-					
 					<div class="news">
 						<p class="caps title">News</p>
-						<?php if (have_posts()) : $i = 1; while ( have_posts() && $i < 4 ) : the_post(); ?>
+						<?php while ( $query->have_posts() ) : $query->the_post(); ?>
 
-							
-									<a href="<?php the_permalink() ?>"><?php the_title() ?></a>
-									<p class="journal-date"><?php the_time(' F jS, Y') ?></p>
-							
+							<a href="<?php the_permalink();?>"><?php the_title(); ?></a>
+							<p class="journal-date"><?php the_time(' F jS, Y') ?></p>
 
-						<?php $i++; endwhile; ?>
-						<?php else : ?>
-						<p> News stories coming soon!</p>
+						<?php endwhile; ?>
+						<?php wp_reset_query() ?>
+					</div>
+					
 
-						<?php endif ?>
-					</div>			
+
+					
 					
 
 

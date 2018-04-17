@@ -1,0 +1,121 @@
+.search-results {
+  .signup-container {
+    display: none;
+  }
+
+  .page-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    position: relative;
+    background: url('../../assets/Backgrounds/footer-background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 1500px;
+    width: 100%;
+
+    h1 {
+      color: #fff;
+      font-family: $font__main;
+    }
+  }
+
+  .search-results-container {
+    padding: 40px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    @include tablet {
+      flex-direction: row;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+    .entry-header {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+
+      background: $color__background-pre;
+      padding-left: 10px;
+      padding-bottom: 10px;
+
+      min-width: 350px;
+
+      @include tablet {
+        flex-basis: 50%;
+      }
+      @include footer_row {
+        flex-basis: 33.3%;
+      }
+
+      .byline {
+        margin-right: 2%;
+        font-family: $font__main;
+        font-size: 12px;
+        color: $color__border-abbr;
+      }
+
+      .date {
+        margin-left: 4%;
+        font-family: $font__main;
+        font-size: 12px;
+        color: $color__border-abbr;
+      }
+
+      .dot {
+        position: absolute;
+        top: 57px;
+        font-size: 16px;
+      }
+      .entry-title {
+        font-size: 20px;
+        font-family: $font__main;
+        color: black;
+        margin-bottom: 4px;
+        text-transform: capitalize;
+      }
+      .entry-title:hover {
+        color: $color__accent;
+      }
+    }
+
+    .entry-summary {
+      display: none;
+    }
+  }
+}
+
+.no-results {
+  .signup-container {
+    display: none;
+  }
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-no-results {
+  .signup-container {
+    display: none;
+  }
+
+  .page-content {
+    padding: 40px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    p {
+      color: black;
+      font-family: $font__main;
+      max-width: 75%;
+      text-align: center;
+    }
+
+    .search-form {
+      @include searchForm;
+    }
+  }
+}

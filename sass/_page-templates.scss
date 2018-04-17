@@ -9,10 +9,12 @@
 
 // Title accent line
 .title-blue-line {
+  // todo: this accurately matches the FRONT PAGE line from the CBD site. Other pages are different
+  border-bottom: 2px solid $color__accent;
   width: 50px;
-  height: 5px;
-  background: linear-gradient(#fff, $color__accent, #fff);
+  display: block;
   margin: 0 auto;
+  // padding-top: 20px;
 }
 
 /* Front page */
@@ -355,8 +357,9 @@
       margin-top: 7%;
     }
 
-    h2 {
+    h3 {
       color: black;
+      font-size: 24px;
     }
     #iot-button {
       width: auto;
