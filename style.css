@@ -1311,8 +1311,9 @@ object {
         text-align: left;
         width: 50vw;
         margin-top: 7%; } }
-    .iot-container .iot-para-container h2 {
-      color: black; }
+    .iot-container .iot-para-container h3 {
+      color: black;
+      font-size: 24px; }
     .iot-container .iot-para-container #iot-button {
       width: auto;
       background: #00aeef;
