@@ -94,7 +94,6 @@ get_header(); ?>
 						<br> multiple benefits for cities and the people living within them:</h3>
 					<div class="title-blue-line">
 					</div>
-					
 					<div class="about-platform-container">
 						<div class="about-platform-left-container">
 							<div class="about-platform-left-top">
@@ -111,8 +110,9 @@ get_header(); ?>
 							</div>
 						</div>
 						<!-- about-platform-left-container -->
+
 						<div class="about-platform-center-container">
-							<img class="about-phone-icon" srcset="<?php echo get_template_directory_uri() . '/assets/images/valo-phone.png'?>" />
+							<img class="animation-icon" srcset="<?php echo get_template_directory_uri() . '/assets/images/valo-phone.png'?>" />
 						</div>
 						<div class="about-platform-right-container">
 							<div class="about-platform-right-top">
@@ -130,12 +130,15 @@ get_header(); ?>
 						</div>
 					</div>
 						<!-- about-platform-container -->
+
 				</section>
 				<!-- about-platform-wrapper -->
 			</section>
 			<!-- Content Wrapper -->
+
 		</main>
 		<!-- #main -->
+
 	</div>
 	<!-- #primary -->
 
