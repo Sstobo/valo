@@ -13,15 +13,15 @@ jQuery(document).ready(function($) {
     $(this).blur();
 
     // Get tag slug from title attirbute
-    var selecetd_taxonomy = $(this).attr('title');
+    var selectedTaxonomy = $(this).attr('title');
 
     // After user click on tag, fade out list of posts
     $('.filtered-posts').fadeOut();
 
-    data = {
+    var data = {
       action: 'filter_posts', // function to execute
       valo_nonce: valo_vars.valo_nonce, // wp_nonce
-      taxonomy: selecetd_taxonomy // selected tag
+      taxonomy: selectedTaxonomy // selected tag
     };
 
     $.post(valo_vars.valo_ajax_url, data, function(response) {
@@ -34,14 +34,17 @@ jQuery(document).ready(function($) {
     });
   });
   $('.share-post').hover(
-    () => {
+    function() {
       $('.soc-font-icon').css({ display: 'inline-block' });
+      $('.fa-share-alt').css({ borderColor: '#c7c7c7' });
+
       $('.soc-links-container').animate({
         opacity: 1
       });
     },
-    () => {
+    function() {
       $('.soc-font-icon').animate({ display: 'none' });
+      $('.fa-share-alt').css({ borderColor: '#e7e7e7' });
       $('.soc-links-container').animate({
         opacity: 0
       });

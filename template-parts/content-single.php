@@ -31,6 +31,7 @@
 				<a class="google" href="https://plus.google.com/share?url=<?php the_permalink(); ?>" title="Google+" target="_blank"><span class="soc-font-icon google"><i class="fa fa-google-plus"></i></span><span class="screen-reader-text">Share with Google+</span></a>
 				<a class="twitter" href="http://twitter.com/home/?status=<?php the_title(); ?> - <?php the_permalink(); ?>" title="Twitter" target="_blank"><span class="soc-font-icon twitter"><i class="fa fa-twitter"></i></span><span class="screen-reader-text">Share with Twitter</span></a>
 			</div>
+			<i class="fa fa-share-alt"></i>
 			<p>Share this post</p>
 		</div>
 		<?php
