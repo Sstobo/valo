@@ -11,9 +11,9 @@ get_header(); ?>
 		<main id="main" class="site-main" role="main">
 			
 			<section class="content-wrapper">
-				<section class="product-lighting-header">
+				<section class="product-lighting-header product-lighting-paralax">
 					<div class="product-header-text-container">
-						<h2>LED Street Lights</h2>
+						<h1>LED Street Lights</h1>
 						<p>VALO has a wide range of LED street lights to meet each city’s requirements. Street lights are available in a variety of wattages and luminous efficiencies, and include surge protection devices. VALO offers LED street lights for both horizontal and vertical installations.</p>
 					</div>
 				</section>
@@ -46,7 +46,6 @@ get_header(); ?>
 							<p>LED street lights are brighter than HID lights, and provide uniform light which improves visibility. Fewer LED lights are needed to offer the same brightness provided by many fluorescent lights.</p>
 						</div>
 					</div>	
-					<div class="product-lighting-paralax city-image"></div>
 					<div class="product-lighting">
 						<div class="product-lighting-content">
 							<div class="product-icon">04</div>
@@ -61,6 +60,7 @@ get_header(); ?>
 							<p>The improved quality of light given by LED street lights can help to reduce criminal activity. Criminals often target poorly lit areas, and thus LED lighting can act as a criminal deterrent.</p>
 						</div>
 					</div>
+					<div class="product-lighting-paralax city-image"></div>
 				</section>
 				<section class="controller">
 					<h2>Street Light Controller + Hub</h2>

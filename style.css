@@ -1810,17 +1810,19 @@ object {
     color: #00aeef; }
 
 .product-lighting-header {
+  background: url("../../assets/Backgrounds/clean-gray-abstract-background.png");
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  min-height: 300px;
   margin: 0 auto;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center; }
@@ -1837,7 +1839,7 @@ object {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column; }
-  @media all and (min-width: 600px) {
+  @media all and (min-width: 800px) {
     .product-lighting-flex-container {
       -webkit-box-orient: horizontal;
       -webkit-box-direction: normal;
@@ -1846,13 +1848,24 @@ object {
       -ms-flex-wrap: wrap;
           flex-wrap: wrap; } }
 
-@media all and (min-width: 600px) {
-  .product-lighting {
-    width: 25%; }
-    .product-lighting:nth-last-child(2), .product-lighting:last-child {
-      width: 50%; } }
+.product-lighting {
+  padding: 5% 0; }
+  .product-lighting:nth-child(even) {
+    background-color: #f9f9f9; }
+  .product-lighting:first-child, .product-lighting:last-child {
+    background-color: #00aeef;
+    color: #fff; }
+  @media all and (min-width: 800px) {
+    .product-lighting {
+      width: 25%; }
+      .product-lighting:nth-last-child(2), .product-lighting:nth-last-child(3) {
+        width: 50%;
+        -webkit-box-ordinal-group: 7;
+            -ms-flex-order: 6;
+                order: 6; } }
 
 .city-image {
+  background: url("../../assets/still-header/valo-still-header-01.png");
   display: none; }
   @media all and (min-width: 1000px) {
     .city-image {
@@ -1864,6 +1877,10 @@ object {
   width: 80%;
   margin: 0 auto;
   position: relative; }
+
+.product-lighting-paralax {
+  background-attachment: fixed;
+  background-size: 100% 100%; }
 
 .page-template-products_lighting .products-configuration-wrapper {
   background: url("http://localhost:8888/Valo/wp-content/themes/valo/assets/Backgrounds/clean-gray-abstract-background.png") bottom left no-repeat;
@@ -5201,17 +5218,19 @@ h2 {
         width: 33%; } }
 
 .product-lighting-header {
+  background: url("../../assets/Backgrounds/clean-gray-abstract-background.png");
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  min-height: 300px;
   margin: 0 auto;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center; }
@@ -5228,7 +5247,7 @@ h2 {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column; }
-  @media all and (min-width: 600px) {
+  @media all and (min-width: 800px) {
     .product-lighting-flex-container {
       -webkit-box-orient: horizontal;
       -webkit-box-direction: normal;
@@ -5237,13 +5256,24 @@ h2 {
       -ms-flex-wrap: wrap;
           flex-wrap: wrap; } }
 
-@media all and (min-width: 600px) {
-  .product-lighting {
-    width: 25%; }
-    .product-lighting:nth-last-child(2), .product-lighting:last-child {
-      width: 50%; } }
+.product-lighting {
+  padding: 5% 0; }
+  .product-lighting:nth-child(even) {
+    background-color: #f9f9f9; }
+  .product-lighting:first-child, .product-lighting:last-child {
+    background-color: #00aeef;
+    color: #fff; }
+  @media all and (min-width: 800px) {
+    .product-lighting {
+      width: 25%; }
+      .product-lighting:nth-last-child(2), .product-lighting:nth-last-child(3) {
+        width: 50%;
+        -webkit-box-ordinal-group: 7;
+            -ms-flex-order: 6;
+                order: 6; } }
 
 .city-image {
+  background: url("../../assets/still-header/valo-still-header-01.png");
   display: none; }
   @media all and (min-width: 1000px) {
     .city-image {
@@ -5255,6 +5285,10 @@ h2 {
   width: 80%;
   margin: 0 auto;
   position: relative; }
+
+.product-lighting-paralax {
+  background-attachment: fixed;
+  background-size: 100% 100%; }
 
 .page-template-products_lighting .products-configuration-wrapper {
   background: url("http://localhost:8888/Valo/wp-content/themes/valo/assets/Backgrounds/clean-gray-abstract-background.png") bottom left no-repeat;
