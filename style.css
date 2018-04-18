@@ -1808,6 +1808,133 @@ object {
     padding-top: 40px;
     color: #00aeef; }
 
+.page-template-products_lighting .advert-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  @media all and (min-width: 1000px) {
+    .page-template-products_lighting .advert-wrapper {
+      margin-top: 50px; } }
+  .page-template-products_lighting .advert-wrapper .advert-image {
+    display: none; }
+    @media all and (min-width: 1000px) {
+      .page-template-products_lighting .advert-wrapper .advert-image {
+        -ms-flex-preferred-size: 50%;
+            flex-basis: 50%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        width: 400px;
+        height: 400px;
+        background: gray;
+        margin-left: 4%;
+        min-width: 400px;
+        min-height: 400px;
+        max-width: 500px;
+        max-height: 500px; } }
+  .page-template-products_lighting .advert-wrapper .adverts {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 40px 0; }
+    @media all and (min-width: 1000px) {
+      .page-template-products_lighting .advert-wrapper .adverts {
+        -ms-flex-preferred-size: 50%;
+            flex-basis: 50%; } }
+    .page-template-products_lighting .advert-wrapper .adverts .add-para {
+      max-width: 70%;
+      -ms-flex-item-align: center;
+          align-self: center; }
+      @media all and (min-width: 1000px) {
+        .page-template-products_lighting .advert-wrapper .adverts .add-para {
+          margin-top: 0; } }
+    .page-template-products_lighting .advert-wrapper .adverts #add-deliv {
+      margin-left: 15%;
+      font-weight: bold;
+      -ms-flex-item-align: start;
+          align-self: flex-start; }
+      @media all and (min-width: 1000px) {
+        .page-template-products_lighting .advert-wrapper .adverts #add-deliv {
+          margin-top: 0;
+          margin-bottom: 0; } }
+    .page-template-products_lighting .advert-wrapper .adverts .add-links {
+      margin-left: 15%;
+      margin-right: 15%; }
+      .page-template-products_lighting .advert-wrapper .adverts .add-links .title {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        -ms-flex-line-pack: center;
+            align-content: center;
+        z-index: 1000;
+        border-top: 1px solid #f1f1f1; }
+        .page-template-products_lighting .advert-wrapper .adverts .add-links .title p {
+          font-size: 18px;
+          text-transform: uppercase;
+          margin: 10px 0; }
+        .page-template-products_lighting .advert-wrapper .adverts .add-links .title .service-icon-container:not(.hide) {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-pack: center;
+              -ms-flex-pack: center;
+                  justify-content: center;
+          -webkit-box-align: center;
+              -ms-flex-align: center;
+                  align-items: center;
+          -ms-flex-item-align: center;
+              align-self: center;
+          width: 15px;
+          height: 15px;
+          text-align: center;
+          background: #e6e6e6; }
+          .page-template-products_lighting .advert-wrapper .adverts .add-links .title .service-icon-container:not(.hide) i {
+            font-size: 10px; }
+      .page-template-products_lighting .advert-wrapper .adverts .add-links .title:hover {
+        cursor: pointer;
+        color: #00aeef; }
+        .page-template-products_lighting .advert-wrapper .adverts .add-links .title:hover p {
+          color: #00aeef; }
+      .page-template-products_lighting .advert-wrapper .adverts .add-links .text {
+        max-height: 0;
+        overflow: hidden;
+        -webkit-transition: max-height 0.4s ease-out;
+        transition: max-height 0.4s ease-out;
+        font-size: 15px;
+        line-height: 25px;
+        font-family: "Roboto";
+        padding-bottom: 5px; }
+        .page-template-products_lighting .advert-wrapper .adverts .add-links .text p {
+          margin: 0;
+          margin-bottom: 10px;
+          padding-bottom: 10px;
+          line-height: 24px; }
+          @media all and (min-width: 1000px) {
+            .page-template-products_lighting .advert-wrapper .adverts .add-links .text p {
+              margin-bottom: 0;
+              padding-bottom: 0; } }
+      .page-template-products_lighting .advert-wrapper .adverts .add-links .no-border {
+        border-top: none; }
+      .page-template-products_lighting .advert-wrapper .adverts .add-links .hide {
+        display: none; }
+      .page-template-products_lighting .advert-wrapper .adverts .add-links .height {
+        max-height: 80px;
+        -webkit-transition: max-height 0.4 ease-in;
+        transition: max-height 0.4 ease-in; }
+
 .page-template-products_lighting .products-configuration-wrapper {
   background: url("http://localhost:8888/Valo/wp-content/themes/valo/assets/Backgrounds/clean-gray-abstract-background.png") bottom left no-repeat;
   background-size: 100% 100%;

@@ -9,7 +9,72 @@ get_header(); ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
-			
+
+			<section class="advert-wrapper">
+          <div class="advert-image"></div>
+        
+          <section class="adverts">
+         
+          <p class="add-para">With the <span class="uppercase">Valo</span> platform, cities bare no cost for providing public WiFi as costs are covered via advertising revenue. WiFi enabled street lights are estimated to gain $450 USD yearly in ad revenue per light. This revenue is then shared between the city (20%) and Valo (80%).</p>
+          <p id="add-deliv">Advertising is delivered in three ways: </p>
+
+          <div class="add-links">
+            <div class="paid-add">
+              <div class="title no-border">
+                <p>Paid Advertising</p>
+                <div class="service-icon-container up ">
+                  <i class="fa fa-chevron-up " aria-hidden="true"></i>
+                </div>
+
+                <div class="service-icon-container down hide">
+                  <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                </div>
+              </div>
+
+              <div class="text height">
+                <p>Paid adverts are displayed on cell phones and mobile devices when accessing the free public WiFi.</p>
+              </div>
+            </div> <!-- close paid add-->
+
+             <div class="click-add">
+             <div class="title">
+                <p>Click-Through Advertising</p>
+                <div class="service-icon-container up hide">
+                  <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                </div>
+                <div class="service-icon-container down">
+                  <i class="fa fa-chevron-down " aria-hidden="true"></i>
+                </div>
+
+              </div>
+
+              <div class="text">
+                <p>Paid advertising when consumers click advertisements to get more information.</p>
+              </div>
+            </div> <!-- close click add-->
+
+            <div class="beacon-add">
+               <div class="title">
+                <p>Beacon Advertising</p>
+                <div class="service-icon-container up hide">
+                  <i class="fa fa-chevron-up" aria-hidden="true"></i>
+                </div>
+                <div class="service-icon-container down">
+                  <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                </div>
+
+              </div>
+
+              <div class="text">
+                <p>Paid ads where advertisers push coupons and adverts based on location and the proximity to services being offered.</p>
+              </div>
+            </div> <!-- close beacon add-->
+
+          </div> <!-- close add-links-->
+
+
+        </section><!--close adverts-->
+
 			<section class="content-wrapper">
 				<section class="product-lighting-header">
 					<h2>LED Street Lights</h2>

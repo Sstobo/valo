@@ -1,4 +1,130 @@
 .page-template-products_lighting {
+  .advert-wrapper {
+    display: flex;
+    @include desktop {
+      margin-top: 50px;
+    }
+    .advert-image {
+      display: none;
+      @include desktop {
+        flex-basis: 50%;
+        display: flex;
+        width: 400px;
+        height: 400px;
+        background: gray;
+        margin-left: 4%;
+        min-width: 400px;
+        min-height: 400px;
+        max-width: 500px;
+        max-height: 500px;
+      }
+    }
+    .adverts {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 40px 0;
+
+      @include desktop {
+        flex-basis: 50%;
+      }
+
+      .add-para {
+        max-width: 70%;
+        align-self: center;
+
+        @include desktop {
+          margin-top: 0;
+        }
+      }
+      #add-deliv {
+        margin-left: 15%;
+        font-weight: bold;
+
+        align-self: flex-start;
+        @include desktop {
+          margin-top: 0;
+          margin-bottom: 0;
+        }
+      }
+      .add-links {
+        margin-left: 15%;
+        margin-right: 15%;
+
+        .title {
+          display: flex;
+          justify-content: space-between;
+          align-content: center;
+          z-index: 1000;
+          border-top: 1px solid $color__background-screen;
+
+          p {
+            font-size: 18px;
+            text-transform: uppercase;
+            margin: 10px 0;
+          }
+          .service-icon-container:not(.hide) {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            align-self: center;
+            width: 15px;
+            height: 15px;
+            text-align: center;
+            background: #e6e6e6;
+
+            i {
+              font-size: 10px;
+            }
+          }
+        }
+        .title:hover {
+          cursor: pointer;
+          color: $color__accent;
+
+          p {
+            color: $color__accent;
+          }
+        }
+        .text {
+          max-height: 0;
+          overflow: hidden;
+          transition: max-height 0.4s ease-out;
+
+          font-size: 15px;
+          line-height: 25px;
+          font-family: $font__main;
+
+          padding-bottom: 5px;
+
+          p {
+            margin: 0;
+            margin-bottom: 10px;
+            padding-bottom: 10px;
+            line-height: 24px;
+
+            @include desktop {
+              margin-bottom: 0;
+              padding-bottom: 0;
+            }
+          }
+        }
+
+        .no-border {
+          border-top: none;
+        }
+
+        .hide {
+          display: none;
+        }
+        .height {
+          max-height: 80px;
+          transition: max-height 0.4 ease-in;
+        }
+      } //addlinks
+    } //adverts
+  }
   .products-configuration-wrapper {
     background: url('http://localhost:8888/Valo/wp-content/themes/valo/assets/Backgrounds/clean-gray-abstract-background.png')
       bottom left no-repeat;
