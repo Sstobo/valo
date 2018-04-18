@@ -40,7 +40,7 @@
 
   #form-title:after {
     content: '';
-    border-bottom: 5px solid $color__accent;
+    border-bottom: 2px solid $color__accent;
     width: 50px;
     display: block;
     margin: 0 auto;
@@ -156,7 +156,6 @@
       font-size: 15px;
       color: #fff;
       margin: 8px 0;
-      font-family: $font__main;
     }
     i.fa {
       color: #fff;

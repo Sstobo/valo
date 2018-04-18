@@ -4,8 +4,6 @@
       display: none;
     }
 
-    font-family: $font__main;
-
     h3 {
       color: $color__accent;
       font-size: 20px;
@@ -17,7 +15,6 @@
       margin: 0;
     }
     p {
-      color: black;
       font-size: 15px;
       line-height: 25px;
     }
@@ -30,7 +27,6 @@
         justify-content: center;
         align-items: center;
         margin-top: 40px;
-        // padding: 40px 0;
 
         @include desktop {
           flex-basis: 50%;
@@ -133,9 +129,8 @@
         }
         #add-deliv {
           margin-left: 15%;
-          font-family: $font__main;
           font-weight: bold;
-          color: black;
+
           align-self: flex-start;
           @include desktop {
             margin-top: 0;
@@ -154,8 +149,6 @@
             border-top: 1px solid $color__background-screen;
 
             p {
-              color: black;
-              font-family: $font__main;
               font-size: 18px;
               text-transform: uppercase;
               margin: 10px 0;
@@ -191,7 +184,7 @@
             font-size: 15px;
             line-height: 25px;
             font-family: $font__main;
-            color: black;
+
             padding-bottom: 5px;
 
             p {
@@ -316,8 +309,7 @@
       display: block;
       max-width: 60%;
       text-align: center;
-      font-family: $font__main;
-      color: black;
+
       font-size: 18px;
       font-weight: bold;
       @include tablet {
@@ -334,7 +326,7 @@
 
     #form-title-services:after {
       content: '';
-      border-bottom: 5px solid $color__accent;
+      border-bottom: 2px solid $color__accent;
       width: 50px;
       display: block;
       margin: 0 auto;
@@ -342,7 +334,7 @@
     }
     #services-para {
       display: block;
-      color: black;
+
       font-style: italic;
       font-family: $font__main;
       max-width: 75%;
