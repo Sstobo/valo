@@ -21,7 +21,7 @@ get_header(); ?>
 				</section>
 				<section class="formula-container">
 					<h2 class="header-section">Creating a foundation for smart cities.</h2>
-					<div class="title-blue-line"></div>
+					<div class="sub-title-blue-line"></div>
 					<picture>
 						<source srcset="<?php echo get_template_directory_uri() . '/assets/icons-SVG/valo-formula-mobile.png'?>" media="(max-width: 600px)">
 						<source srcset="<?php echo get_template_directory_uri() . '/assets/icons-SVG/valo-formula-desktop.png'?>">
@@ -34,7 +34,7 @@ get_header(); ?>
 					<h2 class="integrator-section-title">
 						<span class="uppercase">Valo</span> is a smart city integrator that aims to better people’s lives around the world through Internet of Things
 						(IoT) technology.</h2>
-					<div class="title-blue-line"></div>
+					<div class="sub-title-blue-line"></div>
 					<div class="integrator-section-container">
 						<div class="integrator-item">
 							<img alt="Products" class="integrator-icon" srcset="<?php echo get_template_directory_uri() . '/assets/icons-SVG/valo-products-01.png'?>"
@@ -98,10 +98,48 @@ get_header(); ?>
 					<h2 class="press-releases-title">Latest Press Releases</h2>
 					<div class="sub-title-blue-line"></div>
 
-					<?php $args = array( 'post_type' => 'post', 'posts_per_page' => 3 ); $query = new WP_Query($args);?>
 					<div class="press-releases-container">
-						<?php while ($query->have_posts()) : $query->the_post(); ?>
+
 						<div class="press-release">
+							<h3>Valo Smart City as a Service</h3>
+							<p>
+								<a href="#" title="#" rel="bookmark">Read More ‣</a>
+							</p>
+							<span>Company News, Press Releases • </span>
+							<span>
+								<?php the_time(' F jS, Y') ?>
+							</span>
+						</div>
+
+						<div class="press-release">
+							<h3>Internet of Things Technology</h3>
+							<p>
+								<a href="#" title="#" rel="bookmark">Read More ‣</a>
+							</p>
+							<span>Company News, Press Releases • </span>
+							<span>
+								<?php the_time(' F jS, Y') ?>
+							</span>
+						</div>
+						<div class="press-release">
+							<h3>Valo Smart City Secures Funding</h3>
+							<p>
+								<a href="#" title="#" rel="bookmark">Read More ‣</a>
+							</p>
+							<span>Company News, Press Releases • </span>
+							<span>
+								<?php the_time(' F jS, Y') ?>
+							</span>
+						</div>
+					</div>
+
+					<!-- <div class="press-releases-container"> -->
+
+					<!-- <?php $args = array( 'post_type' => 'post', 'posts_per_page' => 3 ); $query = new WP_Query($args);?>
+						<?php while ($query->have_posts()) : $query->the_post(); ?>
+							<?php endwhile; ?> -->
+
+					<!-- <div class="press-release">
 							<h3>Valo Smart City as a Service</h3>
 							<p>
 								<a href="<?php the_permalink();?>" title="<?php the_title(); ?>" rel="bookmark">Read More ‣</a>
@@ -111,8 +149,36 @@ get_header(); ?>
 								<?php the_time(' F jS, Y') ?>
 							</span>
 						</div>
+<<<<<<< HEAD
 					<?php endwhile; ?>
 					<?php wp_reset_query() ?>
+=======
+
+						<div class="press-release">
+							<h3>Internet of Things Technology</h3>
+							<p>
+								<a href="<?php the_permalink();?>" title="<?php the_title(); ?>" rel="bookmark">Read More ‣</a>
+							</p>
+							<span>Company News, Press Releases • </span>
+							<span>
+								<?php the_time(' F jS, Y') ?>
+							</span>
+						</div>
+						<div class="press-release">
+							<h3>Valo Smart City Secures Funding</h3>
+							<p>
+								<a href="<?php the_permalink();?>" title="<?php the_title(); ?>" rel="bookmark">Read More ‣</a>
+							</p>
+							<span>Company News, Press Releases • </span>
+							<span>
+								<?php the_time(' F jS, Y') ?>
+							</span>
+						</div>
+					</div> -->
+
+
+
+>>>>>>> 9df30729e2c4cfefd8301cfe14af7ca8527852ba
 				</section>
 				<!-- close Press Releases -->
 			</section>

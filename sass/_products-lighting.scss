@@ -59,6 +59,15 @@
       font-size: 30px;
     }
   }
+  .products-configuration-blurb {
+    margin: 0 auto;
+    font-style: italic;
+    font-size: 20px;
+    font-family: $font__main, sans-serif;
+    max-width: 75%;
+    text-align: center;
+    margin-top: 30px;
+  }
   .products-configuration-container {
     display: flex;
     flex-direction: column;
