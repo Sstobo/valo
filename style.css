@@ -916,6 +916,12 @@ object {
   padding-top: 140px; }
 
 .title-blue-line {
+  border-bottom: 8px solid #00aeef;
+  display: block;
+  margin: 0 auto;
+  width: 100px; }
+
+.sub-title-blue-line {
   border-bottom: 2px solid #00aeef;
   width: 50px;
   display: block;
@@ -1736,8 +1742,6 @@ h2 {
     @media (min-width: 1000px) {
       .applications-security-post p {
         text-align: left; } }
-  .applications-security-post .title-blue-line {
-    width: 60px; }
   @media (min-width: 1000px) {
     .applications-security-post {
       width: 50%;
@@ -1794,8 +1798,6 @@ h2 {
   padding: 38px 44px 0 44px;
   margin-bottom: 44px;
   text-align: center; }
-  .applications-transpo-post .title-blue-line {
-    width: 60px; }
   @media (min-width: 1000px) {
     .applications-transpo-post {
       padding: 38px 24px 0 24px;
@@ -1853,8 +1855,6 @@ h2 {
   padding: 38px 44px 0 44px;
   text-align: center;
   margin-bottom: 48px; }
-  .applications-transpo-post2 .title-blue-line {
-    width: 60px; }
   .applications-transpo-post2 .entry-title {
     display: none; }
   @media (min-width: 1000px) {
@@ -1933,8 +1933,6 @@ h2 {
   padding: 38px 44px 0 44px;
   margin-bottom: 44px;
   text-align: center; }
-  .applications-muni-post .title-blue-line {
-    width: 60px; }
   @media (min-width: 1000px) {
     .applications-muni-post {
       padding: 38px 24px 0 24px;
@@ -1992,8 +1990,6 @@ h2 {
   padding: 38px 44px 0 44px;
   text-align: center;
   margin-bottom: 48px; }
-  .applications-muni-post2 .title-blue-line {
-    width: 60px; }
   @media (min-width: 1000px) {
     .applications-muni-post2 {
       padding: 38px 24px 0 24px;
@@ -2070,8 +2066,6 @@ h2 {
   padding: 38px 44px 0 44px;
   margin-bottom: 44px;
   text-align: center; }
-  .applications-enviro-post .title-blue-line {
-    width: 60px; }
   @media (min-width: 1000px) {
     .applications-enviro-post {
       padding: 38px 24px 0 24px;
@@ -2129,8 +2123,6 @@ h2 {
   padding: 38px 44px 0 44px;
   text-align: center;
   margin-bottom: 48px; }
-  .applications-enviro-post2 .title-blue-line {
-    width: 60px; }
   .applications-enviro-post2 .entry-title {
     display: none; }
   @media (min-width: 1000px) {
@@ -2168,7 +2160,7 @@ h2 {
   text-align: center;
   margin-bottom: 44px;
   padding: 12px;
-  height: 300px;
+  height: 260px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2178,7 +2170,7 @@ h2 {
           flex-direction: row; }
   @media (min-width: 1000px) {
     .applications-hero {
-      height: 500px; } }
+      height: 400px; } }
   .applications-hero .applications-hero-wrapper {
     padding: 24px; }
     @media (min-width: 1000px) {
@@ -2230,7 +2222,7 @@ h2 {
           -ms-flex-direction: row;
               flex-direction: row; } }
   .applications-service-wrapper .applications-lighting {
-    height: 300px;
+    height: 260px;
     width: 100%;
     background-color: #eeeeee;
     text-align: center;
@@ -2238,7 +2230,7 @@ h2 {
     @media (min-width: 1000px) {
       .applications-service-wrapper .applications-lighting {
         width: 50%;
-        height: 500px;
+        height: 400px;
         padding-top: 124px; } }
     .applications-service-wrapper .applications-lighting .applications-img {
       height: 100px;
@@ -2255,7 +2247,7 @@ h2 {
         .applications-service-wrapper .applications-lighting h2 {
           min-height: 80px; } }
   .applications-service-wrapper .applications-platform {
-    height: 300px;
+    height: 260px;
     width: 100%;
     background-color: white;
     text-align: center;
@@ -2263,7 +2255,7 @@ h2 {
     @media (min-width: 1000px) {
       .applications-service-wrapper .applications-platform {
         width: 50%;
-        height: 500px;
+        height: 400px;
         padding-top: 124px; } }
     .applications-service-wrapper .applications-platform .applications-img {
       height: 100px;
@@ -2281,7 +2273,7 @@ h2 {
         .applications-service-wrapper .applications-platform h2 {
           min-height: 80px; } }
   .applications-service-wrapper .applications-cameras {
-    height: 300px;
+    height: 260px;
     width: 100%;
     background-color: #eeeeee;
     text-align: center;
@@ -2289,7 +2281,7 @@ h2 {
     @media (min-width: 1000px) {
       .applications-service-wrapper .applications-cameras {
         width: 50%;
-        height: 500px;
+        height: 400px;
         padding-top: 124px; } }
     .applications-service-wrapper .applications-cameras .applications-img {
       height: 100px;
@@ -2307,7 +2299,7 @@ h2 {
         .applications-service-wrapper .applications-cameras h2 {
           min-height: 80px; } }
   .applications-service-wrapper .applications-networks {
-    height: 300px;
+    height: 260px;
     width: 100%;
     background-color: white;
     text-align: center;
@@ -2315,7 +2307,7 @@ h2 {
     @media (min-width: 1000px) {
       .applications-service-wrapper .applications-networks {
         width: 50%;
-        height: 500px;
+        height: 400px;
         padding-top: 124px; } }
     .applications-service-wrapper .applications-networks .applications-img {
       height: 100px;
@@ -3583,7 +3575,8 @@ h2 {
       -ms-flex-align: center;
           align-items: center; }
   .download-header h1 {
-    text-align: center; }
+    text-align: center;
+    margin-bottom: 14px; }
 
 .download-content {
   width: 90%;
@@ -3664,11 +3657,10 @@ h2 {
   padding: 8px 0 24px 8px;
   text-align: center; }
   .investors-left .title-blue-line {
-    width: 178px;
     margin: 0 auto;
     margin-bottom: 34px; }
   .investors-left h1 {
-    margin-bottom: 34px; }
+    margin-bottom: 14px; }
   .investors-left p {
     width: 70%;
     margin: 0 auto;
@@ -3681,10 +3673,11 @@ h2 {
       padding: 48px 0 24px 138px;
       text-align: left; }
       .investors-left .title-blue-line {
-        width: 178px;
         margin: 0;
         margin-bottom: 34px; }
       .investors-left h1 {
+        margin-bottom: 14px; }
+      .investors-left h2 {
         margin-bottom: 34px; }
       .investors-left p {
         margin: 0;

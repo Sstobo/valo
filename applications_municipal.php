@@ -13,8 +13,8 @@ get_header(); ?>
 		<div class="applications-muni-hero">
 
 	<div class="applications-muni-post">
-			<h1>Smart Utility Grade Metering</h1>
-			<div class="title-blue-line"></div>
+			<h2>Smart Utility Grade Metering</h2>
+			<div class="sub-title-blue-line"></div>
 			<p>Smart meters record consumption of utilities (e.g., electricity, water, or gas) and communicate the information for monitoring or billing. Cities can improve the efficiency and reliability of utility networks using utility-grade metering. For example, a city can optimize its distribution network to reduce electrical power outages and brownouts. Valo’s Smart City Platform is well suited for utility metering since it can power smart meters and transmit information.</p>
 		</div>
 	
@@ -34,8 +34,8 @@ get_header(); ?>
 			</div>
 
 			<div class="applications-muni-post2">
-			<h1>Smart Waste Management</h1>
-			<div class="title-blue-line"></div>
+			<h2>Smart Waste Management</h2>
+			<div class="sub-title-blue-line"></div>
 			<p>Sensors connected to Valo’s smart street lights can monitor trash bins to measure fill-levels. Cities can use this information to plan waste collection schedules and routes, saving time and money. Valo’s Smart City platform is ideal for deploying waste management systems.</p>
 			</div>
 		</div>

@@ -13,8 +13,8 @@ get_header(); ?>
 		<div class="applications-enviro-hero">
 
 	<div class="applications-enviro-post">
-			<h1>Smart Weather Monitoring</h1>
-			<div class="title-blue-line"></div>
+			<h2>Smart Weather Monitoring</h2>
+			<div class="sub-title-blue-line"></div>
 			<p>By monitoring weather patterns, cities are better prepared for extreme weather and natural disasters such as snow, rain storms, and hurricanes. Knowing changes in weather allows cities to be more proactive in dealing with weather disruptions. For example, scheduling and planning of snow removal and road salting. Valo’s Smart City Platform is ideal for hosting weather monitoring equipment since it provides a source of power, can transmit data, and can be distributed across a city.</p>
 		</div>
 	
@@ -34,8 +34,8 @@ get_header(); ?>
 			</div>
 
 			<div class="applications-enviro-post2">
-			<h1>Smart Air Quality Monitoring</h1>
-			<div class="title-blue-line"></div>
+			<h2>Smart Air Quality Monitoring</h2>
+			<div class="sub-title-blue-line"></div>
 			<p>Air quality measurement allows cities to monitor pollution levels that affect citizens’ health and well-being. Street light poles are an optimal platform for mounting air quality sensors since they can be placed along city roads and spread evenly throughout a city. Sensors draw power from the light poles and relay information using communication technology in Valo’s smart street lights. This setup captures more data points, at a lower cost, compared to traditional large industrial air-sensor units.</p>
 			</div>
 		</div>
