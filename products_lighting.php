@@ -46,8 +46,55 @@ get_header(); ?>
 				</section>
 				<section class="controller-drop-down">
 				</section>
-				<section class="configuration">
+
+					<section class="products-configuration-wrapper">
+					<h3>Controller Configurations</h3>
+					<div class="sub-title-blue-line">
+					</div>
+					<div class="products-configuration-container">
+						<div class="products-configuration-left-container">
+
+							<div class="products-configuration-left-top">
+								<p><span>Basic Controller</span></br>Contains WiFi mesh and Bluetooth/BLE connectivity, and Bluetooth beaconing.</p>
+								<div class="products-configuration-icon">
+									<i class="fa fa-lightbulb-o fa-2x" aria-hidden="true"></i>
+								</div>
+							</div>
+
+							<div class="products-configuration-left-bottom">
+								<p><span>Basic Controller + Hub</span></br>Includes ports for external connectivity, air quality sensors, noise detection, and backhaul options.</p>
+								<div class="products-configuration-icon">
+									<i class="fa fa-database fa-2x" aria-hidden="true"></i>
+								</div>
+							</div>
+
+						</div><!-- products-configuration-left-container -->
+						
+
+						<div class="products-configuration-center-container">
+							<img class="animation-icon" srcset="<?php echo get_template_directory_uri() . '/assets/images/valo-lamppost.png'?>" />
+						</div>
+						<div class="products-configuration-right-container">
+							<div class="products-configuration-right-top">
+								<div class="products-configuration-icon">
+									<i class="fa fa-video-camera fa-2x" aria-hidden="true"></i>
+								</div>
+								<p><span>Basic Controller + Hub</span></br><em>IP Cameras</em></br>
+                      Video cameras can be mounted at any location on pole</p>
+							</div>
+							<div class="products-configuration-right-bottom">
+								<div class="products-configuration-icon">
+									<i class="fa fa-signal fa-2x" aria-hidden="true"></i>
+								</div>
+								<p><span>Basic Controller + Giga WiFI</span></br><em>Supports Public WiFi and Air Quality Sensor</em>
+                 WiFi or Bluetooth mounted at a 8’ to 12’ optimal height.</p>
+							</div>
+						</div>
+					</div>
+					<!-- products-configuration-container -->
+
 				</section>
+				<!-- products-configuration-wrapper -->
 				<section
 			</section>
 		</main><!-- #main -->
