@@ -293,7 +293,8 @@ h6 {
 /* Copy */
 p {
   margin-bottom: 1.5rem;
-  font-family: "Roboto", sans-serif; }
+  font-family: "Roboto", sans-serif;
+  line-height: 28px; }
 
 dfn,
 cite,
@@ -1807,6 +1808,62 @@ object {
     padding-right: 20%;
     padding-top: 40px;
     color: #00aeef; }
+
+.product-lighting-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.product-header-text-container {
+  width: 50%;
+  text-align: center; }
+
+.product-lighting-flex-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+  @media all and (min-width: 600px) {
+    .product-lighting-flex-container {
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap; } }
+
+@media all and (min-width: 600px) {
+  .product-lighting {
+    width: 25%; }
+    .product-lighting:nth-last-child(2), .product-lighting:last-child {
+      width: 50%; } }
+
+.city-image {
+  display: none; }
+  @media all and (min-width: 1000px) {
+    .city-image {
+      display: block;
+      height: 500px;
+      width: 100%; } }
+
+.product-lighting-content {
+  width: 80%;
+  margin: 0 auto;
+  position: relative; }
 
 .page-template-products_lighting .advert-wrapper {
   display: -webkit-box;
@@ -5269,3 +5326,408 @@ h2 {
     @media (min-width: 900px) {
       .platform-event-sensors .platform-sensors-box {
         width: 33%; } }
+
+.product-lighting-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.product-header-text-container {
+  width: 50%;
+  text-align: center; }
+
+.product-lighting-flex-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+  @media all and (min-width: 600px) {
+    .product-lighting-flex-container {
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap; } }
+
+@media all and (min-width: 600px) {
+  .product-lighting {
+    width: 25%; }
+    .product-lighting:nth-last-child(2), .product-lighting:last-child {
+      width: 50%; } }
+
+.city-image {
+  display: none; }
+  @media all and (min-width: 1000px) {
+    .city-image {
+      display: block;
+      height: 500px;
+      width: 100%; } }
+
+.product-lighting-content {
+  width: 80%;
+  margin: 0 auto;
+  position: relative; }
+
+.page-template-products_lighting .advert-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  @media all and (min-width: 1000px) {
+    .page-template-products_lighting .advert-wrapper {
+      margin-top: 50px; } }
+  .page-template-products_lighting .advert-wrapper .advert-image {
+    display: none; }
+    @media all and (min-width: 1000px) {
+      .page-template-products_lighting .advert-wrapper .advert-image {
+        -ms-flex-preferred-size: 50%;
+            flex-basis: 50%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        width: 400px;
+        height: 400px;
+        background: gray;
+        margin-left: 4%;
+        min-width: 400px;
+        min-height: 400px;
+        max-width: 500px;
+        max-height: 500px; } }
+  .page-template-products_lighting .advert-wrapper .adverts {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 40px 0; }
+    @media all and (min-width: 1000px) {
+      .page-template-products_lighting .advert-wrapper .adverts {
+        -ms-flex-preferred-size: 50%;
+            flex-basis: 50%; } }
+    .page-template-products_lighting .advert-wrapper .adverts .add-para {
+      max-width: 70%;
+      -ms-flex-item-align: center;
+          align-self: center; }
+      @media all and (min-width: 1000px) {
+        .page-template-products_lighting .advert-wrapper .adverts .add-para {
+          margin-top: 0; } }
+    .page-template-products_lighting .advert-wrapper .adverts #add-deliv {
+      margin-left: 15%;
+      font-weight: bold;
+      -ms-flex-item-align: start;
+          align-self: flex-start; }
+      @media all and (min-width: 1000px) {
+        .page-template-products_lighting .advert-wrapper .adverts #add-deliv {
+          margin-top: 0;
+          margin-bottom: 0; } }
+    .page-template-products_lighting .advert-wrapper .adverts .add-links {
+      margin-left: 15%;
+      margin-right: 15%; }
+      .page-template-products_lighting .advert-wrapper .adverts .add-links .title {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        -ms-flex-line-pack: center;
+            align-content: center;
+        z-index: 1000;
+        border-top: 1px solid #f1f1f1; }
+        .page-template-products_lighting .advert-wrapper .adverts .add-links .title p {
+          font-size: 18px;
+          text-transform: uppercase;
+          margin: 10px 0; }
+        .page-template-products_lighting .advert-wrapper .adverts .add-links .title .service-icon-container:not(.hide) {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-pack: center;
+              -ms-flex-pack: center;
+                  justify-content: center;
+          -webkit-box-align: center;
+              -ms-flex-align: center;
+                  align-items: center;
+          -ms-flex-item-align: center;
+              align-self: center;
+          width: 15px;
+          height: 15px;
+          text-align: center;
+          background: #e6e6e6; }
+          .page-template-products_lighting .advert-wrapper .adverts .add-links .title .service-icon-container:not(.hide) i {
+            font-size: 10px; }
+      .page-template-products_lighting .advert-wrapper .adverts .add-links .title:hover {
+        cursor: pointer;
+        color: #00aeef; }
+        .page-template-products_lighting .advert-wrapper .adverts .add-links .title:hover p {
+          color: #00aeef; }
+      .page-template-products_lighting .advert-wrapper .adverts .add-links .text {
+        max-height: 0;
+        overflow: hidden;
+        -webkit-transition: max-height 0.4s ease-out;
+        transition: max-height 0.4s ease-out;
+        font-size: 15px;
+        line-height: 25px;
+        font-family: "Roboto";
+        padding-bottom: 5px; }
+        .page-template-products_lighting .advert-wrapper .adverts .add-links .text p {
+          margin: 0;
+          margin-bottom: 10px;
+          padding-bottom: 10px;
+          line-height: 24px; }
+          @media all and (min-width: 1000px) {
+            .page-template-products_lighting .advert-wrapper .adverts .add-links .text p {
+              margin-bottom: 0;
+              padding-bottom: 0; } }
+      .page-template-products_lighting .advert-wrapper .adverts .add-links .no-border {
+        border-top: none; }
+      .page-template-products_lighting .advert-wrapper .adverts .add-links .hide {
+        display: none; }
+      .page-template-products_lighting .advert-wrapper .adverts .add-links .height {
+        max-height: 80px;
+        -webkit-transition: max-height 0.4 ease-in;
+        transition: max-height 0.4 ease-in; }
+
+.page-template-products_lighting .products-configuration-wrapper {
+  background: url("http://localhost:8888/Valo/wp-content/themes/valo/assets/Backgrounds/clean-gray-abstract-background.png") bottom left no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  padding: 50px 10% 0; }
+  .page-template-products_lighting .products-configuration-wrapper h3 {
+    text-align: center;
+    font-weight: 700;
+    color: #000;
+    font-size: 30px; }
+
+.page-template-products_lighting .products-configuration-blurb {
+  margin: 0 auto;
+  font-style: italic;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  max-width: 75%;
+  text-align: center;
+  margin-top: 30px; }
+
+.page-template-products_lighting .products-configuration-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+  @media all and (min-width: 785px) {
+    .page-template-products_lighting .products-configuration-container {
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+      margin-top: 40px; } }
+
+.page-template-products_lighting .products-configuration-left-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-right: 30px; }
+  @media all and (min-width: 785px) {
+    .page-template-products_lighting .products-configuration-left-container {
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center; } }
+
+.page-template-products_lighting .products-configuration-left-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 20px; }
+  .page-template-products_lighting .products-configuration-left-top span {
+    font-weight: 700;
+    font-family: sans-serif, sans-serif;
+    font-size: 16px;
+    color: #000; }
+  .page-template-products_lighting .products-configuration-left-top p {
+    width: 60%;
+    font-size: 13px; }
+  @media all and (min-width: 785px) {
+    .page-template-products_lighting .products-configuration-left-top {
+      -webkit-box-pack: start;
+          -ms-flex-pack: start;
+              justify-content: flex-start;
+      margin-top: 0px;
+      margin-bottom: 24px; }
+      .page-template-products_lighting .products-configuration-left-top p {
+        width: 129px; } }
+  .page-template-products_lighting .products-configuration-left-top .products-configuration-icon {
+    padding-left: 20%;
+    padding-top: 40px;
+    color: #00aeef; }
+
+.page-template-products_lighting .products-configuration-left-bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 20px; }
+  .page-template-products_lighting .products-configuration-left-bottom span {
+    font-weight: 700;
+    font-family: sans-serif, sans-serif;
+    font-size: 16px;
+    color: #000; }
+  .page-template-products_lighting .products-configuration-left-bottom p {
+    width: 60%;
+    font-size: 13px; }
+  @media all and (min-width: 785px) {
+    .page-template-products_lighting .products-configuration-left-bottom {
+      -webkit-box-pack: start;
+          -ms-flex-pack: start;
+              justify-content: flex-start;
+      margin-top: 0px; }
+      .page-template-products_lighting .products-configuration-left-bottom p {
+        width: 129px; } }
+  .page-template-products_lighting .products-configuration-left-bottom .products-configuration-icon {
+    padding-left: 20%;
+    padding-top: 40px;
+    color: #00aeef; }
+
+.page-template-products_lighting .products-configuration-center-container {
+  padding: 0;
+  margin: 0 auto;
+  margin-bottom: -7px; }
+
+.page-template-products_lighting .animation-icon {
+  width: 275px;
+  height: 453px;
+  margin-top: 0; }
+  @media all and (min-width: 785px) {
+    .page-template-products_lighting .animation-icon {
+      height: 0px;
+      margin-top: 453px; } }
+
+.page-template-products_lighting .animation-in-view {
+  margin-top: 0px;
+  height: 453px;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s; }
+
+.page-template-products_lighting .products-configuration-right-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 30px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.page-template-products_lighting .products-configuration-right-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 20px; }
+  .page-template-products_lighting .products-configuration-right-top span {
+    font-weight: 700;
+    font-family: sans-serif, sans-serif;
+    font-size: 16px;
+    color: #000; }
+  .page-template-products_lighting .products-configuration-right-top p {
+    width: 60%;
+    font-size: 13px; }
+  @media all and (min-width: 785px) {
+    .page-template-products_lighting .products-configuration-right-top {
+      -webkit-box-pack: end;
+          -ms-flex-pack: end;
+              justify-content: flex-end;
+      margin-top: 0px; }
+      .page-template-products_lighting .products-configuration-right-top p {
+        width: 129px; } }
+  .page-template-products_lighting .products-configuration-right-top .products-configuration-icon {
+    padding-right: 20%;
+    padding-top: 40px;
+    color: #00aeef; }
+
+.page-template-products_lighting .products-configuration-right-bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 20px; }
+  .page-template-products_lighting .products-configuration-right-bottom span {
+    font-weight: 700;
+    font-family: sans-serif, sans-serif;
+    font-size: 16px;
+    color: #000; }
+  .page-template-products_lighting .products-configuration-right-bottom p {
+    width: 60%;
+    font-size: 13px; }
+  @media all and (min-width: 785px) {
+    .page-template-products_lighting .products-configuration-right-bottom {
+      -webkit-box-pack: end;
+          -ms-flex-pack: end;
+              justify-content: flex-end;
+      margin-top: 0px; }
+      .page-template-products_lighting .products-configuration-right-bottom p {
+        width: 129px; } }
+  .page-template-products_lighting .products-configuration-right-bottom .products-configuration-icon {
+    padding-right: 20%;
+    padding-top: 40px;
+    color: #00aeef; }
