@@ -276,13 +276,19 @@ textarea {
   line-height: 1.5; }
 
 /* Headings */
-h1,
+h1 {
+  font-family: "Roboto", sans-serif; }
+
 h2,
-h3,
+h3 {
+  clear: both;
+  font-family: sans-serif, sans-serif; }
+
 h4,
 h5,
 h6 {
-  clear: both; }
+  clear: both;
+  font-family: "Roboto", sans-serif; }
 
 /* Copy */
 p {
@@ -1145,7 +1151,7 @@ object {
 
 .press-releases-title {
   font-family: "Roboto";
-  font-weight: 500;
+  font-weight: 700;
   font-size: 34px;
   color: #161616;
   text-align: center;
@@ -2538,10 +2544,10 @@ h2 {
       width: 50%; } }
 
 .page-template-about .about-purpose-blue-line {
-  width: 150px;
-  height: 5px;
-  background: #00aeef;
-  text-align: left; }
+  border-bottom: 5px solid #00aeef;
+  width: 50px;
+  display: block;
+  margin: 0 auto; }
 
 .page-template-about .about-advantage-container {
   display: -webkit-box;
@@ -2743,7 +2749,9 @@ h2 {
   background-attachment: fixed;
   padding: 50px 10% 0; }
   .page-template-about .about-platform-wrapper h3 {
-    text-align: center; }
+    text-align: center;
+    font-weight: 700;
+    color: #000; }
 
 .page-template-about .about-platform-container {
   display: -webkit-box;

@@ -76,7 +76,7 @@ get_header(); ?>
 			<!-- Press Releases -->
 			<section class="press-releases-wrapper">
 				<h2 class="press-releases-title">Latest Press Releases</h2>
-				<div class="title-blue-line"></div>
+				<div class="sub-title-blue-line"></div>
 				<div class="press-releases-container">
             <div class="press-release">
 						   <h3>Valo Smart City as a Service</h3>
