@@ -14,7 +14,7 @@ get_header(); ?>
                 <div class="applications-hero">
                     <div class="applications-hero-wrapper">
                     <h1> Applications </h1>
-                    <p1> VALO’s street lights and Smart City platform can be used in a variety of ways by both cities and citizens. VALO’s technological solutions make for smarter cities since municipalities can better manage their assets and resources using data collected from sensors connected to street lights. Potential use cases of VALO’s products and services include:</p1>
+                    <p> VALO’s street lights and Smart City platform can be used in a variety of ways by both cities and citizens. VALO’s technological solutions make for smarter cities since municipalities can better manage their assets and resources using data collected from sensors connected to street lights. Potential use cases of VALO’s products and services include:</p>
                     </div>
                     <div class="applications-hero-img">test</div>
                 </div>

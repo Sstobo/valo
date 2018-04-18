@@ -437,6 +437,10 @@
     }
     .applications-hero-wrapper {
         padding: 24px;
+        p {
+            max-width: 80%;
+            
+        }
         @media (min-width: $desktop_width) {
             display: block;
             height: 500px;
@@ -444,6 +448,7 @@
             margin-right: 48px;
             text-align: left;
             padding: 0px 64px 0 24px;
+            
         }
         @media (min-width: 1300px) {
             display: block;
@@ -452,6 +457,7 @@
             margin-right: 48px;
             text-align: left;
             padding: 14px 14px 0 124px;
+            
               
     }
 }
@@ -495,14 +501,14 @@
             margin: 0 auto;
             margin-bottom: 14px;
         }
-        h2 {
-            min-height: 40px;
+        h3 {
+            min-height: 30px;
             text-align: center;
-            width: 60%;
+            width: 80%;
             margin: 0 auto;
-            margin-bottom: 24px;
+            margin-bottom: 14px;
             @media (min-width: $desktop_width) {
-                min-height: 80px;
+                min-height: 60px;
             }
         }
     }
@@ -523,15 +529,14 @@
             margin: 0 auto;
             margin-bottom: 14px;
         }
-        h2 {
-            min-height: 40px;
+        h3 {
+            min-height: 30px;
             text-align: center;
-            width: 60%;
+            width: 80%;
             margin: 0 auto;
             margin-bottom: 14px;
-            margin-bottom: 24px;
             @media (min-width: $desktop_width) {
-                min-height: 80px;
+                min-height: 60px;
             }
         }
     }
@@ -552,15 +557,14 @@
             margin: 0 auto;
             margin-bottom: 14px;
         }
-        h2 {
-            min-height: 40px;
+        h3 {
+            min-height: 30px;
             text-align: center;
             width: 80%;
             margin: 0 auto;
             margin-bottom: 14px;
-            margin-bottom: 24px;
             @media (min-width: $desktop_width) {
-                min-height: 80px;
+                min-height: 60px;
             }
         }
     }
@@ -581,15 +585,14 @@
             margin: 0 auto;
             margin-bottom: 14px;
         }
-        h2 {
-            min-height: 40px;
+        h3 {
+            min-height: 30px;
             text-align: center;
-            width: 60%;
+            width: 80%;
             margin: 0 auto;
             margin-bottom: 14px;
-            margin-bottom: 24px;
             @media (min-width: $desktop_width) {
-                min-height: 80px;
+                min-height: 60px;
             }
         }
     }
