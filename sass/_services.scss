@@ -1,4 +1,5 @@
-.page-template-page-services {
+// .page-template-page-services {
+.page-id-22 {
   .content-area-services {
     .entry-title {
       display: none;
@@ -88,12 +89,12 @@
       }
     } //wifi
 
-    .advert-wrapper {
+    .badvert-wrapper {
       display: flex;
       @include desktop {
         margin-top: 50px;
       }
-      .advert-image {
+      .badvert-image {
         display: none;
         @include desktop {
           flex-basis: 50%;
@@ -108,7 +109,7 @@
           max-height: 500px;
         }
       }
-      .adverts {
+      .badverts {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -119,7 +120,7 @@
           flex-basis: 50%;
         }
 
-        .add-para {
+        .badd-para {
           max-width: 70%;
           align-self: center;
 
@@ -130,6 +131,7 @@
         #add-deliv {
           margin-left: 15%;
           font-weight: bold;
+          color: black;
 
           align-self: flex-start;
           @include desktop {
@@ -137,7 +139,7 @@
             margin-bottom: 0;
           }
         }
-        .add-links {
+        .badd-links {
           margin-left: 15%;
           margin-right: 15%;
 
@@ -146,12 +148,14 @@
             justify-content: space-between;
             align-content: center;
             z-index: 1000;
+
             border-top: 1px solid $color__background-screen;
 
             p {
               font-size: 18px;
               text-transform: uppercase;
               margin: 10px 0;
+              color: black;
             }
             .service-icon-container:not(.hide) {
               display: flex;
