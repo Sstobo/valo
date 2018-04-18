@@ -3268,6 +3268,7 @@ h2 {
 
 .share-post {
   margin: 0 auto;
+  position: relative;
   width: 300px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -3285,6 +3286,13 @@ h2 {
   .share-post p {
     font-weight: 700; }
 
+.fa-share-alt {
+  border: 2px solid #e7e7e7;
+  border-radius: 50%;
+  padding: 10px; }
+  .fa-share-alt:hover {
+    border-color: #d7d7d7; }
+
 .soc-links-container {
   -webkit-box-shadow: 0 0 8px rgba(3, 3, 3, 0.2);
           box-shadow: 0 0 8px rgba(3, 3, 3, 0.2);
@@ -3299,7 +3307,8 @@ h2 {
           align-items: center;
   height: 50px;
   width: 300px;
-  opacity: 0.1; }
+  opacity: 0;
+  margin-bottom: 20px; }
 
 .soc-font-icon {
   padding: 5px 15px;
