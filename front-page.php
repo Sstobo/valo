@@ -111,30 +111,6 @@ get_header(); ?>
 								<?php the_time(' F jS, Y') ?>
 							</span>
 						</div>
-
-						<div class="press-release">
-							<h3>Internet of Things Technology</h3>
-							<p>
-								<a href="<?php the_permalink();?>" title="<?php the_title(); ?>" rel="bookmark">Read More ‣</a>
-							</p>
-							<span>Company News, Press Releases • </span>
-							<span>
-								<?php the_time(' F jS, Y') ?>
-							</span>
-						</div>
-						<div class="press-release">
-							<h3>Valo Smart City Secures Funding</h3>
-							<p>
-								<a href="<?php the_permalink();?>" title="<?php the_title(); ?>" rel="bookmark">Read More ‣</a>
-							</p>
-							<span>Company News, Press Releases • </span>
-							<span>
-								<?php the_time(' F jS, Y') ?>
-							</span>
-						</div>
-					</div>
-
-
 					<?php endwhile; ?>
 					<?php wp_reset_query() ?>
 				</section>

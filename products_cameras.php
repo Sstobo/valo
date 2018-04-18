@@ -30,7 +30,7 @@ get_header(); ?>
 						<!-- products-two-main-cameras-left-container -->
 
 						<div class="products-two-main-cameras-center-container">
-							<img class="animation-icon" srcset="<?php echo get_template_directory_uri() . '/assets/images/security-camera.png'?>" />
+							<img class="animation-icon" srcset="<?php echo get_template_directory_uri() . '/assets/images/valo-security-camera.png'?>" />
 						</div>
 						<div class="products-two-main-cameras-right-container">
 							<div class="products-two-main-cameras-right-top">
