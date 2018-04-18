@@ -1,0 +1,22 @@
+.product-lighting-header {
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.product-header-text-container {
+  width: 50%;
+  text-align: center;
+}
+
+.product-lighting-flex-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.product-lighting-content {
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+}
