@@ -20,12 +20,14 @@
 		</div>
 	<?php endif; ?>
 	</header><!-- .entry-header -->
+	<div class="news-content-container">
 	<?php the_title( sprintf( '<h2 class="article-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' ); 
-		foreach((get_the_category()) as $category) { 
-  		echo $category->cat_name . ' '; 
-		}						
+		// foreach((get_the_category()) as $category) { 
+  	// 	echo $category->cat_name . ' '; 
+		// }						
 		the_excerpt();
 		echo sprintf('<a class="read-more" href="%s">', esc_url( get_permalink() ) ) . '<span>Read More</span> <span class="read-more-icon"><i class="fa fa-caret-right" aria-hidden-true></i></span></a>';?>
+		</div>
 </article><!-- #post-## -->
 
 			

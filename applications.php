@@ -21,23 +21,23 @@ get_header(); ?>
                 <div class="applications-service-wrapper">
                     <div class="applications-lighting">
                     <img alt="A green car" class="applications-img" src="<?php echo get_template_directory_uri() . '/assets/icons-SVG/applications-vehicle.png'; ?>"/></a>
-                        <h2>Smart Transportation</h2>
+                        <h3>Smart Transportation</h3>
                         <a href="<?php echo get_page_link( get_page_by_title("Smart Transportation" )->ID ); ?>"class="button-main button-hero">Learn more</a>
                     </div>
                     <div class="applications-platform">
                     <img alt="A car"  class="applications-img" src="<?php echo get_template_directory_uri() . '/assets/icons-SVG/applications-recycle.png'; ?>"/></a>
-                        <h2>Smart Municipal Services</h2>
+                        <h3>Smart Municipal Services</h3>
                        <a href="<?php echo get_page_link( get_page_by_title( "Smart Municipal Services" )->ID ); ?>"class="button-main button-hero">Learn more</a>
                     </div>
                     <div class="applications-cameras">
                     <img alt="Security panel" class="applications-img" src="<?php echo get_template_directory_uri() . '/assets/icons-SVG/applications-security-panel.png'; ?>"/></a>
-                        <h2>Smart Security</h2>
+                        <h3>Smart Security</h3>
                         <a href="<?php echo get_page_link( get_page_by_title( "Smart City Security" )->ID ); ?>"class="button-main button-hero">Learn more</a>
                     </div>
                     <div class="applications-networks">
                     <img alt="Zero emmision icon" class="applications-img" src="<?php echo get_template_directory_uri() . '/assets/icons-SVG/applications-zero-emission.png'; ?>"/></a>
-                        <h2>Smart Environmental Monitoring
-                        </h2>
+                        <h3>Smart Environmental Monitoring
+                        </h3>
                         <a href="<?php echo get_page_link( get_page_by_title( "Smart Environmental Monitoring" )->ID ); ?>"class="button-main button-hero">Learn more</a>
                       
                     </div>

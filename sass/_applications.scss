@@ -66,9 +66,7 @@
                 text-align: left;
             }
         }
-        .title-blue-line   {
-            width: 60px;
-        }   
+        
         @media (min-width: $desktop_width) {
             width: 50%;
             height: 500px;
@@ -114,9 +112,7 @@
         padding: 38px 44px 0 44px;
         margin-bottom: 44px;
         text-align: center;
-        .title-blue-line {
-            width: 60px;
-        }
+       
         @media (min-width: $desktop_width) {
             padding: 38px 24px 0 24px;
             width: 50%;
@@ -162,9 +158,7 @@
         padding: 38px 44px 0 44px;
         text-align: center;
         margin-bottom: 48px;
-        .title-blue-line   {
-            width: 60px;
-        }   
+          
         .entry-title { 
             display:none;
             }
@@ -233,9 +227,7 @@
         padding: 38px 44px 0 44px;
         margin-bottom: 44px;
         text-align: center;
-        .title-blue-line {
-            width: 60px;
-        }
+      
         @media (min-width: $desktop_width) {
             padding: 38px 24px 0 24px;
             width: 50%;
@@ -281,9 +273,7 @@
         padding: 38px 44px 0 44px;
         text-align: center;
         margin-bottom: 48px;
-        .title-blue-line   {
-            width: 60px;
-        }   
+      
         @media (min-width: $desktop_width) {
             padding: 38px 24px 0 24px;
             width: 50%;
@@ -350,9 +340,7 @@
         padding: 38px 44px 0 44px;
         margin-bottom: 44px;
         text-align: center;
-        .title-blue-line {
-            width: 60px;
-        }
+      
         @media (min-width: $desktop_width) {
             padding: 38px 24px 0 24px;
             width: 50%;
@@ -398,9 +386,7 @@
         padding: 38px 44px 0 44px;
         text-align: center;
         margin-bottom: 48px;
-        .title-blue-line   {
-            width: 60px;
-        }   
+      
         .entry-title { 
             display:none;
             }
@@ -443,11 +429,11 @@
     text-align: center;
     margin-bottom: 44px;
     padding: 12px;
-    height: 300px;
+    height: 260px;
     display: flex;
     flex-direction: row;
     @media (min-width: $desktop_width) {
-        height: 500px;
+        height: 400px;
     }
     .applications-hero-wrapper {
         padding: 24px;
@@ -493,14 +479,14 @@
         flex-direction: row;
     }
     .applications-lighting {
-        height: 300px;
+        height: 260px;
         width: 100%;
         background-color: rgb(238, 238, 238);
         text-align: center;
         padding: 34px 12px 12px 12px;
         @media (min-width: $desktop_width) {
             width: 50%;
-            height: 500px;
+            height: 400px;
             padding-top: 124px;
         }
         .applications-img {
@@ -521,14 +507,14 @@
         }
     }
     .applications-platform {
-        height: 300px;
+        height: 260px;
         width: 100%;
         background-color: rgb(255, 255, 255);
         text-align: center;
         padding: 34px 12px 12px 12px;
         @media (min-width: $desktop_width) {
             width: 50%;
-            height: 500px;
+            height: 400px;
             padding-top: 124px;
         }
         .applications-img {
@@ -550,14 +536,14 @@
         }
     }
     .applications-cameras {
-        height: 300px;
+        height: 260px;
         width: 100%;
         background-color: rgb(238, 238, 238);
         text-align: center;
         padding: 34px 12px 12px 12px;
         @media (min-width: $desktop_width) {
             width: 50%;
-            height: 500px;
+            height: 400px;
             padding-top: 124px;
         }
         .applications-img {
@@ -579,14 +565,14 @@
         }
     }
     .applications-networks {
-        height: 300px;
+        height: 260px;
         width: 100%;
         background-color: rgb(255, 255, 255);
         text-align: center;
         padding: 34px 12px 12px 12px;
         @media (min-width: $desktop_width) {
             width: 50%;
-            height: 500px;
+            height: 400px;
             padding-top: 124px;
         }
         .applications-img {

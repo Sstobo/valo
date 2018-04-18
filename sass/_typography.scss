@@ -132,7 +132,7 @@ article p {
 }
 
 .header-white {
-  color: #fff;
+  color: $color__header-main;
   font-weight: bold;
   margin: 0;
   @include font-size(1.5);

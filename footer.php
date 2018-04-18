@@ -10,7 +10,9 @@
 			</div><!-- #content -->
 
       <div class="signup-container">
-				<h1 id="form-title"> Sign Up for the Latest Valo News </h1>
+				<h1 id="form-title"> Sign Up for the Latest <span class="uppercase">Valo</span> News </h1>
+				<h1 id="form-title-services">Get More Information on our Public Private Partnerships</h1>
+				<p id="services-para">Contact us today to get more information on our Public Private Partnerships</p>
 				<?php echo do_shortcode('[contact-form-7 id="4" title="Contact form 1"]');?>
 			</div>
 
@@ -68,10 +70,11 @@
 							<p class="journal-date"><?php the_time(' F jS, Y') ?></p>
 
 						<?php endwhile; ?>
+						<?php wp_reset_query() ?>
 					</div>
 					
 
-					
+
 					
 					
 
