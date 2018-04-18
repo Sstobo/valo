@@ -98,13 +98,13 @@ get_header(); ?>
 					<h2 class="press-releases-title">Latest Press Releases</h2>
 					<div class="sub-title-blue-line"></div>
 
-					<?php $args = array( 'post_type' => 'post', 'posts_per_page' => 3 ); $query = new WP_Query($args);?>
+					
 					<div class="press-releases-container">
-						<?php while ($query->have_posts()) : $query->the_post(); ?>
+						
 						<div class="press-release">
 							<h3>Valo Smart City as a Service</h3>
 							<p>
-								<a href="<?php the_permalink();?>" title="<?php the_title(); ?>" rel="bookmark">Read More ‣</a>
+							
 							</p>
 							<span>Company News, Press Releases • </span>
 							<span>
@@ -115,7 +115,7 @@ get_header(); ?>
 						<div class="press-release">
 							<h3>Internet of Things Technology</h3>
 							<p>
-								<a href="<?php the_permalink();?>" title="<?php the_title(); ?>" rel="bookmark">Read More ‣</a>
+							
 							</p>
 							<span>Company News, Press Releases • </span>
 							<span>
@@ -125,16 +125,16 @@ get_header(); ?>
 						<div class="press-release">
 							<h3>Valo Smart City Secures Funding</h3>
 							<p>
-								<a href="<?php the_permalink();?>" title="<?php the_title(); ?>" rel="bookmark">Read More ‣</a>
+							
 							</p>
 							<span>Company News, Press Releases • </span>
 							<span>
-								<?php the_time(' F jS, Y') ?>
+							
 							</span>
 						</div>
 					</div>
 
-					<?php endwhile; ?>
+				
 					
 				</section>
 				<!-- close Press Releases -->
