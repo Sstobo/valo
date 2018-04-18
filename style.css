@@ -4225,17 +4225,17 @@ h2 {
       .page-template-page-services .content-area-services .wifi h2 {
         font-size: 40px; } }
 
-.page-template-page-services .content-area-services .advert-wrapper {
+.page-template-page-services .content-area-services .badvert-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex; }
   @media all and (min-width: 1000px) {
-    .page-template-page-services .content-area-services .advert-wrapper {
+    .page-template-page-services .content-area-services .badvert-wrapper {
       margin-top: 50px; } }
-  .page-template-page-services .content-area-services .advert-wrapper .advert-image {
+  .page-template-page-services .content-area-services .badvert-wrapper .badvert-image {
     display: none; }
     @media all and (min-width: 1000px) {
-      .page-template-page-services .content-area-services .advert-wrapper .advert-image {
+      .page-template-page-services .content-area-services .badvert-wrapper .badvert-image {
         -ms-flex-preferred-size: 50%;
             flex-basis: 50%;
         display: -webkit-box;
@@ -4249,7 +4249,7 @@ h2 {
         min-height: 400px;
         max-width: 500px;
         max-height: 500px; } }
-  .page-template-page-services .content-area-services .advert-wrapper .adverts {
+  .page-template-page-services .content-area-services .badvert-wrapper .badverts {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -4265,29 +4265,30 @@ h2 {
             align-items: center;
     padding: 40px 0; }
     @media all and (min-width: 1000px) {
-      .page-template-page-services .content-area-services .advert-wrapper .adverts {
+      .page-template-page-services .content-area-services .badvert-wrapper .badverts {
         -ms-flex-preferred-size: 50%;
             flex-basis: 50%; } }
-    .page-template-page-services .content-area-services .advert-wrapper .adverts .add-para {
+    .page-template-page-services .content-area-services .badvert-wrapper .badverts .badd-para {
       max-width: 70%;
       -ms-flex-item-align: center;
           align-self: center; }
       @media all and (min-width: 1000px) {
-        .page-template-page-services .content-area-services .advert-wrapper .adverts .add-para {
+        .page-template-page-services .content-area-services .badvert-wrapper .badverts .badd-para {
           margin-top: 0; } }
-    .page-template-page-services .content-area-services .advert-wrapper .adverts #add-deliv {
+    .page-template-page-services .content-area-services .badvert-wrapper .badverts #add-deliv {
       margin-left: 15%;
       font-weight: bold;
+      color: black;
       -ms-flex-item-align: start;
           align-self: flex-start; }
       @media all and (min-width: 1000px) {
-        .page-template-page-services .content-area-services .advert-wrapper .adverts #add-deliv {
+        .page-template-page-services .content-area-services .badvert-wrapper .badverts #add-deliv {
           margin-top: 0;
           margin-bottom: 0; } }
-    .page-template-page-services .content-area-services .advert-wrapper .adverts .add-links {
+    .page-template-page-services .content-area-services .badvert-wrapper .badverts .badd-links {
       margin-left: 15%;
       margin-right: 15%; }
-      .page-template-page-services .content-area-services .advert-wrapper .adverts .add-links .title {
+      .page-template-page-services .content-area-services .badvert-wrapper .badverts .badd-links .title {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
@@ -4298,11 +4299,12 @@ h2 {
             align-content: center;
         z-index: 1000;
         border-top: 1px solid #f1f1f1; }
-        .page-template-page-services .content-area-services .advert-wrapper .adverts .add-links .title p {
+        .page-template-page-services .content-area-services .badvert-wrapper .badverts .badd-links .title p {
           font-size: 18px;
           text-transform: uppercase;
-          margin: 10px 0; }
-        .page-template-page-services .content-area-services .advert-wrapper .adverts .add-links .title .service-icon-container:not(.hide) {
+          margin: 10px 0;
+          color: black; }
+        .page-template-page-services .content-area-services .badvert-wrapper .badverts .badd-links .title .service-icon-container:not(.hide) {
           display: -webkit-box;
           display: -ms-flexbox;
           display: flex;
@@ -4318,14 +4320,14 @@ h2 {
           height: 15px;
           text-align: center;
           background: #e6e6e6; }
-          .page-template-page-services .content-area-services .advert-wrapper .adverts .add-links .title .service-icon-container:not(.hide) i {
+          .page-template-page-services .content-area-services .badvert-wrapper .badverts .badd-links .title .service-icon-container:not(.hide) i {
             font-size: 10px; }
-      .page-template-page-services .content-area-services .advert-wrapper .adverts .add-links .title:hover {
+      .page-template-page-services .content-area-services .badvert-wrapper .badverts .badd-links .title:hover {
         cursor: pointer;
         color: #00aeef; }
-        .page-template-page-services .content-area-services .advert-wrapper .adverts .add-links .title:hover p {
+        .page-template-page-services .content-area-services .badvert-wrapper .badverts .badd-links .title:hover p {
           color: #00aeef; }
-      .page-template-page-services .content-area-services .advert-wrapper .adverts .add-links .text {
+      .page-template-page-services .content-area-services .badvert-wrapper .badverts .badd-links .text {
         max-height: 0;
         overflow: hidden;
         -webkit-transition: max-height 0.4s ease-out;
@@ -4334,20 +4336,20 @@ h2 {
         line-height: 25px;
         font-family: "Roboto";
         padding-bottom: 5px; }
-        .page-template-page-services .content-area-services .advert-wrapper .adverts .add-links .text p {
+        .page-template-page-services .content-area-services .badvert-wrapper .badverts .badd-links .text p {
           margin: 0;
           margin-bottom: 10px;
           padding-bottom: 10px;
           line-height: 24px; }
           @media all and (min-width: 1000px) {
-            .page-template-page-services .content-area-services .advert-wrapper .adverts .add-links .text p {
+            .page-template-page-services .content-area-services .badvert-wrapper .badverts .badd-links .text p {
               margin-bottom: 0;
               padding-bottom: 0; } }
-      .page-template-page-services .content-area-services .advert-wrapper .adverts .add-links .no-border {
+      .page-template-page-services .content-area-services .badvert-wrapper .badverts .badd-links .no-border {
         border-top: none; }
-      .page-template-page-services .content-area-services .advert-wrapper .adverts .add-links .hide {
+      .page-template-page-services .content-area-services .badvert-wrapper .badverts .badd-links .hide {
         display: none; }
-      .page-template-page-services .content-area-services .advert-wrapper .adverts .add-links .height {
+      .page-template-page-services .content-area-services .badvert-wrapper .badverts .badd-links .height {
         max-height: 80px;
         -webkit-transition: max-height 0.4 ease-in;
         transition: max-height 0.4 ease-in; }
