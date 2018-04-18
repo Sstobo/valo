@@ -2542,6 +2542,8 @@ h2 {
       height: 400px; } }
   .applications-hero .applications-hero-wrapper {
     padding: 24px; }
+    .applications-hero .applications-hero-wrapper p {
+      max-width: 80%; }
     @media (min-width: 1000px) {
       .applications-hero .applications-hero-wrapper {
         display: block;
@@ -2606,15 +2608,15 @@ h2 {
       width: 100px;
       margin: 0 auto;
       margin-bottom: 14px; }
-    .applications-service-wrapper .applications-lighting h2 {
-      min-height: 40px;
+    .applications-service-wrapper .applications-lighting h3 {
+      min-height: 30px;
       text-align: center;
-      width: 60%;
+      width: 80%;
       margin: 0 auto;
-      margin-bottom: 24px; }
+      margin-bottom: 14px; }
       @media (min-width: 1000px) {
-        .applications-service-wrapper .applications-lighting h2 {
-          min-height: 80px; } }
+        .applications-service-wrapper .applications-lighting h3 {
+          min-height: 60px; } }
   .applications-service-wrapper .applications-platform {
     height: 260px;
     width: 100%;
@@ -2631,16 +2633,15 @@ h2 {
       width: 100px;
       margin: 0 auto;
       margin-bottom: 14px; }
-    .applications-service-wrapper .applications-platform h2 {
-      min-height: 40px;
+    .applications-service-wrapper .applications-platform h3 {
+      min-height: 30px;
       text-align: center;
-      width: 60%;
+      width: 80%;
       margin: 0 auto;
-      margin-bottom: 14px;
-      margin-bottom: 24px; }
+      margin-bottom: 14px; }
       @media (min-width: 1000px) {
-        .applications-service-wrapper .applications-platform h2 {
-          min-height: 80px; } }
+        .applications-service-wrapper .applications-platform h3 {
+          min-height: 60px; } }
   .applications-service-wrapper .applications-cameras {
     height: 260px;
     width: 100%;
@@ -2657,16 +2658,15 @@ h2 {
       width: 100px;
       margin: 0 auto;
       margin-bottom: 14px; }
-    .applications-service-wrapper .applications-cameras h2 {
-      min-height: 40px;
+    .applications-service-wrapper .applications-cameras h3 {
+      min-height: 30px;
       text-align: center;
       width: 80%;
       margin: 0 auto;
-      margin-bottom: 14px;
-      margin-bottom: 24px; }
+      margin-bottom: 14px; }
       @media (min-width: 1000px) {
-        .applications-service-wrapper .applications-cameras h2 {
-          min-height: 80px; } }
+        .applications-service-wrapper .applications-cameras h3 {
+          min-height: 60px; } }
   .applications-service-wrapper .applications-networks {
     height: 260px;
     width: 100%;
@@ -2683,16 +2683,15 @@ h2 {
       width: 100px;
       margin: 0 auto;
       margin-bottom: 14px; }
-    .applications-service-wrapper .applications-networks h2 {
-      min-height: 40px;
+    .applications-service-wrapper .applications-networks h3 {
+      min-height: 30px;
       text-align: center;
-      width: 60%;
+      width: 80%;
       margin: 0 auto;
-      margin-bottom: 14px;
-      margin-bottom: 24px; }
+      margin-bottom: 14px; }
       @media (min-width: 1000px) {
-        .applications-service-wrapper .applications-networks h2 {
-          min-height: 80px; } }
+        .applications-service-wrapper .applications-networks h3 {
+          min-height: 60px; } }
 
 /*--------------------------------------------------------------
 # About Pages

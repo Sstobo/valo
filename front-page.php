@@ -21,7 +21,7 @@ get_header(); ?>
 				</section>
 				<section class="formula-container">
 					<h2 class="header-section">Creating a foundation for smart cities.</h2>
-					<div class="sub-title-blue-line"></div>
+					<div class="title-blue-line"></div>
 					<picture>
 						<source srcset="<?php echo get_template_directory_uri() . '/assets/icons-SVG/valo-formula-mobile.png'?>" media="(max-width: 600px)">
 						<source srcset="<?php echo get_template_directory_uri() . '/assets/icons-SVG/valo-formula-desktop.png'?>">
@@ -34,7 +34,7 @@ get_header(); ?>
 					<h2 class="integrator-section-title">
 						<span class="uppercase">Valo</span> is a smart city integrator that aims to better people’s lives around the world through Internet of Things
 						(IoT) technology.</h2>
-					<div class="sub-title-blue-line"></div>
+					<div class="title-blue-line"></div>
 					<div class="integrator-section-container">
 						<div class="integrator-item">
 							<img alt="Products" class="integrator-icon" srcset="<?php echo get_template_directory_uri() . '/assets/icons-SVG/valo-products-01.png'?>"
@@ -98,17 +98,17 @@ get_header(); ?>
 					<h2 class="press-releases-title">Latest Press Releases</h2>
 					<div class="sub-title-blue-line"></div>
 
-					
+				
 					<div class="press-releases-container">
 						
 						<div class="press-release">
 							<h3>Valo Smart City as a Service</h3>
 							<p>
-							
+								
 							</p>
 							<span>Company News, Press Releases • </span>
 							<span>
-								<?php the_time(' F jS, Y') ?>
+								
 							</span>
 						</div>
 
@@ -119,7 +119,7 @@ get_header(); ?>
 							</p>
 							<span>Company News, Press Releases • </span>
 							<span>
-								<?php the_time(' F jS, Y') ?>
+							
 							</span>
 						</div>
 						<div class="press-release">
@@ -130,12 +130,8 @@ get_header(); ?>
 							<span>Company News, Press Releases • </span>
 							<span>
 							
-							</span>
 						</div>
 					</div>
-
-				
-					
 				</section>
 				<!-- close Press Releases -->
 			</section>
