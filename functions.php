@@ -111,7 +111,7 @@ add_action('admin_enqueue_scripts', 'chromefix_inline_css');
 function my_theme_scripts()
 {
     wp_enqueue_script('my-great-script', get_template_directory_uri() . '/js/headerScroll.js', array( 'jquery' ), '1.0.0', true);
-    wp_enqueue_script('my-phone-script', get_template_directory_uri() . '/js/phone-animation.js', array( 'jquery' ), '1.0.0', true);
+    wp_enqueue_script('my-phone-script', get_template_directory_uri() . '/js/slide-from-bottom-animation.js', array( 'jquery' ), '1.0.0', true);
 }
 add_action('wp_loaded', 'my_theme_scripts');
 
@@ -125,7 +125,7 @@ function red_starter_scripts()
 
     wp_enqueue_script('services', get_template_directory_uri() . '/build/js/services.min.js', array(), null, true);
 
-    wp_enqueue_script('smoothScroll', get_template_directory_uri() . '/build/js/smoothScroll.min.js', array(), null, true);
+    wp_enqueue_script('smoothScroll', get_template_directory_uri() . '/build/js/smoothScroll.min.js', array('jquery'), null, true);
 
     if (is_singular() && comments_open() && get_option('thread_comments')) {
         wp_enqueue_script('comment-reply');
@@ -214,7 +214,8 @@ add_action('wp_enqueue_scripts', 'ajax_filter_posts_scripts', 100);
  * @param int $length Excerpt length.
  * @return int (Maybe) modified excerpt length.
  */
-function wpdocs_custom_excerpt_length( $length ) {
+function wpdocs_custom_excerpt_length($length)
+{
     return 25;
 }
-add_filter( 'excerpt_length', 'wpdocs_custom_excerpt_length', 999 );
+add_filter('excerpt_length', 'wpdocs_custom_excerpt_length', 999);
