@@ -45,6 +45,13 @@ get_header(); ?>
 					<p>VALO’s street light controller enables LED street lights to become an intelligent network which connects to sensors, remote devices, and cell phones. The controller provides centralized controls, and can be remotely upgraded and programmed.</p>
 				</section>
 				<section class="controller-drop-down">
+					<h3>The VALO street light controller offers many advantages for cities and municipalities, such as:</h3>
+					<div class="drop-down">
+						<div class="drop-down-section"><h4 class="drop-down-title">Light Control</h4><p class="drop-down-content">VALO’s controller is plug-and-play compatible with expansion modules. It offers on/off and dimming controls, and utility-grade power monitoring.</p></div>
+						<div class="drop-down-section"><h4 class="drop-down-title">Environmental Monitoring</h4><p class="drop-down-content">The light controller can be equipped with sensors for comprehensive air quality measurements, in addition to temperature, pressure, and humidity.</p></div>
+						<div class="drop-down-section"><h4 class="drop-down-title">Surveillance</h4><p class="drop-down-content">Sound detection is available with light controllers to detect traffic congestion, car crashes, gun shots, etc. Internal and external camera options can be applied for traffic and parking monitoring.</p></div>
+						<div class="drop-down-section"><h4 class="drop-down-title">Network Compatibility</h4><p class="drop-down-content">Valo controllers can support several networking technologies and platforms, including: Narrowband: LoRa, NFS24, 2G/3G, NBiOT/LTE-M, Bluetooth Broadband: 802.11ac/LTE-U, LTE PicoCell (Q4 2017)</p></div>
+					</div>
 				</section>
 				<section class="configuration">
 				</section>
