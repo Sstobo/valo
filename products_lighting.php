@@ -49,8 +49,9 @@ get_header(); ?>
 
 					<section class="products-configuration-wrapper">
 					<h3>Controller Configurations</h3>
-					<div class="sub-title-blue-line">
+						<div class="sub-title-blue-line">
 					</div>
+					<p class="products-configuration-blurb">VALO’s optional light controller hub provides hard-wire connectivity on each street light via four ports. The patented controller allows external sensors and devices to be easily installed into the network, and is ideal for devices with Power over Ethernet (PoE) connections. VALO offers a variety of sensor configurations depending on needs and requirements. Common setups include the following:</p>
 					<div class="products-configuration-container">
 						<div class="products-configuration-left-container">
 
@@ -89,7 +90,8 @@ get_header(); ?>
 								<p><span>Basic Controller + Giga WiFI</span></br><em>Supports Public WiFi and Air Quality Sensor</em>
                  WiFi or Bluetooth mounted at a 8’ to 12’ optimal height.</p>
 							</div>
-						</div>
+						</div><!-- products-configuration-right-container -->
+
 					</div>
 					<!-- products-configuration-container -->
 

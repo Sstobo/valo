@@ -1819,6 +1819,13 @@ object {
     color: #000;
     font-size: 30px; }
 
+.page-template-products_lighting .products-configuration-blurb {
+  margin: 0 auto;
+  font-style: italic;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  max-width: 80%; }
+
 .page-template-products_lighting .products-configuration-container {
   display: -webkit-box;
   display: -ms-flexbox;
