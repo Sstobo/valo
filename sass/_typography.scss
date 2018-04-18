@@ -20,12 +20,15 @@ h1 {
 }
 
 h2,
-h3,
+h3 {
+  clear: both;
+  font-family: $font__droid, sans-serif;
+}
 h4,
 h5,
 h6 {
   clear: both;
-  font-family: $font__droid, sans-serif;
+  font-family: $font__main, sans-serif;
 }
 
 /* Copy */
