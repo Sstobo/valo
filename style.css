@@ -294,7 +294,8 @@ h6 {
 p {
   margin-bottom: 1.5rem;
   font-family: "Roboto", sans-serif;
-  line-height: 28px; }
+  line-height: 28px;
+  font-weight: 400; }
 
 dfn,
 cite,
@@ -1852,7 +1853,7 @@ object {
   padding: 5% 0; }
   .product-lighting:nth-child(even) {
     background-color: #f9f9f9; }
-  .product-lighting:first-child, .product-lighting:last-child {
+  .product-lighting:first-child, .product-lighting:nth-last-child(2) {
     background-color: #00aeef;
     color: #fff; }
   @media all and (min-width: 800px) {
@@ -5259,7 +5260,7 @@ h2 {
   padding: 5% 0; }
   .product-lighting:nth-child(even) {
     background-color: #f9f9f9; }
-  .product-lighting:first-child, .product-lighting:last-child {
+  .product-lighting:first-child, .product-lighting:nth-last-child(2) {
     background-color: #00aeef;
     color: #fff; }
   @media all and (min-width: 800px) {

@@ -27,7 +27,7 @@
     background-color: #f9f9f9;
   }
   &:first-child,
-  &:last-child {
+  &:nth-last-child(2) {
     background-color: $color__accent;
     color: #fff;
   }
