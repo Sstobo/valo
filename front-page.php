@@ -55,10 +55,10 @@ get_header(); ?>
 			<!-- iot of things section -->
 			<section class="iot-container">
 				<div class="iot-photo-container">
-				<img alt="Info icon" src="<?php echo get_template_directory_uri() . '/assets/icons-SVG/valo-info-01.png'?>" id="iot-logo"/>
+				<img alt="Info icon" src="<?php echo get_template_directory_uri() . '/assets/icons-SVG/valo-info-01.svg'?>" id="iot-logo"/>
 				</div>
 				<div class="iot-para-container">
-					<h2>Internet of Things (IoT) Technology is one of the Fastest Growing Sectors.</h2>
+					<h3>Internet of Things (IoT) Technology is one of the Fastest Growing Sectors.</h3>
 					<p>Curabitur venenatis finibus ante et laoreet. Proin commodo, urna sed rhoncus bibendum, nibh metus blandit nibh, eget elementum enim magna eu velit. Aliquam purus sem, faucibus vestibulum risus. Maecenas gravida lacus nec dolor suscipit faucibus.</p>
 					<button class="button-main button-with-shadow"> <span class="uppercase">download our corporate presentation</span></button>
 				</div>
@@ -76,7 +76,7 @@ get_header(); ?>
 			<!-- Press Releases -->
 			<section class="press-releases-wrapper">
 				<h2 class="press-releases-title">Latest Press Releases</h2>
-				<div class="title-blue-line"></div>
+				<div class="sub-title-blue-line"></div>
 				<div class="press-releases-container">
             <div class="press-release">
 						   <h3>Valo Smart City as a Service</h3>

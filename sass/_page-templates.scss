@@ -10,6 +10,14 @@
 // Title accent line
 .title-blue-line {
   // todo: this accurately matches the FRONT PAGE line from the CBD site. Other pages are different
+  border-bottom: 5px solid $color__accent;
+  display: block;
+  margin: 0 auto;
+  width: 150px;
+  // padding-top: 20px;
+}
+.sub-title-blue-line {
+  // todo: this accurately matches the FRONT PAGE line from the CBD site. Other pages are different
   border-bottom: 2px solid $color__accent;
   width: 50px;
   display: block;
@@ -206,7 +214,7 @@
 }
 .press-releases-title {
   font-family: $font__main;
-  font-weight: 500;
+  font-weight: 700;
   font-size: 34px;
   color: $color__header-main;
   text-align: center;
@@ -357,8 +365,9 @@
       margin-top: 7%;
     }
 
-    h2 {
+    h3 {
       color: black;
+      font-size: 24px;
     }
     #iot-button {
       width: auto;
