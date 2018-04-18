@@ -21,7 +21,7 @@ get_header(); ?>
 				</section>
 				<section class="formula-container">
 					<h2 class="header-section">Creating a foundation for smart cities.</h2>
-					<div class="title-blue-line"></div>
+					<div class="sub-title-blue-line"></div>
 					<picture>
 						<source srcset="<?php echo get_template_directory_uri() . '/assets/icons-SVG/valo-formula-mobile.png'?>" media="(max-width: 600px)">
 						<source srcset="<?php echo get_template_directory_uri() . '/assets/icons-SVG/valo-formula-desktop.png'?>">
@@ -34,7 +34,7 @@ get_header(); ?>
 					<h2 class="integrator-section-title">
 						<span class="uppercase">Valo</span> is a smart city integrator that aims to better people’s lives around the world through Internet of Things
 						(IoT) technology.</h2>
-					<div class="title-blue-line"></div>
+					<div class="sub-title-blue-line"></div>
 					<div class="integrator-section-container">
 						<div class="integrator-item">
 							<img alt="Products" class="integrator-icon" srcset="<?php echo get_template_directory_uri() . '/assets/icons-SVG/valo-products-01.png'?>"
@@ -149,10 +149,6 @@ get_header(); ?>
 								<?php the_time(' F jS, Y') ?>
 							</span>
 						</div>
-<<<<<<< HEAD
-					<?php endwhile; ?>
-					<?php wp_reset_query() ?>
-=======
 
 						<div class="press-release">
 							<h3>Internet of Things Technology</h3>
@@ -178,7 +174,6 @@ get_header(); ?>
 
 
 
->>>>>>> 9df30729e2c4cfefd8301cfe14af7ca8527852ba
 				</section>
 				<!-- close Press Releases -->
 			</section>
