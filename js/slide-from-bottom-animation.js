@@ -1,6 +1,6 @@
 (function($) {
   //Cache reference to window and animation items for performance
-  var $animation_elements = $('.about-phone-icon');
+  var $animation_elements = $('.animation-icon');
   var $window = $(window);
   $window.on('scroll', check_if_in_view);
   $window.on('scroll resize', check_if_in_view);
@@ -18,9 +18,7 @@
         element_bottom_position >= window_top_position &&
         element_top_position <= window_bottom_position
       ) {
-        $element.addClass('about-phone-in-view');
-      } else {
-        $element.removeClass('about-phone-in-view');
+        $element.addClass('animation-in-view');
       }
     });
   }
