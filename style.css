@@ -1667,6 +1667,147 @@ object {
 .network-image {
   background: url("../../assets/images/valo-lora-gateway.jpg"); }
 
+.page-template-products_cameras .products-two-main-cameras-wrapper {
+  background-color: #fff;
+  padding: 50px 10% 0; }
+  .page-template-products_cameras .products-two-main-cameras-wrapper h3 {
+    text-align: center;
+    font-weight: 700;
+    color: #000;
+    font-size: 30px; }
+
+.page-template-products_cameras .products-two-main-cameras-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+  @media all and (min-width: 785px) {
+    .page-template-products_cameras .products-two-main-cameras-container {
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+      margin-top: 40px; } }
+
+.page-template-products_cameras .products-two-main-cameras-left-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-right: 30px; }
+  @media all and (min-width: 785px) {
+    .page-template-products_cameras .products-two-main-cameras-left-container {
+      -webkit-box-pack: space-evenly;
+          -ms-flex-pack: space-evenly;
+              justify-content: space-evenly; } }
+
+.page-template-products_cameras .products-two-main-cameras-left-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 20px; }
+  .page-template-products_cameras .products-two-main-cameras-left-top span {
+    font-weight: 700;
+    font-family: sans-serif, sans-serif;
+    font-size: 16px;
+    color: #000; }
+  .page-template-products_cameras .products-two-main-cameras-left-top p {
+    width: 60%;
+    font-size: 13px; }
+  @media all and (min-width: 785px) {
+    .page-template-products_cameras .products-two-main-cameras-left-top {
+      -webkit-box-pack: start;
+          -ms-flex-pack: start;
+              justify-content: flex-start;
+      margin-top: 0px; }
+      .page-template-products_cameras .products-two-main-cameras-left-top p {
+        width: 129px; } }
+  .page-template-products_cameras .products-two-main-cameras-left-top .products-two-main-cameras-icon {
+    padding-left: 20%;
+    padding-top: 40px;
+    color: #00aeef; }
+
+.page-template-products_cameras .products-two-main-cameras-center-container {
+  padding: 0;
+  margin: 0 auto;
+  margin-bottom: -7px; }
+
+.page-template-products_cameras .animation-icon {
+  width: 275px;
+  height: 453px;
+  margin-top: 0; }
+  @media all and (min-width: 785px) {
+    .page-template-products_cameras .animation-icon {
+      height: 0px;
+      margin-top: 453px; } }
+
+.page-template-products_cameras .animation-in-view {
+  margin-top: 25px;
+  height: 200px;
+  -webkit-transition-duration: 0.5s;
+          transition-duration: 0.5s; }
+
+.page-template-products_cameras .products-two-main-cameras-right-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 30px; }
+
+.page-template-products_cameras .products-two-main-cameras-right-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 20px; }
+  .page-template-products_cameras .products-two-main-cameras-right-top span {
+    font-weight: 700;
+    font-family: sans-serif, sans-serif;
+    font-size: 16px;
+    color: #000; }
+  .page-template-products_cameras .products-two-main-cameras-right-top p {
+    width: 60%;
+    font-size: 13px; }
+  @media all and (min-width: 785px) {
+    .page-template-products_cameras .products-two-main-cameras-right-top {
+      -webkit-box-pack: end;
+          -ms-flex-pack: end;
+              justify-content: flex-end;
+      margin-top: 0px; }
+      .page-template-products_cameras .products-two-main-cameras-right-top p {
+        width: 129px; } }
+  .page-template-products_cameras .products-two-main-cameras-right-top .products-two-main-cameras-icon {
+    padding-right: 20%;
+    padding-top: 40px;
+    color: #00aeef; }
+
 h1 {
   color: black;
   font-size: 28px; }
@@ -2848,16 +2989,16 @@ h2 {
   margin: 0 auto;
   margin-bottom: -7px; }
 
-.page-template-about .about-phone-icon {
+.page-template-about .animation-icon {
   width: 275px;
   height: 453px;
   margin-top: 0; }
   @media all and (min-width: 785px) {
-    .page-template-about .about-phone-icon {
+    .page-template-about .animation-icon {
       height: 0px;
       margin-top: 453px; } }
 
-.page-template-about .about-phone-in-view {
+.page-template-about .animation-in-view {
   margin-top: 0;
   height: 453px;
   -webkit-transition-duration: 0.5s;
@@ -3269,6 +3410,7 @@ h2 {
 
 .share-post {
   margin: 0 auto;
+  position: relative;
   width: 300px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -3286,6 +3428,13 @@ h2 {
   .share-post p {
     font-weight: 700; }
 
+.fa-share-alt {
+  border: 2px solid #e7e7e7;
+  border-radius: 50%;
+  padding: 10px; }
+  .fa-share-alt:hover {
+    border-color: #d7d7d7; }
+
 .soc-links-container {
   -webkit-box-shadow: 0 0 8px rgba(3, 3, 3, 0.2);
           box-shadow: 0 0 8px rgba(3, 3, 3, 0.2);
@@ -3300,7 +3449,8 @@ h2 {
           align-items: center;
   height: 50px;
   width: 300px;
-  opacity: 0.1; }
+  opacity: 0;
+  margin-bottom: 20px; }
 
 .soc-font-icon {
   padding: 5px 15px;
