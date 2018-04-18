@@ -149,10 +149,6 @@ get_header(); ?>
 								<?php the_time(' F jS, Y') ?>
 							</span>
 						</div>
-<<<<<<< HEAD
-					<?php endwhile; ?>
-					<?php wp_reset_query() ?>
-=======
 
 						<div class="press-release">
 							<h3>Internet of Things Technology</h3>
@@ -178,7 +174,6 @@ get_header(); ?>
 
 
 
->>>>>>> 9df30729e2c4cfefd8301cfe14af7ca8527852ba
 				</section>
 				<!-- close Press Releases -->
 			</section>
