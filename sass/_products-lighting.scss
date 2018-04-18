@@ -1,3 +1,50 @@
+.product-lighting-header {
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.product-header-text-container {
+  width: 50%;
+  text-align: center;
+}
+
+.product-lighting-flex-container {
+  display: flex;
+  flex-direction: column;
+  @include tablet {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+
+.product-lighting {
+  @include tablet {
+    width: 25%;
+    &:nth-last-child(2),
+    &:last-child {
+      width: 50%;
+    }
+  }
+}
+
+.city-image {
+  display: none;
+  @include desktop {
+    display: block;
+    height: 500px;
+    width: 100%;
+  }
+}
+.product-lighting-content {
+  width: 80%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.product-lighting-paralax {
+}
 .page-template-products_lighting {
   .products-configuration-wrapper {
     background: url('http://localhost:8888/Valo/wp-content/themes/valo/assets/Backgrounds/clean-gray-abstract-background.png')
