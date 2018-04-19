@@ -1,5 +1,6 @@
 .page-template-products_lighting {
-  .product-lighting-header {
+  .product-lighting-header,
+  .controller {
     background: url('../../assets/Backgrounds/clean-gray-abstract-background.png');
     display: flex;
     min-height: 300px;
@@ -22,6 +23,7 @@
   }
   .product-lighting {
     padding: 5% 0;
+    position: relative;
     &:nth-child(even) {
       background-color: #f9f9f9;
     }
@@ -31,6 +33,7 @@
       color: #fff;
     }
     @include footer-row {
+      padding: 10% 0;
       width: 25%;
       &:nth-last-child(2),
       &:nth-last-child(3) {
@@ -38,15 +41,35 @@
         order: 6;
       }
     }
-    .city-image {
-      background: url('../../assets/still-header/valo-still-header-01.png');
-      display: none;
-      @include desktop {
-        display: block;
-        height: 500px;
-        width: 100%;
-      }
+  }
+  .product-lighting-content {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .product-icon {
+    font-size: 34px;
+    font-weight: 700;
+    position: absolute;
+    top: 10%;
+    right: 5%;
+    @include footer-row {
+      font-size: 44px;
+      top: 5%;
+      right: 10%;
     }
+  }
+  .city-image {
+    background: url('../../assets/still-header/valo-still-header-01.png');
+    display: none;
+    @include desktop {
+      display: block;
+      height: 450px;
+      width: 100%;
+    }
+  }
+  .controller {
+    align-items: center;
+    justify-content: center;
   }
   .products-streetlight-controller-heading {
     background: url('../../assets/Backgrounds/clean-gray-abstract-background.png')
