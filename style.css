@@ -279,10 +279,25 @@ textarea {
 h1 {
   font-family: "Roboto", sans-serif; }
 
+h2 {
+  font-size: 24px;
+  font-size: 1.5rem; }
+  @media all and (min-width: 600px) {
+    h2 {
+      font-size: 28px;
+      font-size: 1.75rem; } }
+  @media all and (min-width: 1000px) {
+    h2 {
+      font-size: 34px;
+      font-size: 2.125rem; } }
+
 h2,
 h3 {
   clear: both;
   font-family: sans-serif, sans-serif; }
+
+h3 {
+  font-size: 24px; }
 
 h4,
 h5,
@@ -2205,7 +2220,8 @@ object {
           flex-wrap: wrap; } }
 
 .page-template-products_lighting .product-lighting {
-  padding: 5% 0; }
+  padding: 5% 0;
+  position: relative; }
   .page-template-products_lighting .product-lighting:nth-child(even) {
     background-color: #f9f9f9; }
   .page-template-products_lighting .product-lighting:first-child, .page-template-products_lighting .product-lighting:nth-last-child(2) {
@@ -2213,6 +2229,7 @@ object {
     color: #fff; }
   @media all and (min-width: 800px) {
     .page-template-products_lighting .product-lighting {
+      padding: 10% 0;
       width: 25%; }
       .page-template-products_lighting .product-lighting:nth-last-child(2), .page-template-products_lighting .product-lighting:nth-last-child(3) {
         width: 50%;
@@ -2224,13 +2241,25 @@ object {
   width: 80%;
   margin: 0 auto; }
 
+.page-template-products_lighting .product-icon {
+  font-size: 34px;
+  font-weight: 700;
+  position: absolute;
+  top: 10%;
+  right: 5%; }
+  @media all and (min-width: 800px) {
+    .page-template-products_lighting .product-icon {
+      font-size: 44px;
+      top: 5%;
+      right: 10%; } }
+
 .page-template-products_lighting .city-image {
   background: url("../../assets/still-header/valo-still-header-01.png");
   display: none; }
   @media all and (min-width: 1000px) {
     .page-template-products_lighting .city-image {
       display: block;
-      height: 500px;
+      height: 450px;
       width: 100%; } }
 
 .page-template-products_lighting .controller {
@@ -5784,7 +5813,8 @@ h2 {
           flex-wrap: wrap; } }
 
 .page-template-products_lighting .product-lighting {
-  padding: 5% 0; }
+  padding: 5% 0;
+  position: relative; }
   .page-template-products_lighting .product-lighting:nth-child(even) {
     background-color: #f9f9f9; }
   .page-template-products_lighting .product-lighting:first-child, .page-template-products_lighting .product-lighting:nth-last-child(2) {
@@ -5792,6 +5822,7 @@ h2 {
     color: #fff; }
   @media all and (min-width: 800px) {
     .page-template-products_lighting .product-lighting {
+      padding: 10% 0;
       width: 25%; }
       .page-template-products_lighting .product-lighting:nth-last-child(2), .page-template-products_lighting .product-lighting:nth-last-child(3) {
         width: 50%;
@@ -5803,13 +5834,25 @@ h2 {
   width: 80%;
   margin: 0 auto; }
 
+.page-template-products_lighting .product-icon {
+  font-size: 34px;
+  font-weight: 700;
+  position: absolute;
+  top: 10%;
+  right: 5%; }
+  @media all and (min-width: 800px) {
+    .page-template-products_lighting .product-icon {
+      font-size: 44px;
+      top: 5%;
+      right: 10%; } }
+
 .page-template-products_lighting .city-image {
   background: url("../../assets/still-header/valo-still-header-01.png");
   display: none; }
   @media all and (min-width: 1000px) {
     .page-template-products_lighting .city-image {
       display: block;
-      height: 500px;
+      height: 450px;
       width: 100%; } }
 
 .page-template-products_lighting .controller {

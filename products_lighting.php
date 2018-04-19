@@ -51,7 +51,6 @@ get_header(); ?>
 								are needed to offer the same brightness provided by many fluorescent lights.</p>
 						</div>
 					</div>
-					<div class="product-lighting-paralax city-image"></div>
 					<div class="product-lighting">
 						<div class="product-lighting-content">
 							<div class="product-icon">04</div>
@@ -61,8 +60,9 @@ get_header(); ?>
 						</div>
 					</div>
 					<div class="product-lighting">
+						<div class="product-icon">05</div>
 						<div class="product-lighting-content">
-							<div class="product-icon">05</div>
+							
 							<h3>Crime Reduction</h3>
 							<p>The improved quality of light given by LED street lights can help to reduce criminal activity. Criminals often target
 								poorly lit areas, and thus LED lighting can act as a criminal deterrent.</p>
