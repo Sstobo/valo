@@ -37,13 +37,13 @@ get_header(); ?>
         
           <section class="adverts">
          
-          <p class="add-para">With the <span class="uppercase">Valo</span> platform, cities bare no cost for providing public WiFi as costs are covered via marketing revenue. WiFi enabled street lights are estimated to gain $450 USD yearly in ad revenue per light. This revenue is then shared between the city (20%) and Valo (80%).</p>
+          <p class="add-para">With the <span class="uppercase">Valo</span> platform, cities bare no cost for providing public WiFi as costs are covered via advertising revenue. WiFi enabled street lights are estimated to gain $450 USD yearly in ad revenue per light. This revenue is then shared between the city (20%) and Valo (80%).</p>
           <p id="add-deliv">Advertising is delivered in three ways: </p>
 
           <div class="add-links">
             <div class="paid-add">
               <div class="title no-border">
-                <p>Paid Marketing</p>
+                <p>Paid Advertising</p>
                 <div class="service-icon-container up ">
                   <i class="fa fa-chevron-up " aria-hidden="true"></i>
                 </div>
@@ -60,7 +60,7 @@ get_header(); ?>
 
              <div class="click-add">
              <div class="title">
-                <p>Click-Through Marketing</p>
+                <p>Click-Through Advertising</p>
                 <div class="service-icon-container up hide">
                   <i class="fa fa-chevron-up" aria-hidden="true"></i>
                 </div>
@@ -71,13 +71,13 @@ get_header(); ?>
               </div>
 
               <div class="text">
-                <p>Paid marketing when consumers click advertisements to get more information.</p>
+                <p>Paid advertising when consumers click advertisements to get more information.</p>
               </div>
             </div> <!-- close click add-->
 
             <div class="beacon-add">
                <div class="title">
-                <p>Beacon Marketing</p>
+                <p>Beacon Advertising</p>
                 <div class="service-icon-container up hide">
                   <i class="fa fa-chevron-up" aria-hidden="true"></i>
                 </div>
