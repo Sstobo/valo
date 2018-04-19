@@ -1669,6 +1669,43 @@ object {
 .network-image {
   background: url("../../assets/images/valo-lora-gateway.jpg"); }
 
+.page-template-products_cameras .camera-banner {
+  min-height: 350px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: url("../../assets/Backgrounds/clean-gray-abstract-background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-attachment: fixed;
+  background-position: 0 150px; }
+  @media all and (min-width: 800px) {
+    .page-template-products_cameras .camera-banner {
+      background-position: top; } }
+  .page-template-products_cameras .camera-banner h2 {
+    margin-top: 0;
+    text-align: center;
+    font-size: 40px;
+    max-width: 70%;
+    margin-bottom: 0; }
+    @media all and (min-width: 800px) {
+      .page-template-products_cameras .camera-banner h2 {
+        margin-bottom: 20px; } }
+  .page-template-products_cameras .camera-banner p {
+    text-align: center;
+    max-width: 60%; }
+
 .page-template-products_cameras .products-two-main-cameras-wrapper {
   background-color: #fff;
   padding: 50px 10% 0; }
@@ -1810,8 +1847,329 @@ object {
     padding-top: 40px;
     color: #00aeef; }
 
+<<<<<<< HEAD
+.page-template-products_cameras .video-control {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  background: url("../../assets/camera-software/stars.png");
+  background-attachment: fixed;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 200px; }
+  .page-template-products_cameras .video-control h2 {
+    color: #fff;
+    font-size: 40px;
+    margin-bottom: 0; }
+  .page-template-products_cameras .video-control p {
+    max-width: 55%;
+    text-align: center;
+    color: #fff;
+    padding-bottom: 15px; }
+
+.page-template-products_cameras .controls {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+  @media all and (min-width: 800px) {
+    .page-template-products_cameras .controls {
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap; } }
+  .page-template-products_cameras .controls h3 {
+    color: #00aeef;
+    text-align: center;
+    max-width: 80%; }
+  .page-template-products_cameras .controls .intuitive {
+    padding: 40px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background: #f7f7f7; }
+    @media all and (min-width: 800px) {
+      .page-template-products_cameras .controls .intuitive {
+        -ms-flex-preferred-size: 25%;
+            flex-basis: 25%;
+        -webkit-box-flex: 1;
+            -ms-flex-positive: 1;
+                flex-grow: 1; } }
+    .page-template-products_cameras .controls .intuitive p {
+      text-align: center;
+      max-width: 80%; }
+    .page-template-products_cameras .controls .intuitive img {
+      width: 100px; }
+  .page-template-products_cameras .controls .event {
+    padding: 40px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    @media all and (min-width: 800px) {
+      .page-template-products_cameras .controls .event {
+        -ms-flex-preferred-size: 25%;
+            flex-basis: 25%;
+        -webkit-box-flex: 1;
+            -ms-flex-positive: 1;
+                flex-grow: 1; } }
+    .page-template-products_cameras .controls .event p {
+      text-align: center;
+      max-width: 80%; }
+    .page-template-products_cameras .controls .event img {
+      width: 100px; }
+  .page-template-products_cameras .controls .core {
+    padding: 40px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background: #f7f7f7; }
+    @media all and (min-width: 800px) {
+      .page-template-products_cameras .controls .core {
+        -ms-flex-preferred-size: 25%;
+            flex-basis: 25%;
+        -webkit-box-flex: 1;
+            -ms-flex-positive: 1;
+                flex-grow: 1; } }
+    .page-template-products_cameras .controls .core p {
+      text-align: center;
+      max-width: 80%; }
+    .page-template-products_cameras .controls .core img {
+      width: 100px; }
+  .page-template-products_cameras .controls .failover {
+    padding: 40px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    @media all and (min-width: 800px) {
+      .page-template-products_cameras .controls .failover {
+        -ms-flex-preferred-size: 25%;
+            flex-basis: 25%;
+        -webkit-box-flex: 1;
+            -ms-flex-positive: 1;
+                flex-grow: 1; } }
+    .page-template-products_cameras .controls .failover p {
+      text-align: center;
+      max-width: 80%; }
+    .page-template-products_cameras .controls .failover img {
+      width: 100px; }
+  .page-template-products_cameras .controls .ready {
+    padding: 40px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background: #f7f7f7; }
+    @media all and (min-width: 800px) {
+      .page-template-products_cameras .controls .ready {
+        -ms-flex-preferred-size: 25%;
+            flex-basis: 25%;
+        -webkit-box-flex: 1;
+            -ms-flex-positive: 1;
+                flex-grow: 1; } }
+    .page-template-products_cameras .controls .ready p {
+      text-align: center;
+      max-width: 80%; }
+    .page-template-products_cameras .controls .ready img {
+      width: 100px; }
+    @media all and (min-width: 800px) {
+      .page-template-products_cameras .controls .ready {
+        background: #fff; } }
+  .page-template-products_cameras .controls .archive {
+    padding: 40px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    @media all and (min-width: 800px) {
+      .page-template-products_cameras .controls .archive {
+        -ms-flex-preferred-size: 25%;
+            flex-basis: 25%;
+        -webkit-box-flex: 1;
+            -ms-flex-positive: 1;
+                flex-grow: 1; } }
+    .page-template-products_cameras .controls .archive p {
+      text-align: center;
+      max-width: 80%; }
+    .page-template-products_cameras .controls .archive img {
+      width: 100px; }
+    @media all and (min-width: 800px) {
+      .page-template-products_cameras .controls .archive {
+        background: #f7f7f7; } }
+  .page-template-products_cameras .controls .powerful {
+    padding: 40px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background: #f7f7f7; }
+    @media all and (min-width: 800px) {
+      .page-template-products_cameras .controls .powerful {
+        -ms-flex-preferred-size: 25%;
+            flex-basis: 25%;
+        -webkit-box-flex: 1;
+            -ms-flex-positive: 1;
+                flex-grow: 1; } }
+    .page-template-products_cameras .controls .powerful p {
+      text-align: center;
+      max-width: 80%; }
+    .page-template-products_cameras .controls .powerful img {
+      width: 100px; }
+    @media all and (min-width: 800px) {
+      .page-template-products_cameras .controls .powerful {
+        background: #fff; } }
+  .page-template-products_cameras .controls .integration {
+    padding: 40px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    @media all and (min-width: 800px) {
+      .page-template-products_cameras .controls .integration {
+        -ms-flex-preferred-size: 25%;
+            flex-basis: 25%;
+        -webkit-box-flex: 1;
+            -ms-flex-positive: 1;
+                flex-grow: 1; } }
+    .page-template-products_cameras .controls .integration p {
+      text-align: center;
+      max-width: 80%; }
+    .page-template-products_cameras .controls .integration img {
+      width: 100px; }
+    @media all and (min-width: 800px) {
+      .page-template-products_cameras .controls .integration {
+        background: #f7f7f7; } }
+
+.page-template-products_cameras .facial {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .page-template-products_cameras .facial h2 {
+    font-size: 24px; }
+    @media all and (min-width: 600px) {
+      .page-template-products_cameras .facial h2 {
+        font-size: 28px; } }
+    @media all and (min-width: 1000px) {
+      .page-template-products_cameras .facial h2 {
+        font-size: 30px; } }
+  .page-template-products_cameras .facial h2:after {
+    content: '';
+    border-bottom: 2px solid #00aeef;
+    width: 50px;
+    display: block;
+    margin: 0 auto;
+    padding-top: 20px; }
+  .page-template-products_cameras .facial .facial-image {
+    display: none; }
+    @media all and (min-width: 1000px) {
+      .page-template-products_cameras .facial .facial-image {
+        background: url("../../assets/camera-software/facial.png");
+        background-size: cover;
+        background-position: 0 -50px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-preferred-size: 50%;
+            flex-basis: 50%; } }
+  .page-template-products_cameras .facial .facial-text {
+    border-top: 1px solid black;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    min-height: 350px;
+    background: #f7f7f7; }
+    @media all and (min-width: 1000px) {
+      .page-template-products_cameras .facial .facial-text {
+        border: none;
+        -ms-flex-preferred-size: 50%;
+            flex-basis: 50%;
+        min-height: 450px; } }
+    .page-template-products_cameras .facial .facial-text h2 {
+      margin-top: 0; }
+    .page-template-products_cameras .facial .facial-text p {
+      max-width: 75%;
+      margin-bottom: 5px; }
+
+.product-lighting-header {
+=======
 .page-template-products_lighting .product-lighting-header {
   background: url("../../assets/Backgrounds/clean-gray-abstract-background.png");
+>>>>>>> 25304d28e14e0abb05ef885100ef6a8875c8f0a9
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
