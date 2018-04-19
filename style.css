@@ -294,7 +294,8 @@ h6 {
 p {
   margin-bottom: 1.5rem;
   font-family: "Roboto", sans-serif;
-  line-height: 28px; }
+  line-height: 28px;
+  font-weight: 400; }
 
 dfn,
 cite,
@@ -1846,6 +1847,7 @@ object {
     padding-top: 40px;
     color: #00aeef; }
 
+<<<<<<< HEAD
 .page-template-products_cameras .video-control {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2164,26 +2166,31 @@ object {
       margin-bottom: 5px; }
 
 .product-lighting-header {
+=======
+.page-template-products_lighting .product-lighting-header {
+  background: url("../../assets/Backgrounds/clean-gray-abstract-background.png");
+>>>>>>> 25304d28e14e0abb05ef885100ef6a8875c8f0a9
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  min-height: 300px;
   margin: 0 auto;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center; }
 
-.product-header-text-container {
+.page-template-products_lighting .product-header-text-container {
   width: 50%;
   text-align: center; }
 
-.product-lighting-flex-container {
+.page-template-products_lighting .product-lighting-flex-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2191,8 +2198,8 @@ object {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column; }
-  @media all and (min-width: 600px) {
-    .product-lighting-flex-container {
+  @media all and (min-width: 800px) {
+    .page-template-products_lighting .product-lighting-flex-container {
       -webkit-box-orient: horizontal;
       -webkit-box-direction: normal;
           -ms-flex-direction: row;
@@ -2200,24 +2207,172 @@ object {
       -ms-flex-wrap: wrap;
           flex-wrap: wrap; } }
 
-@media all and (min-width: 600px) {
-  .product-lighting {
-    width: 25%; }
-    .product-lighting:nth-last-child(2), .product-lighting:last-child {
-      width: 50%; } }
+.page-template-products_lighting .product-lighting {
+  padding: 5% 0; }
+  .page-template-products_lighting .product-lighting:nth-child(even) {
+    background-color: #f9f9f9; }
+  .page-template-products_lighting .product-lighting:first-child, .page-template-products_lighting .product-lighting:nth-last-child(2) {
+    background-color: #00aeef;
+    color: #fff; }
+  @media all and (min-width: 800px) {
+    .page-template-products_lighting .product-lighting {
+      width: 25%; }
+      .page-template-products_lighting .product-lighting:nth-last-child(2), .page-template-products_lighting .product-lighting:nth-last-child(3) {
+        width: 50%;
+        -webkit-box-ordinal-group: 7;
+            -ms-flex-order: 6;
+                order: 6; } }
+  .page-template-products_lighting .product-lighting .city-image {
+    background: url("../../assets/still-header/valo-still-header-01.png");
+    display: none; }
+    @media all and (min-width: 1000px) {
+      .page-template-products_lighting .product-lighting .city-image {
+        display: block;
+        height: 500px;
+        width: 100%; } }
 
-.city-image {
-  display: none; }
+.page-template-products_lighting .products-streetlight-controller-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
   @media all and (min-width: 1000px) {
-    .city-image {
-      display: block;
-      height: 500px;
-      width: 100%; } }
+    .page-template-products_lighting .products-streetlight-controller-wrapper {
+      margin-top: 50px;
+      height: 750px;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center; } }
+  .page-template-products_lighting .products-streetlight-controller-wrapper .products-streetlight-controller-image {
+    display: none; }
+    @media all and (min-width: 1000px) {
+      .page-template-products_lighting .products-streetlight-controller-wrapper .products-streetlight-controller-image {
+        -ms-flex-preferred-size: 50%;
+            flex-basis: 50%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        width: 50%;
+        height: 600px;
+        background: gray; } }
+  .page-template-products_lighting .products-streetlight-controller-wrapper .products-streetlight-controllers {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    min-height: 600px;
+    padding: 20px 0 40px 0;
+    overflow: hidden; }
+    @media all and (min-width: 1000px) {
+      .page-template-products_lighting .products-streetlight-controller-wrapper .products-streetlight-controllers {
+        -ms-flex-preferred-size: 50%;
+            flex-basis: 50%; } }
+    .page-template-products_lighting .products-streetlight-controller-wrapper .products-streetlight-controllers .products-streetlight-controller-para {
+      max-width: 74%;
+      -ms-flex-item-align: center;
+          align-self: center;
+      display: inline; }
+      .page-template-products_lighting .products-streetlight-controller-wrapper .products-streetlight-controllers .products-streetlight-controller-para h3 {
+        margin-top: 0;
+        font-size: 24px;
+        color: #000; }
+      @media all and (min-width: 1000px) {
+        .page-template-products_lighting .products-streetlight-controller-wrapper .products-streetlight-controllers .products-streetlight-controller-para {
+          margin-top: 0; } }
+    .page-template-products_lighting .products-streetlight-controller-wrapper .products-streetlight-controllers #products-streetlight-controller-deliv {
+      margin-left: 15%;
+      font-weight: bold;
+      -ms-flex-item-align: start;
+          align-self: flex-start; }
+      @media all and (min-width: 1000px) {
+        .page-template-products_lighting .products-streetlight-controller-wrapper .products-streetlight-controllers #products-streetlight-controller-deliv {
+          margin-top: 0;
+          margin-bottom: 0; } }
+    .page-template-products_lighting .products-streetlight-controller-wrapper .products-streetlight-controllers .products-streetlight-controller-links {
+      margin-left: 15%;
+      margin-right: 15%; }
+      .page-template-products_lighting .products-streetlight-controller-wrapper .products-streetlight-controllers .products-streetlight-controller-links .title {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        -ms-flex-line-pack: center;
+            align-content: center;
+        z-index: 1000;
+        border-top: 1px solid #f1f1f1; }
+        .page-template-products_lighting .products-streetlight-controller-wrapper .products-streetlight-controllers .products-streetlight-controller-links .title p {
+          font-size: 18px;
+          color: #000;
+          text-transform: uppercase;
+          margin: 10px 0; }
+        .page-template-products_lighting .products-streetlight-controller-wrapper .products-streetlight-controllers .products-streetlight-controller-links .title .service-icon-container:not(.hide) {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-pack: center;
+              -ms-flex-pack: center;
+                  justify-content: center;
+          -webkit-box-align: center;
+              -ms-flex-align: center;
+                  align-items: center;
+          -ms-flex-item-align: center;
+              align-self: center;
+          width: 15px;
+          height: 15px;
+          text-align: center;
+          background: #e6e6e6; }
+          .page-template-products_lighting .products-streetlight-controller-wrapper .products-streetlight-controllers .products-streetlight-controller-links .title .service-icon-container:not(.hide) i {
+            font-size: 10px; }
+      .page-template-products_lighting .products-streetlight-controller-wrapper .products-streetlight-controllers .products-streetlight-controller-links .title:hover {
+        cursor: pointer;
+        color: #00aeef; }
+        .page-template-products_lighting .products-streetlight-controller-wrapper .products-streetlight-controllers .products-streetlight-controller-links .title:hover p {
+          color: #00aeef; }
+      .page-template-products_lighting .products-streetlight-controller-wrapper .products-streetlight-controllers .products-streetlight-controller-links .text {
+        max-height: 0;
+        overflow: hidden;
+        -webkit-transition: max-height 0.4s ease-out;
+        transition: max-height 0.4s ease-out;
+        font-size: 15px;
+        line-height: 25px;
+        font-family: "Roboto";
+        padding-bottom: 5px; }
+        .page-template-products_lighting .products-streetlight-controller-wrapper .products-streetlight-controllers .products-streetlight-controller-links .text p {
+          margin: 0;
+          margin-bottom: 10px;
+          padding-bottom: 10px;
+          line-height: 24px;
+          font-size: 15px; }
+          @media all and (min-width: 1000px) {
+            .page-template-products_lighting .products-streetlight-controller-wrapper .products-streetlight-controllers .products-streetlight-controller-links .text p {
+              margin-bottom: 0;
+              padding-bottom: 0; } }
+      .page-template-products_lighting .products-streetlight-controller-wrapper .products-streetlight-controllers .products-streetlight-controller-links .no-border {
+        border-top: none; }
+      .page-template-products_lighting .products-streetlight-controller-wrapper .products-streetlight-controllers .products-streetlight-controller-links .hide {
+        display: none; }
+      .page-template-products_lighting .products-streetlight-controller-wrapper .products-streetlight-controllers .products-streetlight-controller-links .height {
+        max-height: 100px;
+        -webkit-transition: max-height 0.4 ease-in;
+        transition: max-height 0.4 ease-in; }
+      .page-template-products_lighting .products-streetlight-controller-wrapper .products-streetlight-controllers .products-streetlight-controller-links .height-plus {
+        max-height: 200px;
+        -webkit-transition: max-height 0.4 ease-in;
+        transition: max-height 0.4 ease-in; }
 
-.product-lighting-content {
-  width: 80%;
-  margin: 0 auto;
-  position: relative; }
+.page-template-products_lighting .product-lighting-paralax {
+  background-attachment: fixed;
+  background-size: 100% 100%; }
 
 .page-template-products_lighting .products-configuration-wrapper {
   background: url("http://localhost:8888/Valo/wp-content/themes/valo/assets/Backgrounds/clean-gray-abstract-background.png") bottom left no-repeat;
@@ -3283,7 +3438,7 @@ h2 {
   display: none;
   height: 100%;
   width: auto;
-  background-image: url("../../assets/Backgrounds/purpose-image.jpg");
+  background-image: url("../../assets/images/purpose-image.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center; }
@@ -5555,27 +5710,29 @@ h2 {
       .platform-event-sensors .platform-sensors-box {
         width: 33%; } }
 
-.product-lighting-header {
+.page-template-products_lighting .product-lighting-header {
+  background: url("../../assets/Backgrounds/clean-gray-abstract-background.png");
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  min-height: 300px;
   margin: 0 auto;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center; }
 
-.product-header-text-container {
+.page-template-products_lighting .product-header-text-container {
   width: 50%;
   text-align: center; }
 
-.product-lighting-flex-container {
+.page-template-products_lighting .product-lighting-flex-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -5583,8 +5740,8 @@ h2 {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column; }
-  @media all and (min-width: 600px) {
-    .product-lighting-flex-container {
+  @media all and (min-width: 800px) {
+    .page-template-products_lighting .product-lighting-flex-container {
       -webkit-box-orient: horizontal;
       -webkit-box-direction: normal;
           -ms-flex-direction: row;
@@ -5592,24 +5749,172 @@ h2 {
       -ms-flex-wrap: wrap;
           flex-wrap: wrap; } }
 
-@media all and (min-width: 600px) {
-  .product-lighting {
-    width: 25%; }
-    .product-lighting:nth-last-child(2), .product-lighting:last-child {
-      width: 50%; } }
+.page-template-products_lighting .product-lighting {
+  padding: 5% 0; }
+  .page-template-products_lighting .product-lighting:nth-child(even) {
+    background-color: #f9f9f9; }
+  .page-template-products_lighting .product-lighting:first-child, .page-template-products_lighting .product-lighting:nth-last-child(2) {
+    background-color: #00aeef;
+    color: #fff; }
+  @media all and (min-width: 800px) {
+    .page-template-products_lighting .product-lighting {
+      width: 25%; }
+      .page-template-products_lighting .product-lighting:nth-last-child(2), .page-template-products_lighting .product-lighting:nth-last-child(3) {
+        width: 50%;
+        -webkit-box-ordinal-group: 7;
+            -ms-flex-order: 6;
+                order: 6; } }
+  .page-template-products_lighting .product-lighting .city-image {
+    background: url("../../assets/still-header/valo-still-header-01.png");
+    display: none; }
+    @media all and (min-width: 1000px) {
+      .page-template-products_lighting .product-lighting .city-image {
+        display: block;
+        height: 500px;
+        width: 100%; } }
 
-.city-image {
-  display: none; }
+.page-template-products_lighting .products-streetlight-controller-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
   @media all and (min-width: 1000px) {
-    .city-image {
-      display: block;
-      height: 500px;
-      width: 100%; } }
+    .page-template-products_lighting .products-streetlight-controller-wrapper {
+      margin-top: 50px;
+      height: 750px;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center; } }
+  .page-template-products_lighting .products-streetlight-controller-wrapper .products-streetlight-controller-image {
+    display: none; }
+    @media all and (min-width: 1000px) {
+      .page-template-products_lighting .products-streetlight-controller-wrapper .products-streetlight-controller-image {
+        -ms-flex-preferred-size: 50%;
+            flex-basis: 50%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        width: 50%;
+        height: 600px;
+        background: gray; } }
+  .page-template-products_lighting .products-streetlight-controller-wrapper .products-streetlight-controllers {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    min-height: 600px;
+    padding: 20px 0 40px 0;
+    overflow: hidden; }
+    @media all and (min-width: 1000px) {
+      .page-template-products_lighting .products-streetlight-controller-wrapper .products-streetlight-controllers {
+        -ms-flex-preferred-size: 50%;
+            flex-basis: 50%; } }
+    .page-template-products_lighting .products-streetlight-controller-wrapper .products-streetlight-controllers .products-streetlight-controller-para {
+      max-width: 74%;
+      -ms-flex-item-align: center;
+          align-self: center;
+      display: inline; }
+      .page-template-products_lighting .products-streetlight-controller-wrapper .products-streetlight-controllers .products-streetlight-controller-para h3 {
+        margin-top: 0;
+        font-size: 24px;
+        color: #000; }
+      @media all and (min-width: 1000px) {
+        .page-template-products_lighting .products-streetlight-controller-wrapper .products-streetlight-controllers .products-streetlight-controller-para {
+          margin-top: 0; } }
+    .page-template-products_lighting .products-streetlight-controller-wrapper .products-streetlight-controllers #products-streetlight-controller-deliv {
+      margin-left: 15%;
+      font-weight: bold;
+      -ms-flex-item-align: start;
+          align-self: flex-start; }
+      @media all and (min-width: 1000px) {
+        .page-template-products_lighting .products-streetlight-controller-wrapper .products-streetlight-controllers #products-streetlight-controller-deliv {
+          margin-top: 0;
+          margin-bottom: 0; } }
+    .page-template-products_lighting .products-streetlight-controller-wrapper .products-streetlight-controllers .products-streetlight-controller-links {
+      margin-left: 15%;
+      margin-right: 15%; }
+      .page-template-products_lighting .products-streetlight-controller-wrapper .products-streetlight-controllers .products-streetlight-controller-links .title {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        -ms-flex-line-pack: center;
+            align-content: center;
+        z-index: 1000;
+        border-top: 1px solid #f1f1f1; }
+        .page-template-products_lighting .products-streetlight-controller-wrapper .products-streetlight-controllers .products-streetlight-controller-links .title p {
+          font-size: 18px;
+          color: #000;
+          text-transform: uppercase;
+          margin: 10px 0; }
+        .page-template-products_lighting .products-streetlight-controller-wrapper .products-streetlight-controllers .products-streetlight-controller-links .title .service-icon-container:not(.hide) {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-pack: center;
+              -ms-flex-pack: center;
+                  justify-content: center;
+          -webkit-box-align: center;
+              -ms-flex-align: center;
+                  align-items: center;
+          -ms-flex-item-align: center;
+              align-self: center;
+          width: 15px;
+          height: 15px;
+          text-align: center;
+          background: #e6e6e6; }
+          .page-template-products_lighting .products-streetlight-controller-wrapper .products-streetlight-controllers .products-streetlight-controller-links .title .service-icon-container:not(.hide) i {
+            font-size: 10px; }
+      .page-template-products_lighting .products-streetlight-controller-wrapper .products-streetlight-controllers .products-streetlight-controller-links .title:hover {
+        cursor: pointer;
+        color: #00aeef; }
+        .page-template-products_lighting .products-streetlight-controller-wrapper .products-streetlight-controllers .products-streetlight-controller-links .title:hover p {
+          color: #00aeef; }
+      .page-template-products_lighting .products-streetlight-controller-wrapper .products-streetlight-controllers .products-streetlight-controller-links .text {
+        max-height: 0;
+        overflow: hidden;
+        -webkit-transition: max-height 0.4s ease-out;
+        transition: max-height 0.4s ease-out;
+        font-size: 15px;
+        line-height: 25px;
+        font-family: "Roboto";
+        padding-bottom: 5px; }
+        .page-template-products_lighting .products-streetlight-controller-wrapper .products-streetlight-controllers .products-streetlight-controller-links .text p {
+          margin: 0;
+          margin-bottom: 10px;
+          padding-bottom: 10px;
+          line-height: 24px;
+          font-size: 15px; }
+          @media all and (min-width: 1000px) {
+            .page-template-products_lighting .products-streetlight-controller-wrapper .products-streetlight-controllers .products-streetlight-controller-links .text p {
+              margin-bottom: 0;
+              padding-bottom: 0; } }
+      .page-template-products_lighting .products-streetlight-controller-wrapper .products-streetlight-controllers .products-streetlight-controller-links .no-border {
+        border-top: none; }
+      .page-template-products_lighting .products-streetlight-controller-wrapper .products-streetlight-controllers .products-streetlight-controller-links .hide {
+        display: none; }
+      .page-template-products_lighting .products-streetlight-controller-wrapper .products-streetlight-controllers .products-streetlight-controller-links .height {
+        max-height: 100px;
+        -webkit-transition: max-height 0.4 ease-in;
+        transition: max-height 0.4 ease-in; }
+      .page-template-products_lighting .products-streetlight-controller-wrapper .products-streetlight-controllers .products-streetlight-controller-links .height-plus {
+        max-height: 200px;
+        -webkit-transition: max-height 0.4 ease-in;
+        transition: max-height 0.4 ease-in; }
 
-.product-lighting-content {
-  width: 80%;
-  margin: 0 auto;
-  position: relative; }
+.page-template-products_lighting .product-lighting-paralax {
+  background-attachment: fixed;
+  background-size: 100% 100%; }
 
 .page-template-products_lighting .products-configuration-wrapper {
   background: url("http://localhost:8888/Valo/wp-content/themes/valo/assets/Backgrounds/clean-gray-abstract-background.png") bottom left no-repeat;
