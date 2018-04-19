@@ -92,7 +92,7 @@ get_header(); ?>
 				<section class="about-platform-wrapper">
 					<h3>Valo’s platform addresses these problems while providing
 						<br> multiple benefits for cities and the people living within them:</h3>
-					<div class="title-blue-line">
+					<div class="sub-title-blue-line">
 					</div>
 					<div class="about-platform-container">
 						<div class="about-platform-left-container">

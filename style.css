@@ -1895,7 +1895,10 @@ object {
         display: flex;
         width: 50%;
         height: 600px;
-        background: gray; } }
+        background-image: url("../../assets/images/street-lights.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 50% 50%; } }
   .page-template-products_lighting .products-streetlight-controller-wrapper .products-streetlight-controllers {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -3080,7 +3083,7 @@ h2 {
   display: none;
   height: 100%;
   width: auto;
-  background-image: url("../../assets/images/purpose-image.jpg");
+  background-image: url("../../assets/images/street-lights.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center; }
@@ -3117,7 +3120,7 @@ h2 {
   border-bottom: 5px solid #00aeef;
   width: 50px;
   display: block;
-  margin: 0 auto; }
+  margin: 0; }
 
 .page-template-about .about-advantage-container {
   display: -webkit-box;
@@ -5437,7 +5440,10 @@ h2 {
         display: flex;
         width: 50%;
         height: 600px;
-        background: gray; } }
+        background-image: url("../../assets/images/street-lights.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 50% 50%; } }
   .page-template-products_lighting .products-streetlight-controller-wrapper .products-streetlight-controllers {
     display: -webkit-box;
     display: -ms-flexbox;

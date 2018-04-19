@@ -103,8 +103,6 @@ get_header(); ?>
 
 				<section class="products-streetlight-controller-wrapper">
 					<div class="products-streetlight-controller-image">
-						<img class="products-streetlight-controller-icon" srcset="<?php echo get_template_directory_uri() . '/assets/images/purpose-image.jpg'?>"
-						/>
 					</div>
 
 					<section class="products-streetlight-controllers">
