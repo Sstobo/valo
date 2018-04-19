@@ -1,49 +1,53 @@
 .page-template-products_lighting {
   .product-lighting-header {
+    background: url('../../assets/Backgrounds/clean-gray-abstract-background.png');
     display: flex;
+    min-height: 300px;
     margin: 0 auto;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
   }
   .product-header-text-container {
     width: 50%;
     text-align: center;
   }
-
   .product-lighting-flex-container {
     display: flex;
     flex-direction: column;
-    @include tablet {
+    @include footer-row {
       flex-direction: row;
       flex-wrap: wrap;
     }
   }
-
   .product-lighting {
-    @include tablet {
+    padding: 5% 0;
+    &:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+    &:first-child,
+    &:nth-last-child(2) {
+      background-color: $color__accent;
+      color: #fff;
+    }
+    @include footer-row {
       width: 25%;
       &:nth-last-child(2),
-      &:last-child {
+      &:nth-last-child(3) {
         width: 50%;
+        order: 6;
+      }
+    }
+    .city-image {
+      background: url('../../assets/still-header/valo-still-header-01.png');
+      display: none;
+      @include desktop {
+        display: block;
+        height: 500px;
+        width: 100%;
       }
     }
   }
-
-  .city-image {
-    display: none;
-    @include desktop {
-      display: block;
-      height: 500px;
-      width: 100%;
-    }
-  }
-  .product-lighting-content {
-    width: 80%;
-    margin: 0 auto;
-    position: relative;
-  }
-
   .products-streetlight-controller-wrapper {
     display: flex;
     @include desktop {
@@ -72,7 +76,6 @@
       @include desktop {
         flex-basis: 50%;
       }
-
       .products-streetlight-controller-para {
         max-width: 74%;
         align-self: center;
@@ -154,11 +157,9 @@
             }
           }
         }
-
         .no-border {
           border-top: none;
         }
-
         .hide {
           display: none;
         }
@@ -172,6 +173,10 @@
         }
       } //products-streetlight-controller-links
     } //products-streetlight-controller
+  }
+  .product-lighting-paralax {
+    background-attachment: fixed;
+    background-size: 100% 100%;
   }
   .products-configuration-wrapper {
     background: url('http://localhost:8888/Valo/wp-content/themes/valo/assets/Backgrounds/clean-gray-abstract-background.png')

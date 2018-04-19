@@ -11,13 +11,10 @@ get_header(); ?>
 		<main id="main" class="site-main" role="main">
 
 			<section class="content-wrapper">
-
-				<section class="product-lighting-header">
-					<div class="product-header-products-streetlight-controller-text-container">
-						<h2>LED Street Lights</h2>
-						<p>VALO has a wide range of LED street lights to meet each city’s requirements. Street lights are available in a variety
-							of wattages and luminous efficiencies, and include surge protection devices. VALO offers LED street lights for both
-							horizontal and vertical installations.</p>
+				<section class="product-lighting-header product-lighting-paralax">
+					<div class="product-header-text-container">
+						<h1>LED Street Lights</h1>
+						<p>VALO has a wide range of LED street lights to meet each city’s requirements. Street lights are available in a variety of wattages and luminous efficiencies, and include surge protection devices. VALO offers LED street lights for both horizontal and vertical installations.</p>
 					</div>
 				</section>
 				<section class="product-lighting-flex-container">
@@ -71,6 +68,7 @@ get_header(); ?>
 								poorly lit areas, and thus LED lighting can act as a criminal deterrent.</p>
 						</div>
 					</div>
+					<div class="product-lighting-paralax city-image"></div>
 				</section>
 
 				<section class="controller-drop-down">

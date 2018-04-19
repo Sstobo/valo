@@ -294,7 +294,8 @@ h6 {
 p {
   margin-bottom: 1.5rem;
   font-family: "Roboto", sans-serif;
-  line-height: 28px; }
+  line-height: 28px;
+  font-weight: 400; }
 
 dfn,
 cite,
@@ -1810,17 +1811,19 @@ object {
     color: #00aeef; }
 
 .page-template-products_lighting .product-lighting-header {
+  background: url("../../assets/Backgrounds/clean-gray-abstract-background.png");
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  min-height: 300px;
   margin: 0 auto;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center; }
@@ -1837,7 +1840,7 @@ object {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column; }
-  @media all and (min-width: 600px) {
+  @media all and (min-width: 800px) {
     .page-template-products_lighting .product-lighting-flex-container {
       -webkit-box-orient: horizontal;
       -webkit-box-direction: normal;
@@ -1846,24 +1849,29 @@ object {
       -ms-flex-wrap: wrap;
           flex-wrap: wrap; } }
 
-@media all and (min-width: 600px) {
-  .page-template-products_lighting .product-lighting {
-    width: 25%; }
-    .page-template-products_lighting .product-lighting:nth-last-child(2), .page-template-products_lighting .product-lighting:last-child {
-      width: 50%; } }
-
-.page-template-products_lighting .city-image {
-  display: none; }
-  @media all and (min-width: 1000px) {
-    .page-template-products_lighting .city-image {
-      display: block;
-      height: 500px;
-      width: 100%; } }
-
-.page-template-products_lighting .product-lighting-content {
-  width: 80%;
-  margin: 0 auto;
-  position: relative; }
+.page-template-products_lighting .product-lighting {
+  padding: 5% 0; }
+  .page-template-products_lighting .product-lighting:nth-child(even) {
+    background-color: #f9f9f9; }
+  .page-template-products_lighting .product-lighting:first-child, .page-template-products_lighting .product-lighting:nth-last-child(2) {
+    background-color: #00aeef;
+    color: #fff; }
+  @media all and (min-width: 800px) {
+    .page-template-products_lighting .product-lighting {
+      width: 25%; }
+      .page-template-products_lighting .product-lighting:nth-last-child(2), .page-template-products_lighting .product-lighting:nth-last-child(3) {
+        width: 50%;
+        -webkit-box-ordinal-group: 7;
+            -ms-flex-order: 6;
+                order: 6; } }
+  .page-template-products_lighting .product-lighting .city-image {
+    background: url("../../assets/still-header/valo-still-header-01.png");
+    display: none; }
+    @media all and (min-width: 1000px) {
+      .page-template-products_lighting .product-lighting .city-image {
+        display: block;
+        height: 500px;
+        width: 100%; } }
 
 .page-template-products_lighting .products-streetlight-controller-wrapper {
   display: -webkit-box;
@@ -2003,6 +2011,10 @@ object {
         max-height: 200px;
         -webkit-transition: max-height 0.4 ease-in;
         transition: max-height 0.4 ease-in; }
+
+.page-template-products_lighting .product-lighting-paralax {
+  background-attachment: fixed;
+  background-size: 100% 100%; }
 
 .page-template-products_lighting .products-configuration-wrapper {
   background: url("http://localhost:8888/Valo/wp-content/themes/valo/assets/Backgrounds/clean-gray-abstract-background.png") bottom left no-repeat;
@@ -2738,6 +2750,8 @@ h2 {
       height: 400px; } }
   .applications-hero .applications-hero-wrapper {
     padding: 24px; }
+    .applications-hero .applications-hero-wrapper p {
+      max-width: 80%; }
     @media (min-width: 1000px) {
       .applications-hero .applications-hero-wrapper {
         display: block;
@@ -2802,15 +2816,15 @@ h2 {
       width: 100px;
       margin: 0 auto;
       margin-bottom: 14px; }
-    .applications-service-wrapper .applications-lighting h2 {
-      min-height: 40px;
+    .applications-service-wrapper .applications-lighting h3 {
+      min-height: 30px;
       text-align: center;
-      width: 60%;
+      width: 80%;
       margin: 0 auto;
-      margin-bottom: 24px; }
+      margin-bottom: 14px; }
       @media (min-width: 1000px) {
-        .applications-service-wrapper .applications-lighting h2 {
-          min-height: 80px; } }
+        .applications-service-wrapper .applications-lighting h3 {
+          min-height: 60px; } }
   .applications-service-wrapper .applications-platform {
     height: 260px;
     width: 100%;
@@ -2827,16 +2841,15 @@ h2 {
       width: 100px;
       margin: 0 auto;
       margin-bottom: 14px; }
-    .applications-service-wrapper .applications-platform h2 {
-      min-height: 40px;
+    .applications-service-wrapper .applications-platform h3 {
+      min-height: 30px;
       text-align: center;
-      width: 60%;
+      width: 80%;
       margin: 0 auto;
-      margin-bottom: 14px;
-      margin-bottom: 24px; }
+      margin-bottom: 14px; }
       @media (min-width: 1000px) {
-        .applications-service-wrapper .applications-platform h2 {
-          min-height: 80px; } }
+        .applications-service-wrapper .applications-platform h3 {
+          min-height: 60px; } }
   .applications-service-wrapper .applications-cameras {
     height: 260px;
     width: 100%;
@@ -2853,16 +2866,15 @@ h2 {
       width: 100px;
       margin: 0 auto;
       margin-bottom: 14px; }
-    .applications-service-wrapper .applications-cameras h2 {
-      min-height: 40px;
+    .applications-service-wrapper .applications-cameras h3 {
+      min-height: 30px;
       text-align: center;
       width: 80%;
       margin: 0 auto;
-      margin-bottom: 14px;
-      margin-bottom: 24px; }
+      margin-bottom: 14px; }
       @media (min-width: 1000px) {
-        .applications-service-wrapper .applications-cameras h2 {
-          min-height: 80px; } }
+        .applications-service-wrapper .applications-cameras h3 {
+          min-height: 60px; } }
   .applications-service-wrapper .applications-networks {
     height: 260px;
     width: 100%;
@@ -2879,16 +2891,15 @@ h2 {
       width: 100px;
       margin: 0 auto;
       margin-bottom: 14px; }
-    .applications-service-wrapper .applications-networks h2 {
-      min-height: 40px;
+    .applications-service-wrapper .applications-networks h3 {
+      min-height: 30px;
       text-align: center;
-      width: 60%;
+      width: 80%;
       margin: 0 auto;
-      margin-bottom: 14px;
-      margin-bottom: 24px; }
+      margin-bottom: 14px; }
       @media (min-width: 1000px) {
-        .applications-service-wrapper .applications-networks h2 {
-          min-height: 80px; } }
+        .applications-service-wrapper .applications-networks h3 {
+          min-height: 60px; } }
 
 /*--------------------------------------------------------------
 # About Pages
@@ -4347,17 +4358,17 @@ h2 {
       .page-template-page-services .content-area-services .wifi h2 {
         font-size: 40px; } }
 
-.page-template-page-services .content-area-services .advert-wrapper {
+.page-template-page-services .content-area-services .badvert-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex; }
   @media all and (min-width: 1000px) {
-    .page-template-page-services .content-area-services .advert-wrapper {
+    .page-template-page-services .content-area-services .badvert-wrapper {
       margin-top: 50px; } }
-  .page-template-page-services .content-area-services .advert-wrapper .advert-image {
+  .page-template-page-services .content-area-services .badvert-wrapper .badvert-image {
     display: none; }
     @media all and (min-width: 1000px) {
-      .page-template-page-services .content-area-services .advert-wrapper .advert-image {
+      .page-template-page-services .content-area-services .badvert-wrapper .badvert-image {
         -ms-flex-preferred-size: 50%;
             flex-basis: 50%;
         display: -webkit-box;
@@ -4371,7 +4382,7 @@ h2 {
         min-height: 400px;
         max-width: 500px;
         max-height: 500px; } }
-  .page-template-page-services .content-area-services .advert-wrapper .adverts {
+  .page-template-page-services .content-area-services .badvert-wrapper .badverts {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -4387,29 +4398,30 @@ h2 {
             align-items: center;
     padding: 40px 0; }
     @media all and (min-width: 1000px) {
-      .page-template-page-services .content-area-services .advert-wrapper .adverts {
+      .page-template-page-services .content-area-services .badvert-wrapper .badverts {
         -ms-flex-preferred-size: 50%;
             flex-basis: 50%; } }
-    .page-template-page-services .content-area-services .advert-wrapper .adverts .add-para {
+    .page-template-page-services .content-area-services .badvert-wrapper .badverts .badd-para {
       max-width: 70%;
       -ms-flex-item-align: center;
           align-self: center; }
       @media all and (min-width: 1000px) {
-        .page-template-page-services .content-area-services .advert-wrapper .adverts .add-para {
+        .page-template-page-services .content-area-services .badvert-wrapper .badverts .badd-para {
           margin-top: 0; } }
-    .page-template-page-services .content-area-services .advert-wrapper .adverts #add-deliv {
+    .page-template-page-services .content-area-services .badvert-wrapper .badverts #add-deliv {
       margin-left: 15%;
       font-weight: bold;
+      color: black;
       -ms-flex-item-align: start;
           align-self: flex-start; }
       @media all and (min-width: 1000px) {
-        .page-template-page-services .content-area-services .advert-wrapper .adverts #add-deliv {
+        .page-template-page-services .content-area-services .badvert-wrapper .badverts #add-deliv {
           margin-top: 0;
           margin-bottom: 0; } }
-    .page-template-page-services .content-area-services .advert-wrapper .adverts .add-links {
+    .page-template-page-services .content-area-services .badvert-wrapper .badverts .badd-links {
       margin-left: 15%;
       margin-right: 15%; }
-      .page-template-page-services .content-area-services .advert-wrapper .adverts .add-links .title {
+      .page-template-page-services .content-area-services .badvert-wrapper .badverts .badd-links .title {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
@@ -4420,11 +4432,12 @@ h2 {
             align-content: center;
         z-index: 1000;
         border-top: 1px solid #f1f1f1; }
-        .page-template-page-services .content-area-services .advert-wrapper .adverts .add-links .title p {
+        .page-template-page-services .content-area-services .badvert-wrapper .badverts .badd-links .title p {
           font-size: 18px;
           text-transform: uppercase;
-          margin: 10px 0; }
-        .page-template-page-services .content-area-services .advert-wrapper .adverts .add-links .title .service-icon-container:not(.hide) {
+          margin: 10px 0;
+          color: black; }
+        .page-template-page-services .content-area-services .badvert-wrapper .badverts .badd-links .title .service-icon-container:not(.hide) {
           display: -webkit-box;
           display: -ms-flexbox;
           display: flex;
@@ -4440,14 +4453,14 @@ h2 {
           height: 15px;
           text-align: center;
           background: #e6e6e6; }
-          .page-template-page-services .content-area-services .advert-wrapper .adverts .add-links .title .service-icon-container:not(.hide) i {
+          .page-template-page-services .content-area-services .badvert-wrapper .badverts .badd-links .title .service-icon-container:not(.hide) i {
             font-size: 10px; }
-      .page-template-page-services .content-area-services .advert-wrapper .adverts .add-links .title:hover {
+      .page-template-page-services .content-area-services .badvert-wrapper .badverts .badd-links .title:hover {
         cursor: pointer;
         color: #00aeef; }
-        .page-template-page-services .content-area-services .advert-wrapper .adverts .add-links .title:hover p {
+        .page-template-page-services .content-area-services .badvert-wrapper .badverts .badd-links .title:hover p {
           color: #00aeef; }
-      .page-template-page-services .content-area-services .advert-wrapper .adverts .add-links .text {
+      .page-template-page-services .content-area-services .badvert-wrapper .badverts .badd-links .text {
         max-height: 0;
         overflow: hidden;
         -webkit-transition: max-height 0.4s ease-out;
@@ -4456,20 +4469,20 @@ h2 {
         line-height: 25px;
         font-family: "Roboto";
         padding-bottom: 5px; }
-        .page-template-page-services .content-area-services .advert-wrapper .adverts .add-links .text p {
+        .page-template-page-services .content-area-services .badvert-wrapper .badverts .badd-links .text p {
           margin: 0;
           margin-bottom: 10px;
           padding-bottom: 10px;
           line-height: 24px; }
           @media all and (min-width: 1000px) {
-            .page-template-page-services .content-area-services .advert-wrapper .adverts .add-links .text p {
+            .page-template-page-services .content-area-services .badvert-wrapper .badverts .badd-links .text p {
               margin-bottom: 0;
               padding-bottom: 0; } }
-      .page-template-page-services .content-area-services .advert-wrapper .adverts .add-links .no-border {
+      .page-template-page-services .content-area-services .badvert-wrapper .badverts .badd-links .no-border {
         border-top: none; }
-      .page-template-page-services .content-area-services .advert-wrapper .adverts .add-links .hide {
+      .page-template-page-services .content-area-services .badvert-wrapper .badverts .badd-links .hide {
         display: none; }
-      .page-template-page-services .content-area-services .advert-wrapper .adverts .add-links .height {
+      .page-template-page-services .content-area-services .badvert-wrapper .badverts .badd-links .height {
         max-height: 80px;
         -webkit-transition: max-height 0.4 ease-in;
         transition: max-height 0.4 ease-in; }
@@ -5340,17 +5353,19 @@ h2 {
         width: 33%; } }
 
 .page-template-products_lighting .product-lighting-header {
+  background: url("../../assets/Backgrounds/clean-gray-abstract-background.png");
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  min-height: 300px;
   margin: 0 auto;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center; }
@@ -5367,7 +5382,7 @@ h2 {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column; }
-  @media all and (min-width: 600px) {
+  @media all and (min-width: 800px) {
     .page-template-products_lighting .product-lighting-flex-container {
       -webkit-box-orient: horizontal;
       -webkit-box-direction: normal;
@@ -5376,24 +5391,29 @@ h2 {
       -ms-flex-wrap: wrap;
           flex-wrap: wrap; } }
 
-@media all and (min-width: 600px) {
-  .page-template-products_lighting .product-lighting {
-    width: 25%; }
-    .page-template-products_lighting .product-lighting:nth-last-child(2), .page-template-products_lighting .product-lighting:last-child {
-      width: 50%; } }
-
-.page-template-products_lighting .city-image {
-  display: none; }
-  @media all and (min-width: 1000px) {
-    .page-template-products_lighting .city-image {
-      display: block;
-      height: 500px;
-      width: 100%; } }
-
-.page-template-products_lighting .product-lighting-content {
-  width: 80%;
-  margin: 0 auto;
-  position: relative; }
+.page-template-products_lighting .product-lighting {
+  padding: 5% 0; }
+  .page-template-products_lighting .product-lighting:nth-child(even) {
+    background-color: #f9f9f9; }
+  .page-template-products_lighting .product-lighting:first-child, .page-template-products_lighting .product-lighting:nth-last-child(2) {
+    background-color: #00aeef;
+    color: #fff; }
+  @media all and (min-width: 800px) {
+    .page-template-products_lighting .product-lighting {
+      width: 25%; }
+      .page-template-products_lighting .product-lighting:nth-last-child(2), .page-template-products_lighting .product-lighting:nth-last-child(3) {
+        width: 50%;
+        -webkit-box-ordinal-group: 7;
+            -ms-flex-order: 6;
+                order: 6; } }
+  .page-template-products_lighting .product-lighting .city-image {
+    background: url("../../assets/still-header/valo-still-header-01.png");
+    display: none; }
+    @media all and (min-width: 1000px) {
+      .page-template-products_lighting .product-lighting .city-image {
+        display: block;
+        height: 500px;
+        width: 100%; } }
 
 .page-template-products_lighting .products-streetlight-controller-wrapper {
   display: -webkit-box;
@@ -5533,6 +5553,10 @@ h2 {
         max-height: 200px;
         -webkit-transition: max-height 0.4 ease-in;
         transition: max-height 0.4 ease-in; }
+
+.page-template-products_lighting .product-lighting-paralax {
+  background-attachment: fixed;
+  background-size: 100% 100%; }
 
 .page-template-products_lighting .products-configuration-wrapper {
   background: url("http://localhost:8888/Valo/wp-content/themes/valo/assets/Backgrounds/clean-gray-abstract-background.png") bottom left no-repeat;

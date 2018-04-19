@@ -107,7 +107,7 @@ get_header(); ?>
 							</p>
 							<span>Company News, Press Releases • </span>
 							<span>
-								<?php the_time(' F jS, Y') ?>
+								
 							</span>
 						</div>
 
@@ -118,7 +118,7 @@ get_header(); ?>
 							</p>
 							<span>Company News, Press Releases • </span>
 							<span>
-								<?php the_time(' F jS, Y') ?>
+							
 							</span>
 						</div>
 						<div class="press-release">
