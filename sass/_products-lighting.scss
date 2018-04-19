@@ -38,14 +38,18 @@
         order: 6;
       }
     }
-    .city-image {
-      background: url('../../assets/still-header/valo-still-header-01.png');
-      display: none;
-      @include desktop {
-        display: block;
-        height: 500px;
-        width: 100%;
-      }
+  }
+  .product-lighting-content {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .city-image {
+    background: url('../../assets/still-header/valo-still-header-01.png');
+    display: none;
+    @include desktop {
+      display: block;
+      height: 500px;
+      width: 100%;
     }
   }
   .products-streetlight-controller-wrapper {

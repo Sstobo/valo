@@ -1864,14 +1864,19 @@ object {
         -webkit-box-ordinal-group: 7;
             -ms-flex-order: 6;
                 order: 6; } }
-  .page-template-products_lighting .product-lighting .city-image {
-    background: url("../../assets/still-header/valo-still-header-01.png");
-    display: none; }
-    @media all and (min-width: 1000px) {
-      .page-template-products_lighting .product-lighting .city-image {
-        display: block;
-        height: 500px;
-        width: 100%; } }
+
+.page-template-products_lighting .product-lighting-content {
+  width: 80%;
+  margin: 0 auto; }
+
+.page-template-products_lighting .city-image {
+  background: url("../../assets/still-header/valo-still-header-01.png");
+  display: none; }
+  @media all and (min-width: 1000px) {
+    .page-template-products_lighting .city-image {
+      display: block;
+      height: 500px;
+      width: 100%; } }
 
 .page-template-products_lighting .products-streetlight-controller-wrapper {
   display: -webkit-box;
@@ -5406,14 +5411,19 @@ h2 {
         -webkit-box-ordinal-group: 7;
             -ms-flex-order: 6;
                 order: 6; } }
-  .page-template-products_lighting .product-lighting .city-image {
-    background: url("../../assets/still-header/valo-still-header-01.png");
-    display: none; }
-    @media all and (min-width: 1000px) {
-      .page-template-products_lighting .product-lighting .city-image {
-        display: block;
-        height: 500px;
-        width: 100%; } }
+
+.page-template-products_lighting .product-lighting-content {
+  width: 80%;
+  margin: 0 auto; }
+
+.page-template-products_lighting .city-image {
+  background: url("../../assets/still-header/valo-still-header-01.png");
+  display: none; }
+  @media all and (min-width: 1000px) {
+    .page-template-products_lighting .city-image {
+      display: block;
+      height: 500px;
+      width: 100%; } }
 
 .page-template-products_lighting .products-streetlight-controller-wrapper {
   display: -webkit-box;
