@@ -119,7 +119,7 @@ get_header(); ?>
 									</div>
 								</div>
 
-								<div class="text height">
+								<div class="text">
 									<p>The light controller can be equipped with sensors for comprehensive air quality measurements, in addition to temperature,
 										pressure, and humidity</p>
 								</div>
@@ -155,7 +155,7 @@ get_header(); ?>
 									</div>
 								</div>
 
-								<div class="text height-plus">
+								<div class="text">
 									<p>Valo controllers can support several networking technologies and platforms, including:</br>
 									Narrowband: LoRa, NFS24, 2G/3G, NBiOT/LTE-M, Bluetooth</br> 
 									Broadband: 802.11ac/LTE-U, LTE PicoCell (Q4 2017)</p>
