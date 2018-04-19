@@ -52,11 +52,15 @@
     position: absolute;
     top: 10%;
     right: 5%;
+    color: $color__accent;
     @include footer-row {
       font-size: 44px;
       top: 5%;
       right: 10%;
     }
+  }
+  .white-icon {
+    color: #fff;
   }
   .city-image {
     background: url('../../assets/still-header/valo-still-header-01.png');

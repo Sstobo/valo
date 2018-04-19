@@ -1490,7 +1490,10 @@ object {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
-          flex-direction: row; }
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly; }
   .products-hero .products-hero-wrapper {
     padding: 24px; }
     @media (min-width: 1000px) {
@@ -1498,9 +1501,9 @@ object {
         display: block;
         height: 90%;
         width: 50%;
-        margin-right: 48px;
-        text-align: left;
-        padding: 44px 194px 0 124px; } }
+        max-width: 500px;
+        margin-right: 0 auto;
+        text-align: left; } }
   .products-hero .products-hero-img {
     display: none; }
     @media (min-width: 1000px) {
@@ -1508,7 +1511,7 @@ object {
         display: block;
         height: 90%;
         width: 40%;
-        background-color: grey; } }
+        background: url("../../assets/images/valo-products-still-1.png"); } }
   @media (min-width: 1000px) {
     .products-hero {
       -webkit-box-orient: horizontal;
@@ -2246,12 +2249,16 @@ object {
   font-weight: 700;
   position: absolute;
   top: 10%;
-  right: 5%; }
+  right: 5%;
+  color: #00aeef; }
   @media all and (min-width: 800px) {
     .page-template-products_lighting .product-icon {
       font-size: 44px;
       top: 5%;
       right: 10%; } }
+
+.page-template-products_lighting .white-icon {
+  color: #fff; }
 
 .page-template-products_lighting .city-image {
   background: url("../../assets/still-header/valo-still-header-01.png");
@@ -5839,12 +5846,16 @@ h2 {
   font-weight: 700;
   position: absolute;
   top: 10%;
-  right: 5%; }
+  right: 5%;
+  color: #00aeef; }
   @media all and (min-width: 800px) {
     .page-template-products_lighting .product-icon {
       font-size: 44px;
       top: 5%;
       right: 10%; } }
+
+.page-template-products_lighting .white-icon {
+  color: #fff; }
 
 .page-template-products_lighting .city-image {
   background: url("../../assets/still-header/valo-still-header-01.png");
