@@ -5614,8 +5614,7 @@ h2 {
       -ms-flex-direction: column;
           flex-direction: column;
   height: auto;
-  background-color: #f3f3f3;
-  margin-bottom: 24px; }
+  background-color: #f3f3f3; }
   @media (min-width: 1000px) {
     .platform-hero {
       -webkit-box-orient: horizontal;
@@ -5625,7 +5624,7 @@ h2 {
   .platform-hero .platform-hero-image {
     width: 100%;
     height: 300px;
-    background-image: url("../../assets/icons-SVG/valo-product-platform-hero.jpg");
+    background-image: url("../../assets/icons-SVG/valo-platform-hero.jpg");
     background-size: cover;
     background-position: 50% 50%; }
     @media (min-width: 1000px) {
@@ -5651,15 +5650,18 @@ h2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 400px;
+  height: 360px;
   width: 100%;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
-          flex-direction: row; }
-  @media (min-width: 1000px) {
-    .platform-manager {
-      margin-bottom: 64px; } }
+          flex-direction: row;
+  background: url("../../assets/Backgrounds/clean-gray-abstract-background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-attachment: fixed;
+  background-position: 0 150px; }
   .platform-manager .platform-manager-text {
     width: 100%;
     height: 100%;
@@ -5669,22 +5671,14 @@ h2 {
       margin: 0 auto; }
     @media (min-width: 1000px) {
       .platform-manager .platform-manager-text {
-        text-align: left;
-        width: 40%;
+        text-align: center;
+        width: 100%;
         padding: 34px 24px 24px 64px; }
         .platform-manager .platform-manager-text p {
-          margin: 0;
+          margin: 0 auto;
           margin-bottom: 24px;
-          width: 90%;
+          width: 60%;
           line-height: 28px; } }
-  .platform-manager .platform-manager-image {
-    display: none; }
-    @media (min-width: 1000px) {
-      .platform-manager .platform-manager-image {
-        display: block;
-        width: 60%;
-        height: 400px;
-        background-color: pink; } }
 
 .platform-icon-box-wrapper {
   display: -webkit-box;
@@ -5697,19 +5691,54 @@ h2 {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
-          flex-direction: row;
-  margin-bottom: 34px; }
+          flex-direction: row; }
   .platform-icon-box-wrapper .platform-icon-box {
+    height: 340px;
     width: 100%;
-    height: 300px; }
-    @media (min-width: 900px) {
+    text-align: center;
+    padding: 34px 12px 12px 12px; }
+    @media (min-width: 1000px) {
       .platform-icon-box-wrapper .platform-icon-box {
-        width: 33%; } }
+        width: 33%;
+        height: 340px;
+        padding-top: 54px; } }
+    .platform-icon-box-wrapper .platform-icon-box .platform-icon-box-img {
+      height: 100px;
+      width: 100px;
+      margin: 0 auto;
+      margin-bottom: 24px; }
+    .platform-icon-box-wrapper .platform-icon-box p {
+      max-width: 80%;
+      margin: 0 auto; }
+    .platform-icon-box-wrapper .platform-icon-box h3 {
+      color: #00aeef;
+      min-height: 30px;
+      text-align: center;
+      width: 80%;
+      margin: 0 auto;
+      margin-bottom: 8px; }
 
 .platform-icon-box-grey {
-  background-color: grey; }
+  background-color: #f7f7f7; }
 
-.platform-event-sensors {
+.platform-sensors-parallax-city {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 300px;
+  width: 100%;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background: url("../../assets/Backgrounds/valo-platform-town.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-attachment: fixed;
+  background-position: 0 150px; }
+
+.platform-icon-box-wrapper-final {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -5720,14 +5749,156 @@ h2 {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
-          flex-direction: row;
-  margin-bottom: 34px; }
-  .platform-event-sensors .platform-sensors-box {
+          flex-direction: row; }
+  .platform-icon-box-wrapper-final .platform-icon-box-final {
     width: 100%;
     height: 300px; }
     @media (min-width: 900px) {
-      .platform-event-sensors .platform-sensors-box {
-        width: 33%; } }
+      .platform-icon-box-wrapper-final .platform-icon-box-final {
+        width: 50%; } }
+
+.platform-icon-box-grey-final {
+  background-color: grey; }
+
+.platform-icon-box-sensors {
+  height: auto;
+  width: 100%;
+  text-align: center;
+  padding: 24px 12px 12px 12px; }
+  .platform-icon-box-sensors p {
+    text-align: center; }
+  .platform-icon-box-sensors h2 {
+    text-align: center; }
+  @media (min-width: 1000px) {
+    .platform-icon-box-sensors {
+      width: 33%;
+      height: 540px;
+      padding-top: 34px;
+      padding-left: 54px; } }
+  .platform-icon-box-sensors .platform-icon-box-img {
+    height: 100px;
+    width: 100px;
+    margin-left: 60%;
+    margin-bottom: 24px; }
+  .platform-icon-box-sensors .sensor-paragraph-header {
+    max-width: 80%;
+    text-align: left;
+    padding: 0px;
+    color: white;
+    margin-bottom: 4px; }
+  .platform-icon-box-sensors .sensor-paragraph {
+    max-width: 80%;
+    text-align: left;
+    padding-bottom: 0px !important;
+    color: white;
+    margin: 0px; }
+  .platform-icon-box-sensors h2 {
+    color: #00aeef;
+    min-height: 30px;
+    text-align: left;
+    width: 80%;
+    margin-bottom: 8px; }
+
+.platform-icon-box-blue {
+  background-color: #00aeef; }
+
+.platform-icon-box-wrapper-final {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: auto;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row; }
+  .platform-icon-box-wrapper-final .platform-icon-box-final {
+    width: 100%;
+    height: 300px; }
+    @media (min-width: 900px) {
+      .platform-icon-box-wrapper-final .platform-icon-box-final {
+        width: 50%; } }
+
+.platform-icon-box-sensors-final {
+  height: auto;
+  width: 100%;
+  text-align: center;
+  padding: 24px 12px 12px 12px; }
+  .platform-icon-box-sensors-final p {
+    text-align: center; }
+  .platform-icon-box-sensors-final h2 {
+    text-align: center; }
+  @media (min-width: 1000px) {
+    .platform-icon-box-sensors-final {
+      width: 50%;
+      height: 540px;
+      padding-top: 34px;
+      padding-left: 64px; } }
+  .platform-icon-box-sensors-final .platform-icon-box-img {
+    height: 100px;
+    width: 100px;
+    margin-left: 60%;
+    margin-bottom: 24px; }
+  .platform-icon-box-sensors-final .sensor-paragraph-header {
+    max-width: 80%;
+    text-align: left;
+    padding: 0px;
+    color: white;
+    margin-bottom: 4px; }
+  .platform-icon-box-sensors-final .sensor-paragraph {
+    max-width: 80%;
+    text-align: left;
+    padding-bottom: 0px !important;
+    color: white;
+    margin: 0px; }
+  .platform-icon-box-sensors-final h2 {
+    color: #00aeef;
+    min-height: 30px;
+    text-align: left;
+    width: 80%;
+    margin-bottom: 8px; }
+
+.platform-sensors {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 300px;
+  width: 100%;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  background: url("../../assets/Backgrounds/clean-gray-abstract-background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-attachment: fixed;
+  background-position: 0 150px; }
+  .platform-sensors h1 {
+    margin-bottom: 24px; }
+  .platform-sensors .platform-sensor-text {
+    width: 100%;
+    height: 100%;
+    text-align: center; }
+    .platform-sensors .platform-sensor-text h1 {
+      margin: 0 auto;
+      margin-bottom: 24px; }
+    .platform-sensors .platform-sensor-text p {
+      width: 80%;
+      margin: 0 auto; }
+    @media (min-width: 1000px) {
+      .platform-sensors .platform-sensor-text {
+        text-align: center;
+        width: 100%;
+        padding: 34px 24px 24px 64px; }
+        .platform-sensors .platform-sensor-text h1 {
+          margin: 0 auto;
+          margin-bottom: 34px; }
+        .platform-sensors .platform-sensor-text p {
+          width: 60%;
+          margin: 0 auto; } }
 
 .page-template-products_lighting .product-lighting-header {
   background: url("../../assets/Backgrounds/clean-gray-abstract-background.png");

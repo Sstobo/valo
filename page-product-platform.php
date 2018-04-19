@@ -14,8 +14,8 @@ get_header(); ?>
 				<div class="platform-hero">
 					<div class="platform-hero-image"></div>
 					<div class="platform-hero-text">
-						<h1>Smart City Platform</h1>
-						<div class="title-blue-line"></div>
+						<h2>Smart City Platform</h2>
+						<div class="sub-title-blue-line"></div>
 						<p>Valo’s Smart City sensor platform makes it easy for cities to deploy and maintain smart street lighting. It is low
 							cost, modular, and integrated into a single form factor. The sensor platform is plug-and-play compatible on more than
 							500 million streetlights worldwide, and offers light controls, surveillance, environment monitoring, and public WiFi.
@@ -34,35 +34,91 @@ get_header(); ?>
 							street lights and connected devices. The system is a convenient and effective way for cities to manage street lighting
 							and to collect data. The VALO Smart City Manager features include:</p>
 					</div>
-					<div class="platform-manager-image">test test</div>
 				</div>
 
 				<div class="platform-icon-box-wrapper">
-					<div class="platform-icon-box">1</div>
-					<div class="platform-icon-box platform-icon-box-grey">2</div>
-					<div class="platform-icon-box">3</div>
-					<div class="platform-icon-box platform-icon-box-grey">4</div>
-					<div class="platform-icon-box">5</div>
-					<div class="platform-icon-box platform-icon-box-grey">6</div>
+					<div class="platform-icon-box platform-icon-box-grey">
+					<img alt="A green car" class="platform-icon-box-img " src="<?php echo get_template_directory_uri() . '/assets/icons-SVG/traffic-control.png'; ?>"/></a>
+						<h3>Basic Street Lights Control</h3>
+                        <p>On/Off and dimming by groups or zones</p>
+                    </div>
+					<div class="platform-icon-box "><img alt="A green car" class="platform-icon-box-img " src="<?php echo get_template_directory_uri() . '/assets/icons-SVG/energy-consumption.png'; ?>"/></a>
+						<h3>Connection Diagnostics</h3>
+                        <p>Total connected by groups or by zone, and energy consumed</p></div>
+					<div class="platform-icon-box platform-icon-box-grey"><img alt="A green car" class="platform-icon-box-img " src="<?php echo get_template_directory_uri() . '/assets/icons-SVG/intelligent-energy-control.png'; ?>"/></a>
+						<h3>Equipment Diagnostics</h3>
+                        <p>For proactive service and repairs</p></div>
+					<div class="platform-icon-box "><img alt="A green car" class="platform-icon-box-img " src="<?php echo get_template_directory_uri() . '/assets/icons-SVG/on-demand-service.png'; ?>"/></a>
+						<h3>User Interface</h3>
+                        <p>Simple user-friendly interface in multiple languages</p></div>
+					<div class="platform-icon-box platform-icon-box-grey"><img alt="A green car" class="platform-icon-box-img " src="<?php echo get_template_directory_uri() . '/assets/icons-SVG/applications-security-panel.png'; ?>"/></a>
+						<h3>Information Security</h3>
+                        <p>Secured access by tokens</p></div>
+					<div class="platform-icon-box "><img alt="A green car" class="platform-icon-box-img " src="<?php echo get_template_directory_uri() . '/assets/icons-SVG/open-data.png'; ?>"/></a>
+						<h3>Analytics + Insights</h3>
+                        <p>From real-time reports</p></div>
 				</div>
 
-				<div class="platform-manager">
-					<div class="platform-manager-text">
+				<div class="platform-sensors">
+					<div class="platform-sensor-text">
 						<h1>Sensors</h1>
 						<p>VALO offers a variety of sensors for smart city applications, such as traffic and parking monitoring, waste management,
 							air quality and water monitoring, and weather detection. The sensors, listed below, can be used in conjunction with
-							Valo’s Smart City platform.</div>
-					<div class="platform-manager-image">test test</div>
+							Valo’s Smart City platform.
+						</p>
+						</div>
 				</div>
 
-			<div class="platform-event-sensors">
-				<div class="platform-sensors-box"></div>
-				<div class="platform-sensors-box"></div>
-				<div class="platform-sensors-box"></div>
+			<div class="platform-icon-box-wrapper ">
+					<div class="platform-icon-box-sensors platform-icon-box-blue"><img alt="A green car" class="platform-icon-box-img " src="<?php echo get_template_directory_uri() . '/assets/icons-SVG/on-demand-service-white.png'; ?>"/></a>
+						<h2 style="color: white">Smart City Sensor</h2>
+						<p class="sensor-paragraph-header">The smart city sensor is an all in one unit that is uniquely designed for general smart city use. A variety of imbedded sensors make this unit useful for many applications, such as:</p>
+						<p class="sensor-paragraph"><strong>Noise monitoring:</strong> real-time acoustic levels</p>
+						<p class="sensor-paragraph"><strong>Air quality:</strong> NH3, SO2, NO2, CO, O3, dust, etc.</p>
+						<p class="sensor-paragraph"><strong>Weather:</strong> temperature, humidity, pressure</p>	<p class="sensor-paragraph"><strong>Waste management:</strong> garbage bin levels, ultrasound</p>	
+					</div>
+					<div class="platform-icon-box-sensors platform-icon-box-grey"><img alt="A green car" class="platform-icon-box-img " src="<?php echo get_template_directory_uri() . '/assets/icons-SVG/event-sensor-blue.png'; ?>"/></a>
+						<h2 style="color: black">Event Sensor</h2>
+						<p style="color: black"class="sensor-paragraph-header">The event sensing unit contains a variety of useful sensors for monitoring incidents and occurrences. Applications of the event sensor include:</p>
+						<p style="color: black"class="sensor-paragraph"><strong>Security:</strong> vibration, person detection, hall effect</p>
+						<p style="color: black"class="sensor-paragraph"><strong>Emergencies: </strong> presence detection, water levels, temperature</p>
+						<p style="color: black"class="sensor-paragraph"><strong>Logistics:</strong>  vibration and impact</p>
+					</div>
+					<div class="platform-icon-box-sensors"><img alt="A green car" class="platform-icon-box-img " src="<?php echo get_template_directory_uri() . '/assets/icons-SVG/fire-sensor-blue.png'; ?>"/></a>
+						<h2 style="color: black">Gas Sensors</h2>
+						<p style="color: black"class="sensor-paragraph-header">VALO offers several gas sensors depending on the needs or requirements. Gas sensors can be used in monitoring applications such as:</p>
+						<p style="color: black"class="sensor-paragraph"><strong>Pollution:</strong> CO, NO, NO2, O3, SO2</p>
+						<p style="color: black"class="sensor-paragraph"><strong>Air quality: </strong> NH3, SO2, NO2, CO, O3, dust</p>
+						<p style="color: black"class="sensor-paragraph"><strong>Weather:</strong> temperature, humidity, pressure</p>
+						<p style="color: black"class="sensor-paragraph"><strong>Emissions:</strong>  CH4, H2S, NH3</p>
+						<p style="color: black"class="sensor-paragraph"><strong>Fires: </strong>CH4, H2S, NH3</p>
+					</div>
+
+
+
+
+			<div class="platform-sensors-parallax-city">
+			</div>
+			<div class="platform-icon-box-wrapper-final">
+			
+			<div class="platform-icon-box-sensors-final"><img alt="A green car" class="platform-icon-box-img " src="<?php echo get_template_directory_uri() . '/assets/icons-SVG/valo-platform-parking.png'; ?>"/></a>
+						<h2 style="color: black">Parking Sensor</h2>
+						<p style="color: black"class="sensor-paragraph-header">VALO offers several gas sensors depending on the needs or requirements. Gas sensors can be used in monitoring applications such as:</p>
+						</div>
+			
+			
+			
+			<div class="platform-icon-box-sensors-final platform-icon-box-blue"><img alt="A green car" class="platform-icon-box-img " src="<?php echo get_template_directory_uri() . '/assets/icons-SVG/platform-water-sensors.png'; ?>"/></a>
+						<h2 style="color: white">Water Sensors</h2>
+						<p class="sensor-paragraph-header">Valo offers multiple water sensing units for different smart city scenarios involving water or fluids. Common applications of water sensors include:</p>
+						<p class="sensor-paragraph"><strong>Drinking water monitoring: </strong> pH, nitrates, Ca2+, I-, Cl-, NO3-, Mg2+, Na+, etc.</p>
+						<p class="sensor-paragraph"><strong>Pollution:</strong>  temperature, salinity, pH, dissolved oxygen, nitrates</p>
+						<p class="sensor-paragraph"><strong>Waste water treatment: </strong>Cu2+, Ag+, BF4-, Li+, NO2-, CIO4-, Ph</p>	
+					</div>
 				
-			
-			
-			
+			</div>
+
+
 			</div>
 			</div>
 		</main>
