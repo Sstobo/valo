@@ -1847,7 +1847,6 @@ object {
     padding-top: 40px;
     color: #00aeef; }
 
-<<<<<<< HEAD
 .page-template-products_cameras .video-control {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2165,11 +2164,8 @@ object {
       max-width: 75%;
       margin-bottom: 5px; }
 
-.product-lighting-header {
-=======
 .page-template-products_lighting .product-lighting-header {
   background: url("../../assets/Backgrounds/clean-gray-abstract-background.png");
->>>>>>> 25304d28e14e0abb05ef885100ef6a8875c8f0a9
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2231,13 +2227,33 @@ object {
         height: 500px;
         width: 100%; } }
 
+.page-template-products_lighting .products-streetlight-controller-heading {
+  background: url("../../assets/Backgrounds/clean-gray-abstract-background.png") bottom left no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  padding: 50px 10% 0;
+  min-height: 184px; }
+  .page-template-products_lighting .products-streetlight-controller-heading h2 {
+    width: 60%;
+    margin: 0 auto 30px;
+    text-align: center;
+    font-weight: 700;
+    color: #000;
+    font-size: 40px;
+    line-height: 48px; }
+  .page-template-products_lighting .products-streetlight-controller-heading p {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 15px;
+    width: 50%;
+    padding-bottom: 40px; }
+
 .page-template-products_lighting .products-streetlight-controller-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex; }
   @media all and (min-width: 1000px) {
     .page-template-products_lighting .products-streetlight-controller-wrapper {
-      margin-top: 50px;
       height: 750px;
       -webkit-box-align: center;
           -ms-flex-align: center;
@@ -2378,7 +2394,7 @@ object {
   background-size: 100% 100%; }
 
 .page-template-products_lighting .products-configuration-wrapper {
-  background: url("http://localhost:8888/Valo/wp-content/themes/valo/assets/Backgrounds/clean-gray-abstract-background.png") bottom left no-repeat;
+  background: url("../../assets/Backgrounds/clean-gray-abstract-background.png") bottom left no-repeat;
   background-size: 100% 100%;
   background-attachment: fixed;
   padding: 50px 10% 0; }
@@ -5776,13 +5792,33 @@ h2 {
         height: 500px;
         width: 100%; } }
 
+.page-template-products_lighting .products-streetlight-controller-heading {
+  background: url("../../assets/Backgrounds/clean-gray-abstract-background.png") bottom left no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  padding: 50px 10% 0;
+  min-height: 184px; }
+  .page-template-products_lighting .products-streetlight-controller-heading h2 {
+    width: 60%;
+    margin: 0 auto 30px;
+    text-align: center;
+    font-weight: 700;
+    color: #000;
+    font-size: 40px;
+    line-height: 48px; }
+  .page-template-products_lighting .products-streetlight-controller-heading p {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 15px;
+    width: 50%;
+    padding-bottom: 40px; }
+
 .page-template-products_lighting .products-streetlight-controller-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex; }
   @media all and (min-width: 1000px) {
     .page-template-products_lighting .products-streetlight-controller-wrapper {
-      margin-top: 50px;
       height: 750px;
       -webkit-box-align: center;
           -ms-flex-align: center;
@@ -5923,7 +5959,7 @@ h2 {
   background-size: 100% 100%; }
 
 .page-template-products_lighting .products-configuration-wrapper {
-  background: url("http://localhost:8888/Valo/wp-content/themes/valo/assets/Backgrounds/clean-gray-abstract-background.png") bottom left no-repeat;
+  background: url("../../assets/Backgrounds/clean-gray-abstract-background.png") bottom left no-repeat;
   background-size: 100% 100%;
   background-attachment: fixed;
   padding: 50px 10% 0; }

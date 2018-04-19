@@ -48,10 +48,34 @@
       }
     }
   }
+  .products-streetlight-controller-heading {
+    background: url('../../assets/Backgrounds/clean-gray-abstract-background.png')
+      bottom left no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    padding: 50px 10% 0;
+    min-height: 184px;
+    h2 {
+      width: 60%;
+      margin: 0 auto 30px;
+      text-align: center;
+      font-weight: 700;
+      color: #000;
+      font-size: 40px;
+      line-height: 48px;
+    }
+    p {
+      margin: 0 auto;
+      text-align: center;
+      font-size: 15px;
+      width: 50%;
+      padding-bottom: 40px;
+    }
+  }
   .products-streetlight-controller-wrapper {
     display: flex;
     @include desktop {
-      margin-top: 50px;
+      // margin-top: 50px;
       height: 750px;
       align-items: center;
     }
@@ -179,7 +203,7 @@
     background-size: 100% 100%;
   }
   .products-configuration-wrapper {
-    background: url('http://localhost:8888/Valo/wp-content/themes/valo/assets/Backgrounds/clean-gray-abstract-background.png')
+    background: url('../../assets/Backgrounds/clean-gray-abstract-background.png')
       bottom left no-repeat;
     background-size: 100% 100%;
     background-attachment: fixed;

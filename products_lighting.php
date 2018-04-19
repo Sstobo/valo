@@ -96,11 +96,11 @@ get_header(); ?>
 						</div>
 					</div>
 				</section>
-
+       <div class="products-streetlight-controller-heading">
 				<h2>Street Light Controller + Hub</h2>
 				<p>VALO’s street light controller enables LED street lights to become an intelligent network which connects to sensors,
 					remote devices, and cell phones. The controller provides centralized controls, and can be remotely upgraded and programmed.</p>
-
+			</div>
 				<section class="products-streetlight-controller-wrapper">
 					<div class="products-streetlight-controller-image">
 					</div>
