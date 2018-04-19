@@ -112,14 +112,14 @@ get_header(); ?>
 					<section class="products-streetlight-controllers">
 
 						<div class="products-streetlight-controller-para">
-							<h3>The VALO street light controller offers many advantages for cities and municipalities, such as:</h3>
+							<h3><span style="color: #00aeef; font-size: 12px; margin: 3px;">◢ </span> The VALO street light controller offers many advantages for cities and municipalities, such as:</h3>
 						</div>
 
 						<div class="products-streetlight-controller-links">
 							<div class="light-products-streetlight-controller">
 								<div class="title no-border">
 									<p>LIGHT CONTROL</p>
-									<div class="service-icon-container up ">
+									<div class="service-icon-container up">
 										<i class="fa fa-chevron-up " aria-hidden="true"></i>
 									</div>
 

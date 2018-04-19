@@ -74,11 +74,13 @@
       }
 
       .products-streetlight-controller-para {
-        max-width: 70%;
+        max-width: 74%;
         align-self: center;
+        display: inline;
         h3 {
           margin-top: 0;
           font-size: 24px;
+          color: #000;
         }
         @include desktop {
           margin-top: 0;
@@ -103,7 +105,6 @@
           align-content: center;
           z-index: 1000;
           border-top: 1px solid $color__background-screen;
-
           p {
             font-size: 18px;
             color: #000;

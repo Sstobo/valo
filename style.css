@@ -1910,12 +1910,14 @@ object {
         -ms-flex-preferred-size: 50%;
             flex-basis: 50%; } }
     .page-template-products_lighting .products-streetlight-controller-wrapper .products-streetlight-controllers .products-streetlight-controller-para {
-      max-width: 70%;
+      max-width: 74%;
       -ms-flex-item-align: center;
-          align-self: center; }
+          align-self: center;
+      display: inline; }
       .page-template-products_lighting .products-streetlight-controller-wrapper .products-streetlight-controllers .products-streetlight-controller-para h3 {
         margin-top: 0;
-        font-size: 24px; }
+        font-size: 24px;
+        color: #000; }
       @media all and (min-width: 1000px) {
         .page-template-products_lighting .products-streetlight-controller-wrapper .products-streetlight-controllers .products-streetlight-controller-para {
           margin-top: 0; } }
@@ -5438,12 +5440,14 @@ h2 {
         -ms-flex-preferred-size: 50%;
             flex-basis: 50%; } }
     .page-template-products_lighting .products-streetlight-controller-wrapper .products-streetlight-controllers .products-streetlight-controller-para {
-      max-width: 70%;
+      max-width: 74%;
       -ms-flex-item-align: center;
-          align-self: center; }
+          align-self: center;
+      display: inline; }
       .page-template-products_lighting .products-streetlight-controller-wrapper .products-streetlight-controllers .products-streetlight-controller-para h3 {
         margin-top: 0;
-        font-size: 24px; }
+        font-size: 24px;
+        color: #000; }
       @media all and (min-width: 1000px) {
         .page-template-products_lighting .products-streetlight-controller-wrapper .products-streetlight-controllers .products-streetlight-controller-para {
           margin-top: 0; } }
