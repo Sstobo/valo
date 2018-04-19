@@ -70,15 +70,15 @@ get_header(); ?>
 					</div>
 					<div class="product-lighting-paralax city-image"></div>
 				</section>
-
-				<h2>Street Light Controller + Hub</h2>
-				<p>VALO’s street light controller enables LED street lights to become an intelligent network which connects to sensors,
-					remote devices, and cell phones. The controller provides centralized controls, and can be remotely upgraded and programmed.</p>
-
+				<section class="product-lighting-paralax controller">
+					<div class="product-header-text-container">
+						<h2>Street Light Controller + Hub</h2>
+						<p>VALO’s street light controller enables LED street lights to become an intelligent network which connects to sensors, remote devices, and cell phones. The controller provides centralized controls, and can be remotely upgraded and programmed.</p>
+					</div>
+				</section>
+			</div>
 				<section class="products-streetlight-controller-wrapper">
 					<div class="products-streetlight-controller-image">
-						<img class="products-streetlight-controller-icon" srcset="<?php echo get_template_directory_uri() . '/assets/images/purpose-image.jpg'?>"
-						/>
 					</div>
 
 					<section class="products-streetlight-controllers">

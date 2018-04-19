@@ -1,5 +1,6 @@
 .page-template-products_lighting {
-  .product-lighting-header {
+  .product-lighting-header,
+  .controller {
     background: url('../../assets/Backgrounds/clean-gray-abstract-background.png');
     display: flex;
     min-height: 300px;
@@ -52,10 +53,38 @@
       width: 100%;
     }
   }
+  .controller {
+    align-items: center;
+    justify-content: center;
+  }
+  .products-streetlight-controller-heading {
+    background: url('../../assets/Backgrounds/clean-gray-abstract-background.png')
+      bottom left no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    padding: 50px 10% 0;
+    min-height: 184px;
+    h2 {
+      width: 60%;
+      margin: 0 auto 30px;
+      text-align: center;
+      font-weight: 700;
+      color: #000;
+      font-size: 40px;
+      line-height: 48px;
+    }
+    p {
+      margin: 0 auto;
+      text-align: center;
+      font-size: 15px;
+      width: 50%;
+      padding-bottom: 40px;
+    }
+  }
   .products-streetlight-controller-wrapper {
     display: flex;
     @include desktop {
-      margin-top: 50px;
+      // margin-top: 50px;
       height: 750px;
       align-items: center;
     }
@@ -66,7 +95,10 @@
         display: flex;
         width: 50%;
         height: 600px;
-        background: gray;
+        background-image: url('../../assets/images/street-lights.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
       }
     }
     .products-streetlight-controllers {
@@ -105,7 +137,6 @@
       .products-streetlight-controller-links {
         margin-left: 15%;
         margin-right: 15%;
-
         .title {
           display: flex;
           justify-content: space-between;
@@ -127,7 +158,6 @@
             height: 15px;
             text-align: center;
             background: #e6e6e6;
-
             i {
               font-size: 10px;
             }
@@ -136,7 +166,6 @@
         .title:hover {
           cursor: pointer;
           color: $color__accent;
-
           p {
             color: $color__accent;
           }
@@ -183,7 +212,7 @@
     background-size: 100% 100%;
   }
   .products-configuration-wrapper {
-    background: url('http://localhost:8888/Valo/wp-content/themes/valo/assets/Backgrounds/clean-gray-abstract-background.png')
+    background: url('../../assets/Backgrounds/clean-gray-abstract-background.png')
       bottom left no-repeat;
     background-size: 100% 100%;
     background-attachment: fixed;
