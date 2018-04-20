@@ -14,33 +14,33 @@ get_header(); ?>
                 <div class="products-hero">
                     <div class="products-hero-wrapper">
                     <h1> Products </h1>
-                    <p1> VALO offers various devices and technologies for smart city applications. The company’s line of products
+                    <p> VALO offers various devices and technologies for smart city applications. The company’s line of products
                         provide immediate savings for cities worldwide. VALO offers numerous combinations and configurations
-                        of products to meet the unique needs of each city.</p1>
+                        of products to meet the unique needs of each city.</p>
                     </div>
-                    <div class="products-hero-img">test</div>
+                    <div class="products-hero-img"></div>
                 </div>
                 <div class="products-service-wrapper">
                     <div class="products-lighting">
                     <img alt="Traffic control" class="products-img" src="<?php echo get_template_directory_uri() . '/assets/icons-SVG/traffic-control.png'; ?>"/></a>
                         <h2>Smart City LED Lighting</h2>
-                        <a href="#" class="button-main button-hero">Learn more</a>
+                        <a href="<?php echo esc_url( home_url( '/product/products_lighting/' ) ); ?>" class="button-main button-hero">Learn more</a>
                     </div>
                     <div class="products-platform">
                     <img alt="Smart buildings" class="products-img" src="<?php echo get_template_directory_uri() . '/assets/icons-SVG/smart-buildings.png'; ?>"/></a>
                         <h2>Smart City Platform</h2>
-                        <a href="<?php echo esc_url( home_url( '/product-platform/' ) ); ?>" class="button-main button-hero">Learn more</a>
+                        <a href="<?php echo esc_url( home_url( '/product/products_city_platform/' ) ); ?>" class="button-main button-hero">Learn more</a>
                     </div>
                     <div class="products-cameras">
                     <img alt="Digital camera" class="products-img" src="<?php echo get_template_directory_uri() . '/assets/icons-SVG/digital-camera.png'; ?>"/></a>
                         <h2>Smart Cameras + Software</h2>
-                        <a href="#" class="button-main button-hero">Learn more</a>
+                        <a href="<?php echo esc_url( home_url( '/product/products_cameras_software/' ) ); ?>" class="button-main button-hero">Learn more</a>
                     </div>
                     <div class="products-networks">
                     <img alt="Communication icon" class="products-img" src="<?php echo get_template_directory_uri() . '/assets/icons-SVG/communication.png'; ?>"/></a>
                         <h2>Smart City Networks
                         </h2>
-                        <a href="#" class="button-main button-hero">Learn more</a>
+                        <a href="<?php echo esc_url( home_url( '/products/products_networks/' ) ); ?>" class="button-main button-hero">Learn more</a>
                     </div>
                 </div>
             </div>

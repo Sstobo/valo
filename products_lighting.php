@@ -20,7 +20,7 @@ get_header(); ?>
 				<section class="product-lighting-flex-container">
 					<div class="product-lighting">
 						<div class="product-lighting-content">
-							<div class="product-icon">00</div>
+							<div class="product-icon white-icon"><i class="fa fa-lightbulb-o"></i></div>
 							<h3>LED Lighting</h3>
 							<p>can be applied to streets, roads, highways, bridges, and parking garages. LED street lights have a wide range of benefits
 								since they are highly effective, long lasting, and durable. The main advantages of LED street lights include:</p>
@@ -60,7 +60,7 @@ get_header(); ?>
 						</div>
 					</div>
 					<div class="product-lighting">
-						<div class="product-icon">05</div>
+						<div class="product-icon white-icon">05</div>
 						<div class="product-lighting-content">
 							
 							<h3>Crime Reduction</h3>
