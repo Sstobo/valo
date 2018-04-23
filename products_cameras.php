@@ -37,7 +37,7 @@ get_header(); ?>
 						<!-- products-two-main-cameras-left-container -->
 
 						<div class="products-two-main-cameras-center-container">
-							<img class="animation-icon" srcset="<?php echo get_template_directory_uri() . '/assets/images/valo-security-camera.png'?>" />
+							<img alt="A security camera" class="animation-icon" srcset="<?php echo get_template_directory_uri() . '/assets/images/valo-security-camera.png'?>" />
 						</div>
 						<div class="products-two-main-cameras-right-container">
 							<div class="products-two-main-cameras-right-top">
@@ -70,34 +70,34 @@ get_header(); ?>
 					</div>
 
 					<div class="event">
-						<img alt="Power button" src="<?php echo get_template_directory_uri() . '/assets/camera-software/cctv.png'?>" />
+						<img alt="Video Camera" src="<?php echo get_template_directory_uri() . '/assets/camera-software/cctv.png'?>" />
 						<h3>Event + Action Management</h3>
 						<p>Automated video surveillance process with an alarm and action manger</p>
 
 					</div>
 
 					<div class="core">
-						<img alt="Power button" src="<?php echo get_template_directory_uri() . '/assets/camera-software/processing-power.png'?>" />
+						<img alt="64 bit core" src="<?php echo get_template_directory_uri() . '/assets/camera-software/processing-power.png'?>" />
 						<h3>64-Bit Core</h3>
 						<p>Use the full power of system hardware</p>
 					</div>
 
 					<div class="failover">
-						<img alt="Power button" src="<?php echo get_template_directory_uri() . '/assets/camera-software/cpu.png'?>" />
+						<img alt="Mobile Phone" src="<?php echo get_template_directory_uri() . '/assets/camera-software/cpu.png'?>" />
 						<h3>Failover</h3>
 						<p>Continuous monitoring of server status and failover management from the central server</p>
 
 					</div>
 
 					<div class="ready">
-						<img alt="Power button" src="<?php echo get_template_directory_uri() . '/assets/camera-software/digital-camera.png'?>" />
+						<img alt="Digital Camera" src="<?php echo get_template_directory_uri() . '/assets/camera-software/digital-camera.png'?>" />
 						<h3>4k Ready</h3>
 						<p>4K ready VMS application with 4K recording and playback</p>
 
 					</div>
 
 					<div class="archive">
-						<img alt="Power button" src="<?php echo get_template_directory_uri() . '/assets/camera-software/public-safety.png'?>" />
+						<img alt="Government building" src="<?php echo get_template_directory_uri() . '/assets/camera-software/public-safety.png'?>" />
 						<h3>Archive Replication</h3>
 						<p>Advanced mirror recording with scheduled transfers to ensure safety of data at all times</p>
 
@@ -105,7 +105,7 @@ get_header(); ?>
 
 
 					<div class="powerful">
-						<img alt="Power button" src="<?php echo get_template_directory_uri() . '/assets/camera-software/open-data.png'?>" />
+						<img alt="A Graph" src="<?php echo get_template_directory_uri() . '/assets/camera-software/open-data.png'?>" />
 						<h3>Powerful Analytics</h3>
 						<p>Modules for advanced video analytics and face recognition</p>
 
@@ -113,7 +113,7 @@ get_header(); ?>
 					</div>
 
 					<div class="integration">
-						<img alt="Power button" src="<?php echo get_template_directory_uri() . '/assets/camera-software/automation.png'?>" />
+						<img alt="Gears" src="<?php echo get_template_directory_uri() . '/assets/camera-software/automation.png'?>" />
 						<h3>Integration + API</h3>
 						<p>Combine video surveillance with third party software with integration possibilities</p>
 					</div>
