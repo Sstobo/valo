@@ -39,7 +39,7 @@ get_header(); ?>
 						<div class="integrator-item">
 							<img alt="Products" class="integrator-icon" srcset="<?php echo get_template_directory_uri() . '/assets/icons-SVG/valo-products-01.png'?>"
 							/>
-							<h3>Smart Technology for Smart Cities</h3>
+							<h3>Smart Technology <BR> for Smart Cities</h3>
 							<a href="<?php echo esc_url(home_url('/products/')); ?>">
 								<button class="button-main button-with-shadow">Products</button>
 							</a>
@@ -47,7 +47,7 @@ get_header(); ?>
 						<div class="integrator-item">
 							<img alt="Services icon" class="integrator-icon" srcset="<?php echo get_template_directory_uri() . '/assets/icons-SVG/valo-services-01.png'?>"
 							/>
-							<h3>Opportunities for Cities & Their Citizens</h3>
+							<h3>Opportunities for Cities <BR> & Their Citizens</h3>
 							<a href="<?php echo esc_url(home_url('/services/')); ?>">
 								<button class="button-main button-with-shadow">Services</button>
 							</a>
@@ -55,7 +55,7 @@ get_header(); ?>
 						<div class="integrator-item">
 							<img alt="Applications icon" class="integrator-icon" srcset="<?php echo get_template_directory_uri() . '/assets/icons-SVG/valo-applications-01.png'?>"
 							/>
-							<h3>Making Communities & Cities better</h3>
+							<h3>Making Communities <BR> & Cities Better</h3>
 							<a href="<?php echo esc_url(home_url('/applications/')); ?>">
 								<button class="button-main button-with-shadow">Applications</button>
 							</a>
@@ -72,9 +72,8 @@ get_header(); ?>
 					</div>
 					<div class="iot-para-container">
 						<h3>Internet of Things (IoT) Technology is one of the Fastest Growing Sectors.</h3>
-						<p>Curabitur venenatis finibus ante et laoreet. Proin commodo, urna sed rhoncus bibendum, nibh metus blandit nibh, eget
-							elementum enim magna eu velit. Aliquam purus sem, faucibus vestibulum risus. Maecenas gravida lacus nec dolor suscipit
-							faucibus.
+						<p>
+							VALO Smart City Integrators are positioned to provide the technology, flexibility and economic savings to support sustainability for small and large installations in cities, municipalities and in rural areas. According to IoT Analytics, smart city projects rank second in the list of IoT segments with existing world-wide IoT projects with the market projected to grow to $757.74 Billion by 2020.
 						</p>
 						<button class="button-main button-with-shadow">
 							<span class="uppercase">download our corporate presentation</span>

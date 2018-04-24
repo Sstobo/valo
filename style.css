@@ -1175,6 +1175,8 @@ object {
   margin-bottom: 20px; }
 
 .press-releases-container {
+  width: 80%;
+  margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1182,11 +1184,11 @@ object {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  min-height: 30vh;
+  min-height: 400px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center; }
-  @media all and (min-width: 600px) {
+  @media all and (min-width: 800px) {
     .press-releases-container {
       -webkit-box-orient: horizontal;
       -webkit-box-direction: normal;
@@ -1211,17 +1213,20 @@ object {
       -ms-flex-align: center;
           align-items: center;
   height: 35vh;
+  max-height: 250px;
   width: 80vw;
   background-color: #00aeef;
   margin: 2vh;
   padding: 2vh; }
-  @media all and (min-width: 600px) {
+  @media all and (min-width: 800px) {
     .press-release {
+      min-height: 150px;
       height: 28vh;
       width: 28vw; } }
   .press-release h3 {
     font-family: sans-serif;
     font-weight: 400;
+    font-size: 22px;
     color: #ffffff;
     text-align: center;
     margin: 0;
@@ -1262,6 +1267,7 @@ object {
           transform: scale(1); }
 
 .banner {
+  min-height: 300px;
   height: 50vh;
   width: 100%;
   background: black;
@@ -1322,7 +1328,7 @@ object {
       -ms-flex-align: center;
           align-items: center;
   margin: 5%; }
-  @media all and (min-width: 800px) {
+  @media all and (min-width: 1000px) {
     .iot-container {
       -webkit-box-orient: horizontal;
       -webkit-box-direction: normal;
@@ -1336,10 +1342,9 @@ object {
     text-align: center; }
     @media all and (min-width: 800px) {
       .iot-container .iot-para-container {
-        margin-left: 5%;
         text-align: left;
         width: 50vw;
-        margin-top: 7%; } }
+        margin-top: 5%; } }
     .iot-container .iot-para-container h3 {
       color: black;
       font-size: 24px; }
