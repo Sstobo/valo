@@ -1,5 +1,4 @@
 .icon {
-  // display: inline-block;
   min-width: 42px;
   min-height: 42px;
   max-height: 42px;
@@ -9,6 +8,12 @@
   stroke-width: 0;
   stroke: currentColor;
   fill: $color__accent;
+}
+
+.product-network-wifi {
+  @include desktop {
+    margin-top: -40px;
+  }
 }
 
 .product-network-container {
@@ -26,6 +31,7 @@
   display: none;
   @include desktop {
     background-position: center;
+    background-size: contain;
     display: block;
     flex-basis: 50%;
     width: 50%;

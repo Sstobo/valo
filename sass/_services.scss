@@ -1,4 +1,5 @@
-.page-template-page-services {
+.page-id-22 {
+  // .page-template-page-services {
   .content-area-services {
     .entry-title {
       display: none;
@@ -56,7 +57,11 @@
           max-height: 500px;
           min-width: 400px;
           min-height: 400px;
-          background: gray;
+
+          img {
+            height: 100%;
+            width: 100%;
+          }
         }
       }
     }
@@ -100,9 +105,12 @@
           display: flex;
           width: 400px;
           height: 400px;
-          background: gray;
-          margin-left: 4%;
-          min-width: 400px;
+          background: url('../../assets/images/services-add.jpg');
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: 0 -30px;
+          // margin-left: 4%;
+          min-width: 600px;
           min-height: 400px;
           max-width: 500px;
           max-height: 500px;
@@ -323,7 +331,7 @@
         font-size: 30px;
       }
       @include desktop {
-        font-size: 40px;
+        font-size: 34px;
       }
     }
 
@@ -338,14 +346,10 @@
     #services-para {
       display: block;
 
-      font-style: italic;
       font-family: $font__main;
       max-width: 75%;
       text-align: center;
       font-size: 16px;
-      @include footer_row {
-        font-size: 20px;
-      }
     }
     #form-title {
       display: none;
