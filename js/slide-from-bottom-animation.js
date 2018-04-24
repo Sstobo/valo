@@ -1,4 +1,5 @@
 (function($) {
+  console.log('hi');
   //Cache reference to window and animation items for performance
   var $animation_elements = $('.animation-icon');
   var $window = $(window);

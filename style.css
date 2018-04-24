@@ -1729,146 +1729,124 @@ object {
     text-align: center;
     max-width: 60%; }
 
-.page-template-products_cameras .products-two-main-cameras-wrapper {
-  background-color: #fff;
-  padding: 50px 10% 0; }
-  .page-template-products_cameras .products-two-main-cameras-wrapper h3 {
-    text-align: center;
-    font-weight: 700;
-    color: #000;
-    font-size: 30px; }
-
-.page-template-products_cameras .products-two-main-cameras-container {
+.page-template-products_cameras .camera-animate {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
-          flex-direction: column; }
-  @media all and (min-width: 785px) {
-    .page-template-products_cameras .products-two-main-cameras-container {
-      -webkit-box-orient: horizontal;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .page-template-products_cameras .camera-animate h2 {
+    margin-bottom: 35px;
+    max-width: 50%;
+    text-align: center; }
+  .page-template-products_cameras .camera-animate h2:after {
+    content: '';
+    border-bottom: 2px solid #00aeef;
+    width: 50px;
+    display: block;
+    margin: 0 auto;
+    padding-top: 20px; }
+  .page-template-products_cameras .camera-animate .camera-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    @media all and (min-width: 800px) {
+      .page-template-products_cameras .camera-animate .camera-container {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row; } }
+    .page-template-products_cameras .camera-animate .camera-container .camera-image {
+      margin-right: 3%; }
+      .page-template-products_cameras .camera-animate .camera-container .camera-image .animation-icon {
+        max-width: 300px; }
+        @media all and (min-width: 600px) {
+          .page-template-products_cameras .camera-animate .camera-container .camera-image .animation-icon {
+            max-width: 450px; } }
+        @media all and (min-width: 800px) {
+          .page-template-products_cameras .camera-animate .camera-container .camera-image .animation-icon {
+            max-width: 600px;
+            margin-top: 400px; } }
+      .page-template-products_cameras .camera-animate .camera-container .camera-image .animation-in-view {
+        margin-top: 25px;
+        height: auto;
+        -webkit-transition-duration: 0.5s;
+                transition-duration: 0.5s; }
+    .page-template-products_cameras .camera-animate .camera-container .camera-text {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
       -webkit-box-direction: normal;
-          -ms-flex-direction: row;
-              flex-direction: row;
-      -ms-flex-pack: distribute;
-          justify-content: space-around;
-      margin-top: 40px; } }
-
-.page-template-products_cameras .products-two-main-cameras-left-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin-right: 30px; }
-  @media all and (min-width: 785px) {
-    .page-template-products_cameras .products-two-main-cameras-left-container {
-      -webkit-box-pack: space-evenly;
-          -ms-flex-pack: space-evenly;
-              justify-content: space-evenly; } }
-
-.page-template-products_cameras .products-two-main-cameras-left-top {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin-top: 20px; }
-  .page-template-products_cameras .products-two-main-cameras-left-top span {
-    font-weight: 700;
-    font-family: sans-serif, sans-serif;
-    font-size: 16px;
-    color: #000; }
-  .page-template-products_cameras .products-two-main-cameras-left-top p {
-    width: 60%;
-    font-size: 13px; }
-  @media all and (min-width: 785px) {
-    .page-template-products_cameras .products-two-main-cameras-left-top {
-      -webkit-box-pack: start;
-          -ms-flex-pack: start;
-              justify-content: flex-start;
-      margin-top: 0px; }
-      .page-template-products_cameras .products-two-main-cameras-left-top p {
-        width: 129px; } }
-  .page-template-products_cameras .products-two-main-cameras-left-top .products-two-main-cameras-icon {
-    padding-left: 20%;
-    padding-top: 40px;
-    color: #00aeef; }
-
-.page-template-products_cameras .products-two-main-cameras-center-container {
-  padding: 0;
-  margin: 0 auto;
-  margin-bottom: -7px; }
-
-.page-template-products_cameras .animation-icon {
-  width: 275px;
-  height: 453px;
-  margin-top: 0; }
-  @media all and (min-width: 785px) {
-    .page-template-products_cameras .animation-icon {
-      height: 0px;
-      margin-top: 453px; } }
-
-.page-template-products_cameras .animation-in-view {
-  margin-top: 25px;
-  height: 200px;
-  -webkit-transition-duration: 0.5s;
-          transition-duration: 0.5s; }
-
-.page-template-products_cameras .products-two-main-cameras-right-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  margin-left: 30px; }
-
-.page-template-products_cameras .products-two-main-cameras-right-top {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin-top: 20px; }
-  .page-template-products_cameras .products-two-main-cameras-right-top span {
-    font-weight: 700;
-    font-family: sans-serif, sans-serif;
-    font-size: 16px;
-    color: #000; }
-  .page-template-products_cameras .products-two-main-cameras-right-top p {
-    width: 60%;
-    font-size: 13px; }
-  @media all and (min-width: 785px) {
-    .page-template-products_cameras .products-two-main-cameras-right-top {
-      -webkit-box-pack: end;
-          -ms-flex-pack: end;
-              justify-content: flex-end;
-      margin-top: 0px; }
-      .page-template-products_cameras .products-two-main-cameras-right-top p {
-        width: 129px; } }
-  .page-template-products_cameras .products-two-main-cameras-right-top .products-two-main-cameras-icon {
-    padding-right: 20%;
-    padding-top: 40px;
-    color: #00aeef; }
+          -ms-flex-direction: column;
+              flex-direction: column;
+      margin-bottom: 30px;
+      margin-top: 30px; }
+      @media all and (min-width: 800px) {
+        .page-template-products_cameras .camera-animate .camera-container .camera-text {
+          margin-right: 7%; } }
+      .page-template-products_cameras .camera-animate .camera-container .camera-text .camera-text-container {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        min-width: 300px; }
+        @media all and (min-width: 600px) {
+          .page-template-products_cameras .camera-animate .camera-container .camera-text .camera-text-container {
+            min-width: 200px; } }
+        @media all and (min-width: 1000px) {
+          .page-template-products_cameras .camera-animate .camera-container .camera-text .camera-text-container {
+            min-width: 300px; } }
+        .page-template-products_cameras .camera-animate .camera-container .camera-text .camera-text-container .text-container {
+          margin-left: 5%;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+              -ms-flex-direction: column;
+                  flex-direction: column;
+          -ms-flex-line-pack: start;
+              align-content: flex-start;
+          -webkit-box-pack: center;
+              -ms-flex-pack: center;
+                  justify-content: center; }
+          .page-template-products_cameras .camera-animate .camera-container .camera-text .camera-text-container .text-container h3 {
+            color: black;
+            font-size: 16px;
+            margin: 0; }
+          .page-template-products_cameras .camera-animate .camera-container .camera-text .camera-text-container .text-container .specs-list {
+            margin: 0;
+            padding-left: 22px; }
+            @media all and (min-width: 800px) {
+              .page-template-products_cameras .camera-animate .camera-container .camera-text .camera-text-container .text-container .specs-list {
+                max-width: 150px; } }
+            @media all and (min-width: 1000px) {
+              .page-template-products_cameras .camera-animate .camera-container .camera-text .camera-text-container .text-container .specs-list {
+                max-width: 300px; } }
+            .page-template-products_cameras .camera-animate .camera-container .camera-text .camera-text-container .text-container .specs-list li {
+              font-size: 13px; }
+        .page-template-products_cameras .camera-animate .camera-container .camera-text .camera-text-container i {
+          margin-top: 25px;
+          color: #00aeef; }
 
 .page-template-products_cameras .video-control {
   display: -webkit-box;
