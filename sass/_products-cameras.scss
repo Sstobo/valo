@@ -252,6 +252,7 @@
       }
     }
     .facial-text {
+      padding: 140px 0;
       border-top: 1px solid black;
       display: flex;
       flex-direction: column;
@@ -267,11 +268,19 @@
 
       h2 {
         margin-top: 0;
+        @include desktop {
+          font-size: 34px;
+        }
+      }
+
+      p:first-of-type {
+        margin-bottom: 8px;
       }
 
       p {
         max-width: 75%;
-        margin-bottom: 5px;
+        // margin-bottom: 5px;
+        margin: 0;
       }
     }
   }

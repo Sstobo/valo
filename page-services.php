@@ -19,7 +19,9 @@ get_header(); ?>
          
 
         </section> <!-- close services header -->
-        <div class="service-image"></div>
+        <div class="service-image">
+            <img  src="<?php echo get_template_directory_uri() . '/assets/icons-SVG/services.svg'?>"/>
+        </div>
       </section> <!-- service wrapper-->
 
         <section class="wifi">
