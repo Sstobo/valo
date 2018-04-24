@@ -26,7 +26,7 @@ get_header(); ?>
 
         <section class="wifi">
           <div class="wifi-image">
-              <img alt="Wifi logo" src="<?php echo get_template_directory_uri() . '/assets/icons-SVG/servicewifi.png'?>" id="wifi-image"/>
+              <img alt="Wifi logo" src="<?php echo get_template_directory_uri() . '/assets/icons-SVG/free-public-wifi.svg'?>" id="wifi-image"/>
           </div>
 
           <h2>Free Public Wifi</h2>
@@ -103,7 +103,7 @@ get_header(); ?>
         <section class="partner">
           <div class="partner-header-section">
             <div class="partner-image">
-              <img alt="Service icon" src="<?php echo get_template_directory_uri() . '/assets/icons-SVG/servicebulb.png'?>" id="bulb-image"/>
+              <img alt="Service icon" src="<?php echo get_template_directory_uri() . '/assets/icons-SVG/public_private-partnerships.svg'?>" id="bulb-image"/>
             </div>
             <h2> Public Private Partnerships</h2>
             <p><span class="uppercase">Valo</span> offers an optional Public Private Partnership with cities and municipalities. This partnership saves money for the city, and potential revenue is shared between the partners. By leveraging profits and costs, the Public Private Partnership has several advantages:</p>
@@ -111,20 +111,20 @@ get_header(); ?>
 
           <div class="partner-image-section">
             <div class="network">
-              <img alt="Street light" src="<?php echo get_template_directory_uri() . '/assets/icons-SVG/street-light-icon-1.png'?>" id="street-light-image"/>
+              <img alt="Street light" src="<?php echo get_template_directory_uri() . '/assets/icons-SVG/network-platform-01.svg'?>" id="street-light-image"/>
               <h3>Network Platform</h3>
               <p><span class="uppercase">Valo</span>  provides energy efficient LED street lights and a network platform for city data collection.</p>
 
             </div> <!-- network -->
 
             <div class="cost">
-              <img alt="Cost icon" src="<?php echo get_template_directory_uri() . '/assets/icons-SVG/cost-coverage.png'?>" id="cost-image"/>
+              <img alt="Cost icon" src="<?php echo get_template_directory_uri() . '/assets/icons-SVG/cost-coverage-01.svg'?>" id="cost-image"/>
               <h3>Cost Coverage</h3>
               <p><span class="uppercase">Valo</span>  covers all costs for hardware, installation, maintenance and warranty.</p>
             </div> <!-- cost -->
 
             <div class="city">
-              <img alt="City image" src="<?php echo get_template_directory_uri() . '/assets/icons-SVG/partnership.png'?>" id="city-image"/>
+              <img alt="City image" src="<?php echo get_template_directory_uri() . '/assets/icons-SVG/city-partnership.svg'?>" id="city-image"/>
               <h3> City Partnership</h3>
               <p>Savings are shared equally between the city and <span class="uppercase">Valo</span> . New revenue streams, such as advertising revenue from public WiFi, are shared with the city (20%) and <span class="uppercase">Valo</span>  (50%).</p>
             </div> <!-- close city-->
