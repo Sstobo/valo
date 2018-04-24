@@ -13,7 +13,7 @@
     $.each($animation_elements, function() {
       var $element = $(this);
       var element_height = $element.outerHeight();
-      var element_top_position = $element.offset().top;
+      var element_top_position = $element.offset().top - 400;
       var element_bottom_position = element_top_position + element_height;
       if (
         element_bottom_position >= window_top_position &&

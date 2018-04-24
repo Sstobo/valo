@@ -20,6 +20,7 @@
 
 .news-categories {
   display: flex;
+  flex-direction: row-reverse;
   justify-content: space-around;
   flex-wrap: wrap;
   width: 90%;
