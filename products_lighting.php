@@ -171,45 +171,38 @@ get_header(); ?>
 				<!--close products-streetlight-controllers-->
 
 				<section class="products-configuration-wrapper">
-					<h3>Controller Configurations</h3>
-					<div class="sub-title-blue-line">
-					</div>
+					<h3 class="header-section underline">Controller Configurations</h3>
 					<p class="products-configuration-blurb">VALO’s optional light controller hub provides hard-wire connectivity on each street light via four ports. The patented
 						controller allows external sensors and devices to be easily installed into the network, and is ideal for devices with
 						Power over Ethernet (PoE) connections. VALO offers a variety of sensor configurations depending on needs and requirements.
 						Common setups include the following:</p>
 					<div class="products-configuration-container">
 						<div class="products-configuration-left-container">
-
-							<div class="products-configuration-left-top">
+							<img class="animation-icon" srcset="<?php echo get_template_directory_uri() . '/assets/images/light-02.png'?>" />
+						</div>
+						<div class="products-configuration-right-container">
+								<div class="products-configuration-text-container">
+									<div class="products-configuration-icon">
+									<i class="fa fa-check" aria-hidden="true"></i>
+								</div>
 								<p>
 									<span>Basic Controller</span>
 									</br>Contains WiFi mesh and Bluetooth/BLE connectivity, and Bluetooth beaconing.</p>
-								<div class="products-configuration-icon">
-									<i class="fa fa-lightbulb-o fa-2x" aria-hidden="true"></i>
-								</div>
+								
 							</div>
 
-							<div class="products-configuration-left-bottom">
+							<div class="products-configuration-text-container">
+								<div class="products-configuration-icon">
+									<i class="fa fa-check" aria-hidden="true"></i>
+								</div>
 								<p>
 									<span>Basic Controller + Hub</span>
 									</br>Includes ports for external connectivity, air quality sensors, noise detection, and backhaul options.</p>
-								<div class="products-configuration-icon">
-									<i class="fa fa-database fa-2x" aria-hidden="true"></i>
-								</div>
+							
 							</div>
-
-						</div>
-						<!-- products-configuration-left-container -->
-
-
-						<div class="products-configuration-center-container">
-							<img class="animation-icon" srcset="<?php echo get_template_directory_uri() . '/assets/images/valo-lamppost.png'?>" />
-						</div>
-						<div class="products-configuration-right-container">
-							<div class="products-configuration-right-top">
+							<div class="products-configuration-text-container">
 								<div class="products-configuration-icon">
-									<i class="fa fa-video-camera fa-2x" aria-hidden="true"></i>
+									<i class="fa fa-check" aria-hidden="true"></i>
 								</div>
 								<p>
 									<span>Basic Controller + Hub</span>
@@ -218,9 +211,9 @@ get_header(); ?>
 									</br>
 									Video cameras can be mounted at any location on pole</p>
 							</div>
-							<div class="products-configuration-right-bottom">
+							<div class="products-configuration-text-container">
 								<div class="products-configuration-icon">
-									<i class="fa fa-signal fa-2x" aria-hidden="true"></i>
+									<i class="fa fa-check" aria-hidden="true"></i>
 								</div>
 								<p>
 									<span>Basic Controller + Giga WiFI</span>
