@@ -25,7 +25,7 @@ get_header(); ?>
       </section> <!-- service wrapper-->
 
         <section class="wifi">
-          <div class="wifi-image">
+          <div class="wifi-image-services">
               <img alt="Wifi logo" src="<?php echo get_template_directory_uri() . '/assets/icons-SVG/free-public-wifi.svg'?>" id="wifi-image"/>
           </div>
 
@@ -103,7 +103,7 @@ get_header(); ?>
         <section class="partner">
           <div class="partner-header-section">
             <div class="partner-image">
-              <img alt="Service icon" src="<?php echo get_template_directory_uri() . '/assets/icons-SVG/public_private-partnerships.svg'?>" id="bulb-image"/>
+              <img alt="Service icon" src="<?php echo get_template_directory_uri() . '/assets/icons-SVG/public.svg'?>" id="bulb-image"/>
             </div>
             <h2> Public Private Partnerships</h2>
             <p><span class="uppercase">Valo</span> offers an optional Public Private Partnership with cities and municipalities. This partnership saves money for the city, and potential revenue is shared between the partners. By leveraging profits and costs, the Public Private Partnership has several advantages:</p>
