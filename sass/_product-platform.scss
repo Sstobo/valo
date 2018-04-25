@@ -1,319 +1,325 @@
-    .platform-wrapper {
-        width: 100%;
-        display: flex;
-        padding-top: 140px;
-        flex-direction: column;
+.platform-wrapper {
+  width: 100%;
+  display: flex;
+  padding-top: 140px;
+  flex-direction: column;
+}
+// HERO
+.platform-hero {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  background-color: rgb(243, 243, 243);
+  @media (min-width: $desktop_width) {
+    flex-direction: row;
+  }
+  .platform-hero-image {
+    width: 100%;
+    height: 300px;
+    background-image: url('../../assets/icons-SVG/valo-platform-hero.jpg');
+    background-size: cover;
+    background-position: 50% 50%;
+    @media (min-width: $desktop_width) {
+      width: 50%;
+      height: auto;
     }
-// HERO 
-    .platform-hero {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        height: auto;
-        background-color: rgb(243, 243, 243);
-        @media (min-width: $desktop_width) { 
-            flex-direction: row;
-        }
-        .platform-hero-image {
-            width: 100%;
-            height: 300px;
-            background-image: url("../../assets/icons-SVG/valo-platform-hero.jpg");
-            background-size: cover;
-            background-position: 50% 50%; 
-            @media (min-width: $desktop_width) { 
-                width: 50%;
-                height: auto;
-            }
-        }
-        .platform-hero-text {
-            padding: 14px 12px 0 12px;
-            width: 100%;
-            text-align: center;
-            @media (min-width: $desktop_width) { 
-                width: 50%;
-                padding: 28px 34px 24px 44px;
-                p {
-                    text-align: left;
-                    width: 80%;
-                    margin-left: 108px;
-                    margin-bottom: 44px;
-                    line-height: 32px;
-                }
-            }
-        }
+  }
+  .platform-hero-text {
+    padding: 30px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    text-align: left;
+
+    p {
+      width: 70%;
+      margin: 5px 0;
     }
+    h2 {
+      font-size: 22px;
+      @include footer_row {
+        font-size: 28px;
+      }
+      @include desktop {
+        font-size: 34px;
+      }
+    }
+    h2:after {
+      content: '';
+      border-bottom: 2px solid $color__accent;
+      width: 50px;
+      display: block;
+      margin: 0 auto;
+      padding-top: 20px;
+    }
+
+    @media (min-width: $desktop_width) {
+      width: 50%;
+      padding: 28px 34px 24px 44px;
+      p {
+        text-align: left;
+        width: 80%;
+        line-height: 32px;
+      }
+    }
+  }
+}
 
 // SERVICES BANNER WRAPPER
-    .platform-manager {
-        display: flex;
-        height: 360px;
-        width: 100%;
-        flex-direction: row;
-        background: url('../../assets/Backgrounds/clean-gray-abstract-background.png');
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: relative;
-        background-attachment: fixed;
-        background-position: 0 150px;
-        .platform-manager-text {
-            width: 100%;
-            height: 100%;
-            text-align: center;
-            p {
-                width: 80%;
-                margin: 0 auto;
-            }
-            @media (min-width: $desktop_width) { 
-                text-align: center;
-                width: 100%;
-                padding: 34px 24px 24px 64px;
-                p {
-                    margin: 0 auto;
-                    margin-bottom: 24px;
-                    width: 60%;
-                    line-height: 28px;
-                }
-        }
+.platform-manager {
+  display: flex;
+  height: 360px;
+  width: 100%;
+  flex-direction: row;
+  background: url('../../assets/Backgrounds/clean-gray-abstract-background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-attachment: fixed;
+  background-position: 0 150px;
+  .platform-manager-text {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    p {
+      width: 80%;
+      margin: 0 auto;
     }
+    @media (min-width: $desktop_width) {
+      text-align: center;
+      width: 100%;
+      padding: 34px 24px 24px 64px;
+      p {
+        margin: 0 auto;
+        margin-bottom: 24px;
+        width: 60%;
+        line-height: 28px;
+      }
     }
-// PLATFORM ICON BOX 
-    .platform-icon-box-wrapper {
-        display: flex;
-        width: 100%;
-        height: auto;
-        flex-wrap: wrap;
-        flex-direction: row;
-            .platform-icon-box {
-            height: 340px;
-            width: 100%;
-            text-align: center;
-            padding:34px 12px 12px 12px;
-            @media (min-width: $desktop_width) {
-                width: 33%;
-                height: 340px;
-                padding-top: 54px;
-            }
-            .platform-icon-box-img {
-                height: 100px;
-                width: 100px;
-                margin: 0 auto;
-                margin-bottom: 24px;
-            }
-            p {
-                max-width: 80%;
-                margin: 0 auto;
-            }
-            h3 {
-                color: $color__accent;
-                min-height: 30px;
-                text-align: center;
-                width: 80%;
-                margin: 0 auto;
-                margin-bottom: 8px;
-            }
+  }
+}
+// PLATFORM ICON BOX
+.platform-icon-box-wrapper {
+  display: flex;
+  width: 100%;
+  height: auto;
+  flex-wrap: wrap;
+  flex-direction: row;
+  .platform-icon-box {
+    height: 340px;
+    width: 100%;
+    text-align: center;
+    padding: 34px 12px 12px 12px;
+    @media (min-width: $desktop_width) {
+      width: 33%;
+      height: 340px;
+      padding-top: 54px;
     }
+    .platform-icon-box-img {
+      height: 100px;
+      width: 100px;
+      margin: 0 auto;
+      margin-bottom: 24px;
     }
-    .platform-icon-box-grey {
-        background-color: $color__background-team;
+    p {
+      max-width: 80%;
+      margin: 0 auto;
     }
-// 
+    h3 {
+      color: $color__accent;
+      min-height: 30px;
+      text-align: center;
+      width: 80%;
+      margin: 0 auto;
+      margin-bottom: 8px;
+    }
+  }
+}
+.platform-icon-box-grey {
+  background-color: $color__background-team;
+}
+//
 
 .platform-sensors-parallax-city {
-    display: flex;
-    height: 300px;
-    width: 100%;
-    flex-direction: row;
-    background: url('../../assets/Backgrounds/valo-platform-town.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    background-attachment: fixed;
-    background-position: 0 150px;
+  display: flex;
+  height: 300px;
+  width: 100%;
+  flex-direction: row;
+  background: url('../../assets/Backgrounds/valo-platform-town.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-attachment: fixed;
+  background-position: 0 150px;
 }
 .platform-icon-box-wrapper-final {
-    display: flex;
+  display: flex;
+  width: 100%;
+  height: auto;
+  flex-wrap: wrap;
+  flex-direction: row;
+  .platform-icon-box-final {
     width: 100%;
-    height: auto;
-    flex-wrap: wrap;
-    flex-direction: row;
-    .platform-icon-box-final {
-        width: 100%;
-        height: 300px;
+    height: 300px;
     @media (min-width: 900px) {
-        width: 50%;
+      width: 50%;
     }
- 
-}
+  }
 }
 .platform-icon-box-grey-final {
-    background-color: grey;
+  background-color: grey;
 }
 
 // ICON SENSOR BOX
 .platform-icon-box-sensors {
-    height: auto;
-    width: 100%;
+  height: auto;
+  width: 100%;
+  text-align: center;
+  padding: 24px 12px 12px 12px;
+  p {
     text-align: center;
-    padding:24px 12px 12px 12px;
-    p {
-        text-align: center;
-    }
-    h2 {
-        text-align: center;
-    }
-    @media (min-width: $desktop_width) {
-        width: 33%;
-        height: 540px;
-        padding-top: 34px;
-        padding-left: 54px;
-    }
-    .platform-icon-box-img {
-        height: 100px;
-        width: 100px;
-        margin-left: 60%;
-        margin-bottom: 24px;
-    }
-    .sensor-paragraph-header {
-        max-width: 80%;
-        text-align:left;
-        padding: 0px;
-        color: white;
-        margin-bottom: 4px;
-    }
-    .sensor-paragraph {
-        max-width: 80%;
-        text-align:left;
-        padding-bottom: 0px !important;
-        color: white;
-        margin: 0px;
-    }
-    h2 {
-        color: $color__accent;
-        min-height: 30px;
-        text-align:left;
-        width: 80%;
-        margin-bottom: 8px;
-    }
+  }
+  h2 {
+    text-align: center;
+  }
+  @media (min-width: $desktop_width) {
+    width: 33%;
+    height: 540px;
+    padding-top: 34px;
+    padding-left: 54px;
+  }
+  .platform-icon-box-img {
+    height: 100px;
+    width: 100px;
+    margin-left: 60%;
+    margin-bottom: 24px;
+  }
+  .sensor-paragraph-header {
+    max-width: 80%;
+    text-align: left;
+    padding: 0px;
+    color: white;
+    margin-bottom: 4px;
+  }
+  .sensor-paragraph {
+    max-width: 80%;
+    text-align: left;
+    padding-bottom: 0px !important;
+    color: white;
+    margin: 0px;
+  }
+  h2 {
+    color: $color__accent;
+    min-height: 30px;
+    text-align: left;
+    width: 80%;
+    margin-bottom: 8px;
+  }
 }
 .platform-icon-box-blue {
-background-color: $color__accent;
+  background-color: $color__accent;
 }
 // LAST BOXES
 .platform-icon-box-wrapper-final {
-    display: flex;
+  display: flex;
+  width: 100%;
+  height: auto;
+  flex-wrap: wrap;
+  flex-direction: row;
+  .platform-icon-box-final {
     width: 100%;
-    height: auto;
-    flex-wrap: wrap;
-    flex-direction: row;
-    .platform-icon-box-final {
-        width: 100%;
-        height: 300px;
+    height: 300px;
     @media (min-width: 900px) {
-        width: 50%;
+      width: 50%;
     }
-}
+  }
 }
 .platform-icon-box-sensors-final {
-    height: auto;
-    width: 100%;
+  height: auto;
+  width: 100%;
+  text-align: center;
+  padding: 24px 12px 12px 12px;
+  p {
     text-align: center;
-    padding:24px 12px 12px 12px;
-    p {
-        text-align: center;
-    }
-    h2 {
-        text-align: center;
-    }
-    @media (min-width: $desktop_width) {
-        width: 50%;
-        height: 540px;
-        padding-top: 34px;
-        padding-left: 64px;
-    }
-    .platform-icon-box-img {
-        height: 100px;
-        width: 100px;
-        margin-left: 60%;
-        margin-bottom: 24px;
-    }
-    .sensor-paragraph-header {
-        max-width: 80%;
-        text-align:left;
-        padding: 0px;
-        color: white;
-        margin-bottom: 4px;
-    }
-    .sensor-paragraph {
-        max-width: 80%;
-        text-align:left;
-        padding-bottom: 0px !important;
-        color: white;
-        margin: 0px;
-    }
-    h2 {
-        color: $color__accent;
-        min-height: 30px;
-        text-align:left;
-        width: 80%;
-        margin-bottom: 8px;
-    }
+  }
+  h2 {
+    text-align: center;
+  }
+  @media (min-width: $desktop_width) {
+    width: 50%;
+    height: 540px;
+    padding-top: 34px;
+    padding-left: 64px;
+  }
+  .platform-icon-box-img {
+    height: 100px;
+    width: 100px;
+    margin-left: 60%;
+    margin-bottom: 24px;
+  }
+  .sensor-paragraph-header {
+    max-width: 80%;
+    text-align: left;
+    padding: 0px;
+    color: white;
+    margin-bottom: 4px;
+  }
+  .sensor-paragraph {
+    max-width: 80%;
+    text-align: left;
+    padding-bottom: 0px !important;
+    color: white;
+    margin: 0px;
+  }
+  h2 {
+    color: $color__accent;
+    min-height: 30px;
+    text-align: left;
+    width: 80%;
+    margin-bottom: 8px;
+  }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .platform-sensors {
-    display: flex;
-    height: 300px;
+  display: flex;
+  height: 300px;
+  width: 100%;
+  flex-direction: row;
+  background: url('../../assets/Backgrounds/clean-gray-abstract-background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-attachment: fixed;
+  background-position: 0 150px;
+  h1 {
+    margin-bottom: 24px;
+  }
+  .platform-sensor-text {
     width: 100%;
-    flex-direction: row;
-    background: url('../../assets/Backgrounds/clean-gray-abstract-background.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    background-attachment: fixed;
-    background-position: 0 150px;
+    height: 100%;
+    text-align: center;
     h1 {
-        margin-bottom: 24px;
+      margin: 0 auto;
+      margin-bottom: 24px;
     }
-    .platform-sensor-text {
-        width: 100%;
-        height: 100%;
-        text-align: center;
-        h1 {
-            margin: 0 auto;
-            margin-bottom: 24px;
-        }
-        p {
-            width: 80%;
-            margin: 0 auto;
-        }
-        @media (min-width: $desktop_width) { 
-            text-align: center;
-            width: 100%;
-            padding: 34px 24px 24px 64px;
-            h1 {
-                margin: 0 auto;
-                margin-bottom: 34px;
-            }
-            p {
-                width: 60%;
-                margin: 0 auto;
-            }
+    p {
+      width: 80%;
+      margin: 0 auto;
     }
-}
-
-
-
-
+    @media (min-width: $desktop_width) {
+      text-align: center;
+      width: 100%;
+      padding: 34px 24px 24px 64px;
+      h1 {
+        margin: 0 auto;
+        margin-bottom: 34px;
+      }
+      p {
+        width: 60%;
+        margin: 0 auto;
+      }
+    }
+  }
 }
