@@ -1499,15 +1499,19 @@ object {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly; }
+  .products-hero p {
+    font-size: 15px;
+    line-height: 28px; }
   .products-hero .products-hero-wrapper {
     padding: 24px; }
     @media (min-width: 1000px) {
       .products-hero .products-hero-wrapper {
         display: block;
         height: 90%;
-        width: 50%;
-        max-width: 500px;
-        margin-right: 0 auto;
+        width: 40%;
+        padding-top: 80px;
+        position: relative;
+        right: 5%;
         text-align: left; } }
   .products-hero .products-hero-img {
     display: none; }
@@ -1515,7 +1519,7 @@ object {
       .products-hero .products-hero-img {
         display: block;
         height: 90%;
-        width: 40%;
+        width: 30%;
         background: url("../../assets/images/valo-products-still-1.png"); } }
   @media (min-width: 1000px) {
     .products-hero {
@@ -1542,23 +1546,24 @@ object {
   .products-service-wrapper .products-lighting {
     height: 300px;
     width: 100%;
-    background-color: #eeeeee;
+    background-color: #f9f9f9;
     text-align: center;
     padding: 34px 12px 12px 12px; }
     @media (min-width: 1000px) {
       .products-service-wrapper .products-lighting {
         width: 50%;
-        height: 500px;
-        padding-top: 124px; } }
+        height: 400px;
+        padding-top: 84px; } }
     .products-service-wrapper .products-lighting .products-img {
       height: 100px;
       width: 100px;
       margin: 0 auto; }
     .products-service-wrapper .products-lighting h2 {
       text-align: center;
-      width: 60%;
+      font-size: 20px;
+      width: 40%;
       margin: 0 auto;
-      margin-bottom: 14px; }
+      margin-bottom: 44px; }
   .products-service-wrapper .products-platform {
     height: 300px;
     width: 100%;
@@ -1568,37 +1573,39 @@ object {
     @media (min-width: 1000px) {
       .products-service-wrapper .products-platform {
         width: 50%;
-        height: 500px;
-        padding-top: 124px; } }
+        height: 400px;
+        padding-top: 84px; } }
     .products-service-wrapper .products-platform .products-img {
       height: 100px;
       width: 100px;
       margin: 0 auto; }
     .products-service-wrapper .products-platform h2 {
       text-align: center;
-      width: 60%;
+      font-size: 20px;
+      width: 40%;
       margin: 0 auto;
-      margin-bottom: 14px; }
+      margin-bottom: 44px; }
   .products-service-wrapper .products-cameras {
     height: 300px;
     width: 100%;
-    background-color: #eeeeee;
+    background-color: #f9f9f9;
     text-align: center;
     padding: 34px 12px 12px 12px; }
     @media (min-width: 1000px) {
       .products-service-wrapper .products-cameras {
         width: 50%;
-        height: 500px;
-        padding-top: 124px; } }
+        height: 400px;
+        padding-top: 84px; } }
     .products-service-wrapper .products-cameras .products-img {
       height: 100px;
       width: 100px;
       margin: 0 auto; }
     .products-service-wrapper .products-cameras h2 {
       text-align: center;
-      width: 80%;
+      font-size: 20px;
+      width: 40%;
       margin: 0 auto;
-      margin-bottom: 14px; }
+      margin-bottom: 44px; }
   .products-service-wrapper .products-networks {
     height: 300px;
     width: 100%;
@@ -1608,17 +1615,18 @@ object {
     @media (min-width: 1000px) {
       .products-service-wrapper .products-networks {
         width: 50%;
-        height: 500px;
-        padding-top: 124px; } }
+        height: 400px;
+        padding-top: 84px; } }
     .products-service-wrapper .products-networks .products-img {
       height: 100px;
       width: 100px;
       margin: 0 auto; }
     .products-service-wrapper .products-networks h2 {
       text-align: center;
-      width: 60%;
+      font-size: 20px;
+      width: 40%;
       margin: 0 auto;
-      margin-bottom: 14px; }
+      margin-bottom: 44px; }
 
 .icon {
   min-width: 42px;
