@@ -30,8 +30,8 @@
 .product-network-image-container {
   display: none;
   @include desktop {
-    background-position: center;
-    background-size: contain;
+    background-position: bottom;
+    background-size: cover;
     display: block;
     flex-basis: 50%;
     width: 50%;
@@ -54,7 +54,7 @@
 }
 
 .wifi-image {
-  background: url('../../assets/images/valo-city-wifi.jpg');
+  background: url('../../assets/images/valo-network.jpg');
 }
 
 .wifi-list {
