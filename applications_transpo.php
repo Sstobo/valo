@@ -27,7 +27,7 @@ get_header(); ?>
 		
 	</div>
 
-	</div class="applications-transpo-wrapper2">
+	<!-- </div class="applications-transpo-wrapper2">
 		<div class="applications-transpo-hero2">
 			<div class="applications-transpo-img2">
 				<div class="applications-transpo-image2"></div>
@@ -38,7 +38,7 @@ get_header(); ?>
 			<div class="sub-title-blue-line"></div>
 			<p>Sensors or cameras connected to Valo’s street lights can identify if parking spots are vacant or filled. This data could be used to bill drivers, or identify parking infractions and abandoned vehicles. Alternatively, this technology can assist in directing drivers to available parking.</p>
 			</div>
-		</div>
+		</div> -->
 	</div>
 	</main>
 	<!-- #main -->

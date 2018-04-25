@@ -10,7 +10,9 @@
         color: black;
         font-size: 20px;
         @media (min-width: $desktop_width) {
-            font-size: 28px;
+            font-size: 34px;
+            position: relative;
+            top: 10px;
         }
     }
     .applications-security-wrapper {
@@ -30,7 +32,7 @@
         padding-top: 130px;
         background-color: rgb(247, 247, 247);
         @media (min-width: $desktop_width) {
-            height: 590px; 
+            height:460px; 
             flex-direction: row;
         }
     }
@@ -40,35 +42,41 @@
         padding-top: 14px;
         @media (min-width: $desktop_width) {
             width: 50%;
-            height: 400px;
+            height: 360px;
     }
     }
     .applications-security-image {
         background-image: url("../../assets/icons-SVG/Valo-Smart-Security.jpg");
         background-size: cover;
-        height: 364px;
+        height: 380px;
         width: 98%;
         margin: 0 auto;
+        position: relative;
+        bottom: 50px;
     }
 
     .applications-security-post {
         width: 100%;
         height: 500px;
-        padding: 38px 44px 0 44px;
+        padding: 78px 44px 0 44px;
         text-align: center;
      
         p {
+            position: relative;
+            bottom: 10px;
             text-align: center;
             margin: 0 auto;
             margin-top: 36px;
-            max-width: 600px;
+            max-width: 700px;
+            line-height: 28px;
+            font-size: 15px;
             @media (min-width: $desktop_width) {
                 text-align: left;
             }
         }
         
         @media (min-width: $desktop_width) {
-            width: 50%;
+            width: 60%;
             height: 500px;
     }
     }
@@ -84,10 +92,10 @@
         height: auto;
         display: flex;
         flex-direction: column;
-        padding-top: 110px;
+        padding-top: 70px;
         background-color: rgb(247, 247, 247);
         @media (min-width: $desktop_width) {
-            height: 590px;
+            height: 500px;
             flex-direction: row;
         }
     }
@@ -96,20 +104,23 @@
         @media (min-width: $desktop_width) {
         display: block;
             width: 50%;
-            height: 480px;
+            height: 420px;
     }
     }
     .applications-transpo-image {
     background-image: url("../../assets/icons-SVG/Valo-Smart-Transportation.jpg");
-    background-size: cover;
-    height: 480px;
+    background-size: 100%;
+    background-position: 0% 50%;
+    height: 400px;
     width: 100%;
     margin: 0 auto;
+    position: relative;
+    top: 30px;
     }
     .applications-transpo-post {
         width: 100%;
         height: 500px;
-        padding: 38px 44px 0 44px;
+        padding: 0px 44px 0 44px;
         margin-bottom: 44px;
         text-align: center;
        
@@ -122,8 +133,10 @@
                 text-align: left;
                 margin: 0 auto;
                 margin-top: 34px;
+                line-height: 28px;
+                font-size: 15px;
                 @media (min-width: 1400px) {
-                    width: 70%;
+                    width: 74%;
             }
         }
     }
@@ -140,7 +153,7 @@
         flex-direction: column;
         background-color: rgb(247, 247, 247);
         @media (min-width: $desktop_width) {
-            height: 460px;
+            height: 420px;
             flex-direction: row;
         }
     }
@@ -165,12 +178,14 @@
         @media (min-width: $desktop_width) {
             padding: 38px 24px 0 24px;
             width: 50%;
-            height: 460px;
+            height: 420px;
             p {
                 width: 98%;
                 text-align: left;
                 margin: 0 auto;
                 margin-top: 34px;
+                line-height: 28px;
+            font-size: 15px;
                 @media (min-width: 1400px) {
                     width: 70%;
             }
@@ -183,7 +198,7 @@
         display: block;
         background-image: url("../../assets/icons-SVG/parking-image-1.png");
         background-size: cover;
-        height: 460px;
+        height: 420px;
         width: 100%;
         margin: 0 auto;
         }
@@ -202,7 +217,7 @@
         padding-top: 110px;
         background-color: rgb(247, 247, 247);
         @media (min-width: $desktop_width) {
-            height: 590px;
+            height: 480px;
             flex-direction: row;
         }
     }
@@ -211,15 +226,18 @@
         @media (min-width: $desktop_width) {
         display: block;
             width: 50%;
-            height: 590px;
+            height: 420px;
     }
     }
     .applications-muni-image {
-    background-image: url("../../assets/icons-SVG/valo-muni-skyline.jpg");
-    background-size: cover;
-    height: 480px;
+    background-image: url("../../assets/icons-SVG/city-new.jpg");
+    background-size: 100%;
+    background-position: 0% 40%;
+    height: 420px;
     width: 100%;
     margin: 0 auto;
+    position: relative;
+    bottom: 50px;
     }
     .applications-muni-post {
         width: 100%;
@@ -237,6 +255,8 @@
                 text-align: left;
                 margin: 0 auto;
                 margin-top: 34px;
+                line-height: 28px;
+            font-size: 15px;
                 @media (min-width: 1400px) {
                     width: 70%;
             }
@@ -255,7 +275,7 @@
         flex-direction: column;
         background-color: rgb(247, 247, 247);
         @media (min-width: $desktop_width) {
-            height: 480px;
+            height: 420px;
             flex-direction: row;
         }
     }
@@ -283,6 +303,8 @@
                 text-align: left;
                 margin: 0 auto;
                 margin-top: 34px;
+                line-height: 28px;
+            font-size: 15px;
                 @media (min-width: 1400px) {
                     width: 70%;
             }
@@ -295,9 +317,10 @@
         display: block;
         background-image: url("../../assets/icons-SVG/valo-muni-street.jpg");
         background-size: cover;
-        height: 480px;
+        height: 420px;
         width: 100%;
         margin: 0 auto;
+        
         }
         }
 
@@ -315,7 +338,7 @@
         padding-top: 110px;
         background-color: rgb(247, 247, 247);
         @media (min-width: $desktop_width) {
-            height: 580px;
+            height: 530px;
             flex-direction: row;
         }
     }
@@ -324,15 +347,17 @@
         @media (min-width: $desktop_width) {
         display: block;
             width: 50%;
-            height: 580px;
+            height: 520px;
     }
     }
     .applications-enviro-image {
     background-image: url("../../assets/icons-SVG/valo-smart-weather.jpg");
     background-size: cover;
-    height: 470px;
+    height: 430px;
     width: 100%;
     margin: 0 auto;
+    position: relative;
+    bottom: 10px;
     }
     .applications-enviro-post {
         width: 100%;
@@ -350,6 +375,8 @@
                 text-align: left;
                 margin: 0 auto;
                 margin-top: 34px;
+                line-height: 28px;
+            font-size: 15px;
                 @media (min-width: 1400px) {
                     width: 70%;
             }
@@ -368,7 +395,7 @@
         flex-direction: column;
         background-color: rgb(247, 247, 247);
         @media (min-width: $desktop_width) {
-            height: 480px;
+            height: 420px;
             flex-direction: row;
         }
     }
@@ -399,6 +426,8 @@
                 text-align: left;
                 margin: 0 auto;
                 margin-top: 34px;
+                line-height: 28px;
+            font-size: 15px;
                 @media (min-width: 1400px) {
                     width: 70%;
             }
@@ -409,9 +438,9 @@
         display: none;
         @media (min-width: $desktop_width) {
         display: block;
-        background-image: url("../../assets/icons-SVG/valo-muni-skyline.jpg");
+        background-image: url("../../assets/icons-SVG/smart-air.jpg");
         background-size: cover;
-        height: 480px;
+        height: 420px;
         width: 100%;
         margin: 0 auto;
         }
@@ -439,6 +468,8 @@
         padding: 24px;
         p {
             max-width: 80%;
+            line-height: 28px;
+            font-size: 15px;
             
         }
         @media (min-width: $desktop_width) {
@@ -464,12 +495,15 @@
     .applications-hero-img {
         display: none;
         @media (min-width: $desktop_width) {
-            background-image: url("../../assets/icons-SVG/valo-applications.jpg");
-            background-size: cover;
+            position: relative;
+            left: 10%;
+            background-image: url("../../assets/icons-SVG/valo-applications-home.svg");
+            background-size: 50%;
+            background-repeat: no-repeat;
             display: block;
             height: 90%;
             width: 40%;
-            background-color: grey;
+            background-color: white;
         
         }
     }
@@ -481,19 +515,23 @@
     width: 100%;
     display: flex;
     flex-direction: column;
+    h3 {
+        font-size: 20px;
+    }
+   
     @media (min-width: $desktop_width) {
         flex-direction: row;
     }
     .applications-lighting {
         height: 260px;
         width: 100%;
-        background-color: rgb(238, 238, 238);
+        background-color:#f9f9f9;
         text-align: center;
         padding: 34px 12px 12px 12px;
         @media (min-width: $desktop_width) {
             width: 50%;
-            height: 400px;
-            padding-top: 124px;
+            height: 350px;
+            padding-top: 64px;
         }
         .applications-img {
             height: 100px;
@@ -520,8 +558,8 @@
         padding: 34px 12px 12px 12px;
         @media (min-width: $desktop_width) {
             width: 50%;
-            height: 400px;
-            padding-top: 124px;
+            height: 350px;
+            padding-top: 64px;
         }
         .applications-img {
             height: 100px;
@@ -543,13 +581,13 @@
     .applications-cameras {
         height: 260px;
         width: 100%;
-        background-color: rgb(238, 238, 238);
+        background-color: #f9f9f9;
         text-align: center;
         padding: 34px 12px 12px 12px;
         @media (min-width: $desktop_width) {
             width: 50%;
-            height: 400px;
-            padding-top: 124px;
+            height: 350px;
+            padding-top: 64px;
         }
         .applications-img {
             height: 100px;
@@ -576,8 +614,8 @@
         padding: 34px 12px 12px 12px;
         @media (min-width: $desktop_width) {
             width: 50%;
-            height: 400px;
-            padding-top: 124px;
+            height: 350px;
+            padding-top: 64px;
         }
         .applications-img {
             height: 100px;
