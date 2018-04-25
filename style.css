@@ -3296,14 +3296,15 @@ h2 {
   padding: 25px 50px; }
   @media all and (min-width: 990px) {
     .page-template-about_team .about-team-single-team-member-container {
-      height: 500px;
+      height: 550px;
       width: 45%; } }
   .page-template-about_team .about-team-single-team-member-container p {
     font-family: sans-serif;
     word-spacing: normal;
     line-height: 1.9;
     color: #3f3f3f;
-    font-size: 15px; }
+    font-size: 15px;
+    margin-bottom: 3px; }
 
 .page-template-about_team .about-team-name-and-position h3 {
   color: #00aeef;
@@ -3317,9 +3318,11 @@ h2 {
   font-size: 15px;
   line-height: 1em; }
 
-.page-template-about_team .about-team-contact a {
-  color: #00aeef;
-  font-weight: 700; }
+.page-template-about_team .about-team-contact {
+  margin-top: 8px; }
+  .page-template-about_team .about-team-contact a {
+    color: #00aeef;
+    font-weight: 700; }
 
 @media all and (min-width: 990px) {
   .page-template-about_team div.signup-container {

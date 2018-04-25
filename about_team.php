@@ -45,17 +45,17 @@ get_header(); ?>
 								<strong>CORPORATE TITLE</strong>
 							</span>
 						</div>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-							aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-							Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-							occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-						</p>
+						<p>Terrence Dittrich brings significant experience in international economic development to his role as the COO of VALO. Terrence is the President TWD Global Enterprises, a firm that specializes in assisting clients to enter and expand in the emerging markets of Central Asia, the Middle East and Africa, with particular emphasis on construction/infrastructure development. With over 20 years of global experience Mr. Dittrich and his associates bring "real world" expertise to assist clients to succeed in these challenging markets.</p>
+
+						<p>Mr. Dittrich is also a Senior Advisor to the European Bank for Reconstruction and Development and has 20+ years of global business experience, primarily in emerging markets of Russia/CIS, GCC, China, India. Travelled to over 70 countries and successfully secured first sales in over 20 countries.</p>
+
+						
 						<div class="about-team-contact">
 							<strong>CONTACT
 								<br>
 							</strong>
-							<a ref="#">LINKEDIN</a>
-							<a ref="#">EMAIL</a>
+							<a href="https://www.linkedin.com/in/terry-dittrich-963a549b/" target="_blank">LINKEDIN</a>
+							<a href="mailto:tdittrich@valosmartcity.com">EMAIL</a>
 						</div>
 					</div>
 					<div class="about-team-single-team-member-container alan-fogleman">
@@ -67,17 +67,16 @@ get_header(); ?>
 								<strong>CORPORATE TITLE</strong>
 							</span>
 						</div>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-							aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-							Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-							occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-						</p>
+						<p>Alan Fogelman is a Certified Public Accountant and has been practicing for more than 30 years. Additionally, he is a Certified Financial Planner and holds a Series 7 securities license. He is a member of various organizations where he donates his time and expertise.</p>
+
+						<p>Mr. Fogelman did his undergraduate work in economics at SUNY at Stony Brook and his graduate work in accounting at Baruch College.</p>
+
 						<div class="about-team-contact">
 							<strong>CONTACT
 								<br>
 							</strong>
-							<a ref="#">LINKEDIN</a>
-							<a ref="#">EMAIL</a>
+							<a href="https://www.linkedin.com/in/alan-fogelman-658507b/" target="_blank">LINKEDIN</a>
+							<a href="mailto:afogelman@valosmartcity.com">EMAIL</a>
 						</div>
 					</div>
 					<div class="about-team-single-team-member-container steve-altman">
@@ -89,17 +88,14 @@ get_header(); ?>
 								<strong>CORPORATE TITLE</strong>
 							</span>
 						</div>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-							aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-							Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-							occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-						</p>
+						<p>Steven Altman is a performance-driven, business strategist and problem solver. A supreme negotiator, he is also armed with extraordinary business development skills and possesses a deep knowledge of finance and business management across a wide array of goods and services platforms. As the principal of LSA Development Corp. and prior to that as a commercial litigator for both large and small sized firms, he has a proven track record of presenting concepts and closing transactions. Altman lives in New York and is a car and motorcycle enthusiast.</p>
+
 						<div class="about-team-contact">
 							<strong>CONTACT
 								<br>
 							</strong>
-							<a ref="#">LINKEDIN</a>
-							<a ref="#">EMAIL</a>
+							<a href="https://www.linkedin.com/in/steven-altman-lsa/" target="_blank">LINKEDIN</a>
+							<a href="mailto:saltman@valosmartcity.com">EMAIL</a>
 						</div>
 					</div>
 					<div class="about-team-single-team-member-container david-harper">
@@ -111,16 +107,14 @@ get_header(); ?>
 								<strong>CORPORATE TITLE</strong>
 							</span>
 						</div>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-							aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-							Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-							occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+						<p>David Harper, founder and CEO of Delivr®, has over 20 years' experience as a designer, ad man, technologist, patent holding inventor and entrepreneur. Delivr adds connectivity to printed media, labels and packaging — turning passive, everyday things into smart, connected objects. David is also the founder of Engagelogic® a privately held, NY-based software development and early-stage venture firm.
+
 						</p>
 						<div class="about-team-contact">
 							<strong>CONTACT
 								<br>
 							</strong>
-							<a ref="#">LINKEDIN</a>
+							<a href="https://www.linkedin.com/in/harper/" target="_blank">LINKEDIN</a>
 							<a ref="#">EMAIL</a>
 						</div>
 					</div>
@@ -142,8 +136,8 @@ get_header(); ?>
 							<strong>CONTACT
 								<br>
 							</strong>
-							<a ref="#">LINKEDIN</a>
-							<a ref="#">EMAIL</a>
+							<a href="https://www.linkedin.com/in/wandahalpert/" target="_blank">LINKEDIN</a>
+							<a href="mailto:wanda@concordbusiness.com">EMAIL</a>
 						</div>
 					</div>
 					<div class="about-team-single-team-member-container julio-ferreira">
@@ -155,16 +149,15 @@ get_header(); ?>
 								<strong>CORPORATE TITLE</strong>
 							</span>
 						</div>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-							aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-							Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-							occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-						</p>
+						<p>Julio Ferreira is the former CEO of Global 8 Environment Technologies www.g8et.com, and the driving force behind Green Kids Austin and its sister project, Green Kids Brazil, an innovative “sustainable mall” and ecological education resource for young people.</p>
+
+						<p>A Brazilian-born American, Julio Ferreira uses investment, education, and collaboration to help reduce humankinds’ impact on the environment.  His global perspective and talent for cutting-edge commercial strategies, combined with his passion for protecting the environment through sustainable development solutions, has earned him an international reputation as an enthusiastic visionary and business pioneer.</p>
+
 						<div class="about-team-contact">
 							<strong>CONTACT
 								<br>
 							</strong>
-							<a ref="#">LINKEDIN</a>
+							<a href="https://www.linkedin.com/in/julio-ferreira-b0306928/" target="_blank">LINKEDIN</a>
 							<a ref="#">EMAIL</a>
 						</div>
 					</div>

@@ -46,7 +46,7 @@
   .about-team-single-team-member-container {
     width: 95%;
     @media all and (min-width: 990px) {
-      height: 500px;
+      height: 550px;
       width: 45%;
     }
     margin: 2.5%;
@@ -57,6 +57,7 @@
       line-height: 1.9; //Todo: adjust for font
       color: #3f3f3f;
       font-size: 15px;
+      margin-bottom: 3px;
     }
   }
   .about-team-name-and-position {
@@ -74,6 +75,7 @@
     }
   }
   .about-team-contact {
+    margin-top: 8px;
     a {
       color: $color__accent;
       font-weight: 700;
