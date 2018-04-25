@@ -48,9 +48,9 @@ get_header(); ?>
 				<div class="about-advantage-container">
 					<div class="about-the-valo-advantage">
 						<i class="fa fa-lightbulb-o fa-3x about-icon" aria-hidden="true"></i>
-						<h2>
-							<strong>The VALO Advantage</strong>
-						</h2>
+						<h3>
+							The VALO Advantage
+						</h3>
 						<span>Installing and maintaining street lights presents numerous issues for cities and municipalities. Financial and technical
 							problems related to street lights include:</span>
 					</div>

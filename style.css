@@ -1695,7 +1695,8 @@ object {
           flex-basis: 50%; } }
 
 .network-image {
-  background: url("../../assets/images/valo-lora-gateway.jpg"); }
+  background: url("../../assets/images/valo-lora-gateway.jpg");
+  background-position: right; }
 
 .page-template-products_cameras .camera-banner {
   min-height: 350px;
@@ -3418,8 +3419,7 @@ h2 {
 .page-template-about .about-top-row-image {
   display: none;
   height: 500px;
-  width: 50%;
-  padding: 25px 5%; }
+  width: 50%; }
   @media all and (min-width: 990px) {
     .page-template-about .about-top-row-image {
       display: block; } }
@@ -3526,13 +3526,9 @@ h2 {
     display: block;
     color: #fff;
     text-align: right; }
-  .page-template-about .about-the-valo-advantage h2 {
+  .page-template-about .about-the-valo-advantage h3 {
     color: #fff;
-    font-family: "Roboto";
-    margin-bottom: 0;
-    padding-top: 10px;
-    font-size: 34px;
-    line-height: 44px; }
+    font-family: "Roboto"; }
   .page-template-about .about-the-valo-advantage span {
     color: #fff;
     font-family: "Roboto";
