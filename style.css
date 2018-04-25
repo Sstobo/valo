@@ -3358,7 +3358,6 @@ h2 {
           flex-direction: row; }
 
 .page-template-about .about-single-item-vision {
-  height: 500px;
   padding: 45px 8.5%; }
   @media all and (max-width: 768px) {
     .page-template-about .about-single-item-vision {
@@ -3382,7 +3381,7 @@ h2 {
   display: none;
   height: 500px;
   width: 50%;
-  padding: 45px 7%; }
+  padding: 25px 5%; }
   @media all and (min-width: 990px) {
     .page-template-about .about-top-row-image {
       display: block; } }
@@ -3391,7 +3390,7 @@ h2 {
   display: none;
   height: 100%;
   width: auto;
-  background-image: url("../../assets/Backgrounds/placeholder.jpg");
+  background-image: url("../../assets/images/valo-about-01.svg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center; }
@@ -3420,7 +3419,7 @@ h2 {
   display: none;
   height: 100%;
   width: auto;
-  background-image: url("../../assets/images/street-lights.jpg");
+  background-image: url("../../assets/images/valo-about-02.svg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center; }
@@ -3475,6 +3474,7 @@ h2 {
               flex-direction: row; } }
 
 .page-template-about .about-the-valo-advantage {
+  position: relative;
   height: 380px;
   width: 100%;
   padding: 30px 8%;
@@ -3483,11 +3483,11 @@ h2 {
     .page-template-about .about-the-valo-advantage {
       height: 445px;
       max-width: 25%;
-      padding: 30px 2%; } }
-  .page-template-about .about-the-valo-advantage .about-lightbulb-icon {
-    height: 70px;
-    width: 60px;
-    float: right; }
+      padding: 40px 2.5%; } }
+  .page-template-about .about-the-valo-advantage .about-icon {
+    display: block;
+    color: #fff;
+    text-align: right; }
   .page-template-about .about-the-valo-advantage h2 {
     color: #fff;
     font-family: "Roboto";
@@ -3654,10 +3654,7 @@ h2 {
     line-height: 1.9; }
 
 .page-template-about .about-platform-wrapper {
-  background: url("http://localhost:8888/Valo/wp-content/themes/valo/assets/Backgrounds/clean-gray-abstract-background.png") bottom left no-repeat;
-  background-size: 100% 100%;
-  background-attachment: fixed;
-  padding: 50px 10% 0; }
+  margin-top: -40px; }
   .page-template-about .about-platform-wrapper h3 {
     text-align: center;
     font-weight: 700;
@@ -3682,98 +3679,17 @@ h2 {
       margin-top: 40px; } }
 
 .page-template-about .about-platform-left-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin-right: 30px; }
+  display: none; }
   @media all and (min-width: 785px) {
     .page-template-about .about-platform-left-container {
-      -webkit-box-pack: space-evenly;
-          -ms-flex-pack: space-evenly;
-              justify-content: space-evenly; } }
-
-.page-template-about .about-platform-left-top {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin-top: 20px; }
-  .page-template-about .about-platform-left-top p {
-    width: 60%; }
-  @media all and (min-width: 785px) {
-    .page-template-about .about-platform-left-top {
-      -webkit-box-pack: start;
-          -ms-flex-pack: start;
-              justify-content: flex-start;
-      margin-top: 0px; }
-      .page-template-about .about-platform-left-top p {
-        width: 129px; } }
-  .page-template-about .about-platform-left-top .about-icon {
-    padding-left: 20%;
-    -ms-flex-item-align: center;
-        align-self: center;
-    color: #00aeef; }
-
-.page-template-about .about-platform-left-bottom {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center; }
-  .page-template-about .about-platform-left-bottom p {
-    width: 60%; }
-  @media all and (min-width: 785px) {
-    .page-template-about .about-platform-left-bottom {
-      -webkit-box-pack: start;
-          -ms-flex-pack: start;
-              justify-content: flex-start; }
-      .page-template-about .about-platform-left-bottom p {
-        width: 129px; } }
-  .page-template-about .about-platform-left-bottom .about-icon {
-    padding-left: 20%;
-    -ms-flex-item-align: center;
-        align-self: center;
-    color: #00aeef; }
-
-.page-template-about .about-platform-center-container {
-  padding: 0;
-  margin: 0 auto;
-  margin-bottom: -7px; }
-
-.page-template-about .animation-icon {
-  width: 275px;
-  height: 453px;
-  margin-top: 0; }
-  @media all and (min-width: 785px) {
-    .page-template-about .animation-icon {
-      height: 0px;
-      margin-top: 453px; } }
-
-.page-template-about .animation-in-view {
-  margin-top: 0;
-  height: 453px;
-  -webkit-transition-duration: 0.5s;
-          transition-duration: 0.5s; }
+      width: 50%;
+      display: block;
+      background: url("../../assets/images/street-lights.jpg");
+      background-size: cover;
+      background-position: bottom; } }
 
 .page-template-about .about-platform-right-container {
+  padding: 40px 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -3784,61 +3700,46 @@ h2 {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-  margin-left: 30px; }
+  width: 90%;
+  margin: 0 auto; }
+  @media all and (min-width: 785px) {
+    .page-template-about .about-platform-right-container {
+      width: 50%; } }
+  .page-template-about .about-platform-right-container p {
+    width: 100%;
+    text-align: left;
+    margin-left: 30px; }
+    @media all and (min-width: 785px) {
+      .page-template-about .about-platform-right-container p {
+        width: 70%; } }
+    .page-template-about .about-platform-right-container p:first-child {
+      width: 100%;
+      font-size: 20px;
+      font-weight: 700; }
+      @media all and (min-width: 785px) {
+        .page-template-about .about-platform-right-container p:first-child {
+          width: 80%; } }
+  .page-template-about .about-platform-right-container .about-icon {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-left: 30px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    color: #00aeef; }
 
-.page-template-about .about-platform-right-top {
+.page-template-about .about-platform-text-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin-top: 20px; }
-  .page-template-about .about-platform-right-top p {
-    width: 60%; }
-  @media all and (min-width: 785px) {
-    .page-template-about .about-platform-right-top {
-      -webkit-box-pack: end;
-          -ms-flex-pack: end;
-              justify-content: flex-end;
-      margin-top: 0px; }
-      .page-template-about .about-platform-right-top p {
-        width: 129px; } }
-  .page-template-about .about-platform-right-top .about-icon {
-    padding-right: 20%;
-    -ms-flex-item-align: center;
-        align-self: center;
-    color: #00aeef; }
-
-.page-template-about .about-platform-right-bottom {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center; }
-  .page-template-about .about-platform-right-bottom p {
-    width: 60%; }
-  @media all and (min-width: 785px) {
-    .page-template-about .about-platform-right-bottom {
-      -webkit-box-pack: end;
-          -ms-flex-pack: end;
-              justify-content: flex-end; }
-      .page-template-about .about-platform-right-bottom p {
-        width: 129px; } }
-  .page-template-about .about-platform-right-bottom .about-icon {
-    padding-right: 20%;
-    -ms-flex-item-align: center;
-        align-self: center;
-    color: #00aeef; }
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 90%; }
 
 .page-template-news .signup-container,
 .page-template-news .signup-wrapper,

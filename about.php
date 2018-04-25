@@ -34,7 +34,6 @@ get_header(); ?>
 						<h2>
 							<strong>Our Purpose</strong>
 						</h2>
-						<div class="about-purpose-blue-line"></div>
 						<p>VALO is a smart city integrator that aims to better people’s lives around the world through the Internet of Things
 							(IoT) technology. VALO’s products and services provide better lighting for city inhabitants which increases safety.</p>
 						<p>Additionally, VALO makes cities more efficient by collecting real-time information for city assets, such as traffic,
@@ -48,10 +47,7 @@ get_header(); ?>
 				<!-- Our purpose container -->
 				<div class="about-advantage-container">
 					<div class="about-the-valo-advantage">
-						<img class="about-lightbulb-icon" srcset="<?php echo get_template_directory_uri() . '/assets/icons-SVG/lightbulb.png'?>"
-						/>
-						<!-- Todo: add correct icons -->
-						<!-- <i class="fa fa-lightbulb-o fa-3x" aria-hidden="true"></i>  -->
+						<i class="fa fa-lightbulb-o fa-3x about-icon" aria-hidden="true"></i>
 						<h2>
 							<strong>The VALO Advantage</strong>
 						</h2>
@@ -90,40 +86,34 @@ get_header(); ?>
 				<!-- about-financing -->
 
 				<section class="about-platform-wrapper">
-					<h3>Valo’s platform addresses these problems while providing
-						<br> multiple benefits for cities and the people living within them:</h3>
-					<div class="sub-title-blue-line">
-					</div>
 					<div class="about-platform-container">
-						<div class="about-platform-left-container">
-							<div class="about-platform-left-top">
-								<p>VALO installs and maintains new LED street lights for the city with no out-of-pocket costs for the city</p>
-								<div class="about-icon">
-									<i class="fa fa-wrench fa-2x" aria-hidden="true"></i>
-								</div>
-							</div>
-							<div class="about-platform-left-bottom">
-								<p>VALO shares cost savings with the city which provides new funds for city projects</p>
-								<div class="about-icon">
-									<i class="fa fa-book fa-2x" aria-hidden="true"></i>
-								</div>
-							</div>
+						<div class="about-platform-left-container">	
 						</div>
 						<!-- about-platform-left-container -->
-
-						<div class="about-platform-center-container">
-							<img class="animation-icon" srcset="<?php echo get_template_directory_uri() . '/assets/images/valo-phone.png'?>" />
-						</div>
 						<div class="about-platform-right-container">
-							<div class="about-platform-right-top">
+							<p>Valo’s platform addresses these problems while providing multiple benefits for cities and the people living within them:</p>
+							<div class="about-platform-text-container">
 								<div class="about-icon">
-									<i class="fa fa-money fa-2x" aria-hidden="true"></i>
+									<i class="fa fa-check" aria-hidden="true"></i>
+								</div>
+								<p>VALO installs and maintains new LED street lights for the city with no out-of-pocket costs for the city</p>
+								
+							</div>
+							<div class="about-platform-text-container">
+								<div class="about-icon">
+									<i class="fa fa-check" aria-hidden="true"></i>
+								</div>
+								<p>VALO shares cost savings with the city which provides new funds for city projects</p>
+							</div>
+							<div class="about-platform-text-container">
+								<div class="about-icon">
+									<i class="fa fa-check" aria-hidden="true"></i>
 								</div>
 								<p>VALO creates new revenues for the city via data and advertising</p>
 							</div>
-							<div class="about-platform-right-bottom">
+							<div class="about-platform-text-container">
 								<div class="about-icon">
-									<i class="fa fa-wifi fa-2x" aria-hidden="true"></i>
+									<i class="fa fa-check" aria-hidden="true"></i>
 								</div>
 								<p>VALO provides new services for the city’s citizens, such as public WiFi</p>
 							</div>
