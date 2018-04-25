@@ -74,40 +74,40 @@ get_header(); ?>
 
 				<section class="controls">
 					<div class="intuitive">
-					<img alt="Power button" src="<?php echo get_template_directory_uri() . '/assets/camera-software/intelligent-power.png'?>" />
+					<img alt="Power button" src="<?php echo get_template_directory_uri() . '/assets/camera-software//intuitive-user-friendly-01.svg'?>" />
 						<h3>Intuitive + User Friendly</h3>
 						<p>Interface allows users to easily understand the configuration process and start using the software</p>
 					</div>
 
 					<div class="event">
-						<img alt="Video Camera" src="<?php echo get_template_directory_uri() . '/assets/camera-software/cctv.png'?>" />
+						<img alt="Video Camera" src="<?php echo get_template_directory_uri() . '/assets/camera-software//event-and-action-mgmt-01.svg'?>" />
 						<h3>Event + Action Management</h3>
 						<p>Automated video surveillance process with an alarm and action manger</p>
 
 					</div>
 
 					<div class="core">
-						<img alt="64 bit core" src="<?php echo get_template_directory_uri() . '/assets/camera-software/processing-power.png'?>" />
+						<img alt="64 bit core" src="<?php echo get_template_directory_uri() . '/assets/camera-software//64-bit-core-01.svg'?>" />
 						<h3>64-Bit Core</h3>
 						<p>Use the full power of system hardware</p>
 					</div>
 
 					<div class="failover">
-						<img alt="Mobile Phone" src="<?php echo get_template_directory_uri() . '/assets/camera-software/cpu.png'?>" />
+						<img alt="Mobile Phone" src="<?php echo get_template_directory_uri() . '/assets/camera-software/failover-01.svg'?>" />
 						<h3>Failover</h3>
 						<p>Continuous monitoring of server status and failover management from the central server</p>
 
 					</div>
 
 					<div class="ready">
-						<img alt="Digital Camera" src="<?php echo get_template_directory_uri() . '/assets/camera-software/digital-camera.png'?>" />
+						<img alt="Digital Camera" src="<?php echo get_template_directory_uri() . '/assets/camera-software/4k-ready.svg'?>" />
 						<h3>4k Ready</h3>
 						<p>4K ready VMS application with 4K recording and playback</p>
 
 					</div>
 
 					<div class="archive">
-						<img alt="Government building" src="<?php echo get_template_directory_uri() . '/assets/camera-software/public-safety.png'?>" />
+						<img alt="Government building" src="<?php echo get_template_directory_uri() . '/assets/camera-software/archive-replication-01.svg'?>" />
 						<h3>Archive Replication</h3>
 						<p>Advanced mirror recording with scheduled transfers to ensure safety of data at all times</p>
 
@@ -115,7 +115,7 @@ get_header(); ?>
 
 
 					<div class="powerful">
-						<img alt="A Graph" src="<?php echo get_template_directory_uri() . '/assets/camera-software/open-data.png'?>" />
+						<img alt="A Graph" src="<?php echo get_template_directory_uri() . '/assets/camera-software/analytics-01.svg'?>" />
 						<h3>Powerful Analytics</h3>
 						<p>Modules for advanced video analytics and face recognition</p>
 
@@ -123,7 +123,7 @@ get_header(); ?>
 					</div>
 
 					<div class="integration">
-						<img alt="Gears" src="<?php echo get_template_directory_uri() . '/assets/camera-software/automation.png'?>" />
+						<img alt="Gears" src="<?php echo get_template_directory_uri() . '/assets/camera-software/integration-01.svg'?>" />
 						<h3>Integration + API</h3>
 						<p>Combine video surveillance with third party software with integration possibilities</p>
 					</div>
