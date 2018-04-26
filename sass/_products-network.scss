@@ -32,6 +32,7 @@
   @include desktop {
     background-position: bottom;
     background-size: cover;
+
     display: block;
     flex-basis: 50%;
     width: 50%;
@@ -54,7 +55,8 @@
 }
 
 .wifi-image {
-  background: url('../../assets/images/valo-network.jpg');
+  background: url('../../assets/images/valo-lora-gateway.jpg');
+  background-position: -160px;
 }
 
 .wifi-list {
@@ -69,6 +71,6 @@
   }
 }
 .network-image {
-  background: url('../../assets/images/valo-lora-gateway.jpg');
+  background: url('../../assets/images/valo-network.jpg');
   background-position: right;
 }

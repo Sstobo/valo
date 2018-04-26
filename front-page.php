@@ -75,9 +75,9 @@ get_header(); ?>
 						<p>
 							VALO Smart City Integrators are positioned to provide the technology, flexibility and economic savings to support sustainability for small and large installations in cities, municipalities and in rural areas. According to IoT Analytics, smart city projects rank second in the list of IoT segments with existing world-wide IoT projects with the market projected to grow to $757.74 Billion by 2020.
 						</p>
-						<button class="button-main button-with-shadow">
+						<a href="<?php echo esc_url(home_url('/investors')); ?>" class="button-main button-with-shadow">
 							<span class="uppercase">download our corporate presentation</span>
-						</button>
+						</a>
 					</div>
 				</section>
 				<!-- close iot -->
@@ -97,81 +97,26 @@ get_header(); ?>
 					<h2 class="press-releases-title">Latest Press Releases</h2>
 					<div class="sub-title-blue-line"></div>
 
+	
 					<div class="press-releases-container">
 
-						<div class="press-release">
-							<h3>Valo Smart City as a Service</h3>
-							<p>
-								<a href="#" title="#" rel="bookmark">Read More ‣</a>
-							</p>
-							<span>Company News, Press Releases • </span>
-							<span>
-								
-							</span>
-						</div>
-
-						<div class="press-release">
-							<h3>Internet of Things Technology</h3>
-							<p>
-								<a href="#" title="#" rel="bookmark">Read More ‣</a>
-							</p>
-							<span>Company News, Press Releases • </span>
-							<span>
-							
-							</span>
-						</div>
-						<div class="press-release">
-							<h3>Valo Smart City Secures Funding</h3>
-							<p>
-								<a href="#" title="#" rel="bookmark">Read More ‣</a>
-							</p>
-							<span>Company News, Press Releases • </span>
-							<span>
-								<?php the_time(' F jS, Y') ?>
-							</span>
-						</div>
+								<?php $args = array( 'post_type' => 'post', 'posts_per_page' => 3 ); $query = new WP_Query($args);?>
+                             <?php while ($query->have_posts()) : $query->the_post(); ?>
+														<div class="press-release">
+																	<h3><?php the_title(); ?></h3>
+																				<p>
+																					<a href="<?php the_permalink();?>">Read More ‣</a>
+																				</p>
+																				<span><?php the_category(', '); ?> • </span>
+																	<span>
+																		<?php the_time(' F jS, Y') ?>
+																	</span>
+														</div>
+															<?php endwhile; ?>
+															<?php wp_reset_query() ?>
+															
+											
 					</div>
-
-					<!-- <div class="press-releases-container"> -->
-
-					<!-- <?php $args = array( 'post_type' => 'post', 'posts_per_page' => 3 ); $query = new WP_Query($args);?>
-						<?php while ($query->have_posts()) : $query->the_post(); ?>
-							<?php endwhile; ?> -->
-
-					<!-- <div class="press-release">
-							<h3>Valo Smart City as a Service</h3>
-							<p>
-								<a href="<?php the_permalink();?>" title="<?php the_title(); ?>" rel="bookmark">Read More ‣</a>
-							</p>
-							<span>Company News, Press Releases • </span>
-							<span>
-								<?php the_time(' F jS, Y') ?>
-							</span>
-						</div>
-
-						<div class="press-release">
-							<h3>Internet of Things Technology</h3>
-							<p>
-								<a href="<?php the_permalink();?>" title="<?php the_title(); ?>" rel="bookmark">Read More ‣</a>
-							</p>
-							<span>Company News, Press Releases • </span>
-							<span>
-								<?php the_time(' F jS, Y') ?>
-							</span>
-						</div>
-						<div class="press-release">
-							<h3>Valo Smart City Secures Funding</h3>
-							<p>
-								<a href="<?php the_permalink();?>" title="<?php the_title(); ?>" rel="bookmark">Read More ‣</a>
-							</p>
-							<span>Company News, Press Releases • </span>
-							<span>
-								<?php the_time(' F jS, Y') ?>
-							</span>
-						</div>
-					</div> -->
-
-
 
 				</section>
 				<!-- close Press Releases -->

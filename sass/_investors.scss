@@ -108,11 +108,12 @@
 }
 .investors-right {
   display: none;
-  height: 700px;
+  height: 500px;
   width: 100%;
   background-image: url('../../assets/images/valo-about-02.svg');
   background-size: cover;
   @media (min-width: $desktop_width) {
     display: block;
+    margin-right: 2%;
   }
 }

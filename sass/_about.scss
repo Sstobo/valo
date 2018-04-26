@@ -31,6 +31,8 @@
   .about-team-management-team-container {
     display: flex;
     flex-direction: column;
+    // margin-bottom: 100px;
+    padding-bottom: 50px;
     @media all and (min-width: 990px) {
       flex-direction: row;
       flex-wrap: wrap;
@@ -151,13 +153,19 @@
   .about-vision-image {
     display: none;
     height: 100%;
-    width: auto;
+    width: 100%;
+    max-width: 500px;
+    max-height: 500px;
+    min-width: 400px;
+    min-height: 400px;
     background-image: url('../../assets/images/valo-about-01.svg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     @media all and (min-width: 990px) {
-      display: block;
+      flex-basis: 50%;
+      margin: 0 auto;
+      display: flex;
     }
   }
   .about-our-purpose-container {
@@ -175,13 +183,19 @@
   .about-purpose-image {
     display: none;
     height: 100%;
-    width: auto;
+    width: 100%;
+    max-width: 500px;
+    max-height: 500px;
+    min-width: 400px;
+    min-height: 400px;
     background-image: url('../../assets/images/valo-about-02.svg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     @media all and (min-width: 990px) {
-      display: block;
+      flex-basis: 50%;
+      margin: 0 auto;
+      display: flex;
     }
   }
   .about-single-item-purpose {
@@ -243,11 +257,10 @@
     }
     h3 {
       color: #fff;
-      font-family: $font__main;
-      margin-bottom: 24px;
-      padding-top: 10px;
-      font-size: 34px;
-      line-height: 44px;
+      font-family: $font__droid, sans-serif;
+      line-height: 1.9;
+      font-size: 24px;
+      line-height: 34px;
     }
     span {
       color: #fff;
@@ -354,67 +367,7 @@
       flex-direction: row;
     }
   }
-  .about-financing {
-    height: 300px;
-    width: 100%;
-    padding: 20px 8%;
-    @media all and (min-width: 990px) {
-      height: 229px;
-      width: 50%;
-      padding: 20px 4%;
-    }
-    h1 {
-      color: $color__accent;
-      text-align: right;
-      margin-bottom: 15px;
-      margin-top: 0;
-    }
-    h3 {
-      color: #000;
-      font-family: $font__droid;
-      line-height: 1.9;
-      margin-top: 0;
-      font-size: 24px;
-      line-height: 34px;
-    }
-    p {
-      color: #000;
-      font-family: $font__main;
-      font-size: 15px;
-      line-height: 1.9;
-    }
-  }
-  .about-lack-of-data {
-    height: 300px;
-    width: 100%;
-    padding: 20px 8%;
-    @media all and (min-width: 990px) {
-      height: 229px;
-      width: 50%;
-      padding: 20px 4%;
-    }
-    background-color: $color__accent;
-    h1 {
-      color: #fff;
-      text-align: right;
-      margin-bottom: 15px;
-      margin-top: 0;
-    }
-    h3 {
-      color: #fff;
-      font-family: $font__droid;
-      line-height: 1.9;
-      margin-top: 0;
-      font-size: 24px;
-      line-height: 34px;
-    }
-    p {
-      color: #fff;
-      font-family: $font__main;
-      font-size: 15px;
-      line-height: 1.9;
-    }
-  }
+
   .about-platform-wrapper {
     margin-top: -40px;
     h3 {
