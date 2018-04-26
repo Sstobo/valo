@@ -4510,6 +4510,8 @@ h2 {
   .investors-left .title-blue-line {
     margin: 0 auto;
     margin-bottom: 34px; }
+  .investors-left a {
+    font-weight: 700; }
   .investors-left h1 {
     margin-bottom: 14px; }
   .investors-left p {
@@ -4539,7 +4541,7 @@ h2 {
   display: none;
   height: 700px;
   width: 100%;
-  background-image: url("../../assets/icons-SVG/investors-picture.jpg");
+  background-image: url("../../assets/images/valo-about-02.svg");
   background-size: cover; }
   @media (min-width: 1000px) {
     .investors-right {
