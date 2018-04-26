@@ -51,39 +51,24 @@ get_header(); ?>
 						<h3>
 							The VALO Advantage
 						</h3>
-						<span>Installing and maintaining street lights presents numerous issues for cities and municipalities. Financial and technical
-							problems related to street lights include:</span>
+						<span> Installing and maintaining street lights can present issues for cities and municipalities. VALO overcomes the financial and technical challenges related to developing this infrastructure:</span>
 					</div>
 					<div class="about-high-costs">
 						<h1>01</h1>
-						<h3>High Costs</h3>
-						<p>High energy costs, and maintenance and replacement costs for existing street lighting</p>
+						<h3>Zero Cost</h3>
+						<p>VALO replaces and maintains aging municipal infrastructure with advanced technology at no cost to the city.</p>
 					</div>
 					<div class="about-lack-of-capital">
 						<h1>02</h1>
-						<h3>Lack of Capital</h3>
-						<p>Lack of capital funds to change existing street lighting to new energy efficient LED street lights</p>
+						<h3>Capital Allocation </h3>
+						<p> VALO brings the advantage of no capital cost, freeing up budgets for other concerns within local cities.</p>
 					</div>
 					<div class="about-no-financial">
 						<h1>03</h1>
-						<h3>No Financial Credit</h3>
-						<p>No financial credit to purchase new street lights</p>
+						<h3>Data Collection</h3>
+						<p> VALO street lights provide real-time information on city assets and services.</p>
 					</div>
 				</div>
-				<!-- about-advantage-container -->
-				<div class="about-advantage-container-two">
-					<div class="about-financing">
-						<h1>04</h1>
-						<h3>Financing</h3>
-						<p>Money required to fund new projects</p>
-					</div>
-					<div class="about-lack-of-data">
-						<h1>05</h1>
-						<h3>Lack of Data</h3>
-						<p>Existing street lights provide no real-time information on city assets or services</p>
-					</div>
-				</div>
-				<!-- about-financing -->
 
 				<section class="about-platform-wrapper">
 					<div class="about-platform-container">
