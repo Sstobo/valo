@@ -3324,6 +3324,7 @@ h2 {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  padding-bottom: 50px;
   background-color: #f7f7f7; }
   @media all and (min-width: 990px) {
     .page-template-about_team .about-team-management-team-container {
@@ -5329,6 +5330,29 @@ h2 {
       opacity: 0.3; }
       .site-footer .site-info .fix .fa {
         font-size: 28px; }
+
+@media all and (min-width: 1000px) {
+  .page-template-about_team .signup-container #form-title {
+    font-size: 28px; } }
+
+@media all and (min-width: 1000px) {
+  .page-template-about_team .signup-container .wpcf7-form {
+    max-width: 400px !important;
+    margin-left: 5%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; } }
+
+.page-template-about_team .signup-container .wpcf7-form p {
+  margin: 0; }
+
+@media all and (min-width: 1000px) {
+  .page-template-about_team .signup-container .wpcf7-form input.wpcf7-text {
+    max-width: 400px;
+    min-width: 400px; } }
+
+.page-template-about_team .signup-container .wpcf7-form input.wpcf7-submit {
+  margin-top: 7px; }
 
 .search-results .signup-container {
   display: none; }

@@ -298,3 +298,36 @@
     }
   }
 }
+
+.page-template-about_team {
+  .signup-container {
+    #form-title {
+      @include desktop {
+        font-size: 28px;
+      }
+    }
+
+    .wpcf7-form {
+      @include desktop {
+        max-width: 400px !important;
+        margin-left: 5%;
+        display: flex;
+      }
+
+      p {
+        margin: 0;
+      }
+
+      input.wpcf7-text {
+        @include desktop {
+          max-width: 400px;
+          min-width: 400px;
+        }
+      }
+
+      input.wpcf7-submit {
+        margin-top: 7px;
+      }
+    }
+  }
+}
