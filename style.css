@@ -985,7 +985,9 @@ object {
   margin-bottom: 1rem; }
 
 .button-hero {
-  padding: 6px 20px; }
+  display: none;
+  padding: 6px 20px;
+  margin-top: 10px; }
   @media all and (min-width: 600px) {
     .button-hero {
       padding: 12px 30px; } }
@@ -1047,9 +1049,7 @@ object {
 
 /* Integrator Section */
 .integrator-section-wrapper {
-  background: url("http://localhost:8888/Valo/wp-content/themes/valo/assets/Backgrounds/clean-gray-abstract-background.png") bottom left no-repeat;
-  background-size: 100% 100%;
-  background-attachment: fixed;
+  background-color: #f7f7f7;
   padding: 4vh;
   padding-top: 3vh; }
 
@@ -1160,9 +1160,7 @@ object {
 
 /* Press Releases */
 .press-releases-wrapper {
-  background: url("http://localhost:8888/Valo/wp-content/themes/valo/assets/Backgrounds/clean-gray-abstract-background.png") bottom left no-repeat;
-  background-size: 100% 100%;
-  background-attachment: fixed;
+  background-color: #f7f7f7;
   padding: 4vh;
   padding-top: 3vh; }
 
@@ -3441,14 +3439,23 @@ h2 {
 .page-template-about .about-vision-image {
   display: none;
   height: 100%;
-  width: auto;
+  width: 100%;
+  max-width: 500px;
+  max-height: 500px;
+  min-width: 400px;
+  min-height: 400px;
   background-image: url("../../assets/images/valo-about-01.svg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center; }
   @media all and (min-width: 990px) {
     .page-template-about .about-vision-image {
-      display: block; } }
+      -ms-flex-preferred-size: 50%;
+          flex-basis: 50%;
+      margin: 0 auto;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; } }
 
 .page-template-about .about-our-purpose-container {
   display: -webkit-box;
@@ -3470,14 +3477,23 @@ h2 {
 .page-template-about .about-purpose-image {
   display: none;
   height: 100%;
-  width: auto;
+  width: 100%;
+  max-width: 500px;
+  max-height: 500px;
+  min-width: 400px;
+  min-height: 400px;
   background-image: url("../../assets/images/valo-about-02.svg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center; }
   @media all and (min-width: 990px) {
     .page-template-about .about-purpose-image {
-      display: block; } }
+      -ms-flex-preferred-size: 50%;
+          flex-basis: 50%;
+      margin: 0 auto;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; } }
 
 .page-template-about .about-single-item-purpose {
   height: 600px;
@@ -3542,11 +3558,10 @@ h2 {
     text-align: right; }
   .page-template-about .about-the-valo-advantage h3 {
     color: #fff;
-    font-family: "Roboto";
-    margin-bottom: 24px;
-    padding-top: 10px;
-    font-size: 34px;
-    line-height: 44px; }
+    font-family: sans-serif, sans-serif;
+    line-height: 1.9;
+    font-size: 24px;
+    line-height: 34px; }
   .page-template-about .about-the-valo-advantage span {
     color: #fff;
     font-family: "Roboto";
@@ -3649,61 +3664,6 @@ h2 {
       -webkit-box-direction: normal;
           -ms-flex-direction: row;
               flex-direction: row; } }
-
-.page-template-about .about-financing {
-  height: 300px;
-  width: 100%;
-  padding: 20px 8%; }
-  @media all and (min-width: 990px) {
-    .page-template-about .about-financing {
-      height: 229px;
-      width: 50%;
-      padding: 20px 4%; } }
-  .page-template-about .about-financing h1 {
-    color: #00aeef;
-    text-align: right;
-    margin-bottom: 15px;
-    margin-top: 0; }
-  .page-template-about .about-financing h3 {
-    color: #000;
-    font-family: sans-serif;
-    line-height: 1.9;
-    margin-top: 0;
-    font-size: 24px;
-    line-height: 34px; }
-  .page-template-about .about-financing p {
-    color: #000;
-    font-family: "Roboto";
-    font-size: 15px;
-    line-height: 1.9; }
-
-.page-template-about .about-lack-of-data {
-  height: 300px;
-  width: 100%;
-  padding: 20px 8%;
-  background-color: #00aeef; }
-  @media all and (min-width: 990px) {
-    .page-template-about .about-lack-of-data {
-      height: 229px;
-      width: 50%;
-      padding: 20px 4%; } }
-  .page-template-about .about-lack-of-data h1 {
-    color: #fff;
-    text-align: right;
-    margin-bottom: 15px;
-    margin-top: 0; }
-  .page-template-about .about-lack-of-data h3 {
-    color: #fff;
-    font-family: sans-serif;
-    line-height: 1.9;
-    margin-top: 0;
-    font-size: 24px;
-    line-height: 34px; }
-  .page-template-about .about-lack-of-data p {
-    color: #fff;
-    font-family: "Roboto";
-    font-size: 15px;
-    line-height: 1.9; }
 
 .page-template-about .about-platform-wrapper {
   margin-top: -40px; }
