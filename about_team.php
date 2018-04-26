@@ -161,28 +161,7 @@ get_header(); ?>
 							<a ref="#">EMAIL</a>
 						</div>
 					</div>
-					<div class="about-team-single-team-member-container tim-davranov">
-						<div class="about-team-name-and-position">
-							<h3>
-								<strong>Tim Davranov</strong>
-							</h3>
-							<span>
-								<strong>CORPORATE TITLE</strong>
-							</span>
-						</div>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-							aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-							Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-							occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-						</p>
-						<div class="about-team-contact">
-							<strong>CONTACT
-								<br>
-							</strong>
-							<a ref="#">LINKEDIN</a>
-							<a ref="#">EMAIL</a>
-						</div>
-					</div>
+			
 				</div>
 				<?php endwhile; // End of the loop.?>
 				<div class="about-team-signup-image">

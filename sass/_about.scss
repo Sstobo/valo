@@ -31,6 +31,8 @@
   .about-team-management-team-container {
     display: flex;
     flex-direction: column;
+    // margin-bottom: 100px;
+    padding-bottom: 50px;
     @media all and (min-width: 990px) {
       flex-direction: row;
       flex-wrap: wrap;

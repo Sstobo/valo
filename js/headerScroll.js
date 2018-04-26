@@ -1,6 +1,6 @@
 (function($) {
   var header = $('#header-wrapper');
-  console.log('test');
+
   $(window).scroll(function() {
     if (scrollY <= 0) {
       if ($('.page-template-news')) {
@@ -19,7 +19,7 @@
       header.animate(
         {
           opacity: 0.9,
-          height: '140px',
+          height: '140px'
         },
         300
       );
