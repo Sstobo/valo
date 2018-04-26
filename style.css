@@ -1685,7 +1685,7 @@ object {
       padding-right: 5%; } }
 
 .wifi-image {
-  background: url("../../assets/images/valo-network.jpg"); }
+  background: url("../../assets/images/valo-lora-gateway.jpg"); }
 
 .wifi-list {
   display: -webkit-box;
@@ -1707,7 +1707,7 @@ object {
           flex-basis: 50%; } }
 
 .network-image {
-  background: url("../../assets/images/valo-lora-gateway.jpg");
+  background: url("../../assets/images/valo-network.jpg");
   background-position: right; }
 
 .page-template-products_cameras .camera-banner {
