@@ -1562,6 +1562,7 @@ object {
       text-align: center;
       font-size: 20px;
       width: 40%;
+      min-width: 160px;
       margin: 0 auto;
       margin-bottom: 44px; }
   .products-service-wrapper .products-platform {
@@ -1583,6 +1584,7 @@ object {
       text-align: center;
       font-size: 20px;
       width: 40%;
+      min-width: 160px;
       margin: 0 auto;
       margin-bottom: 44px; }
   .products-service-wrapper .products-cameras {
@@ -1604,6 +1606,7 @@ object {
       text-align: center;
       font-size: 20px;
       width: 40%;
+      min-width: 160px;
       margin: 0 auto;
       margin-bottom: 44px; }
   .products-service-wrapper .products-networks {
@@ -1625,6 +1628,7 @@ object {
       text-align: center;
       font-size: 20px;
       width: 40%;
+      min-width: 160px;
       margin: 0 auto;
       margin-bottom: 44px; }
 
@@ -3340,7 +3344,7 @@ h2 {
   padding: 25px 50px; }
   @media all and (min-width: 990px) {
     .page-template-about_team .about-team-single-team-member-container {
-      height: 550px;
+      height: 530px;
       width: 45%; } }
   .page-template-about_team .about-team-single-team-member-container p {
     font-family: sans-serif;
@@ -3363,7 +3367,7 @@ h2 {
   line-height: 1em; }
 
 .page-template-about_team .about-team-contact {
-  margin-top: 8px; }
+  margin-top: 12px; }
   .page-template-about_team .about-team-contact a {
     color: #00aeef;
     font-weight: 700; }
@@ -3536,7 +3540,11 @@ h2 {
     text-align: right; }
   .page-template-about .about-the-valo-advantage h3 {
     color: #fff;
-    font-family: "Roboto"; }
+    font-family: "Roboto";
+    margin-bottom: 24px;
+    padding-top: 10px;
+    font-size: 34px;
+    line-height: 44px; }
   .page-template-about .about-the-valo-advantage span {
     color: #fff;
     font-family: "Roboto";
@@ -5701,9 +5709,10 @@ h2 {
   @media (min-width: 1000px) {
     .platform-icon-box-sensors {
       width: 33%;
-      height: 540px;
+      height: 600px;
       padding-top: 34px;
-      padding-left: 54px; } }
+      padding-left: 54px;
+      padding-bottom: 44px; } }
   .platform-icon-box-sensors .platform-icon-box-img {
     height: 100px;
     width: 100px;

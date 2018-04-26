@@ -48,10 +48,10 @@ get_header(); ?>
 				<div class="about-advantage-container">
 					<div class="about-the-valo-advantage">
 						<i class="fa fa-lightbulb-o fa-3x about-icon" aria-hidden="true"></i>
-						<h3>
-							The VALO Advantage
-						</h3>
-						<span> Installing and maintaining street lights can present issues for cities and municipalities. VALO overcomes the financial and technical challenges related to developing this infrastructure:</span>
+						<h2 style="margin-bottom: 24px">
+							<strong>The VALO Advantage</strong>
+						</h2>
+						<span>Installing and maintaining street lights can present issues for cities and municipalities. VALO overcomes the financial and technical challenges related to developing this infrastructure:</span>
 					</div>
 					<div class="about-high-costs">
 						<h1>01</h1>
@@ -65,8 +65,21 @@ get_header(); ?>
 					</div>
 					<div class="about-no-financial">
 						<h1>03</h1>
-						<h3>Data Collection</h3>
-						<p> VALO street lights provide real-time information on city assets and services.</p>
+						<h3>No Financial Credit</h3>
+						<p>No financial credit to purchase new street lights</p>
+					</div>
+				</div>
+				<!-- about-advantage-container -->
+				<div class="about-advantage-container-two">
+					<div class="about-financing">
+						<h1>04</h1>
+						<h3>Financing</h3>
+						<p>Money required to finance new city projects</p>
+					</div>
+					<div class="about-lack-of-data">
+						<h1>05</h1>
+						<h3>Lack of Data</h3>
+						<p>Existing street lights provide no real-time information on city assets or services</p>
 					</div>
 				</div>
 
