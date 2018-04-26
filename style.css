@@ -1235,6 +1235,7 @@ object {
     transition: all 0.5s;
     -webkit-transition: all 0.5s; }
   .press-release span {
+    display: inline;
     font-size: 13px;
     font-family: "Roboto";
     font-weight: 300;
