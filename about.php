@@ -48,9 +48,7 @@ get_header(); ?>
 				<div class="about-advantage-container">
 					<div class="about-the-valo-advantage">
 						<i class="fa fa-lightbulb-o fa-3x about-icon" aria-hidden="true"></i>
-						<h3>
-							The VALO Advantage
-						</h3>
+							<h3>The VALO Advantage</h3>
 						<span>Installing and maintaining street lights can present issues for cities and municipalities. VALO overcomes the financial and technical challenges related to developing this infrastructure:</span>
 					</div>
 					<div class="about-high-costs">
@@ -60,13 +58,13 @@ get_header(); ?>
 					</div>
 					<div class="about-lack-of-capital">
 						<h1>02</h1>
-						<h3>Capital Allocation </h3>
-						<p> VALO brings the advantage of no capital cost, freeing up budgets for other concerns within local cities.</p>
+						<h3>Capital Allocation</h3>
+						<p>VALO brings the advantage of no capital cost, freeing up budgets for other concerns within local cities.</p>
 					</div>
 					<div class="about-no-financial">
 						<h1>03</h1>
-						<h3>No Financial Credit</h3>
-						<p>No financial credit to purchase new street lights</p>
+						<h3>Data Collection</h3>
+						<p>VALO street lights provide real-time information on city assets and services.</p>
 					</div>
 				</div>
 				<!-- about-advantage-container -->
