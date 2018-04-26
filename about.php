@@ -55,13 +55,13 @@ get_header(); ?>
 					</div>
 					<div class="about-high-costs">
 						<h1>01</h1>
-						<h3>High Costs</h3>
-						<p>High energy costs, and maintenance and replacement costs for existing street lighting</p>
+						<h3>Zero Cost</h3>
+						<p>VALO replaces and maintains aging municipal infrastructure with advanced technology at no cost to the city.</p>
 					</div>
 					<div class="about-lack-of-capital">
 						<h1>02</h1>
-						<h3>Lack of Capital</h3>
-						<p>Lack of capital funds to change existing street lighting to new energy efficient LED street lights</p>
+						<h3>Capital Allocation </h3>
+						<p> VALO brings the advantage of no capital cost, freeing up budgets for other concerns within local cities.</p>
 					</div>
 					<div class="about-no-financial">
 						<h1>03</h1>
@@ -82,7 +82,6 @@ get_header(); ?>
 						<p>Existing street lights provide no real-time information on city assets or services</p>
 					</div>
 				</div>
-				<!-- about-financing -->
 
 				<section class="about-platform-wrapper">
 					<div class="about-platform-container">

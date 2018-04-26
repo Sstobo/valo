@@ -145,7 +145,7 @@
     display: none;
     height: 500px;
     width: 50%;
-    padding: 25px 5%;
+
     @media all and (min-width: 990px) {
       display: block;
     }
@@ -243,7 +243,7 @@
       color: #fff;
       text-align: right;
     }
-    h2 {
+    h3 {
       color: #fff;
       font-family: $font__main;
       margin-bottom: 24px;

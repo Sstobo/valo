@@ -1707,7 +1707,8 @@ object {
           flex-basis: 50%; } }
 
 .network-image {
-  background: url("../../assets/images/valo-lora-gateway.jpg"); }
+  background: url("../../assets/images/valo-lora-gateway.jpg");
+  background-position: right; }
 
 .page-template-products_cameras .camera-banner {
   min-height: 350px;
@@ -3430,8 +3431,7 @@ h2 {
 .page-template-about .about-top-row-image {
   display: none;
   height: 500px;
-  width: 50%;
-  padding: 25px 5%; }
+  width: 50%; }
   @media all and (min-width: 990px) {
     .page-template-about .about-top-row-image {
       display: block; } }
@@ -3538,7 +3538,7 @@ h2 {
     display: block;
     color: #fff;
     text-align: right; }
-  .page-template-about .about-the-valo-advantage h2 {
+  .page-template-about .about-the-valo-advantage h3 {
     color: #fff;
     font-family: "Roboto";
     margin-bottom: 24px;
@@ -4659,9 +4659,6 @@ h2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex; }
-  @media all and (min-width: 1000px) {
-    .page-template-page-services .content-area-services .badvert-wrapper {
-      margin-top: 50px; } }
   .page-template-page-services .content-area-services .badvert-wrapper .badvert-image {
     display: none; }
     @media all and (min-width: 1000px) {
@@ -4671,16 +4668,10 @@ h2 {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
-        width: 400px;
-        height: 400px;
+        width: 50%;
         background: url("../../assets/images/services-add.jpg");
         background-size: cover;
-        background-repeat: no-repeat;
-        background-position: 0 -30px;
-        min-width: 600px;
-        min-height: 400px;
-        max-width: 500px;
-        max-height: 500px; } }
+        background-repeat: no-repeat; } }
   .page-template-page-services .content-area-services .badvert-wrapper .badverts {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -4695,7 +4686,7 @@ h2 {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    padding: 40px 0; }
+    padding: 60px 0; }
     @media all and (min-width: 1000px) {
       .page-template-page-services .content-area-services .badvert-wrapper .badverts {
         -ms-flex-preferred-size: 50%;

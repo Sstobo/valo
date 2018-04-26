@@ -94,25 +94,16 @@
 
     .badvert-wrapper {
       display: flex;
-      @include desktop {
-        margin-top: 50px;
-      }
+
       .badvert-image {
         display: none;
         @include desktop {
           flex-basis: 50%;
           display: flex;
-          width: 400px;
-          height: 400px;
+          width: 50%;
           background: url('../../assets/images/services-add.jpg');
           background-size: cover;
           background-repeat: no-repeat;
-          background-position: 0 -30px;
-          // margin-left: 4%;
-          min-width: 600px;
-          min-height: 400px;
-          max-width: 500px;
-          max-height: 500px;
         }
       }
       .badverts {
@@ -120,7 +111,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding: 40px 0;
+        padding: 60px 0;
 
         @include desktop {
           flex-basis: 50%;
