@@ -3133,12 +3133,15 @@ h2 {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly; }
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
   @media (min-width: 1000px) {
     .applications-hero {
-      height: 400px; } }
+      height: 400px;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between; } }
   .applications-hero .applications-hero-wrapper {
     width: 80%; }
     .applications-hero .applications-hero-wrapper p {
@@ -3152,18 +3155,20 @@ h2 {
         display: block;
         height: 500px;
         width: 40%;
-        text-align: left; } }
+        text-align: left;
+        margin-left: 7%; } }
   .applications-hero .applications-hero-img {
     display: none; }
     @media (min-width: 1000px) {
       .applications-hero .applications-hero-img {
         background-image: url("../../assets/images/valo-applications-01.svg");
-        background-size: cover;
+        background-size: contain;
         background-repeat: no-repeat;
         display: block;
-        height: 90%;
-        width: 40%;
-        background-color: white; } }
+        width: 50%;
+        max-width: 500px;
+        background-color: white;
+        margin-right: 7%; } }
   @media (min-width: 1000px) {
     .applications-hero {
       -webkit-box-orient: horizontal;

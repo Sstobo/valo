@@ -458,9 +458,10 @@ h2 {
   height: 260px;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: center;
   @media (min-width: $desktop_width) {
     height: 400px;
+    justify-content: space-between;
   }
   .applications-hero-wrapper {
     width: 80%;
@@ -476,18 +477,20 @@ h2 {
       height: 500px;
       width: 40%;
       text-align: left;
+      margin-left: 7%;
     }
   }
   .applications-hero-img {
     display: none;
     @media (min-width: $desktop_width) {
       background-image: url('../../assets/images/valo-applications-01.svg');
-      background-size: cover;
+      background-size: contain;
       background-repeat: no-repeat;
       display: block;
-      height: 90%;
-      width: 40%;
+      width: 50%;
+      max-width: 500px;
       background-color: white;
+      margin-right: 7%;
     }
   }
   @media (min-width: $desktop_width) {
