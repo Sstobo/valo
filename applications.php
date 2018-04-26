@@ -21,17 +21,17 @@ get_header(); ?>
                 <div class="applications-service-wrapper">
                     <div class="applications-lighting">
                     <img alt="A green car" class="applications-img" src="<?php echo get_template_directory_uri() . '/assets/icons-SVG/Applications/smart-transport-01.svg'; ?>"/></a>
-                        <h3>Smart Transportation</h3>
+                        <h3>Smart </br> Transportation</h3>
                         <a href="<?php echo get_page_link( get_page_by_title("Smart Transportation" )->ID ); ?>"style="padding: 10px 16px 10px 16px;font-size: 13px"class="button-main button-hero">Learn more</a>
                     </div>
                     <div class="applications-platform">
                     <img alt="A car"  class="applications-img" src="<?php echo get_template_directory_uri() . '/assets/icons-SVG/Applications/municipal-01.svg'; ?>"/></a>
-                        <h3>Smart Municipal Services</h3>
+                        <h3>Smart </br> Municipal Services</h3>
                        <a href="<?php echo get_page_link( get_page_by_title( "Smart Municipal Services" )->ID ); ?>"style="padding: 10px 16px 10px 16px;font-size: 13px"class="button-main button-hero">Learn more</a>
                     </div>
                     <div class="applications-cameras">
                     <img alt="Security panel" class="applications-img" src="<?php echo get_template_directory_uri() . '/assets/icons-SVG/Applications/smart-security-01.svg'; ?>"/></a>
-                        <h3>Smart Security</h3>
+                        <h3>Smart </br> Security</h3>
                         <a href="<?php echo get_page_link( get_page_by_title( "Smart City Security" )->ID ); ?>"style="padding: 10px 16px 10px 16px;font-size: 13px"class="button-main button-hero">Learn more</a>
                     </div>
                     <div class="applications-networks">

@@ -3117,7 +3117,6 @@ h2 {
   width: 100%;
   text-align: center;
   margin-bottom: 44px;
-  padding: 12px;
   height: 260px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -3125,40 +3124,33 @@ h2 {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
-          flex-direction: row; }
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly; }
   @media (min-width: 1000px) {
     .applications-hero {
       height: 400px; } }
   .applications-hero .applications-hero-wrapper {
-    padding: 24px; }
+    width: 80%; }
     .applications-hero .applications-hero-wrapper p {
-      max-width: 80%;
       line-height: 28px;
       font-size: 15px; }
+      @media (min-width: 1000px) {
+        .applications-hero .applications-hero-wrapper p {
+          width: 80%; } }
     @media (min-width: 1000px) {
       .applications-hero .applications-hero-wrapper {
         display: block;
         height: 500px;
-        width: 50%;
-        margin-right: 48px;
-        text-align: left;
-        padding: 0px 64px 0 24px; } }
-    @media (min-width: 1300px) {
-      .applications-hero .applications-hero-wrapper {
-        display: block;
-        height: 500px;
-        width: 50%;
-        margin-right: 48px;
-        text-align: left;
-        padding: 14px 14px 0 124px; } }
+        width: 40%;
+        text-align: left; } }
   .applications-hero .applications-hero-img {
     display: none; }
     @media (min-width: 1000px) {
       .applications-hero .applications-hero-img {
-        position: relative;
-        left: 10%;
-        background-image: url("../../assets/icons-SVG/valo-applications-home.svg");
-        background-size: 50%;
+        background-image: url("../../assets/images/valo-applications-01.svg");
+        background-size: cover;
         background-repeat: no-repeat;
         display: block;
         height: 90%;
