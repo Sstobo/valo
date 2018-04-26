@@ -3344,7 +3344,7 @@ h2 {
   padding: 25px 50px; }
   @media all and (min-width: 990px) {
     .page-template-about_team .about-team-single-team-member-container {
-      height: 550px;
+      height: 530px;
       width: 45%; } }
   .page-template-about_team .about-team-single-team-member-container p {
     font-family: sans-serif;
@@ -3367,7 +3367,7 @@ h2 {
   line-height: 1em; }
 
 .page-template-about_team .about-team-contact {
-  margin-top: 8px; }
+  margin-top: 12px; }
   .page-template-about_team .about-team-contact a {
     color: #00aeef;
     font-weight: 700; }

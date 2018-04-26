@@ -46,7 +46,7 @@
   .about-team-single-team-member-container {
     width: 95%;
     @media all and (min-width: 990px) {
-      height: 550px;
+      height: 530px;
       width: 45%;
     }
     margin: 2.5%;
@@ -75,7 +75,7 @@
     }
   }
   .about-team-contact {
-    margin-top: 8px;
+    margin-top: 12px;
     a {
       color: $color__accent;
       font-weight: 700;
@@ -118,7 +118,6 @@
     display: flex;
     flex-direction: row;
   }
-
   .about-single-item-vision {
     @media all and (max-width: 768px) {
       height: 300px;
@@ -145,7 +144,6 @@
     display: none;
     height: 500px;
     width: 50%;
-
     @media all and (min-width: 990px) {
       display: block;
     }
@@ -257,7 +255,6 @@
       line-height: 1.9;
     }
   }
-
   .about-high-costs {
     height: 300px;
     width: 100%;
@@ -274,7 +271,6 @@
       margin-bottom: 15px;
       margin-top: 0;
     }
-
     h3 {
       color: #000;
       font-family: $font__droid;
@@ -367,7 +363,6 @@
       width: 50%;
       padding: 20px 4%;
     }
-
     h1 {
       color: $color__accent;
       text-align: right;
@@ -398,7 +393,6 @@
       width: 50%;
       padding: 20px 4%;
     }
-
     background-color: $color__accent;
     h1 {
       color: #fff;
@@ -448,7 +442,6 @@
       background-position: bottom;
     }
   }
-
   .about-platform-right-container {
     padding: 40px 0;
     display: flex;
