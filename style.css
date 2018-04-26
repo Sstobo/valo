@@ -1162,7 +1162,8 @@ object {
 .press-releases-wrapper {
   background-color: #f7f7f7;
   padding: 4vh;
-  padding-top: 3vh; }
+  padding-top: 3vh;
+  padding-bottom: 0; }
 
 .press-releases-title {
   font-family: "Roboto";
@@ -1508,10 +1509,15 @@ object {
         display: block;
         height: 90%;
         width: 40%;
-        padding-top: 80px;
+        padding-top: 60px;
         position: relative;
         right: 5%;
-        text-align: left; } }
+        text-align: left; }
+        .products-hero .products-hero-wrapper h1 {
+          margin: 0; }
+        .products-hero .products-hero-wrapper p {
+          margin: 0;
+          line-height: 25px; } }
   .products-hero .products-hero-img {
     display: none; }
     @media (min-width: 1000px) {
@@ -1519,7 +1525,9 @@ object {
         display: block;
         height: 90%;
         width: 30%;
-        background: url("../../assets/images/valo-products-still-1.png"); } }
+        background: url("../../assets/icons-SVG/products.svg");
+        background-repeat: no-repeat;
+        background-size: cover; } }
   @media (min-width: 1000px) {
     .products-hero {
       -webkit-box-orient: horizontal;
@@ -1684,7 +1692,8 @@ object {
       padding-right: 5%; } }
 
 .wifi-image {
-  background: url("../../assets/images/valo-lora-gateway.jpg"); }
+  background: url("../../assets/images/valo-lora-gateway.jpg");
+  background-position: -160px; }
 
 .wifi-list {
   display: -webkit-box;
@@ -4507,13 +4516,14 @@ h2 {
 
 .investors-right {
   display: none;
-  height: 700px;
+  height: 500px;
   width: 100%;
   background-image: url("../../assets/images/valo-about-02.svg");
   background-size: cover; }
   @media (min-width: 1000px) {
     .investors-right {
-      display: block; } }
+      display: block;
+      margin-right: 2%; } }
 
 .page-template-page-services .content-area-services .entry-title {
   display: none; }
@@ -5313,6 +5323,11 @@ h2 {
 
 .page-template-about_team .signup-container .wpcf7-form input.wpcf7-submit {
   margin-top: 7px; }
+
+.home .signup-container {
+  margin-top: 0; }
+  .home .signup-container h1 {
+    margin-top: 0; }
 
 .search-results .signup-container {
   display: none; }
