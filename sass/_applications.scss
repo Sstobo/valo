@@ -489,6 +489,7 @@ h2 {
       display: block;
       width: 50%;
       max-width: 500px;
+      min-height: 455px;
       background-color: white;
       margin-right: 7%;
     }
@@ -503,6 +504,10 @@ h2 {
   flex-direction: column;
   h3 {
     font-size: 20px;
+  }
+
+  @include footer_row {
+    flex-direction: row;
   }
 
   @media (min-width: $desktop_width) {
