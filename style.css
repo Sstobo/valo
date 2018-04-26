@@ -1562,6 +1562,7 @@ object {
       text-align: center;
       font-size: 20px;
       width: 40%;
+      min-width: 160px;
       margin: 0 auto;
       margin-bottom: 44px; }
   .products-service-wrapper .products-platform {
@@ -1583,6 +1584,7 @@ object {
       text-align: center;
       font-size: 20px;
       width: 40%;
+      min-width: 160px;
       margin: 0 auto;
       margin-bottom: 44px; }
   .products-service-wrapper .products-cameras {
@@ -1604,6 +1606,7 @@ object {
       text-align: center;
       font-size: 20px;
       width: 40%;
+      min-width: 160px;
       margin: 0 auto;
       margin-bottom: 44px; }
   .products-service-wrapper .products-networks {
@@ -1625,6 +1628,7 @@ object {
       text-align: center;
       font-size: 20px;
       width: 40%;
+      min-width: 160px;
       margin: 0 auto;
       margin-bottom: 44px; }
 
@@ -3537,7 +3541,7 @@ h2 {
   .page-template-about .about-the-valo-advantage h2 {
     color: #fff;
     font-family: "Roboto";
-    margin-bottom: 0;
+    margin-bottom: 24px;
     padding-top: 10px;
     font-size: 34px;
     line-height: 44px; }
@@ -5712,9 +5716,10 @@ h2 {
   @media (min-width: 1000px) {
     .platform-icon-box-sensors {
       width: 33%;
-      height: 540px;
+      height: 600px;
       padding-top: 34px;
-      padding-left: 54px; } }
+      padding-left: 54px;
+      padding-bottom: 44px; } }
   .platform-icon-box-sensors .platform-icon-box-img {
     height: 100px;
     width: 100px;

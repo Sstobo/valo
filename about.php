@@ -48,11 +48,10 @@ get_header(); ?>
 				<div class="about-advantage-container">
 					<div class="about-the-valo-advantage">
 						<i class="fa fa-lightbulb-o fa-3x about-icon" aria-hidden="true"></i>
-						<h2>
+						<h2 style="margin-bottom: 24px">
 							<strong>The VALO Advantage</strong>
 						</h2>
-						<span>Installing and maintaining street lights presents numerous issues for cities and municipalities. Financial and technical
-							problems related to street lights include:</span>
+						<span>Installing and maintaining street lights can present issues for cities and municipalities. VALO overcomes the financial and technical challenges related to developing this infrastructure:</span>
 					</div>
 					<div class="about-high-costs">
 						<h1>01</h1>
@@ -75,7 +74,7 @@ get_header(); ?>
 					<div class="about-financing">
 						<h1>04</h1>
 						<h3>Financing</h3>
-						<p>Money required to fund new projects</p>
+						<p>Money required to finance new city projects</p>
 					</div>
 					<div class="about-lack-of-data">
 						<h1>05</h1>

@@ -36,7 +36,7 @@ get_header(); ?>
                     </div>
                     <div class="applications-networks">
                     <img alt="Zero emmision icon" class="applications-img" src="<?php echo get_template_directory_uri() . '/assets/icons-SVG/Applications/environmental-01.svg'; ?>"/></a>
-                        <h3>Smart Environmental Monitoring
+                        <h3 style=" min-width: 200px">Smart Environmental Monitoring
                         </h3>
                         <a href="<?php echo get_page_link( get_page_by_title( "Smart Environmental Monitoring" )->ID ); ?>"style="padding: 10px 16px 10px 16px; font-size: 13px"class="button-main button-hero">Learn more</a>
                       
