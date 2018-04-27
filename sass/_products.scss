@@ -63,6 +63,13 @@
   display: flex;
   flex-direction: column;
 
+  .button-main {
+    display: inline;
+  }
+  .button-hero {
+    display: inline;
+  }
+
   @include footer_row {
     flex-direction: row;
   }

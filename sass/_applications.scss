@@ -502,6 +502,13 @@ h2 {
   width: 100%;
   display: flex;
   flex-direction: column;
+
+  .button-main {
+    display: inline;
+  }
+  .button-hero {
+    display: inline;
+  }
   h3 {
     font-size: 20px;
   }

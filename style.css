@@ -1547,6 +1547,10 @@ object {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column; }
+  .products-service-wrapper .button-main {
+    display: inline; }
+  .products-service-wrapper .button-hero {
+    display: inline; }
   @media all and (min-width: 800px) {
     .products-service-wrapper {
       -webkit-box-orient: horizontal;
@@ -3196,6 +3200,10 @@ h2 {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column; }
+  .applications-service-wrapper .button-main {
+    display: inline; }
+  .applications-service-wrapper .button-hero {
+    display: inline; }
   .applications-service-wrapper h3 {
     font-size: 20px; }
   @media all and (min-width: 800px) {
