@@ -7,11 +7,11 @@
   width: 100%;
   text-align: center;
   margin-bottom: 44px;
-  padding: 12px;
+
   height: 300px;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
 
   @include desktop {
     height: 500px;
@@ -21,16 +21,13 @@
     line-height: 28px;
   }
   .products-hero-wrapper {
-    padding: 24px;
+    padding: 24px 7%;
 
     @media (min-width: $desktop_width) {
       display: block;
       height: 90%;
-      width: 40%;
-
+      width: 50%;
       padding-top: 60px;
-      position: relative;
-      right: 5%;
       text-align: left;
 
       h1 {
@@ -47,7 +44,7 @@
     display: none;
     @media (min-width: $desktop_width) {
       display: block;
-
+      margin-right: 7%;
       margin-top: 50px;
       min-width: 500px;
       max-height: 455px;
