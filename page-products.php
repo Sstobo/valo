@@ -13,7 +13,7 @@ get_header(); ?>
             <div class="products-wrapper">
                 <div class="products-hero">
                     <div class="products-hero-wrapper">
-                    <h1> Products </h1>
+                    <h1>Products</h1>
                     <p> VALO offers various devices and technologies for smart city applications. The company’s line of products
                         provide immediate savings for cities worldwide. VALO offers numerous combinations and configurations
                         of products to meet the unique needs of each city.</p>
