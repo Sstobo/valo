@@ -4881,23 +4881,23 @@ h2 {
         max-width: 70%;
         text-align: center; }
 
-.signup-container #form-title-services {
+.content-area-services .signup-container #form-title-services {
   display: block;
   max-width: 60%;
   text-align: center;
   font-size: 18px;
   font-weight: bold; }
   @media all and (min-width: 600px) {
-    .signup-container #form-title-services {
+    .content-area-services .signup-container #form-title-services {
       font-size: 25px; } }
   @media all and (min-width: 800px) {
-    .signup-container #form-title-services {
+    .content-area-services .signup-container #form-title-services {
       font-size: 30px; } }
   @media all and (min-width: 1000px) {
-    .signup-container #form-title-services {
+    .content-area-services .signup-container #form-title-services {
       font-size: 34px; } }
 
-.signup-container #form-title-services:after {
+.content-area-services .signup-container #form-title-services:after {
   content: '';
   border-bottom: 2px solid #00aeef;
   width: 50px;
@@ -4905,14 +4905,14 @@ h2 {
   margin: 0 auto;
   padding-top: 20px; }
 
-.signup-container #services-para {
+.content-area-services .signup-container #services-para {
   display: block;
   font-family: "Roboto";
   max-width: 75%;
   text-align: center;
   font-size: 16px; }
 
-.signup-container #form-title {
+.content-area-services .signup-container #form-title {
   display: none; }
 
 .error404 .not-found-banner {
