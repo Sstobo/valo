@@ -8,16 +8,21 @@
   text-align: center;
   margin-bottom: 44px;
   padding: 12px;
-  height: 500px;
+  height: 300px;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+
+  @include desktop {
+    height: 500px;
+  }
   p {
     font-size: 15px;
     line-height: 28px;
   }
   .products-hero-wrapper {
     padding: 24px;
+
     @media (min-width: $desktop_width) {
       display: block;
       height: 90%;
@@ -42,8 +47,11 @@
     display: none;
     @media (min-width: $desktop_width) {
       display: block;
-      height: 90%;
-      width: 30%;
+
+      margin-top: 50px;
+      min-width: 500px;
+      max-height: 455px;
+      min-height: 455px;
       background: url('../../assets/icons-SVG/products.svg');
       background-repeat: no-repeat;
       background-size: cover;
@@ -57,6 +65,11 @@
   width: 100%;
   display: flex;
   flex-direction: column;
+
+  @include footer_row {
+    flex-direction: row;
+  }
+
   @media (min-width: $desktop_width) {
     flex-direction: row;
   }
