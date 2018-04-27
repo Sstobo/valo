@@ -1487,7 +1487,6 @@ object {
   width: 100%;
   text-align: center;
   margin-bottom: 44px;
-  padding: 12px;
   height: 300px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1496,9 +1495,9 @@ object {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly; }
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
   @media all and (min-width: 1000px) {
     .products-hero {
       height: 500px; } }
@@ -1506,15 +1505,13 @@ object {
     font-size: 15px;
     line-height: 28px; }
   .products-hero .products-hero-wrapper {
-    padding: 24px; }
+    padding: 24px 7%; }
     @media (min-width: 1000px) {
       .products-hero .products-hero-wrapper {
         display: block;
         height: 90%;
-        width: 40%;
+        width: 50%;
         padding-top: 60px;
-        position: relative;
-        right: 5%;
         text-align: left; }
         .products-hero .products-hero-wrapper h1 {
           margin: 0; }
@@ -1526,6 +1523,7 @@ object {
     @media (min-width: 1000px) {
       .products-hero .products-hero-img {
         display: block;
+        margin-right: 7%;
         margin-top: 50px;
         min-width: 500px;
         max-height: 455px;
@@ -3434,7 +3432,7 @@ h2 {
           flex-direction: row; }
 
 .page-template-about .about-single-item-vision {
-  padding: 45px 8.5%; }
+  padding: 45px 7%; }
   @media all and (max-width: 768px) {
     .page-template-about .about-single-item-vision {
       height: 300px; } }
