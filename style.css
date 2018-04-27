@@ -1505,13 +1505,12 @@ object {
     font-size: 15px;
     line-height: 28px; }
   .products-hero .products-hero-wrapper {
-    padding: 24px 7%; }
+    margin: 65px 7%; }
     @media (min-width: 1000px) {
       .products-hero .products-hero-wrapper {
         display: block;
         height: 90%;
         width: 50%;
-        padding-top: 60px;
         text-align: left; }
         .products-hero .products-hero-wrapper h1 {
           margin: 0; }
@@ -3138,7 +3137,7 @@ h2 {
 .applications-hero {
   width: 100%;
   text-align: center;
-  margin-bottom: 44px;
+  margin: 44px 0;
   height: 260px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -3158,6 +3157,8 @@ h2 {
               justify-content: space-between; } }
   .applications-hero .applications-hero-wrapper {
     width: 80%; }
+    .applications-hero .applications-hero-wrapper h1 {
+      margin: 0; }
     .applications-hero .applications-hero-wrapper p {
       line-height: 28px;
       font-size: 15px; }
