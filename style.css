@@ -3434,7 +3434,7 @@ h2 {
           flex-direction: row; }
 
 .page-template-about .about-single-item-vision {
-  padding: 45px 8.5%; }
+  padding: 45px 7%; }
   @media all and (max-width: 768px) {
     .page-template-about .about-single-item-vision {
       height: 300px; } }
