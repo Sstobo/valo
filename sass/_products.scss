@@ -21,18 +21,17 @@
     line-height: 28px;
   }
   .products-hero-wrapper {
-    padding: 24px 7%;
+    margin: 65px 7%;
 
     @media (min-width: $desktop_width) {
       display: block;
       height: 90%;
       width: 50%;
-      padding-top: 60px;
       text-align: left;
 
-      // h1 {
-      //   margin: 0;
-      // }
+      h1 {
+        margin: 0;
+      }
 
       p {
         margin: 0;
