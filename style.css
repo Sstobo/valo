@@ -1701,7 +1701,7 @@ object {
 .wifi-image {
   background: url("../../assets/images/valo-lora-gateway.jpg");
   background-position: -160px;
-  background-repeat: no-repeat; }
+  background-size: cover; }
 
 .wifi-list {
   display: -webkit-box;
@@ -4537,28 +4537,28 @@ h2 {
       display: block;
       margin-right: 2%; } }
 
-.page-id-22 .content-area-services .entry-title {
+.content-area-services .entry-title {
   display: none; }
 
-.page-id-22 .content-area-services h3 {
+.content-area-services h3 {
   color: #00aeef;
   font-size: 20px;
   letter-spacing: 0.5px; }
 
-.page-id-22 .content-area-services h2 {
+.content-area-services h2 {
   font-weight: bold;
   font-size: 40px;
   margin: 0; }
 
-.page-id-22 .content-area-services p {
+.content-area-services p {
   font-size: 15px;
   line-height: 25px; }
 
-.page-id-22 .content-area-services .service-wrapper {
+.content-area-services .service-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex; }
-  .page-id-22 .content-area-services .service-wrapper .services-header {
+  .content-area-services .service-wrapper .services-header {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -4574,7 +4574,7 @@ h2 {
             align-items: center;
     margin-top: 40px; }
     @media all and (min-width: 1000px) {
-      .page-id-22 .content-area-services .service-wrapper .services-header {
+      .content-area-services .service-wrapper .services-header {
         -ms-flex-preferred-size: 50%;
             flex-basis: 50%;
         -webkit-box-align: start;
@@ -4585,17 +4585,17 @@ h2 {
                 justify-content: flex-start;
         text-align: left;
         padding: 0 0 80px 7%; } }
-    .page-id-22 .content-area-services .service-wrapper .services-header p {
+    .content-area-services .service-wrapper .services-header p {
       max-width: 60%;
       text-align: center; }
       @media all and (min-width: 1000px) {
-        .page-id-22 .content-area-services .service-wrapper .services-header p {
+        .content-area-services .service-wrapper .services-header p {
           text-align: left;
           max-width: 80%; } }
-  .page-id-22 .content-area-services .service-wrapper .service-image {
+  .content-area-services .service-wrapper .service-image {
     display: none; }
     @media all and (min-width: 1000px) {
-      .page-id-22 .content-area-services .service-wrapper .service-image {
+      .content-area-services .service-wrapper .service-image {
         -ms-flex-preferred-size: 50%;
             flex-basis: 50%;
         margin: 20px 5% 2% 5%;
@@ -4606,11 +4606,11 @@ h2 {
         max-height: 500px;
         min-width: 400px;
         min-height: 400px; }
-        .page-id-22 .content-area-services .service-wrapper .service-image img {
+        .content-area-services .service-wrapper .service-image img {
           height: 100%;
           width: 100%; } }
 
-.page-id-22 .content-area-services .wifi {
+.content-area-services .wifi {
   background: #eee;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -4626,27 +4626,27 @@ h2 {
       -ms-flex-align: center;
           align-items: center;
   padding: 60px 0; }
-  .page-id-22 .content-area-services .wifi #wifi-image {
+  .content-area-services .wifi #wifi-image {
     width: 100px; }
-  .page-id-22 .content-area-services .wifi p {
+  .content-area-services .wifi p {
     margin: 0;
     margin-top: 15px;
     max-width: 60%;
     text-align: center; }
-  .page-id-22 .content-area-services .wifi h2 {
+  .content-area-services .wifi h2 {
     margin: 0; }
     @media all and (min-width: 1000px) {
-      .page-id-22 .content-area-services .wifi h2 {
+      .content-area-services .wifi h2 {
         font-size: 40px; } }
 
-.page-id-22 .content-area-services .badvert-wrapper {
+.content-area-services .badvert-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex; }
-  .page-id-22 .content-area-services .badvert-wrapper .badvert-image {
+  .content-area-services .badvert-wrapper .badvert-image {
     display: none; }
     @media all and (min-width: 1000px) {
-      .page-id-22 .content-area-services .badvert-wrapper .badvert-image {
+      .content-area-services .badvert-wrapper .badvert-image {
         -ms-flex-preferred-size: 50%;
             flex-basis: 50%;
         display: -webkit-box;
@@ -4656,7 +4656,7 @@ h2 {
         background: url("../../assets/images/services-add.jpg");
         background-size: cover;
         background-repeat: no-repeat; } }
-  .page-id-22 .content-area-services .badvert-wrapper .badverts {
+  .content-area-services .badvert-wrapper .badverts {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -4672,30 +4672,30 @@ h2 {
             align-items: center;
     padding: 60px 0; }
     @media all and (min-width: 1000px) {
-      .page-id-22 .content-area-services .badvert-wrapper .badverts {
+      .content-area-services .badvert-wrapper .badverts {
         -ms-flex-preferred-size: 50%;
             flex-basis: 50%; } }
-    .page-id-22 .content-area-services .badvert-wrapper .badverts .badd-para {
+    .content-area-services .badvert-wrapper .badverts .badd-para {
       max-width: 70%;
       -ms-flex-item-align: center;
           align-self: center; }
       @media all and (min-width: 1000px) {
-        .page-id-22 .content-area-services .badvert-wrapper .badverts .badd-para {
+        .content-area-services .badvert-wrapper .badverts .badd-para {
           margin-top: 0; } }
-    .page-id-22 .content-area-services .badvert-wrapper .badverts #add-deliv {
+    .content-area-services .badvert-wrapper .badverts #add-deliv {
       margin-left: 15%;
       font-weight: bold;
       color: black;
       -ms-flex-item-align: start;
           align-self: flex-start; }
       @media all and (min-width: 1000px) {
-        .page-id-22 .content-area-services .badvert-wrapper .badverts #add-deliv {
+        .content-area-services .badvert-wrapper .badverts #add-deliv {
           margin-top: 0;
           margin-bottom: 0; } }
-    .page-id-22 .content-area-services .badvert-wrapper .badverts .badd-links {
+    .content-area-services .badvert-wrapper .badverts .badd-links {
       margin-left: 15%;
       margin-right: 15%; }
-      .page-id-22 .content-area-services .badvert-wrapper .badverts .badd-links .title {
+      .content-area-services .badvert-wrapper .badverts .badd-links .title {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
@@ -4706,12 +4706,12 @@ h2 {
             align-content: center;
         z-index: 1000;
         border-top: 1px solid #f1f1f1; }
-        .page-id-22 .content-area-services .badvert-wrapper .badverts .badd-links .title p {
+        .content-area-services .badvert-wrapper .badverts .badd-links .title p {
           font-size: 18px;
           text-transform: uppercase;
           margin: 10px 0;
           color: black; }
-        .page-id-22 .content-area-services .badvert-wrapper .badverts .badd-links .title .service-icon-container:not(.hide) {
+        .content-area-services .badvert-wrapper .badverts .badd-links .title .service-icon-container:not(.hide) {
           display: -webkit-box;
           display: -ms-flexbox;
           display: flex;
@@ -4727,14 +4727,14 @@ h2 {
           height: 15px;
           text-align: center;
           background: #e6e6e6; }
-          .page-id-22 .content-area-services .badvert-wrapper .badverts .badd-links .title .service-icon-container:not(.hide) i {
+          .content-area-services .badvert-wrapper .badverts .badd-links .title .service-icon-container:not(.hide) i {
             font-size: 10px; }
-      .page-id-22 .content-area-services .badvert-wrapper .badverts .badd-links .title:hover {
+      .content-area-services .badvert-wrapper .badverts .badd-links .title:hover {
         cursor: pointer;
         color: #00aeef; }
-        .page-id-22 .content-area-services .badvert-wrapper .badverts .badd-links .title:hover p {
+        .content-area-services .badvert-wrapper .badverts .badd-links .title:hover p {
           color: #00aeef; }
-      .page-id-22 .content-area-services .badvert-wrapper .badverts .badd-links .text {
+      .content-area-services .badvert-wrapper .badverts .badd-links .text {
         max-height: 0;
         overflow: hidden;
         -webkit-transition: max-height 0.4s ease-out;
@@ -4743,25 +4743,25 @@ h2 {
         line-height: 25px;
         font-family: "Roboto";
         padding-bottom: 5px; }
-        .page-id-22 .content-area-services .badvert-wrapper .badverts .badd-links .text p {
+        .content-area-services .badvert-wrapper .badverts .badd-links .text p {
           margin: 0;
           margin-bottom: 10px;
           padding-bottom: 10px;
           line-height: 24px; }
           @media all and (min-width: 1000px) {
-            .page-id-22 .content-area-services .badvert-wrapper .badverts .badd-links .text p {
+            .content-area-services .badvert-wrapper .badverts .badd-links .text p {
               margin-bottom: 0;
               padding-bottom: 0; } }
-      .page-id-22 .content-area-services .badvert-wrapper .badverts .badd-links .no-border {
+      .content-area-services .badvert-wrapper .badverts .badd-links .no-border {
         border-top: none; }
-      .page-id-22 .content-area-services .badvert-wrapper .badverts .badd-links .hide {
+      .content-area-services .badvert-wrapper .badverts .badd-links .hide {
         display: none; }
-      .page-id-22 .content-area-services .badvert-wrapper .badverts .badd-links .height {
+      .content-area-services .badvert-wrapper .badverts .badd-links .height {
         max-height: 80px;
         -webkit-transition: max-height 0.4 ease-in;
         transition: max-height 0.4 ease-in; }
 
-.page-id-22 .content-area-services .partner {
+.content-area-services .partner {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -4772,7 +4772,7 @@ h2 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center; }
-  .page-id-22 .content-area-services .partner .partner-header-section {
+  .content-area-services .partner .partner-header-section {
     padding: 40px 0;
     background: #eee;
     display: -webkit-box;
@@ -4788,22 +4788,22 @@ h2 {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center; }
-    .page-id-22 .content-area-services .partner .partner-header-section p {
+    .content-area-services .partner .partner-header-section p {
       max-width: 70%;
       text-align: center; }
       @media all and (min-width: 600px) {
-        .page-id-22 .content-area-services .partner .partner-header-section p {
+        .content-area-services .partner .partner-header-section p {
           max-width: 60%; } }
-    .page-id-22 .content-area-services .partner .partner-header-section h2 {
+    .content-area-services .partner .partner-header-section h2 {
       max-width: 70%;
       font-size: 30px;
       text-align: center; }
       @media all and (min-width: 600px) {
-        .page-id-22 .content-area-services .partner .partner-header-section h2 {
+        .content-area-services .partner .partner-header-section h2 {
           margin: 4px 0; } }
-    .page-id-22 .content-area-services .partner .partner-header-section #bulb-image {
+    .content-area-services .partner .partner-header-section #bulb-image {
       width: 100px; }
-  .page-id-22 .content-area-services .partner .partner-image-section {
+  .content-area-services .partner .partner-image-section {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -4812,12 +4812,12 @@ h2 {
         -ms-flex-direction: column;
             flex-direction: column; }
     @media all and (min-width: 800px) {
-      .page-id-22 .content-area-services .partner .partner-image-section {
+      .content-area-services .partner .partner-image-section {
         -webkit-box-orient: horizontal;
         -webkit-box-direction: normal;
             -ms-flex-direction: row;
                 flex-direction: row; } }
-    .page-id-22 .content-area-services .partner .partner-image-section .network {
+    .content-area-services .partner .partner-image-section .network {
       -ms-flex-preferred-size: 33.3%;
           flex-basis: 33.3%;
       background: #f7f7f7;
@@ -4832,12 +4832,12 @@ h2 {
           -ms-flex-align: center;
               align-items: center;
       padding: 30px 0; }
-      .page-id-22 .content-area-services .partner .partner-image-section .network p {
+      .content-area-services .partner .partner-image-section .network p {
         max-width: 70%;
         text-align: center; }
-      .page-id-22 .content-area-services .partner .partner-image-section .network #street-light-image {
+      .content-area-services .partner .partner-image-section .network #street-light-image {
         width: 100px; }
-    .page-id-22 .content-area-services .partner .partner-image-section .cost {
+    .content-area-services .partner .partner-image-section .cost {
       -ms-flex-preferred-size: 33.3%;
           flex-basis: 33.3%;
       display: -webkit-box;
@@ -4851,12 +4851,12 @@ h2 {
           -ms-flex-align: center;
               align-items: center;
       padding: 30px 0; }
-      .page-id-22 .content-area-services .partner .partner-image-section .cost #cost-image {
+      .content-area-services .partner .partner-image-section .cost #cost-image {
         width: 100px; }
-      .page-id-22 .content-area-services .partner .partner-image-section .cost p {
+      .content-area-services .partner .partner-image-section .cost p {
         max-width: 70%;
         text-align: center; }
-    .page-id-22 .content-area-services .partner .partner-image-section .city {
+    .content-area-services .partner .partner-image-section .city {
       -ms-flex-preferred-size: 33.3%;
           flex-basis: 33.3%;
       padding: 30px 0;
@@ -4871,29 +4871,29 @@ h2 {
       -webkit-box-align: center;
           -ms-flex-align: center;
               align-items: center; }
-      .page-id-22 .content-area-services .partner .partner-image-section .city #city-image {
+      .content-area-services .partner .partner-image-section .city #city-image {
         width: 100px; }
-      .page-id-22 .content-area-services .partner .partner-image-section .city p {
+      .content-area-services .partner .partner-image-section .city p {
         max-width: 70%;
         text-align: center; }
 
-.page-id-22 .signup-container #form-title-services {
+.content-area-services .signup-container #form-title-services {
   display: block;
   max-width: 60%;
   text-align: center;
   font-size: 18px;
   font-weight: bold; }
   @media all and (min-width: 600px) {
-    .page-id-22 .signup-container #form-title-services {
+    .content-area-services .signup-container #form-title-services {
       font-size: 25px; } }
   @media all and (min-width: 800px) {
-    .page-id-22 .signup-container #form-title-services {
+    .content-area-services .signup-container #form-title-services {
       font-size: 30px; } }
   @media all and (min-width: 1000px) {
-    .page-id-22 .signup-container #form-title-services {
+    .content-area-services .signup-container #form-title-services {
       font-size: 34px; } }
 
-.page-id-22 .signup-container #form-title-services:after {
+.content-area-services .signup-container #form-title-services:after {
   content: '';
   border-bottom: 2px solid #00aeef;
   width: 50px;
@@ -4901,14 +4901,14 @@ h2 {
   margin: 0 auto;
   padding-top: 20px; }
 
-.page-id-22 .signup-container #services-para {
+.content-area-services .signup-container #services-para {
   display: block;
   font-family: "Roboto";
   max-width: 75%;
   text-align: center;
   font-size: 16px; }
 
-.page-id-22 .signup-container #form-title {
+.content-area-services .signup-container #form-title {
   display: none; }
 
 .error404 .not-found-banner {
