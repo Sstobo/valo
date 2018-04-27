@@ -3451,7 +3451,7 @@ h2 {
   min-width: 400px;
   min-height: 400px;
   background-image: url("../../assets/images/valo-about-01.svg");
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center; }
   @media all and (min-width: 990px) {
@@ -3489,7 +3489,7 @@ h2 {
   min-width: 400px;
   min-height: 400px;
   background-image: url("../../assets/images/valo-about-02.svg");
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center; }
   @media all and (min-width: 990px) {
