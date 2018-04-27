@@ -985,7 +985,6 @@ object {
   margin-bottom: 1rem; }
 
 .button-hero {
-  display: none;
   padding: 6px 20px;
   margin-top: 10px; }
   @media all and (min-width: 600px) {
@@ -1502,10 +1501,10 @@ object {
     .products-hero {
       height: 500px; } }
   .products-hero p {
-    font-size: 15px;
-    line-height: 28px; }
+    line-height: 28px;
+    font-weight: 400; }
   .products-hero .products-hero-wrapper {
-    margin: 65px 7%; }
+    margin: 75px 7%; }
     @media (min-width: 1000px) {
       .products-hero .products-hero-wrapper {
         display: block;
@@ -1513,10 +1512,12 @@ object {
         width: 50%;
         text-align: left; }
         .products-hero .products-hero-wrapper h1 {
-          margin: 0; }
-        .products-hero .products-hero-wrapper p {
           margin: 0;
-          line-height: 25px; } }
+          position: relative;
+          top: 10px; }
+        .products-hero .products-hero-wrapper p {
+          line-height: 25px;
+          width: 80%; } }
   .products-hero .products-hero-img {
     display: none; }
     @media (min-width: 1000px) {
@@ -3201,10 +3202,6 @@ h2 {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column; }
-  .applications-service-wrapper .button-main {
-    display: inline; }
-  .applications-service-wrapper .button-hero {
-    display: inline; }
   .applications-service-wrapper h3 {
     font-size: 20px; }
   @media all and (min-width: 800px) {
@@ -4560,10 +4557,6 @@ h2 {
   font-weight: bold;
   font-size: 40px;
   margin: 0; }
-
-.content-area-services p {
-  font-size: 15px;
-  line-height: 25px; }
 
 .content-area-services .service-wrapper {
   display: -webkit-box;
