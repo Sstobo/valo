@@ -75,6 +75,10 @@ table {
 .button-main {
   background-color: $color__accent;
   text-decoration: none;
+  white-space: normal;
+  width: fit-content;
+  margin: 0 auto;
+  display: block;
   color: #fff;
   border-radius: 10px;
   border: none;
@@ -94,6 +98,12 @@ table {
   }
   &:visited {
     color: #fff;
+  }
+}
+
+.button-align-left-tablet {
+  @media all and (min-width: 800px) {
+    margin-left: 0;
   }
 }
 
