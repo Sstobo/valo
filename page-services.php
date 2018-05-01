@@ -131,11 +131,11 @@ get_header(); ?>
           </div> <!-- close partner image -->
         </section><!-- close partner-->
 
-			<?php while ( have_posts() ) : the_post(); ?>
+			<?php while (have_posts()) : the_post(); ?>
 
-				<?php get_template_part( 'template-parts/content', 'page' ); ?>
+				<?php get_template_part('template-parts/content', 'page'); ?>
 
-      <?php endwhile; // End of the loop. ?>
+      <?php endwhile; // End of the loop.?>
       </section> <!-- close content container-->
 
 		</main><!-- #main -->
