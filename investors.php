@@ -12,6 +12,7 @@ get_header(); ?>
 
 			<div class="investors-wrapper">
 				<div class="investors-main">
+				<div class="investors-right-mobile"></div>
 					<div class="investors-left">
 					<h1>Investor Presentation</h1>
 			
