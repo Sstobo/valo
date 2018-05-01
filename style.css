@@ -3153,7 +3153,6 @@ h2 {
   width: 100%;
   text-align: center;
   margin: 44px 0;
-  height: 260px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -3166,10 +3165,10 @@ h2 {
           justify-content: center; }
   @media (min-width: 1000px) {
     .applications-hero {
-      height: 400px;
       -webkit-box-pack: justify;
           -ms-flex-pack: justify;
-              justify-content: space-between; } }
+              justify-content: space-between;
+      margin: 0; } }
   .applications-hero .applications-hero-wrapper {
     width: 80%; }
     .applications-hero .applications-hero-wrapper h1 {
@@ -3182,22 +3181,31 @@ h2 {
           width: 80%; } }
     @media (min-width: 1000px) {
       .applications-hero .applications-hero-wrapper {
-        display: block;
-        height: 500px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
         width: 40%;
         text-align: left;
         margin-left: 7%; } }
   .applications-hero .applications-hero-img {
     display: none; }
-    @media (min-width: 1000px) {
+    @media all and (min-width: 1000px) {
       .applications-hero .applications-hero-img {
         background-image: url("../../assets/images/valo-applications-01.svg");
         background-size: contain;
         background-repeat: no-repeat;
+        max-width: 800px;
+        height: 40vw;
+        max-height: 650px;
         display: block;
         width: 50%;
-        max-width: 500px;
-        min-height: 455px;
         background-color: white;
         margin-right: 7%; } }
   @media (min-width: 1000px) {
@@ -3231,7 +3239,7 @@ h2 {
           -ms-flex-direction: row;
               flex-direction: row; } }
   .applications-service-wrapper .applications-lighting {
-    height: 260px;
+    height: 300px;
     width: 100%;
     background-color: #f9f9f9;
     text-align: center;
@@ -3256,7 +3264,7 @@ h2 {
         .applications-service-wrapper .applications-lighting h3 {
           min-height: 60px; } }
   .applications-service-wrapper .applications-platform {
-    height: 260px;
+    height: 300px;
     width: 100%;
     background-color: white;
     text-align: center;
@@ -3281,7 +3289,7 @@ h2 {
         .applications-service-wrapper .applications-platform h3 {
           min-height: 60px; } }
   .applications-service-wrapper .applications-cameras {
-    height: 260px;
+    height: 300px;
     width: 100%;
     background-color: #f9f9f9;
     text-align: center;
@@ -3306,7 +3314,7 @@ h2 {
         .applications-service-wrapper .applications-cameras h3 {
           min-height: 60px; } }
   .applications-service-wrapper .applications-networks {
-    height: 260px;
+    height: 300px;
     width: 100%;
     background-color: white;
     text-align: center;
