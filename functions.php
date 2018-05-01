@@ -125,7 +125,7 @@ function red_starter_scripts()
 
     wp_enqueue_script('services', get_template_directory_uri() . '/build/js/services.min.js', array(), null, true);
 
-    wp_enqueue_script('smoothScroll', get_template_directory_uri() . '/build/js/smoothScroll.min.js', array('jquery'), null, true);
+    wp_enqueue_script('smoothScroll', get_template_directory_uri() . '/build/js/smoothScroll.min.js', array(), null, true);
 
     if (is_singular() && comments_open() && get_option('thread_comments')) {
         wp_enqueue_script('comment-reply');
