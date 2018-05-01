@@ -16,7 +16,7 @@ get_header(); ?>
 
 		
 			<section class="contact-info">
-				<h1>Connect With <span class="uppercase">Valo</span></h1>
+				<h1>Connect With <span class="uppercase">VALO</span></h1>
 
 
 				<div class="contact-content">
@@ -40,7 +40,7 @@ get_header(); ?>
 
 							<div class="address-info">
 								<h3 class="contact-title">Address</h3>
-								<p>Valo City Smart Corporation</p>
+								<p>VALO City Smart Corporation</p>
 								<p>655 Madison Ave – 3rd Floor</p>
 								<p>New York, New York 10065</p>
 							</div>
@@ -53,20 +53,34 @@ get_header(); ?>
 
 
 						<div class="email">
-							<span>
-								<i class="fa fa-envelope" aria-hidden="true"></i>
-							</span>
+
+							
 
 							<div class="email-info">
+
+								<span>
+									<i class="fa fa-envelope" aria-hidden="true"></i>
+								</span>
+
+							<div>
 								<h3 class="contact-title"> Email</h3>
 								<a href="mailto:info@valosmartcity.com" > info@valosmartcity.com</a>
-								<a href="mailto:investors@valosmartcity.com">investors@valosmartcity.com
+							</div>
 
-								</a>
-								<a href="mailto:media@valosmartcity.com">media@valosmartcity.com</a>
-								<a href="mailto:support@valosmartcity.com">support@valosmartcity.com</a>
-								<a href="mailto:sales@valosmartcity.com">sales@valosmartcity.com</a>
-							</div>  <!-- close email-info-->
+								</div>  <!-- close email-info-->
+
+							<div class="contact-social-media-container">
+								<span>
+									<i class="fa fa-share-alt" aria-hidden="true"></i>
+								</span>
+								<div class="contact-social-media-links">
+									<h3 class="contact-title">Social Media </h3>
+									<i class="fa fa-facebook" aria-hidden="true"></i>
+									<i class="fa fa-twitter" aria-hidden="true"></i>
+								</div>
+							</div>
+							
+						
 
 							</div> <!-- close-email-->
 						</div> <!-- close contact-content-->
@@ -79,31 +93,19 @@ get_header(); ?>
 
 			<?php endwhile; // End of the loop. ?>
 			</section> <!-- #content-wrapper -->
-			<div class="signup-wrapper">
-						<div class="signup-container">
-					<h1 id="form-title"> Sign Up for the Latest Valo News </h1>
-					<?php echo do_shortcode('[contact-form-7 id="4" title="Contact form 1"]');?>
-				</div>
-			</div>
-
-		<div class="contact-footer">
-			<img alt="footer logo" src="<?php echo get_template_directory_uri() . '/assets/Logo SVG/VALO white logo-01.png'?>" id="contact-logo"/>
-			<div class="copy-top">
-				<p id="contact-copy"> &copy Valo Smart City 2018. All Rights Reserved.</p> 
-				<!-- <div class="fix"> 
-					<i class="fa fa-long-arrow-up" aria-hidden="true"></i>
-				</div> -->
-					
-			</div>
-
-			  
-		</div>
+		
 
 		</main><!-- #main -->
 
 		
 		
 	</div><!-- #primary -->
+
+	
+	 	<?php get_footer(); ?>
+	
+
+
 
 
 
