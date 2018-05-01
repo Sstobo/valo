@@ -3423,6 +3423,10 @@ h2 {
     color: #3f3f3f;
     font-size: 15px;
     margin-bottom: 3px; }
+  .page-template-about_team .about-team-single-team-member-container img {
+    width: 235px;
+    height: 268px;
+    margin-top: 10px; }
 
 .page-template-about_team .about-team-name-and-position h3 {
   color: #00aeef;
@@ -3455,7 +3459,7 @@ h2 {
     padding-left: 150px; }
   .page-template-about_team .about-team-signup-image {
     width: 50%;
-    height: 418px;
+    height: 381px;
     position: absolute;
     left: 50%;
     background-image: url("../../assets/Backgrounds/valo-sign-up-image-1.jpg");
