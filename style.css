@@ -3477,7 +3477,17 @@ h2 {
     font-family: sans-serif; }
   @media all and (min-width: 990px) {
     .page-template-about .about-single-item-vision {
-      width: 50%; } }
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      width: 50%;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center; } }
 
 .page-template-about .about-top-row-image {
   display: none;
@@ -3490,9 +3500,6 @@ h2 {
 .page-template-about .about-vision-image {
   display: none;
   height: 100%;
-  width: 100%;
-  max-width: 500px;
-  max-height: 500px;
   min-width: 400px;
   min-height: 400px;
   background-image: url("../../assets/images/valo-about-01.svg");
@@ -3504,6 +3511,7 @@ h2 {
       -ms-flex-preferred-size: 50%;
           flex-basis: 50%;
       margin: 0 auto;
+      margin-right: 5%;
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex; } }
@@ -3529,8 +3537,6 @@ h2 {
   display: none;
   height: 100%;
   width: 100%;
-  max-width: 500px;
-  max-height: 500px;
   min-width: 400px;
   min-height: 400px;
   background-image: url("../../assets/images/valo-about-02.svg");
@@ -3541,7 +3547,7 @@ h2 {
     .page-template-about .about-purpose-image {
       -ms-flex-preferred-size: 50%;
           flex-basis: 50%;
-      margin: 0 auto;
+      margin: 0 5%;
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex; } }

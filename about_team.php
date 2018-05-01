@@ -19,7 +19,7 @@ get_header(); ?>
 					<div class="about-team-single-team-member-container ike-sutton">
 						<div class="about-team-name-and-position">
 							<h3>
-								<strong>Ike Sutton</strong>
+								<strong>Isaac H. Sutton</strong>
 							</h3>
 							<span>DIRECTOR + CEO</span>
 						</div>
