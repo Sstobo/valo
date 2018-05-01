@@ -455,13 +455,13 @@ h2 {
   width: 100%;
   text-align: center;
   margin: 44px 0;
-  height: 260px;
+
   display: flex;
   flex-direction: row;
   justify-content: center;
   @media (min-width: $desktop_width) {
-    height: 400px;
     justify-content: space-between;
+    margin: 0;
   }
   .applications-hero-wrapper {
     width: 80%;
@@ -476,8 +476,9 @@ h2 {
       }
     }
     @media (min-width: $desktop_width) {
-      display: block;
-      height: 500px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
       width: 40%;
       text-align: left;
       margin-left: 7%;
@@ -485,14 +486,16 @@ h2 {
   }
   .applications-hero-img {
     display: none;
-    @media (min-width: $desktop_width) {
+    @media all and (min-width: $desktop_width) {
       background-image: url('../../assets/images/valo-applications-01.svg');
       background-size: contain;
       background-repeat: no-repeat;
+      max-width: 800px;
+      height: 40vw;
+      max-height: 650px;
       display: block;
       width: 50%;
-      max-width: 500px;
-      min-height: 455px;
+
       background-color: white;
       margin-right: 7%;
     }
@@ -517,7 +520,7 @@ h2 {
     flex-direction: row;
   }
   .applications-lighting {
-    height: 260px;
+    height: 300px;
     width: 100%;
     background-color: #f9f9f9;
     text-align: center;
@@ -545,7 +548,7 @@ h2 {
     }
   }
   .applications-platform {
-    height: 260px;
+    height: 300px;
     width: 100%;
     background-color: rgb(255, 255, 255);
     text-align: center;
@@ -573,7 +576,7 @@ h2 {
     }
   }
   .applications-cameras {
-    height: 260px;
+    height: 300px;
     width: 100%;
     background-color: #f9f9f9;
     text-align: center;
@@ -601,7 +604,7 @@ h2 {
     }
   }
   .applications-networks {
-    height: 260px;
+    height: 300px;
     width: 100%;
     background-color: rgb(255, 255, 255);
     text-align: center;

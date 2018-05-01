@@ -46,6 +46,7 @@
   @include large {
     height: 75vh;
   }
+  
 }
 
 .header-container {
@@ -54,6 +55,7 @@
 }
 
 .button-hero {
+  // display: none; // todo: remove when video added.
   padding: 6px 20px;
   margin-top: 10px;
   @include tablet {

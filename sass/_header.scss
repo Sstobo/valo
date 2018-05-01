@@ -100,3 +100,22 @@
     background: transparent;
   }
 }
+#mobmenuright li a {
+  text-transform:uppercase;
+}
+#mobmenuright li a, #mobmenuright li a:visited, #mobmenuright .mobmenu_content h2, #mobmenuright .mobmenu_content h3 {
+  text-transform:uppercase !important;
+  font-family: $font__main !important;
+}
+
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-186 a {
+  color: $color__accent !important;
+  margin-top: 200px !important;
+  top: 40% !important;
+  font-weight: bold !important;
+}
+
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-187 a {
+  position: relative !important;
+  bottom: 24px !important;
+}

@@ -24,8 +24,9 @@
     margin: 75px 7%;
 
     @media (min-width: $desktop_width) {
+      padding-top: 30px;
       display: block;
-      height: 90%;
+      height: 50%;
       width: 50%;
       text-align: left;
 
@@ -33,11 +34,12 @@
         margin: 0;
         position: relative;
         top: 10px;
+        margin-top: 20px;
       }
 
       p {
         line-height: 28px;
-        width: 80%;
+        width: 85%;
       }
     }
   }
@@ -45,11 +47,12 @@
     display: none;
     @media (min-width: $desktop_width) {
       display: block;
-      margin-right: 7%;
+      margin-right: 5%;
       margin-top: 50px;
-      min-width: 500px;
-      max-height: 455px;
-      min-height: 455px;
+      height: 45vw;
+      width: 50%;
+      max-height: 485px;
+      max-width: 690px;
       background: url('../../assets/icons-SVG/products.svg');
       background-repeat: no-repeat;
       background-size: cover;
