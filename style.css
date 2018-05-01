@@ -1715,24 +1715,35 @@ li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-187 a {
 .product-network-container {
   background: #f6f6f6; }
 
-@media all and (min-width: 1000px) {
-  .product-network {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    padding-bottom: 0; } }
+.product-network {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+  @media all and (min-width: 1000px) {
+    .product-network {
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row;
+      padding-bottom: 0; } }
 
 .product-network-image-container {
-  display: none; }
+  height: 80vh;
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: block;
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  width: 100%; }
   @media all and (min-width: 1000px) {
     .product-network-image-container {
-      background-position: bottom;
-      background-size: cover;
-      background-repeat: no-repeat;
-      display: block;
-      -ms-flex-preferred-size: 50%;
-          flex-basis: 50%;
-      width: 50%; } }
+      width: 50%;
+      height: auto; } }
 
 .product-text-container {
   width: 90%;
@@ -1776,6 +1787,18 @@ li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-187 a {
 .network-image {
   background: url("../../assets/images/valo-network.jpg");
   background-position: right; }
+
+.reverse-column-mobile {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse; }
+  @media all and (min-width: 1000px) {
+    .reverse-column-mobile {
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row; } }
 
 .page-template-products_cameras .camera-banner {
   min-height: 350px;
