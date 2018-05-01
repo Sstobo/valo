@@ -1477,6 +1477,23 @@ object {
   background-color: white;
   background: transparent; }
 
+#mobmenuright li a {
+  text-transform: uppercase; }
+
+#mobmenuright li a, #mobmenuright li a:visited, #mobmenuright .mobmenu_content h2, #mobmenuright .mobmenu_content h3 {
+  text-transform: uppercase !important;
+  font-family: "Roboto" !important; }
+
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-186 a {
+  color: #00aeef !important;
+  margin-top: 200px !important;
+  top: 40% !important;
+  font-weight: bold !important; }
+
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-187 a {
+  position: relative !important;
+  bottom: 24px !important; }
+
 .products-wrapper {
   height: 100%;
   width: 100vw;
@@ -4506,6 +4523,9 @@ h2 {
   background-color: white;
   padding: 8px 0 24px 8px;
   text-align: center; }
+  @media (min-width: 1400px) {
+    .investors-left {
+      text-align: left; } }
   .investors-left .title-blue-line {
     margin: 0 auto;
     margin-bottom: 34px; }
@@ -4515,7 +4535,7 @@ h2 {
     width: 70%;
     margin: 0 auto;
     margin-bottom: 48px; }
-  @media (min-width: 1000px) {
+  @media (min-width: 1400px) {
     .investors-left {
       height: 600px;
       width: 100%;
@@ -4537,13 +4557,28 @@ h2 {
 .investors-right {
   display: none;
   height: 500px;
-  width: 100%;
+  width: 120%;
   background-image: url("../../assets/images/valo-about-02.svg");
-  background-size: cover; }
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative; }
   @media (min-width: 1000px) {
     .investors-right {
       display: block;
-      margin-right: 2%; } }
+      margin-right: 2%;
+      height: 600px; } }
+
+.investors-right-mobile {
+  display: block;
+  height: 400px;
+  width: 120%;
+  background-image: url("../../assets/images/valo-about-02.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative; }
+  @media (min-width: 1000px) {
+    .investors-right-mobile {
+      display: none; } }
 
 .content-area-services .entry-title {
   display: none; }
