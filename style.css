@@ -3387,7 +3387,6 @@ h2 {
   padding: 25px 50px; }
   @media all and (min-width: 990px) {
     .page-template-about_team .about-team-single-team-member-container {
-      height: 530px;
       width: 45%; } }
   .page-template-about_team .about-team-single-team-member-container p {
     font-family: sans-serif;
