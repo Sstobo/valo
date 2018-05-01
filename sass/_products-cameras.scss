@@ -20,17 +20,21 @@
       margin-top: 0;
       text-align: center;
       font-size: 40px;
-      max-width: 70%;
+      max-width: 80%;
       margin-bottom: 0;
 
       @include footer_row {
         margin-bottom: 20px;
+        widht: 50%;
       }
     }
 
     p {
       text-align: center;
-      max-width: 60%;
+      max-width: 80%;
+      @include footer_row {
+        width: 50%;
+      }
     }
   } //close camera banner
 
@@ -354,14 +358,19 @@
       padding-top: 20px;
     }
     display: flex;
+    flex-direction: column-reverse;
+    @include desktop {
+      flex-direction: row;
+    }
     .facial-image {
-      display: none;
+      background: url('../../assets/camera-software/facial.png');
+      background-size: cover;
+      background-position: 0 -50px;
+      display: flex;
+      flex-basis: 50%;
+      height: 80vw;
       @include desktop {
-        background: url('../../assets/camera-software/facial.png');
-        background-size: cover;
-        background-position: 0 -50px;
-        display: flex;
-        flex-basis: 50%;
+        height: auto;
       }
     }
     .facial-text {

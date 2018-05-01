@@ -40,12 +40,13 @@
       display: none;
       @include desktop {
         flex-basis: 50%;
-        margin: 20px 5% 2% 5%;
+        margin: 0 2%;
         display: flex;
         width: 50%;
         height: 45vw;
         max-height: 485px;
         max-width: 690px;
+
         img {
           height: 100%;
           width: 100%;

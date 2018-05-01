@@ -156,7 +156,7 @@ get_header(); ?>
 								</div>
 
 								<div class="text">
-									<p>Valo controllers can support several networking technologies and platforms, including:</br>
+									<p>VALO controllers can support several networking technologies and platforms, including:</br>
 									Narrowband: LoRa, NFS24, 2G/3G, NBiOT/LTE-M, Bluetooth</br> 
 									Broadband: 802.11ac/LTE-U, LTE PicoCell (Q4 2017)</p>
 								</div>

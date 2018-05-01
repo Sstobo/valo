@@ -14,7 +14,7 @@ get_header(); ?>
 				<section class="hero-container">
 					<div class="header-container">
 						<h1 class="header-main animate-slidein">
-							<span class="uppercase">Valo</span> Smart City</h1>
+							<span class="uppercase">VALO</span> Smart City</h1>
 						<h2 class="subheader animate-fadein">The future of Smart City <span class="mobile-break">as a Service (SCaaS)</span></h2>
 					</div>
 					<!-- <a href="#" class="button-main button-hero animate-fadein">Watch Video</a> -->
@@ -25,14 +25,14 @@ get_header(); ?>
 					<picture>
 						<source srcset="<?php echo get_template_directory_uri() . '/assets/icons-SVG/valo-formula-mobile.png'?>" media="(max-width: 600px)">
 						<source srcset="<?php echo get_template_directory_uri() . '/assets/icons-SVG/valo-formula-desktop.png'?>">
-						<img srcset="<?php echo get_template_directory_uri() . '/assets/icons-SVG/valo-formula-mobile.png'?>" alt="Smart Lighting + Smart Cities = Valo">
+						<img srcset="<?php echo get_template_directory_uri() . '/assets/icons-SVG/valo-formula-mobile.png'?>" alt="Smart Lighting + Smart Cities = VALO">
 					</picture>
 				</section>
 
 				<!-- Integrator section -->
 				<section class="integrator-section-wrapper">
 					<h2 class="integrator-section-title">
-						<span class="uppercase">Valo</span> is a smart city integrator that aims to better people’s lives around the world through Internet of Things
+						<span class="uppercase">VALO</span> is a smart city integrator that aims to better people’s lives around the world through Internet of Things
 						(IoT) technology.</h2>
 					<div class="sub-title-blue-line"></div>
 					<div class="integrator-section-container">
@@ -75,8 +75,10 @@ get_header(); ?>
 						<p>
 							VALO Smart City Integrators are positioned to provide the technology, flexibility and economic savings to support sustainability for small and large installations in cities, municipalities and in rural areas. According to IoT Analytics, smart city projects rank second in the list of IoT segments with existing world-wide IoT projects with the market projected to grow to $757.74 Billion by 2020.
 						</p>
-						<a href="<?php echo esc_url(home_url('/investors')); ?>" class="button-main button-with-shadow">
+					<a href="<?php echo esc_url(home_url('/investors')); ?>" class="button-main button-with-shadow button-align-left-tablet">
+					
 							<span class="uppercase">download our corporate presentation</span>
+						
 						</a>
 					</div>
 				</section>
@@ -84,7 +86,7 @@ get_header(); ?>
 
 				<!-- contact banner -->
 				<section class="banner">
-					<img alt="Valo logo" src="<?php echo get_template_directory_uri() . '/assets/Logo SVG/VALO white logo-01.png'?>" id="banner-logo"
+					<img alt="VALO logo" src="<?php echo get_template_directory_uri() . '/assets/Logo SVG/VALO white logo-01.png'?>" id="banner-logo"
 					/>
 					<p>Discover how VALO can help make your city better </p>
 					<a href="<?php echo esc_url(home_url('/contact')); ?>" class="button-main button-with-shadow" id="banner-contact-button">Contact Us</a>

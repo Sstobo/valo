@@ -10,8 +10,11 @@
     align-items: center;
   }
   .product-header-text-container {
-    width: 50%;
     text-align: center;
+    width: 80%;
+    @include footer-row {
+      width: 50%;
+    }
   }
   .product-lighting-flex-container {
     display: flex;
