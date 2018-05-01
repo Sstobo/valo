@@ -491,6 +491,7 @@ h2 {
       background-image: url('../../assets/images/valo-applications-01.svg');
       background-size: contain;
       background-repeat: no-repeat;
+      background-position: center;
       max-width: 690px;
       height: 40vw;
       max-height: 485px;
@@ -498,7 +499,7 @@ h2 {
       width: 50%;
 
       background-color: white;
-      margin-right: 7%;
+      // margin-right: 7%;
     }
   }
   @media (min-width: $desktop_width) {

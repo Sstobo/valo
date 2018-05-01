@@ -3274,13 +3274,13 @@ h2 {
         background-image: url("../../assets/images/valo-applications-01.svg");
         background-size: contain;
         background-repeat: no-repeat;
+        background-position: center;
         max-width: 690px;
         height: 40vw;
         max-height: 485px;
         display: block;
         width: 50%;
-        background-color: white;
-        margin-right: 7%; } }
+        background-color: white; } }
   @media (min-width: 1000px) {
     .applications-hero {
       -webkit-box-orient: horizontal;
