@@ -10,7 +10,7 @@
 			</div><!-- #content -->
 
       <div class="signup-container">
-				<h1 id="form-title"> Sign Up for <br>the Latest <span class="uppercase">Valo</span> News </h1>
+				<h1 id="form-title"> Sign Up for <br>the Latest <span class="uppercase">VALO</span> News </h1>
 				<h1 id="form-title-services">Get More Information on our Public Private Partnerships</h1>
 				<p id="services-para">Contact us today to get more information on our Public Private Partnerships</p>
 				<?php echo do_shortcode('[contact-form-7 id="4" title="Contact form 1"]');?>
@@ -81,8 +81,8 @@
 
 
 					<div class="logo">
-						<img alt="Valo logo" src="<?php echo get_template_directory_uri() . '/assets/Logo SVG/VALO white logo-01.png'?>" id="logo"/>
-						<p id="copy"> &copy Valo Smart City 2018. All Rights Reserved.</p>
+						<img alt="VALO logo" src="<?php echo get_template_directory_uri() . '/assets/Logo SVG/VALO white logo-01.png'?>" id="logo"/>
+						<p id="copy"> &copy VALO Smart City 2018. All Rights Reserved.</p>
 						<div class="fix"> 
 							<i class="fa fa-long-arrow-up" aria-hidden="true"></i>
 
