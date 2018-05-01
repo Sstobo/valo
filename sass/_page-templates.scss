@@ -61,6 +61,13 @@
   }
 }
 
+.mobile-break {
+  display: block;
+  @include tablet {
+    display: inline;
+  }
+}
+
 .animate-slidein {
   animation-duration: 1.8s;
   animation-name: slidein;
@@ -106,11 +113,10 @@
 /* Integrator Section */
 
 .integrator-section-wrapper {
-  // background: url('http://localhost:8888/Valo/wp-content/themes/valo/assets/Backgrounds/clean-gray-abstract-background.png')
-  //   bottom left no-repeat;
-  // background-size: 100% 100%;
-  // background-attachment: fixed;
-  background-color: #f9f9f9;
+  background: url('../../assets/Backgrounds/clean-gray-abstract-background.png')
+    bottom left no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
   padding: 4vh;
   padding-top: 3vh;
 }
@@ -138,7 +144,7 @@
   flex-direction: column;
   min-height: 30vh;
   align-items: center;
-  margin-top: 3vh;
+  margin-top: 4vh;
   @include large {
     flex-direction: row;
     justify-content: center;
@@ -207,11 +213,10 @@
 /* Press Releases */
 
 .press-releases-wrapper {
-  // background: url('http://localhost:8888/Valo/wp-content/themes/valo/assets/Backgrounds/clean-gray-abstract-background.png')
-  //   bottom left no-repeat;
-  // background-size: 100% 100%;
-  // background-attachment: fixed;
-  background-color: #f9f9f9;
+  background: url('../../assets/Backgrounds/clean-gray-abstract-background.png')
+    bottom left no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
   padding: 4vh;
   padding-top: 3vh;
   padding-bottom: 0;
@@ -226,7 +231,8 @@
 }
 .press-releases-container {
   width: 80%;
-  margin: 0 auto;
+  margin: 4vh auto 0 auto;
+  padding-top: 10px;
   display: flex;
   flex-direction: column;
   min-height: 400px;
@@ -234,6 +240,7 @@
   @include footer_row {
     flex-direction: row;
     justify-content: center;
+    align-items: flex-start;
   }
 }
 .press-release {
