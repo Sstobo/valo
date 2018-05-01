@@ -4706,9 +4706,6 @@ h2 {
         -webkit-box-align: start;
             -ms-flex-align: start;
                 align-items: flex-start;
-        -webkit-box-pack: start;
-            -ms-flex-pack: start;
-                justify-content: flex-start;
         text-align: left;
         padding: 0 0 80px 7%; } }
     .content-area-services .service-wrapper .services-header p {
@@ -4724,12 +4721,11 @@ h2 {
       .content-area-services .service-wrapper .service-image {
         -ms-flex-preferred-size: 50%;
             flex-basis: 50%;
-        margin: 20px 5% 2% 5%;
+        margin: 0 2%;
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
-        max-width: 500px;
-        max-height: 500px;
+        max-height: 690px;
         min-width: 400px;
         min-height: 400px; }
         .content-area-services .service-wrapper .service-image img {
