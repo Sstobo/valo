@@ -53,20 +53,34 @@ get_header(); ?>
 
 
 						<div class="email">
-							<span>
-								<i class="fa fa-envelope" aria-hidden="true"></i>
-							</span>
+
+							
 
 							<div class="email-info">
+
+								<span>
+									<i class="fa fa-envelope" aria-hidden="true"></i>
+								</span>
+
+							<div>
 								<h3 class="contact-title"> Email</h3>
 								<a href="mailto:info@valosmartcity.com" > info@valosmartcity.com</a>
-								<a href="mailto:investors@valosmartcity.com">investors@valosmartcity.com
+							</div>
 
-								</a>
-								<a href="mailto:media@valosmartcity.com">media@valosmartcity.com</a>
-								<a href="mailto:support@valosmartcity.com">support@valosmartcity.com</a>
-								<a href="mailto:sales@valosmartcity.com">sales@valosmartcity.com</a>
-							</div>  <!-- close email-info-->
+								</div>  <!-- close email-info-->
+
+							<div class="contact-social-media-container">
+								<span>
+									<i class="fa fa-share-alt" aria-hidden="true"></i>
+								</span>
+								<div class="contact-social-media-links">
+									<h3 class="contact-title">Social Media </h3>
+									<i class="fa fa-facebook" aria-hidden="true"></i>
+									<i class="fa fa-twitter" aria-hidden="true"></i>
+								</div>
+							</div>
+							
+						
 
 							</div> <!-- close-email-->
 						</div> <!-- close contact-content-->
