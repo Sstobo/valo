@@ -1728,6 +1728,7 @@ li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-187 a {
     .product-network-image-container {
       background-position: bottom;
       background-size: cover;
+      background-repeat: no-repeat;
       display: block;
       -ms-flex-preferred-size: 50%;
           flex-basis: 50%;
@@ -1750,7 +1751,7 @@ li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-187 a {
 
 .wifi-image {
   background: url("../../assets/images/valo-lora-gateway.jpg");
-  background-position: -160px;
+  background-position: right;
   background-size: cover; }
 
 .wifi-list {
@@ -1804,14 +1805,18 @@ li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-187 a {
     margin-top: 0;
     text-align: center;
     font-size: 40px;
-    max-width: 70%;
+    max-width: 80%;
     margin-bottom: 0; }
     @media all and (min-width: 800px) {
       .page-template-products_cameras .camera-banner h2 {
-        margin-bottom: 20px; } }
+        margin-bottom: 20px;
+        widht: 50%; } }
   .page-template-products_cameras .camera-banner p {
     text-align: center;
-    max-width: 60%; }
+    max-width: 80%; }
+    @media all and (min-width: 800px) {
+      .page-template-products_cameras .camera-banner p {
+        width: 50%; } }
 
 .page-template-products_cameras .camera-animate {
   display: -webkit-box;
@@ -2208,7 +2213,11 @@ li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-187 a {
 .page-template-products_cameras .facial {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex; }
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse; }
   .page-template-products_cameras .facial h2 {
     font-size: 24px; }
     @media all and (min-width: 600px) {
@@ -2224,18 +2233,25 @@ li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-187 a {
     display: block;
     margin: 0 auto;
     padding-top: 20px; }
+  @media all and (min-width: 1000px) {
+    .page-template-products_cameras .facial {
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row; } }
   .page-template-products_cameras .facial .facial-image {
-    display: none; }
+    background: url("../../assets/camera-software/facial.png");
+    background-size: cover;
+    background-position: 0 -50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-preferred-size: 50%;
+        flex-basis: 50%;
+    height: 80vw; }
     @media all and (min-width: 1000px) {
       .page-template-products_cameras .facial .facial-image {
-        background: url("../../assets/camera-software/facial.png");
-        background-size: cover;
-        background-position: 0 -50px;
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -ms-flex-preferred-size: 50%;
-            flex-basis: 50%; } }
+        height: auto; } }
   .page-template-products_cameras .facial .facial-text {
     padding: 140px 0;
     border-top: 1px solid black;
@@ -2291,8 +2307,11 @@ li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-187 a {
           align-items: center; }
 
 .page-template-products_lighting .product-header-text-container {
-  width: 50%;
-  text-align: center; }
+  text-align: center;
+  width: 80%; }
+  @media all and (min-width: 800px) {
+    .page-template-products_lighting .product-header-text-container {
+      width: 50%; } }
 
 .page-template-products_lighting .product-lighting-flex-container {
   display: -webkit-box;
@@ -5944,8 +5963,11 @@ h2 {
           align-items: center; }
 
 .page-template-products_lighting .product-header-text-container {
-  width: 50%;
-  text-align: center; }
+  text-align: center;
+  width: 80%; }
+  @media all and (min-width: 800px) {
+    .page-template-products_lighting .product-header-text-container {
+      width: 50%; } }
 
 .page-template-products_lighting .product-lighting-flex-container {
   display: -webkit-box;
