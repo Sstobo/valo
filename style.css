@@ -1521,27 +1521,30 @@ object {
     margin: 75px 7%; }
     @media (min-width: 1000px) {
       .products-hero .products-hero-wrapper {
+        padding-top: 30px;
         display: block;
-        height: 90%;
+        height: 50%;
         width: 50%;
         text-align: left; }
         .products-hero .products-hero-wrapper h1 {
           margin: 0;
           position: relative;
-          top: 10px; }
+          top: 10px;
+          margin-top: 20px; }
         .products-hero .products-hero-wrapper p {
           line-height: 28px;
-          width: 80%; } }
+          width: 85%; } }
   .products-hero .products-hero-img {
     display: none; }
     @media (min-width: 1000px) {
       .products-hero .products-hero-img {
         display: block;
-        margin-right: 7%;
+        margin-right: 5%;
         margin-top: 50px;
-        min-width: 500px;
-        max-height: 455px;
-        min-height: 455px;
+        height: 45vw;
+        width: 50%;
+        max-height: 485px;
+        max-width: 690px;
         background: url("../../assets/icons-SVG/products.svg");
         background-repeat: no-repeat;
         background-size: cover; } }
@@ -5674,7 +5677,7 @@ h2 {
       color: #00aeef;
       min-height: 30px;
       text-align: center;
-      width: 80%;
+      width: 45%;
       margin: 0 auto;
       margin-bottom: 8px; }
 
@@ -5732,7 +5735,7 @@ h2 {
   @media (min-width: 1000px) {
     .platform-icon-box-sensors {
       width: 33%;
-      height: 600px;
+      height: 750px;
       padding-top: 34px;
       padding-left: 54px;
       padding-bottom: 44px; } }
