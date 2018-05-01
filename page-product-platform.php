@@ -50,7 +50,7 @@ get_header(); ?>
 						<h3>Equipment Diagnostics</h3>
                         <p>For proactive service and repairs</p></div>
 					<div class="platform-icon-box "><img alt="A green car" class="platform-icon-box-img " src="<?php echo get_template_directory_uri() . '/assets/product-platform/UI-01.svg'; ?>"/></a>
-						<h3>User Interface</h3>
+						<h3>User </br>Interface</h3>
                         <p>Simple user-friendly interface in multiple languages</p></div>
 					<div class="platform-icon-box platform-icon-box-grey"><img alt="A green car" class="platform-icon-box-img " src="<?php echo get_template_directory_uri() . '/assets/product-platform/security-01.svg'; ?>"/></a>
 						<h3>Information Security</h3>

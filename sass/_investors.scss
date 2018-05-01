@@ -71,6 +71,9 @@
   background-color: white;
   padding: 8px 0 24px 8px;
   text-align: center;
+  @media (min-width: 1400px) {
+    text-align: left;
+  }
   .title-blue-line {
     margin: 0 auto;
     margin-bottom: 34px;
@@ -83,7 +86,7 @@
     margin: 0 auto;
     margin-bottom: 48px;
   }
-  @media (min-width: $desktop_width) {
+  @media (min-width: 1400px) {
     height: 600px;
     width: 100%;
     background-color: white;
@@ -109,11 +112,26 @@
 .investors-right {
   display: none;
   height: 500px;
-  width: 100%;
+  width: 120%;
   background-image: url('../../assets/images/valo-about-02.svg');
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
   @media (min-width: $desktop_width) {
     display: block;
     margin-right: 2%;
+    height: 600px;
   }
+}
+.investors-right-mobile {
+  display: block;
+  height: 400px;
+  width: 120%;
+  background-image: url('../../assets/images/valo-about-02.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+  @media (min-width: $desktop_width) {
+    display: none;
+}
 }
