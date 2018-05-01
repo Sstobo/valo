@@ -4664,9 +4664,6 @@ h2 {
         -webkit-box-align: start;
             -ms-flex-align: start;
                 align-items: flex-start;
-        -webkit-box-pack: start;
-            -ms-flex-pack: start;
-                justify-content: flex-start;
         text-align: left;
         padding: 0 0 80px 7%; } }
     .content-area-services .service-wrapper .services-header p {
