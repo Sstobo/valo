@@ -16,7 +16,7 @@ get_header(); ?>
 
 		
 			<section class="contact-info">
-				<h1>Connect With <span class="uppercase">Valo</span></h1>
+				<h1>Connect With <span class="uppercase">VALO</span></h1>
 
 
 				<div class="contact-content">
@@ -40,7 +40,7 @@ get_header(); ?>
 
 							<div class="address-info">
 								<h3 class="contact-title">Address</h3>
-								<p>Valo City Smart Corporation</p>
+								<p>VALO City Smart Corporation</p>
 								<p>655 Madison Ave – 3rd Floor</p>
 								<p>New York, New York 10065</p>
 							</div>
@@ -81,7 +81,7 @@ get_header(); ?>
 			</section> <!-- #content-wrapper -->
 			<div class="signup-wrapper">
 						<div class="signup-container">
-					<h1 id="form-title"> Sign Up for the Latest Valo News </h1>
+					<h1 id="form-title"> Sign Up for the Latest VALO News </h1>
 					<?php echo do_shortcode('[contact-form-7 id="4" title="Contact form 1"]');?>
 				</div>
 			</div>
@@ -89,7 +89,7 @@ get_header(); ?>
 		<div class="contact-footer">
 			<img alt="footer logo" src="<?php echo get_template_directory_uri() . '/assets/Logo SVG/VALO white logo-01.png'?>" id="contact-logo"/>
 			<div class="copy-top">
-				<p id="contact-copy"> &copy Valo Smart City 2018. All Rights Reserved.</p> 
+				<p id="contact-copy"> &copy VALO Smart City 2018. All Rights Reserved.</p> 
 				<!-- <div class="fix"> 
 					<i class="fa fa-long-arrow-up" aria-hidden="true"></i>
 				</div> -->

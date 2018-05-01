@@ -16,16 +16,16 @@ get_header(); ?>
 					<div class="platform-hero-text">
 						<h2>Smart City Platform</h2>
 						
-						<p>Valo’s Smart City sensor platform makes it easy for cities to deploy and maintain smart street lighting. It is low
+						<p>VALO’s Smart City sensor platform makes it easy for cities to deploy and maintain smart street lighting. It is low
 							cost, modular, and integrated into a single form factor. The sensor platform is plug-and-play compatible on more than
 							500 million streetlights worldwide, and offers light controls, surveillance, environment monitoring, and public WiFi.</p>
 
-							<p>Custom sensor modules, integrated into the Valo Smart City platform, can be used to collect data on a variety of factors.
+							<p>Custom sensor modules, integrated into the VALO Smart City platform, can be used to collect data on a variety of factors.
 							For instance, water and electrical meter monitoring, environmental and agricultural sensing, or traffic surveillance.
-							Valo offers low or high volume custom sensor designs.</p>
-							<p>Valo’s Smart City platform is a cloud-based Software as a Service (SaaS) Internet of Things system. Application and
+							VALO offers low or high volume custom sensor designs.</p>
+							<p>VALO’s Smart City platform is a cloud-based Software as a Service (SaaS) Internet of Things system. Application and
 							operating system support is available for lighting controls, environment monitoring, surveillance, public WiFi, etc.
-							The Valo platform has certified third party Application Program Interface (API) integration. </p>
+							The VALO platform has certified third party Application Program Interface (API) integration. </p>
 					</div>
 				</div>
 				<div class="platform-manager">
@@ -65,7 +65,7 @@ get_header(); ?>
 						<h1>Sensors</h1>
 						<p>VALO offers a variety of sensors for smart city applications, such as traffic and parking monitoring, waste management,
 							air quality and water monitoring, and weather detection. The sensors, listed below, can be used in conjunction with
-							Valo’s Smart City platform.
+							VALO’s Smart City platform.
 						</p>
 						</div>
 				</div>
@@ -111,7 +111,7 @@ get_header(); ?>
 			
 			<div class="platform-icon-box-sensors-final platform-icon-box-blue"><img alt="A green car" class="platform-icon-box-img " src="<?php echo get_template_directory_uri() . '/assets/product-platform/water-sensors-01.svg'; ?>"/></a>
 						<h2 style="color: white">Water Sensors</h2>
-						<p class="sensor-paragraph-header">Valo offers multiple water sensing units for different smart city scenarios involving water or fluids. Common applications of water sensors include:</p>
+						<p class="sensor-paragraph-header">VALO offers multiple water sensing units for different smart city scenarios involving water or fluids. Common applications of water sensors include:</p>
 						<p class="sensor-paragraph"><strong>Drinking water monitoring: </strong> pH, nitrates, Ca2+, I-, Cl-, NO3-, Mg2+, Na+, etc.</p>
 						<p class="sensor-paragraph"><strong>Pollution:</strong>  temperature, salinity, pH, dissolved oxygen, nitrates</p>
 						<p class="sensor-paragraph"><strong>Waste water treatment: </strong>Cu2+, Ag+, BF4-, Li+, NO2-, CIO4-, Ph</p>	

@@ -15,7 +15,7 @@ get_header(); ?>
 						<h2>
 							<strong>The VALO Vision</strong>
 						</h2>
-						<p>VALO strives to improve people’s lives by providing better lighting and safer environments. Valo’s Smart City platform
+						<p>VALO strives to improve people’s lives by providing better lighting and safer environments. VALO’s Smart City platform
 							makes cities more efficient by collecting real-time data for city services and infrastructure, such as transportation,
 							utilities, security, and pollution.
 						</p>
@@ -75,7 +75,7 @@ get_header(); ?>
 						</div>
 						<!-- about-platform-left-container -->
 						<div class="about-platform-right-container">
-							<p>Valo’s platform addresses these problems while providing multiple benefits for cities and the people living within them:</p>
+							<p>VALO’s platform addresses these problems while providing multiple benefits for cities and the people living within them:</p>
 							<div class="about-platform-text-container">
 								<div class="about-icon">
 									<i class="fa fa-check" aria-hidden="true"></i>

@@ -14,13 +14,13 @@ get_header(); ?>
 				<!-- parallax top banner -->
 				<div class="camera-banner">
 					<h2>Smart Cameras + Software</h2>
-					<p><span class="uppercase">Valo</span> offers Internet Protocol (IP) cameras that integrate with its Smart City platform. These cameras have a wide variety of applications including people or vehicle monitoring and counting, intrusion and threat detection, loitering detection, and identifying abandoned objects.</p>
+					<p><span class="uppercase">VALO</span> offers Internet Protocol (IP) cameras that integrate with its Smart City platform. These cameras have a wide variety of applications including people or vehicle monitoring and counting, intrusion and threat detection, loitering detection, and identifying abandoned objects.</p>
 				</div>
 				<!-- close camera banner -->
 
 				<!-- camera section -->
 				<section class="camera-animate">
-					<h2> <span class="uppercase">Valo's</span> two main IP cameras have the following set of features</h2>
+					<h2> <span class="uppercase">VALO's</span> two main IP cameras have the following set of features</h2>
 						<div class="camera-container">
 
 							<div class="camera-image">
@@ -67,7 +67,7 @@ get_header(); ?>
 				<!-- video control banner -->
 				<section class="video-control">
 					<h2>Video Control</h2>
-					<p><span class="uppercase">Valo's</span> video control software acts as a central platform for managing cameras and videos. This intelligent and powerful Video Management Software (VMS) supports most cameras, and has a wide selection of advanced features and add-ons, allowing for highly-efficient video monitoring and surveillance. Features of the video controls include:</p>
+					<p><span class="uppercase">VALO's</span> video control software acts as a central platform for managing cameras and videos. This intelligent and powerful Video Management Software (VMS) supports most cameras, and has a wide selection of advanced features and add-ons, allowing for highly-efficient video monitoring and surveillance. Features of the video controls include:</p>
 				</section>
 
 				<!-- close video control banner -->
@@ -138,7 +138,7 @@ get_header(); ?>
 
 					<div class="facial-text">
 						<h2>Facial Recognition</h2>
-						<p>Valo supplies face recognition software which is designed to work with video controls. This biometric application provides system performance and reliability.</p>
+						<p>VALO supplies face recognition software which is designed to work with video controls. This biometric application provides system performance and reliability.</p>
 
 							<p>The facial recognition software has live face-detection, simultaneous multiple face recognition, and fast face matching in one-to-one and one-to-many modes. This software is idea for security monitoring and law enforcement applications.</p>
 					</div>
