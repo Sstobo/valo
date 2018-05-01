@@ -21,20 +21,25 @@
 }
 
 .product-network {
+  display: flex;
+  flex-direction: column;
   @include desktop {
-    display: flex;
+    flex-direction: row;
     padding-bottom: 0;
   }
 }
 
 .product-network-image-container {
-  display: none;
+  height: 80vh;
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: block;
+  flex-basis: 50%;
+  width: 100%;
   @include desktop {
-    background-position: bottom;
-    background-size: cover;
-    display: block;
-    flex-basis: 50%;
     width: 50%;
+    height: auto;
   }
 }
 
@@ -55,7 +60,7 @@
 
 .wifi-image {
   background: url('../../assets/images/valo-lora-gateway.jpg');
-  background-position: -160px;
+  background-position: right;
   background-size: cover;
 }
 
@@ -73,4 +78,10 @@
 .network-image {
   background: url('../../assets/images/valo-network.jpg');
   background-position: right;
+}
+.reverse-column-mobile {
+  flex-direction: column-reverse;
+  @include desktop {
+    flex-direction: row;
+  }
 }

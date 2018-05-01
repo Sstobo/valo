@@ -95,7 +95,7 @@ h2 {
   padding-top: 70px;
   background-color: rgb(247, 247, 247);
   @media (min-width: $desktop_width) {
-    height: 500px;
+    height: 600px;
     flex-direction: row;
   }
 }
@@ -104,14 +104,15 @@ h2 {
   @media (min-width: $desktop_width) {
     display: block;
     width: 50%;
-    height: 420px;
+    height: 500px;
   }
 }
 .applications-transpo-image {
   background-image: url('../../assets/icons-SVG/Valo-Smart-Transportation.jpg');
-  background-size: 100%;
-  background-position: 0% 50%;
-  height: 400px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 500px;
   width: 100%;
   margin: 0 auto;
   position: relative;
@@ -127,7 +128,7 @@ h2 {
   @media (min-width: $desktop_width) {
     padding: 38px 24px 0 24px;
     width: 50%;
-    height: 460px;
+    height: 500px;
     p {
       width: 98%;
       text-align: left;
@@ -490,9 +491,9 @@ h2 {
       background-image: url('../../assets/images/valo-applications-01.svg');
       background-size: contain;
       background-repeat: no-repeat;
-      max-width: 800px;
+      max-width: 690px;
       height: 40vw;
-      max-height: 650px;
+      max-height: 485px;
       display: block;
       width: 50%;
 
