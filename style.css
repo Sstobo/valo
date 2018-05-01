@@ -991,6 +991,12 @@ object {
     .button-hero {
       padding: 12px 30px; } }
 
+.mobile-break {
+  display: block; }
+  @media all and (min-width: 600px) {
+    .mobile-break {
+      display: inline; } }
+
 .animate-slidein {
   -webkit-animation-duration: 1.8s;
           animation-duration: 1.8s;
@@ -1048,7 +1054,9 @@ object {
 
 /* Integrator Section */
 .integrator-section-wrapper {
-  background-color: #f9f9f9;
+  background: url("../../assets/Backgrounds/clean-gray-abstract-background.png") bottom left no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
   padding: 4vh;
   padding-top: 3vh; }
 
@@ -1083,7 +1091,7 @@ object {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: 3vh; }
+  margin-top: 4vh; }
   @media all and (min-width: 1200px) {
     .integrator-section-container {
       -webkit-box-orient: horizontal;
@@ -1159,7 +1167,9 @@ object {
 
 /* Press Releases */
 .press-releases-wrapper {
-  background-color: #f9f9f9;
+  background: url("../../assets/Backgrounds/clean-gray-abstract-background.png") bottom left no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
   padding: 4vh;
   padding-top: 3vh;
   padding-bottom: 0; }
@@ -1174,7 +1184,8 @@ object {
 
 .press-releases-container {
   width: 80%;
-  margin: 0 auto;
+  margin: 4vh auto 0 auto;
+  padding-top: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1194,7 +1205,10 @@ object {
               flex-direction: row;
       -webkit-box-pack: center;
           -ms-flex-pack: center;
-              justify-content: center; } }
+              justify-content: center;
+      -webkit-box-align: start;
+          -ms-flex-align: start;
+              align-items: flex-start; } }
 
 .press-release {
   display: -webkit-box;
@@ -1524,27 +1538,30 @@ li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-187 a {
     margin: 75px 7%; }
     @media (min-width: 1000px) {
       .products-hero .products-hero-wrapper {
+        padding-top: 30px;
         display: block;
-        height: 90%;
+        height: 50%;
         width: 50%;
         text-align: left; }
         .products-hero .products-hero-wrapper h1 {
           margin: 0;
           position: relative;
-          top: 10px; }
+          top: 10px;
+          margin-top: 20px; }
         .products-hero .products-hero-wrapper p {
           line-height: 28px;
-          width: 80%; } }
+          width: 85%; } }
   .products-hero .products-hero-img {
     display: none; }
     @media (min-width: 1000px) {
       .products-hero .products-hero-img {
         display: block;
-        margin-right: 7%;
+        margin-right: 5%;
         margin-top: 50px;
-        min-width: 500px;
-        max-height: 455px;
-        min-height: 455px;
+        height: 45vw;
+        width: 50%;
+        max-height: 485px;
+        max-width: 690px;
         background: url("../../assets/icons-SVG/products.svg");
         background-repeat: no-repeat;
         background-size: cover; } }
@@ -3156,7 +3173,6 @@ h2 {
   width: 100%;
   text-align: center;
   margin: 44px 0;
-  height: 260px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -3169,10 +3185,10 @@ h2 {
           justify-content: center; }
   @media (min-width: 1000px) {
     .applications-hero {
-      height: 400px;
       -webkit-box-pack: justify;
           -ms-flex-pack: justify;
-              justify-content: space-between; } }
+              justify-content: space-between;
+      margin: 0; } }
   .applications-hero .applications-hero-wrapper {
     width: 80%; }
     .applications-hero .applications-hero-wrapper h1 {
@@ -3185,22 +3201,31 @@ h2 {
           width: 80%; } }
     @media (min-width: 1000px) {
       .applications-hero .applications-hero-wrapper {
-        display: block;
-        height: 500px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
         width: 40%;
         text-align: left;
         margin-left: 7%; } }
   .applications-hero .applications-hero-img {
     display: none; }
-    @media (min-width: 1000px) {
+    @media all and (min-width: 1000px) {
       .applications-hero .applications-hero-img {
         background-image: url("../../assets/images/valo-applications-01.svg");
         background-size: contain;
         background-repeat: no-repeat;
+        max-width: 800px;
+        height: 40vw;
+        max-height: 650px;
         display: block;
         width: 50%;
-        max-width: 500px;
-        min-height: 455px;
         background-color: white;
         margin-right: 7%; } }
   @media (min-width: 1000px) {
@@ -3234,7 +3259,7 @@ h2 {
           -ms-flex-direction: row;
               flex-direction: row; } }
   .applications-service-wrapper .applications-lighting {
-    height: 260px;
+    height: 300px;
     width: 100%;
     background-color: #f9f9f9;
     text-align: center;
@@ -3259,7 +3284,7 @@ h2 {
         .applications-service-wrapper .applications-lighting h3 {
           min-height: 60px; } }
   .applications-service-wrapper .applications-platform {
-    height: 260px;
+    height: 300px;
     width: 100%;
     background-color: white;
     text-align: center;
@@ -3284,7 +3309,7 @@ h2 {
         .applications-service-wrapper .applications-platform h3 {
           min-height: 60px; } }
   .applications-service-wrapper .applications-cameras {
-    height: 260px;
+    height: 300px;
     width: 100%;
     background-color: #f9f9f9;
     text-align: center;
@@ -3309,7 +3334,7 @@ h2 {
         .applications-service-wrapper .applications-cameras h3 {
           min-height: 60px; } }
   .applications-service-wrapper .applications-networks {
-    height: 260px;
+    height: 300px;
     width: 100%;
     background-color: white;
     text-align: center;
@@ -3472,7 +3497,17 @@ h2 {
     font-family: sans-serif; }
   @media all and (min-width: 990px) {
     .page-template-about .about-single-item-vision {
-      width: 50%; } }
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      width: 50%;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center; } }
 
 .page-template-about .about-top-row-image {
   display: none;
@@ -3485,9 +3520,6 @@ h2 {
 .page-template-about .about-vision-image {
   display: none;
   height: 100%;
-  width: 100%;
-  max-width: 500px;
-  max-height: 500px;
   min-width: 400px;
   min-height: 400px;
   background-image: url("../../assets/images/valo-about-01.svg");
@@ -3499,6 +3531,7 @@ h2 {
       -ms-flex-preferred-size: 50%;
           flex-basis: 50%;
       margin: 0 auto;
+      margin-right: 5%;
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex; } }
@@ -3524,8 +3557,6 @@ h2 {
   display: none;
   height: 100%;
   width: 100%;
-  max-width: 500px;
-  max-height: 500px;
   min-width: 400px;
   min-height: 400px;
   background-image: url("../../assets/images/valo-about-02.svg");
@@ -3536,7 +3567,7 @@ h2 {
     .page-template-about .about-purpose-image {
       -ms-flex-preferred-size: 50%;
           flex-basis: 50%;
-      margin: 0 auto;
+      margin: 0 5%;
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex; } }
@@ -5373,9 +5404,7 @@ h2 {
   margin-top: 7px; }
 
 .home .signup-container {
-  margin-top: 0; }
-  .home .signup-container h1 {
-    margin-top: 0; }
+  margin-top: 1em; }
 
 .search-results .signup-container {
   display: none; }
@@ -5697,7 +5726,7 @@ h2 {
       color: #00aeef;
       min-height: 30px;
       text-align: center;
-      width: 80%;
+      width: 45%;
       margin: 0 auto;
       margin-bottom: 8px; }
 
@@ -5755,7 +5784,7 @@ h2 {
   @media (min-width: 1000px) {
     .platform-icon-box-sensors {
       width: 33%;
-      height: 600px;
+      height: 750px;
       padding-top: 34px;
       padding-left: 54px;
       padding-bottom: 44px; } }

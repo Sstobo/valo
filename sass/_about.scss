@@ -139,7 +139,10 @@
       font-family: $font__droid;
     }
     @media all and (min-width: 990px) {
+      display: flex;
+      flex-direction: column;
       width: 50%;
+      justify-content: center;
     }
   }
   .about-top-row-image {
@@ -153,9 +156,9 @@
   .about-vision-image {
     display: none;
     height: 100%;
-    width: 100%;
-    max-width: 500px;
-    max-height: 500px;
+    // width: 100%;
+    // max-width: 690px;
+    // max-height: 100%;
     min-width: 400px;
     min-height: 400px;
     background-image: url('../../assets/images/valo-about-01.svg');
@@ -165,6 +168,7 @@
     @media all and (min-width: 990px) {
       flex-basis: 50%;
       margin: 0 auto;
+      margin-right: 5%;
       display: flex;
     }
   }
@@ -184,8 +188,8 @@
     display: none;
     height: 100%;
     width: 100%;
-    max-width: 500px;
-    max-height: 500px;
+    // max-width: 690px;
+    // max-height: 100%;
     min-width: 400px;
     min-height: 400px;
     background-image: url('../../assets/images/valo-about-02.svg');
@@ -194,7 +198,7 @@
     background-position: center;
     @media all and (min-width: 990px) {
       flex-basis: 50%;
-      margin: 0 auto;
+      margin: 0 5%;
       display: flex;
     }
   }
