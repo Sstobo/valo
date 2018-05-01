@@ -15,7 +15,7 @@ get_header(); ?>
 					<div class="header-container">
 						<h1 class="header-main animate-slidein">
 							<span class="uppercase">Valo</span> Smart City</h1>
-						<h2 class="subheader animate-fadein">The future of Smart City<span class="mobile-break">as a Service (SCaaS)</span></h2>
+						<h2 class="subheader animate-fadein">The future of Smart City <span class="mobile-break">as a Service (SCaaS)</span></h2>
 					</div>
 					<!-- <a href="#" class="button-main button-hero animate-fadein">Watch Video</a> -->
 				</section>
