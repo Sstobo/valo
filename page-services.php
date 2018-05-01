@@ -30,7 +30,7 @@ get_header(); ?>
           </div>
 
           <h2>Free Public Wifi</h2>
-          <p>Free public WiFi access can be delivered with Valo’s gigabit WiFi unit which creates wireless hotspots where people can access the internet at no cost. Public WiFi has many benefits for cities and users, such as convenient access to services, support for tourism, and communication channels for disaster relief.</p>
+          <p>Free public WiFi access can be delivered with VALO’s gigabit WiFi unit which creates wireless hotspots where people can access the internet at no cost. Public WiFi has many benefits for cities and users, such as convenient access to services, support for tourism, and communication channels for disaster relief.</p>
         </section><!-- close wifi-->
 
 
