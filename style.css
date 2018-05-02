@@ -544,6 +544,10 @@ table {
   .button-align-left-tablet {
     margin-left: 0; } }
 
+@media all and (min-width: 1400px) {
+  .button-align-left-desktop {
+    margin-left: 0; } }
+
 .button-with-shadow {
   font-weight: 400;
   -webkit-box-shadow: none;
