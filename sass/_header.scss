@@ -106,16 +106,24 @@
 #mobmenuright li a, #mobmenuright li a:visited, #mobmenuright .mobmenu_content h2, #mobmenuright .mobmenu_content h3 {
   text-transform:uppercase !important;
   font-family: $font__main !important;
+  border-bottom: 1px solid rgb(230, 230, 230);
 }
 
-li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-186 a {
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-175 a {
   color: $color__accent !important;
-  margin-top: 200px !important;
-  top: 40% !important;
+  margin-top: 60px !important;
   font-weight: bold !important;
+  border-bottom: none;
 }
 
-li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-187 a {
+li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-176 a {
   position: relative !important;
   bottom: 24px !important;
+  border-bottom: none;
+}
+.mob-menu-slideout-over .mobmenu_content {
+  padding-top: 70px !important;
+}
+.mob-icon-cancel, .mob-cancel-button {
+  margin-bottom: 24px !important;
 }

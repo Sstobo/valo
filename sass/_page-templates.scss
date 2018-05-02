@@ -4,7 +4,10 @@
 
 // Clear header
 .content-wrapper {
-  padding-top: 140px;
+  padding-top: -20px;
+  @include desktop {
+    padding-top: 140px;
+  }
 }
 
 // Title accent line

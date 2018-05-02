@@ -1,8 +1,11 @@
 .platform-wrapper {
   width: 100%;
   display: flex;
-  padding-top: 140px;
   flex-direction: column;
+  padding-top: 40px;
+  @include desktop {
+    padding-top: 140px;
+  }
 }
 // HERO
 .platform-hero {
