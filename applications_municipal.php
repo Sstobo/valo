@@ -44,6 +44,10 @@ get_header(); ?>
 				waste management systems.</p>
 		</div>
 	</div>
+	<div class="applications-muni-img2-mobile">
+			<div class="applications-muni-image2-mobile"></div>
+		</div>
+	
 	</div class="applications-transpo-wrapper2">
 		<div class="applications-transpo-hero2">
 			
