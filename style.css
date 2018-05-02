@@ -540,6 +540,9 @@ table {
   .button-main:visited {
     color: #fff; }
 
+.button-align-left {
+  margin-left: 0; }
+
 @media all and (min-width: 800px) {
   .button-align-left-tablet {
     margin-left: 0; } }
@@ -1297,6 +1300,12 @@ object {
           transform: scale(1); }
 
 .banner {
+  background: black;
+  width: 100%; }
+
+.banner-wrapper {
+  margin: 0 auto;
+  max-width: 1300px;
   min-height: 300px;
   height: 50vh;
   width: 100%;
@@ -1315,36 +1324,28 @@ object {
           align-items: center;
   text-align: center; }
   @media all and (min-width: 800px) {
-    .banner {
+    .banner-wrapper {
       height: 35vh;
       -webkit-box-orient: horizontal;
       -webkit-box-direction: normal;
           -ms-flex-direction: row;
               flex-direction: row; } }
-  .banner #banner-logo {
+  @media all and (min-width: 1000px) {
+    .banner-wrapper {
+      width: 70%; } }
+  .banner-wrapper #banner-logo {
     width: 250px; }
-    @media all and (min-width: 800px) {
-      .banner #banner-logo {
-        margin-left: 15%; } }
-  .banner #banner-contact-button {
-    height: 40px;
-    width: auto;
-    min-width: 130px; }
-    @media all and (min-width: 800px) {
-      .banner #banner-contact-button {
-        margin-right: 17%; } }
-  .banner #banner-contact-button:hover {
+  .banner-wrapper #banner-contact-button {
+    margin: 0; }
+  .banner-wrapper #banner-contact-button:hover {
     background: #3f3f3f; }
-  .banner #banner-contact-button:focus {
+  .banner-wrapper #banner-contact-button:focus {
     outline: none; }
-  .banner p {
+  .banner-wrapper p {
     max-width: 300px;
     font-family: "Roboto";
     color: #fff;
     font-size: 20px; }
-    @media all and (min-width: 800px) {
-      .banner p {
-        margin-right: 6%; } }
 
 .iot-container {
   display: -webkit-box;
@@ -4818,6 +4819,7 @@ h2 {
   background-image: url("../../assets/images/valo-about-02.svg");
   background-size: contain;
   background-repeat: no-repeat;
+  margin-left: 2%;
   background-position: center;
   position: relative; }
   @media (min-width: 1000px) {

@@ -40,7 +40,7 @@ get_header(); ?>
 							security, pollution, and municipal utilities.</p>
 						<h3>Have a Smart City Project or Idea?</h3>
 						<a href="<?php echo esc_url(home_url('about/#!/contact')); ?>">
-							<button class="button-main button-with-shadow">GET STARTED WITH VALO</button>
+							<button class="button-main button-with-shadow button-align-left">GET STARTED WITH VALO</button>
 						</a>
 					</div>
 				</div>
