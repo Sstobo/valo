@@ -946,7 +946,7 @@ object {
 # Page Templates
 --------------------------------------------------------------*/
 .content-wrapper {
-  padding-top: 40px; }
+  padding-top: -20px; }
   @media all and (min-width: 1000px) {
     .content-wrapper {
       padding-top: 140px; } }
@@ -1532,7 +1532,7 @@ li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-176 a {
 .products-wrapper {
   height: 100%;
   width: 100vw;
-  padding-top: 40px; }
+  padding-top: 0px; }
   @media all and (min-width: 1000px) {
     .products-wrapper {
       padding-top: 140px; } }
@@ -2738,8 +2738,11 @@ h2 {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  padding-top: 100px;
-  margin-top: 100px; }
+  margin-top: 100px;
+  padding-top: -20px; }
+  @media all and (min-width: 1000px) {
+    .applications-security-wrapper {
+      padding-top: 100px; } }
 
 .applications-security-hero {
   width: 100%;
@@ -2757,7 +2760,6 @@ h2 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding-top: 130px;
   background-color: #f7f7f7; }
   @media (min-width: 1000px) {
     .applications-security-hero {
@@ -2788,8 +2790,12 @@ h2 {
 .applications-security-post {
   width: 100%;
   height: 500px;
-  padding: 78px 44px 0 44px;
-  text-align: center; }
+  padding: 0px 44px 0 44px;
+  text-align: center;
+  padding-top: -20px; }
+  @media all and (min-width: 1000px) {
+    .applications-security-post {
+      padding-top: 100px; } }
   .applications-security-post p {
     position: relative;
     bottom: 10px;
@@ -2815,7 +2821,11 @@ h2 {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
-          flex-direction: row; }
+          flex-direction: row;
+  padding-top: -20px; }
+  @media all and (min-width: 1000px) {
+    .applications-transpo-wrapper {
+      padding-top: 100px; } }
 
 .applications-transpo-hero {
   width: 100%;
@@ -2958,7 +2968,11 @@ h2 {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
-          flex-direction: row; }
+          flex-direction: row;
+  padding-top: -20px; }
+  @media all and (min-width: 1000px) {
+    .applications-muni-wrapper {
+      padding-top: 100px; } }
 
 .applications-muni-hero {
   width: 100%;
@@ -2970,7 +2984,6 @@ h2 {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding-top: 110px;
   background-color: #f7f7f7; }
   @media (min-width: 1000px) {
     .applications-muni-hero {
@@ -3098,7 +3111,11 @@ h2 {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
-          flex-direction: row; }
+          flex-direction: row;
+  padding-top: -20px; }
+  @media all and (min-width: 1000px) {
+    .applications-enviro-wrapper {
+      padding-top: 100px; } }
 
 .applications-enviro-hero {
   width: 100%;
@@ -3110,7 +3127,6 @@ h2 {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding-top: 110px;
   background-color: #f7f7f7; }
   @media (min-width: 1000px) {
     .applications-enviro-hero {
@@ -3167,7 +3183,11 @@ h2 {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
-          flex-direction: row; }
+          flex-direction: row;
+  padding-top: -20px; }
+  @media all and (min-width: 1000px) {
+    .applications-enviro-wrapper2 {
+      padding-top: 100px; } }
 
 .applications-enviro-hero2 {
   width: 100%;
@@ -3234,7 +3254,10 @@ h2 {
 .applications-wrapper {
   height: 100%;
   width: 100vw;
-  padding-top: 150px; }
+  padding-top: -20px; }
+  @media all and (min-width: 1000px) {
+    .applications-wrapper {
+      padding-top: 100px; } }
 
 .applications-hero {
   width: 100%;
@@ -4327,7 +4350,6 @@ h2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 100vh;
   width: 100%;
   margin-bottom: 7%;
   background: url("../../assets/Backgrounds/clean-gray-abstract-background.png");
@@ -4342,6 +4364,7 @@ h2 {
       height: 70vh; } }
   @media all and (min-width: 1000px) {
     .contact-content-area .contact-container {
+      height: 100vh;
       height: 65vh;
       background-position: 0 -50px; } }
   .contact-content-area .contact-container .contact-image {
@@ -4612,7 +4635,10 @@ h2 {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  padding-top: 100px; }
+  padding-top: -20px; }
+  @media all and (min-width: 1000px) {
+    .investors-wrapper {
+      padding-top: 100px; } }
 
 .investors-main {
   display: -webkit-box;
@@ -5667,11 +5693,14 @@ h2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding-top: 140px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
-          flex-direction: column; }
+          flex-direction: column;
+  padding-top: 40px; }
+  @media all and (min-width: 1000px) {
+    .platform-wrapper {
+      padding-top: 140px; } }
 
 .platform-hero {
   width: 100%;

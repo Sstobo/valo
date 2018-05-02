@@ -4,7 +4,6 @@
   }
   .contact-container {
     display: flex;
-    height: 100vh;
     width: 100%;
     margin-bottom: 7%;
     background: url('../../assets/Backgrounds/clean-gray-abstract-background.png');
@@ -16,6 +15,7 @@
       height: 70vh;
     }
     @include desktop {
+      height: 100vh;
       height: 65vh;
       background-position: 0 -50px;
     }

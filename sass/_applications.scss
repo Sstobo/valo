@@ -19,8 +19,11 @@ h2 {
   width: 100%;
   display: flex;
   flex-direction: row;
-  padding-top: 100px;
   margin-top: 100px;
+  padding-top: -20px;
+  @include desktop {
+    padding-top: 100px;
+  }
 }
 .applications-security-hero {
   width: 100%;
@@ -29,7 +32,7 @@ h2 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 130px;
+ 
   background-color: rgb(247, 247, 247);
   @media (min-width: $desktop_width) {
     height: 460px;
@@ -58,8 +61,12 @@ h2 {
 .applications-security-post {
   width: 100%;
   height: 500px;
-  padding: 78px 44px 0 44px;
+  padding: 0px 44px 0 44px;
   text-align: center;
+  padding-top: -20px;
+  @include desktop {
+    padding-top: 100px;
+  }
 
   p {
     position: relative;
@@ -86,6 +93,10 @@ h2 {
   width: 100%;
   display: flex;
   flex-direction: row;
+  padding-top: -20px;
+  @include desktop {
+    padding-top: 100px;
+  }
 }
 .applications-transpo-hero {
   width: 100%;
@@ -209,13 +220,17 @@ h2 {
   width: 100%;
   display: flex;
   flex-direction: row;
+  padding-top: -20px;
+  @include desktop {
+    padding-top: 100px;
+  }
 }
 .applications-muni-hero {
   width: 100%;
   height: auto;
   display: flex;
   flex-direction: column;
-  padding-top: 110px;
+ 
   background-color: rgb(247, 247, 247);
   @media (min-width: $desktop_width) {
     height: 480px;
@@ -329,13 +344,16 @@ h2 {
   width: 100%;
   display: flex;
   flex-direction: row;
+  padding-top: -20px;
+  @include desktop {
+    padding-top: 100px;
+  }
 }
 .applications-enviro-hero {
   width: 100%;
   height: auto;
   display: flex;
   flex-direction: column;
-  padding-top: 110px;
   background-color: rgb(247, 247, 247);
   @media (min-width: $desktop_width) {
     height: 530px;
@@ -387,6 +405,10 @@ h2 {
   width: 100%;
   display: flex;
   flex-direction: row;
+  padding-top: -20px;
+  @include desktop {
+    padding-top: 100px;
+  }
 }
 .applications-enviro-hero2 {
   width: 100%;
@@ -450,7 +472,10 @@ h2 {
 .applications-wrapper {
   height: 100%;
   width: 100vw;
-  padding-top: 150px;
+  padding-top: -20px;
+  @include desktop {
+    padding-top: 100px;
+  }
 }
 .applications-hero {
   width: 100%;
