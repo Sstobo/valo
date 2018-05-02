@@ -946,7 +946,10 @@ object {
 # Page Templates
 --------------------------------------------------------------*/
 .content-wrapper {
-  padding-top: 140px; }
+  padding-top: 40px; }
+  @media all and (min-width: 1000px) {
+    .content-wrapper {
+      padding-top: 140px; } }
 
 .title-blue-line {
   border-bottom: 5px solid #00aeef;
@@ -1506,16 +1509,19 @@ object {
 
 #mobmenuright li a, #mobmenuright li a:visited, #mobmenuright .mobmenu_content h2, #mobmenuright .mobmenu_content h3 {
   text-transform: uppercase !important;
-  font-family: "Roboto" !important; }
+  font-family: "Roboto" !important;
+  border-bottom: 1px solid #e6e6e6; }
 
 li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-175 a {
   color: #00aeef !important;
-  margin-top: 120px !important;
-  font-weight: bold !important; }
+  margin-top: 60px !important;
+  font-weight: bold !important;
+  border-bottom: none; }
 
 li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-176 a {
   position: relative !important;
-  bottom: 24px !important; }
+  bottom: 24px !important;
+  border-bottom: none; }
 
 .mob-menu-slideout-over .mobmenu_content {
   padding-top: 70px !important; }
