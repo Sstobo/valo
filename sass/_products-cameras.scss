@@ -19,13 +19,14 @@
     h2 {
       margin-top: 0;
       text-align: center;
-      font-size: 40px;
+      font-size: 28px;
       max-width: 80%;
       margin-bottom: 0;
 
       @include footer_row {
         margin-bottom: 20px;
         width: 50%;
+        font-size: 34px;
       }
     }
 
@@ -37,116 +38,6 @@
       }
     }
   } //close camera banner
-
-  // .products-two-main-cameras-wrapper {
-  //   background-color: #fff;
-  //   padding: 50px 10% 0;
-  //   h3 {
-  //     text-align: center;
-  //     font-weight: 700;
-  //     color: #000;
-  //     font-size: 30px;
-  //   }
-  // }
-  // .products-two-main-cameras-container {
-  //   display: flex;
-  //   flex-direction: column;
-  //   @media all and (min-width: 785px) {
-  //     flex-direction: row;
-  //     justify-content: space-around;
-  //     margin-top: 40px;
-  //   }
-  // }
-  // .products-two-main-cameras-left-container {
-  //   display: flex;
-  //   flex-direction: column;
-  //   justify-content: center;
-  //   margin-right: 30px;
-  //   @media all and (min-width: 785px) {
-  //     justify-content: space-evenly;
-  //   }
-  // }
-  // .products-two-main-cameras-left-top {
-  //   display: flex;
-  //   flex-direction: row;
-  //   justify-content: center;
-  //   margin-top: 20px;
-  //   span {
-  //     font-weight: 700;
-  //     font-family: $font__droid, sans-serif;
-  //     font-size: 16px;
-  //     color: #000;
-  //   }
-  //   p {
-  //     width: 60%;
-  //     font-size: 13px;
-  //   }
-  //   @media all and (min-width: 785px) {
-  //     justify-content: flex-start;
-  //     margin-top: 0px;
-  //     p {
-  //       width: 129px;
-  //     }
-  //   }
-  //   .products-two-main-cameras-icon {
-  //     padding-left: 20%;
-
-  //     padding-top: 40px;
-  //     color: $color__accent;
-  //   }
-  // }
-  // .products-two-main-cameras-center-container {
-  //   padding: 0;
-  //   margin: 0 auto;
-  //   margin-bottom: -7px;
-  // }
-  // .animation-icon {
-  //   width: 275px;
-  //   height: 453px;
-  //   margin-top: 0;
-  //   @media all and (min-width: 785px) {
-  //     height: 0px;
-  //     margin-top: 453px;
-  //   }
-  // }
-  // .animation-in-view {
-  //   margin-top: 25px;
-  //   height: 200px;
-  //   transition-duration: 0.5s;
-  // }
-  // .products-two-main-cameras-right-container {
-  //   display: flex;
-  //   flex-direction: column;
-  //   margin-left: 30px;
-  // }
-  // .products-two-main-cameras-right-top {
-  //   display: flex;
-  //   flex-direction: row;
-  //   justify-content: center;
-  //   margin-top: 20px;
-  //   span {
-  //     font-weight: 700;
-  //     font-family: $font__droid, sans-serif;
-  //     font-size: 16px;
-  //     color: #000;
-  //   }
-  //   p {
-  //     width: 60%;
-  //     font-size: 13px;
-  //   }
-  //   @media all and (min-width: 785px) {
-  //     justify-content: flex-end;
-  //     margin-top: 0px;
-  //     p {
-  //       width: 129px;
-  //     }
-  //   }
-  //   .products-two-main-cameras-icon {
-  //     padding-right: 20%;
-  //     padding-top: 40px;
-  //     color: $color__accent;
-  //   }
-  // }
 
   .camera-animate {
     display: flex;
@@ -278,7 +169,7 @@
     }
 
     p {
-      max-width: 55%;
+      max-width: 75%;
       text-align: center;
       color: #fff;
       padding-bottom: 15px;

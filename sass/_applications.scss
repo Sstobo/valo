@@ -549,7 +549,7 @@ h2 {
   width: 100%;
   text-align: center;
   margin: 44px 0;
-
+  max-width: 1260px;
   display: flex;
   align-items: center;
 
@@ -598,9 +598,8 @@ h2 {
       max-height: 485px;
       display: block;
       width: 50%;
-
       background-color: white;
-      // margin-right: 7%;
+      margin-right: 5%;
     }
   }
   @media (min-width: $desktop_width) {
