@@ -1599,7 +1599,7 @@ li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-176 a {
     @media (min-width: 1000px) {
       .products-hero .products-hero-img {
         display: block;
-        margin-right: 5%;
+        margin-right: 3%;
         margin-top: 50px;
         height: 45vw;
         width: 50%;
@@ -3422,7 +3422,7 @@ h2 {
         display: block;
         width: 50%;
         background-color: white;
-        margin-right: 5%; } }
+        margin-right: 2%; } }
   @media (min-width: 1000px) {
     .applications-hero {
       -webkit-box-orient: horizontal;
@@ -4885,14 +4885,12 @@ h2 {
     max-width: 500px; }
     @media all and (min-width: 1000px) {
       .content-area-services .service-wrapper .service-image {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
+        display: block;
         width: 50%;
         height: 45vw;
         max-height: 485px;
         max-width: 690px;
-        margin-right: 5%; }
+        margin-right: 3%; }
         .content-area-services .service-wrapper .service-image img {
           height: 100%;
           width: 100%; } }
