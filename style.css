@@ -4658,11 +4658,13 @@ h2 {
       height: 700px; } }
 
 .investors-left {
-  height: 600px;
   width: 100%;
   background-color: white;
   padding: 8px 0 24px 8px;
   text-align: center; }
+  @media (min-width: 1000px) {
+    .investors-left {
+      height: 600px; } }
   @media (min-width: 1400px) {
     .investors-left {
       text-align: left; } }
@@ -4672,7 +4674,7 @@ h2 {
   .investors-left h1 {
     margin-bottom: 14px; }
   .investors-left p {
-    width: 70%;
+    width: 86%;
     margin: 0 auto;
     margin-bottom: 48px; }
   @media (min-width: 1400px) {
@@ -4710,11 +4712,13 @@ h2 {
 
 .investors-right-mobile {
   display: block;
+  margin-bottom: 14px;
   height: 400px;
-  width: 120%;
+  width: 100%;
   background-image: url("../../assets/images/valo-about-02.svg");
   background-size: contain;
   background-repeat: no-repeat;
+  margin-left: 2%;
   position: relative; }
   @media (min-width: 1000px) {
     .investors-right-mobile {
