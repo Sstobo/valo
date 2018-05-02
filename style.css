@@ -1516,12 +1516,12 @@ li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-175 a {
   color: #00aeef !important;
   margin-top: 60px !important;
   font-weight: bold !important;
-  border-bottom: none; }
+  border-bottom: none !important; }
 
 li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-176 a {
   position: relative !important;
   bottom: 24px !important;
-  border-bottom: none; }
+  border-bottom: none !important; }
 
 .mob-menu-slideout-over .mobmenu_content {
   padding-top: 70px !important; }
