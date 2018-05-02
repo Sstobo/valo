@@ -118,7 +118,9 @@
   background-repeat: no-repeat;
   background-size: cover;
   height: 80vw;
+  max-height: 450px;
   width: 95%;
+  max-width: 500px;
 }
 
 @mixin desktopImage {

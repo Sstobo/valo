@@ -1590,7 +1590,9 @@ li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-176 a {
     background-repeat: no-repeat;
     background-size: cover;
     height: 80vw;
+    max-height: 450px;
     width: 95%;
+    max-width: 500px;
     background: url("../../assets/icons-SVG/products.svg"); }
     @media (min-width: 1000px) {
       .products-hero .products-hero-img {
@@ -3398,8 +3400,11 @@ h2 {
     background-repeat: no-repeat;
     background-size: cover;
     height: 80vw;
+    max-height: 450px;
     width: 95%;
-    background: url("../../assets/images/valo-applications-01.svg"); }
+    max-width: 500px;
+    background: url("../../assets/images/valo-applications-01.svg");
+    background-repeat: no-repeat; }
     @media all and (min-width: 1000px) {
       .applications-hero .applications-hero-img {
         background-image: url("../../assets/images/valo-applications-01.svg");
@@ -4818,6 +4823,7 @@ h2 {
   background-image: url("../../assets/images/valo-about-02.svg");
   background-size: contain;
   background-repeat: no-repeat;
+  margin-left: 2%;
   background-position: center;
   position: relative; }
   @media (min-width: 1000px) {
@@ -4890,7 +4896,9 @@ h2 {
           max-width: 80%; } }
   .content-area-services .service-wrapper .service-image {
     width: 95%;
-    height: 80vw; }
+    height: 80vw;
+    max-height: 450px;
+    max-width: 500px; }
     @media all and (min-width: 1000px) {
       .content-area-services .service-wrapper .service-image {
         -ms-flex-preferred-size: 50%;

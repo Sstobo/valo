@@ -552,7 +552,7 @@ h2 {
 
   display: flex;
   align-items: center;
-  // flex-direction: row;
+
   flex-direction: column;
   justify-content: center;
   @media (min-width: $desktop_width) {
@@ -585,6 +585,7 @@ h2 {
   .applications-hero-img {
     @include mobileImage;
     background: url('../../assets/images/valo-applications-01.svg');
+    background-repeat: no-repeat;
 
     @media all and (min-width: $desktop_width) {
       background-image: url('../../assets/images/valo-applications-01.svg');

@@ -45,6 +45,8 @@
     .service-image {
       width: 95%;
       height: 80vw;
+      max-height: 450px;
+      max-width: 500px;
 
       @include desktop {
         flex-basis: 50%;
