@@ -12,7 +12,7 @@ get_header(); ?>
 			<section class="content-wrapper">
 				<div class="about-team-management-team-title-container">
 					<h2>Management Team</h2>
-					<div class="about-title-blue-line"></div>
+					<div class="sub-title-blue-line"></div>
 				</div>
 				<div class="about-team-management-team-container">
 					<?php while (have_posts()) : the_post(); ?>
