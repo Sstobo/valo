@@ -138,6 +138,8 @@
   background-size: contain;
   background-repeat: no-repeat;
   margin-left: 2%;
+  background-position: center;
+  // margin-left: 2%;
   position: relative;
   @media (min-width: $desktop_width) {
     display: none;

@@ -544,6 +544,10 @@ table {
   .button-align-left-tablet {
     margin-left: 0; } }
 
+@media all and (min-width: 1400px) {
+  .button-align-left-desktop {
+    margin-left: 0; } }
+
 .button-with-shadow {
   font-weight: 400;
   -webkit-box-shadow: none;
@@ -4814,7 +4818,7 @@ h2 {
   background-image: url("../../assets/images/valo-about-02.svg");
   background-size: contain;
   background-repeat: no-repeat;
-  margin-left: 2%;
+  background-position: center;
   position: relative; }
   @media (min-width: 1000px) {
     .investors-right-mobile {
