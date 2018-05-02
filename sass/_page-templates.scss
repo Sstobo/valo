@@ -312,6 +312,12 @@
 
 //front page banner
 .banner {
+  background: black;
+  width: 100%;
+}
+.banner-wrapper {
+  margin: 0 auto;
+  max-width: 1300px;
   min-height: 300px;
   height: 50vh;
   width: 100%;
@@ -327,23 +333,28 @@
     flex-direction: row;
   }
 
+  @include desktop {
+    width: 70%;
+  }
+
   #banner-logo {
     width: 250px;
 
     @include footer_row {
-      margin-left: 15%;
+      // margin-left: 15%;
     }
   }
 
   #banner-contact-button {
-    height: 40px;
-    width: auto;
-    min-width: 130px;
-
-    @include footer_row {
-      margin-right: 17%;
-    }
+    margin: 0;
+    //   height: 40px;
+    //   width: auto;
+    //   min-width: 130px;
   }
+  //   @include footer_row {
+  //     margin-right: 17%;
+  //   }
+  // }
   #banner-contact-button:hover {
     background: #3f3f3f;
   }
@@ -357,11 +368,12 @@
     color: #fff;
     font-size: 20px;
 
-    @include footer_row {
-      margin-right: 6%;
-    }
+    // @include footer_row {
+    //   margin-right: 6%;
+    // }
   }
 }
+
 //close banner
 
 //iot banner

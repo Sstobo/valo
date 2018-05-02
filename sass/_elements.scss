@@ -101,6 +101,10 @@ table {
   }
 }
 
+.button-align-left {
+  margin-left: 0;
+}
+
 .button-align-left-tablet {
   @media all and (min-width: 800px) {
     margin-left: 0;
