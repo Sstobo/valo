@@ -1764,7 +1764,7 @@ li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-176 a {
       padding-bottom: 0; } }
 
 .product-network-image-container {
-  height: 80vh;
+  height: 60vh;
   background-position: bottom;
   background-size: cover;
   background-repeat: no-repeat;
@@ -5835,9 +5835,9 @@ h2 {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
   height: auto;
   background-color: #f3f3f3; }
   @media (min-width: 1000px) {
@@ -6015,7 +6015,7 @@ h2 {
   height: auto;
   width: 100%;
   text-align: center;
-  padding: 24px 12px 12px 12px; }
+  padding: 24px 12px 12px 24px; }
   .platform-icon-box-sensors p {
     text-align: center; }
   .platform-icon-box-sensors h2 {
@@ -6077,7 +6077,7 @@ h2 {
   height: auto;
   width: 100%;
   text-align: center;
-  padding: 24px 12px 12px 12px; }
+  padding: 24px 12px 12px 24px; }
   .platform-icon-box-sensors-final p {
     text-align: center; }
   .platform-icon-box-sensors-final h2 {
@@ -6135,8 +6135,7 @@ h2 {
     height: 100%;
     text-align: center; }
     .platform-sensors .platform-sensor-text h1 {
-      margin: 0 auto;
-      margin-bottom: 24px; }
+      margin: 24px auto; }
     .platform-sensors .platform-sensor-text p {
       width: 80%;
       margin: 0 auto; }
