@@ -3414,6 +3414,7 @@ h2 {
         background-position: center;
         max-width: 690px;
         height: 40vw;
+        margin-top: 50px;
         max-height: 485px;
         display: block;
         width: 50%;
@@ -3614,8 +3615,8 @@ h2 {
     font-size: 15px;
     margin-bottom: 3px; }
   .page-template-about_team .about-team-single-team-member-container img {
-    width: 235px;
-    height: 268px;
+    width: 200px;
+    height: 200px;
     margin-top: 10px; }
 
 .page-template-about_team .about-team-name-and-position h3 {
@@ -4902,8 +4903,6 @@ h2 {
     max-width: 500px; }
     @media all and (min-width: 1000px) {
       .content-area-services .service-wrapper .service-image {
-        -ms-flex-preferred-size: 50%;
-            flex-basis: 50%;
         margin: 0 2%;
         display: -webkit-box;
         display: -ms-flexbox;
