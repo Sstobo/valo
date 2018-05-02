@@ -3631,32 +3631,6 @@ h2 {
   font-size: 15px;
   line-height: 1em; }
 
-.page-template-about_team .about-team-contact {
-  margin-top: 12px; }
-  .page-template-about_team .about-team-contact a {
-    color: #00aeef;
-    font-weight: 700; }
-
-@media all and (min-width: 990px) {
-  .page-template-about_team div.signup-container {
-    width: 50%;
-    max-height: 358px;
-    margin: 30px 0; }
-  .page-template-about_team div.signup-wrapper {
-    -webkit-box-align: left;
-        -ms-flex-align: left;
-            align-items: left; }
-  .page-template-about_team div.wpcf7 {
-    padding-left: 150px; }
-  .page-template-about_team .about-team-signup-image {
-    width: 50%;
-    height: 381px;
-    position: absolute;
-    left: 50%;
-    background-image: url("../../assets/Backgrounds/valo-sign-up-image-1.jpg");
-    background-size: cover;
-    background-position: center; } }
-
 /* About Company */
 .page-template-about .about-title-blue-line {
   width: 150px;
