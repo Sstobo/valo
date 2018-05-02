@@ -113,3 +113,24 @@
     }
   }
 }
+
+@mixin mobileImage {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vw;
+  max-height: 450px;
+  width: 95%;
+  max-width: 500px;
+}
+
+@mixin desktopImage {
+  display: block;
+  margin-right: 5%;
+  margin-top: 50px;
+  height: 45vw;
+  width: 50%;
+  max-height: 485px;
+  max-width: 690px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

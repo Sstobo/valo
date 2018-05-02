@@ -544,6 +544,10 @@ table {
   .button-align-left-tablet {
     margin-left: 0; } }
 
+@media all and (min-width: 1400px) {
+  .button-align-left-desktop {
+    margin-left: 0; } }
+
 .button-with-shadow {
   font-weight: 400;
   -webkit-box-shadow: none;
@@ -1541,28 +1545,35 @@ li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-176 a {
   width: 100%;
   text-align: center;
   margin-bottom: 44px;
-  height: 300px;
+  height: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
+  -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between; }
   @media all and (min-width: 1000px) {
     .products-hero {
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row;
       height: 500px; } }
   .products-hero p {
     line-height: 28px;
     font-weight: 400; }
   .products-hero .products-hero-wrapper {
-    margin: 75px 7%; }
+    margin: 60px 7%;
+    margin-top: 0; }
     @media (min-width: 1000px) {
       .products-hero .products-hero-wrapper {
-        padding-top: 30px;
         display: block;
         height: 50%;
         width: 50%;
@@ -1576,7 +1587,13 @@ li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-176 a {
           line-height: 28px;
           width: 85%; } }
   .products-hero .products-hero-img {
-    display: none; }
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vw;
+    max-height: 450px;
+    width: 95%;
+    max-width: 500px;
+    background: url("../../assets/icons-SVG/products.svg"); }
     @media (min-width: 1000px) {
       .products-hero .products-hero-img {
         display: block;
@@ -3333,20 +3350,28 @@ h2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center; }
   @media (min-width: 1000px) {
     .applications-hero {
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row;
       -webkit-box-pack: justify;
           -ms-flex-pack: justify;
               justify-content: space-between;
       margin: 0; } }
   .applications-hero .applications-hero-wrapper {
+    margin-top: 30px;
     width: 80%; }
     .applications-hero .applications-hero-wrapper h1 {
       margin: 0; }
@@ -3372,7 +3397,14 @@ h2 {
         text-align: left;
         margin-left: 7%; } }
   .applications-hero .applications-hero-img {
-    display: none; }
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vw;
+    max-height: 450px;
+    width: 95%;
+    max-width: 500px;
+    background: url("../../assets/images/valo-applications-01.svg");
+    background-repeat: no-repeat; }
     @media all and (min-width: 1000px) {
       .applications-hero .applications-hero-img {
         background-image: url("../../assets/images/valo-applications-01.svg");
@@ -4792,6 +4824,7 @@ h2 {
   background-size: contain;
   background-repeat: no-repeat;
   margin-left: 2%;
+  background-position: center;
   position: relative; }
   @media (min-width: 1000px) {
     .investors-right-mobile {
@@ -4813,7 +4846,20 @@ h2 {
 .content-area-services .service-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex; }
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  @media all and (min-width: 1000px) {
+    .content-area-services .service-wrapper {
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row; } }
   .content-area-services .service-wrapper .services-header {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -4828,7 +4874,7 @@ h2 {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    margin-top: 40px; }
+    margin-top: 60px; }
     @media all and (min-width: 1000px) {
       .content-area-services .service-wrapper .services-header {
         -ms-flex-preferred-size: 50%;
@@ -4849,7 +4895,10 @@ h2 {
           text-align: left;
           max-width: 80%; } }
   .content-area-services .service-wrapper .service-image {
-    display: none; }
+    width: 95%;
+    height: 80vw;
+    max-height: 450px;
+    max-width: 500px; }
     @media all and (min-width: 1000px) {
       .content-area-services .service-wrapper .service-image {
         -ms-flex-preferred-size: 50%;
