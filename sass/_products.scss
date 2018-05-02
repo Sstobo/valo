@@ -1,7 +1,10 @@
 .products-wrapper {
   height: 100%;
   width: 100vw;
-  padding-top: 110px;
+  padding-top: 40px;
+  @include desktop {
+    padding-top: 140px;
+  }
 }
 .products-hero {
   width: 100%;
