@@ -1541,19 +1541,26 @@ li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-176 a {
   width: 100%;
   text-align: center;
   margin-bottom: 44px;
-  height: 300px;
+  height: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
+  -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between; }
   @media all and (min-width: 1000px) {
     .products-hero {
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row;
       height: 500px; } }
   .products-hero p {
     line-height: 28px;
@@ -1576,7 +1583,11 @@ li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-176 a {
           line-height: 28px;
           width: 85%; } }
   .products-hero .products-hero-img {
-    display: none; }
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vw;
+    width: 95%;
+    background: url("../../assets/icons-SVG/products.svg"); }
     @media (min-width: 1000px) {
       .products-hero .products-hero-img {
         display: block;
@@ -3266,15 +3277,22 @@ h2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center; }
   @media (min-width: 1000px) {
     .applications-hero {
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row;
       -webkit-box-pack: justify;
           -ms-flex-pack: justify;
               justify-content: space-between;
@@ -3305,7 +3323,11 @@ h2 {
         text-align: left;
         margin-left: 7%; } }
   .applications-hero .applications-hero-img {
-    display: none; }
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vw;
+    width: 95%;
+    background: url("../../assets/images/valo-applications-01.svg"); }
     @media all and (min-width: 1000px) {
       .applications-hero .applications-hero-img {
         background-image: url("../../assets/images/valo-applications-01.svg");
