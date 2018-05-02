@@ -14,12 +14,18 @@
   }
   .service-wrapper {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    @include desktop {
+      flex-direction: row;
+    }
     .services-header {
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      margin-top: 40px;
+      margin-top: 60px;
       @include desktop {
         flex-basis: 50%;
         align-items: flex-start;
@@ -37,7 +43,9 @@
       }
     }
     .service-image {
-      display: none;
+      width: 95%;
+      height: 80vw;
+
       @include desktop {
         flex-basis: 50%;
         margin: 0 2%;

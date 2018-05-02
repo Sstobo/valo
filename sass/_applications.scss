@@ -27,7 +27,7 @@ h2 {
 }
 .applications-security-hero {
   width: 100%;
-  height: 1000px;
+  padding-top: 34px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -37,11 +37,12 @@ h2 {
   @media (min-width: $desktop_width) {
     height: 460px;
     flex-direction: row;
+    padding-top: 74px;
   }
 }
 .applications-security-img {
   width: 100%;
-  height: 400px;
+  height: 420px;
   padding-top: 14px;
   @media (min-width: $desktop_width) {
     width: 50%;
@@ -55,15 +56,16 @@ h2 {
   width: 98%;
   margin: 0 auto;
   position: relative;
-  bottom: 50px;
+  bottom: 20px;
 }
 
 .applications-security-post {
   width: 100%;
-  height: 500px;
+  height: 400px;
   padding: 0px 44px 0 44px;
   text-align: center;
   padding-top: -20px;
+  margin-bottom: 44px;
   @include desktop {
     padding-top: 100px;
   }
@@ -103,7 +105,7 @@ h2 {
   height: auto;
   display: flex;
   flex-direction: column;
-  padding-top: 70px;
+  padding-top: 40px;
   background-color: rgb(247, 247, 247);
   @media (min-width: $desktop_width) {
     height: 600px;
@@ -111,7 +113,8 @@ h2 {
   }
 }
 .applications-transpo-img {
-  display: none;
+  width: 100%;
+  height: 420px;
   @media (min-width: $desktop_width) {
     display: block;
     width: 50%;
@@ -123,17 +126,22 @@ h2 {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 500px;
-  width: 100%;
   margin: 0 auto;
   position: relative;
   top: 30px;
+  width: 100%;
+  height: 420px;
+  margin-bottom: 24px;
+  @media (min-width: $desktop_width) {
+    display: block;
+    width: 100%;
+    height: 500px;
+  }
 }
 .applications-transpo-post {
   width: 100%;
-  height: 500px;
+  height: auto;
   padding: 0px 44px 0 44px;
-  margin-bottom: 44px;
   text-align: center;
 
   @media (min-width: $desktop_width) {
@@ -144,6 +152,7 @@ h2 {
       width: 98%;
       text-align: left;
       margin: 0 auto;
+      margin-bottom: 44px;
       margin-top: 34px;
       line-height: 28px;
       font-size: 15px;
@@ -170,7 +179,9 @@ h2 {
   }
 }
 .applications-transpo-img2 {
-  display: none;
+  width: 100%;
+  height: 320px;
+  display: block;
   @media (min-width: $desktop_width) {
     display: block;
     width: 50%;
@@ -180,9 +191,9 @@ h2 {
 .applications-transpo-post2 {
   width: 100%;
   height: auto;
-  padding: 38px 44px 0 44px;
+  padding: 20px 34px 0 34px;
   text-align: center;
-  margin-bottom: 48px;
+  margin-bottom: 8px;
 
   .entry-title {
     display: none;
@@ -205,11 +216,18 @@ h2 {
   }
 }
 .applications-transpo-image2 {
-  display: none;
+  height: 320px;
+  display: block;
+  background-image: url('../../assets/icons-SVG/parking-image-1.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  margin: 0 auto;
   @media (min-width: $desktop_width) {
     display: block;
     background-image: url('../../assets/icons-SVG/parking-image-1.png');
-    background-size: cover;
+    background-size: 100%;
+    background-position: 0% 50%;
     height: 420px;
     width: 100%;
     margin: 0 auto;
@@ -230,7 +248,6 @@ h2 {
   height: auto;
   display: flex;
   flex-direction: column;
-
   background-color: rgb(247, 247, 247);
   @media (min-width: $desktop_width) {
     height: 480px;
@@ -238,32 +255,41 @@ h2 {
   }
 }
 .applications-muni-img {
-  display: none;
+  height: 300px;
   @media (min-width: $desktop_width) {
     display: block;
     width: 50%;
-    height: 420px;
+    height: 480px;
   }
 }
 .applications-muni-image {
   background-image: url('../../assets/icons-SVG/city-new.jpg');
-  background-size: 100%;
-  background-position: 0% 40%;
-  height: 420px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
   width: 100%;
   margin: 0 auto;
   position: relative;
   bottom: 50px;
+  margin-left: 2%;
+  @media (min-width: $desktop_width) {
+    height: 480px;
+    position: relative;
+    margin-left: 0;
+    bottom: 0px;
+    padding-top: 120px;
+    background-size: 100%;
+  }
 }
 .applications-muni-post {
   width: 100%;
   height: auto;
-  padding: 38px 44px 0 44px;
+  padding: 20px 34px 0 34px;
   margin-bottom: 44px;
   text-align: center;
-
   @media (min-width: $desktop_width) {
-    padding: 38px 24px 0 24px;
+    margin-top: 48px;
+    padding: 48px 24px 0 24px;
     width: 50%;
     height: 460px;
     p {
@@ -306,9 +332,8 @@ h2 {
 .applications-muni-post2 {
   width: 100%;
   height: auto;
-  padding: 38px 44px 0 44px;
+  padding: 0px 34px 0 34px;
   text-align: center;
-  margin-bottom: 48px;
 
   @media (min-width: $desktop_width) {
     padding: 38px 24px 0 24px;
@@ -338,6 +363,27 @@ h2 {
     margin: 0 auto;
   }
 }
+.applications-muni-img2-mobile {
+  display: block;
+  width: 100%;
+  height: 300px;
+  @media (min-width: $desktop_width) {
+    display: none;
+  }
+}
+.applications-muni-image2-mobile {
+  display: block;
+  background-image: url('../../assets/icons-SVG/valo-muni-street.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: rgb(247, 247, 247);
+  @media (min-width: $desktop_width) {
+    display: none;
+  }
+}
 
 // ENVIRO
 .applications-enviro-wrapper {
@@ -358,10 +404,10 @@ h2 {
   @media (min-width: $desktop_width) {
     height: 530px;
     flex-direction: row;
+    padding-top: 90px;
   }
 }
 .applications-enviro-img {
-  display: none;
   @media (min-width: $desktop_width) {
     display: block;
     width: 50%;
@@ -371,11 +417,11 @@ h2 {
 .applications-enviro-image {
   background-image: url('../../assets/icons-SVG/valo-smart-weather.jpg');
   background-size: cover;
-  height: 430px;
+  height: 420px;
   width: 100%;
   margin: 0 auto;
   position: relative;
-  bottom: 10px;
+  bottom: -20px;
 }
 .applications-enviro-post {
   width: 100%;
@@ -421,14 +467,7 @@ h2 {
     flex-direction: row;
   }
 }
-.applications-enviro-img2 {
-  display: none;
-  @media (min-width: $desktop_width) {
-    display: block;
-    width: 50%;
-    height: 480px;
-  }
-}
+
 .applications-enviro-post2 {
   width: 100%;
   height: auto;
@@ -456,6 +495,14 @@ h2 {
     }
   }
 }
+.applications-enviro-img2 {
+  display: none;
+  @media (min-width: $desktop_width) {
+    display: block;
+    width: 50%;
+    height: 480px;
+  }
+}
 .applications-enviro-image2 {
   display: none;
   @media (min-width: $desktop_width) {
@@ -465,6 +512,27 @@ h2 {
     height: 420px;
     width: 100%;
     margin: 0 auto;
+  }
+}
+
+.applications-enviro-image2-mobile {
+  display: block;
+  background-image: url('../../assets/icons-SVG/smart-air.jpg');
+  background-size: cover;
+  height: 420px;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 4px;
+  @media (min-width: $desktop_width) {
+    display: none;
+  }
+}
+.applications-enviro-img2-mobile {
+  display: block;
+  width: 100%;
+  height: 420px;
+  @media (min-width: $desktop_width) {
+    display: none;
   }
 }
 // next
@@ -493,6 +561,7 @@ h2 {
     margin: 0;
   }
   .applications-hero-wrapper {
+    margin-top: 30px;
     width: 80%;
     h1 {
       margin: 0;

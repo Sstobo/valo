@@ -1566,10 +1566,10 @@ li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-176 a {
     line-height: 28px;
     font-weight: 400; }
   .products-hero .products-hero-wrapper {
-    margin: 75px 7%; }
+    margin: 60px 7%;
+    margin-top: 0; }
     @media (min-width: 1000px) {
       .products-hero .products-hero-wrapper {
-        padding-top: 30px;
         display: block;
         height: 50%;
         width: 50%;
@@ -2757,7 +2757,7 @@ h2 {
 
 .applications-security-hero {
   width: 100%;
-  height: 1000px;
+  padding-top: 34px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2778,11 +2778,12 @@ h2 {
       -webkit-box-orient: horizontal;
       -webkit-box-direction: normal;
           -ms-flex-direction: row;
-              flex-direction: row; } }
+              flex-direction: row;
+      padding-top: 74px; } }
 
 .applications-security-img {
   width: 100%;
-  height: 400px;
+  height: 420px;
   padding-top: 14px; }
   @media (min-width: 1000px) {
     .applications-security-img {
@@ -2796,14 +2797,15 @@ h2 {
   width: 98%;
   margin: 0 auto;
   position: relative;
-  bottom: 50px; }
+  bottom: 20px; }
 
 .applications-security-post {
   width: 100%;
-  height: 500px;
+  height: 400px;
   padding: 0px 44px 0 44px;
   text-align: center;
-  padding-top: -20px; }
+  padding-top: -20px;
+  margin-bottom: 44px; }
   @media all and (min-width: 1000px) {
     .applications-security-post {
       padding-top: 100px; } }
@@ -2848,7 +2850,7 @@ h2 {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding-top: 70px;
+  padding-top: 40px;
   background-color: #f7f7f7; }
   @media (min-width: 1000px) {
     .applications-transpo-hero {
@@ -2859,7 +2861,8 @@ h2 {
               flex-direction: row; } }
 
 .applications-transpo-img {
-  display: none; }
+  width: 100%;
+  height: 420px; }
   @media (min-width: 1000px) {
     .applications-transpo-img {
       display: block;
@@ -2871,17 +2874,22 @@ h2 {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 500px;
-  width: 100%;
   margin: 0 auto;
   position: relative;
-  top: 30px; }
+  top: 30px;
+  width: 100%;
+  height: 420px;
+  margin-bottom: 24px; }
+  @media (min-width: 1000px) {
+    .applications-transpo-image {
+      display: block;
+      width: 100%;
+      height: 500px; } }
 
 .applications-transpo-post {
   width: 100%;
-  height: 500px;
+  height: auto;
   padding: 0px 44px 0 44px;
-  margin-bottom: 44px;
   text-align: center; }
   @media (min-width: 1000px) {
     .applications-transpo-post {
@@ -2892,6 +2900,7 @@ h2 {
         width: 98%;
         text-align: left;
         margin: 0 auto;
+        margin-bottom: 44px;
         margin-top: 34px;
         line-height: 28px;
         font-size: 15px; } }
@@ -2929,7 +2938,9 @@ h2 {
               flex-direction: row; } }
 
 .applications-transpo-img2 {
-  display: none; }
+  width: 100%;
+  height: 320px;
+  display: block; }
   @media (min-width: 1000px) {
     .applications-transpo-img2 {
       display: block;
@@ -2939,9 +2950,9 @@ h2 {
 .applications-transpo-post2 {
   width: 100%;
   height: auto;
-  padding: 38px 44px 0 44px;
+  padding: 20px 34px 0 34px;
   text-align: center;
-  margin-bottom: 48px; }
+  margin-bottom: 8px; }
   .applications-transpo-post2 .entry-title {
     display: none; }
   @media (min-width: 1000px) {
@@ -2961,12 +2972,19 @@ h2 {
         width: 70%; } }
 
 .applications-transpo-image2 {
-  display: none; }
+  height: 320px;
+  display: block;
+  background-image: url("../../assets/icons-SVG/parking-image-1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  margin: 0 auto; }
   @media (min-width: 1000px) {
     .applications-transpo-image2 {
       display: block;
       background-image: url("../../assets/icons-SVG/parking-image-1.png");
-      background-size: cover;
+      background-size: 100%;
+      background-position: 0% 50%;
       height: 420px;
       width: 100%;
       margin: 0 auto; } }
@@ -3005,32 +3023,42 @@ h2 {
               flex-direction: row; } }
 
 .applications-muni-img {
-  display: none; }
+  height: 300px; }
   @media (min-width: 1000px) {
     .applications-muni-img {
       display: block;
       width: 50%;
-      height: 420px; } }
+      height: 480px; } }
 
 .applications-muni-image {
   background-image: url("../../assets/icons-SVG/city-new.jpg");
-  background-size: 100%;
-  background-position: 0% 40%;
-  height: 420px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
   width: 100%;
   margin: 0 auto;
   position: relative;
-  bottom: 50px; }
+  bottom: 50px;
+  margin-left: 2%; }
+  @media (min-width: 1000px) {
+    .applications-muni-image {
+      height: 480px;
+      position: relative;
+      margin-left: 0;
+      bottom: 0px;
+      padding-top: 120px;
+      background-size: 100%; } }
 
 .applications-muni-post {
   width: 100%;
   height: auto;
-  padding: 38px 44px 0 44px;
+  padding: 20px 34px 0 34px;
   margin-bottom: 44px;
   text-align: center; }
   @media (min-width: 1000px) {
     .applications-muni-post {
-      padding: 38px 24px 0 24px;
+      margin-top: 48px;
+      padding: 48px 24px 0 24px;
       width: 50%;
       height: 460px; }
       .applications-muni-post p {
@@ -3084,9 +3112,8 @@ h2 {
 .applications-muni-post2 {
   width: 100%;
   height: auto;
-  padding: 38px 44px 0 44px;
-  text-align: center;
-  margin-bottom: 48px; }
+  padding: 0px 34px 0 34px;
+  text-align: center; }
   @media (min-width: 1000px) {
     .applications-muni-post2 {
       padding: 38px 24px 0 24px;
@@ -3113,6 +3140,27 @@ h2 {
       height: 420px;
       width: 100%;
       margin: 0 auto; } }
+
+.applications-muni-img2-mobile {
+  display: block;
+  width: 100%;
+  height: 300px; }
+  @media (min-width: 1000px) {
+    .applications-muni-img2-mobile {
+      display: none; } }
+
+.applications-muni-image2-mobile {
+  display: block;
+  background-image: url("../../assets/icons-SVG/valo-muni-street.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #f7f7f7; }
+  @media (min-width: 1000px) {
+    .applications-muni-image2-mobile {
+      display: none; } }
 
 .applications-enviro-wrapper {
   width: 100%;
@@ -3145,24 +3193,23 @@ h2 {
       -webkit-box-orient: horizontal;
       -webkit-box-direction: normal;
           -ms-flex-direction: row;
-              flex-direction: row; } }
+              flex-direction: row;
+      padding-top: 90px; } }
 
-.applications-enviro-img {
-  display: none; }
-  @media (min-width: 1000px) {
-    .applications-enviro-img {
-      display: block;
-      width: 50%;
-      height: 520px; } }
+@media (min-width: 1000px) {
+  .applications-enviro-img {
+    display: block;
+    width: 50%;
+    height: 520px; } }
 
 .applications-enviro-image {
   background-image: url("../../assets/icons-SVG/valo-smart-weather.jpg");
   background-size: cover;
-  height: 430px;
+  height: 420px;
   width: 100%;
   margin: 0 auto;
   position: relative;
-  bottom: 10px; }
+  bottom: -20px; }
 
 .applications-enviro-post {
   width: 100%;
@@ -3219,14 +3266,6 @@ h2 {
           -ms-flex-direction: row;
               flex-direction: row; } }
 
-.applications-enviro-img2 {
-  display: none; }
-  @media (min-width: 1000px) {
-    .applications-enviro-img2 {
-      display: block;
-      width: 50%;
-      height: 480px; } }
-
 .applications-enviro-post2 {
   width: 100%;
   height: auto;
@@ -3251,6 +3290,14 @@ h2 {
       .applications-enviro-post2 p {
         width: 70%; } }
 
+.applications-enviro-img2 {
+  display: none; }
+  @media (min-width: 1000px) {
+    .applications-enviro-img2 {
+      display: block;
+      width: 50%;
+      height: 480px; } }
+
 .applications-enviro-image2 {
   display: none; }
   @media (min-width: 1000px) {
@@ -3261,6 +3308,26 @@ h2 {
       height: 420px;
       width: 100%;
       margin: 0 auto; } }
+
+.applications-enviro-image2-mobile {
+  display: block;
+  background-image: url("../../assets/icons-SVG/smart-air.jpg");
+  background-size: cover;
+  height: 420px;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 4px; }
+  @media (min-width: 1000px) {
+    .applications-enviro-image2-mobile {
+      display: none; } }
+
+.applications-enviro-img2-mobile {
+  display: block;
+  width: 100%;
+  height: 420px; }
+  @media (min-width: 1000px) {
+    .applications-enviro-img2-mobile {
+      display: none; } }
 
 .applications-wrapper {
   height: 100%;
@@ -3298,6 +3365,7 @@ h2 {
               justify-content: space-between;
       margin: 0; } }
   .applications-hero .applications-hero-wrapper {
+    margin-top: 30px;
     width: 80%; }
     .applications-hero .applications-hero-wrapper h1 {
       margin: 0; }
@@ -3589,10 +3657,16 @@ h2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
+  -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row; }
+      -ms-flex-direction: column;
+          flex-direction: column; }
+  @media all and (min-width: 990px) {
+    .page-template-about .about-top-row-container {
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row; } }
 
 .page-template-about .about-single-item-vision {
   padding: 45px 7%; }
@@ -3625,17 +3699,14 @@ h2 {
               justify-content: center; } }
 
 .page-template-about .about-top-row-image {
-  display: none;
-  height: 500px;
-  width: 50%; }
+  display: block;
+  height: 500px; }
   @media all and (min-width: 990px) {
     .page-template-about .about-top-row-image {
-      display: block; } }
+      width: 50%; } }
 
 .page-template-about .about-vision-image {
-  display: none;
   height: 100%;
-  min-width: 400px;
   min-height: 400px;
   background-image: url("../../assets/images/valo-about-01.svg");
   background-size: contain;
@@ -3655,24 +3726,27 @@ h2 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row; }
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse; }
+  @media all and (min-width: 990px) {
+    .page-template-about .about-our-purpose-container {
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row; } }
 
 .page-template-about .about-our-purpose-image {
-  display: none;
-  height: 600px;
-  width: 50%; }
+  display: block;
+  height: 600px; }
   @media all and (min-width: 990px) {
     .page-template-about .about-our-purpose-image {
-      display: block; } }
+      width: 50%; } }
 
 .page-template-about .about-purpose-image {
-  display: none;
   height: 100%;
   width: 100%;
-  min-width: 400px;
   min-height: 400px;
   background-image: url("../../assets/images/valo-about-02.svg");
   background-size: contain;
@@ -4762,7 +4836,20 @@ h2 {
 .content-area-services .service-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex; }
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  @media all and (min-width: 1000px) {
+    .content-area-services .service-wrapper {
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row; } }
   .content-area-services .service-wrapper .services-header {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -4777,7 +4864,7 @@ h2 {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    margin-top: 40px; }
+    margin-top: 60px; }
     @media all and (min-width: 1000px) {
       .content-area-services .service-wrapper .services-header {
         -ms-flex-preferred-size: 50%;
@@ -4798,7 +4885,8 @@ h2 {
           text-align: left;
           max-width: 80%; } }
   .content-area-services .service-wrapper .service-image {
-    display: none; }
+    width: 95%;
+    height: 80vw; }
     @media all and (min-width: 1000px) {
       .content-area-services .service-wrapper .service-image {
         -ms-flex-preferred-size: 50%;
