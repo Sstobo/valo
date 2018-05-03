@@ -13,7 +13,7 @@ get_header(); ?>
 		<div class="applications-transpo-hero">
 
 	<div class="applications-transpo-post">
-			<h2>Smart <br>Transportation</h2>
+			<h2>Smart Transportation</h2>
 			<div class="sub-title-blue-line"></div>
 			<p>VALO’s LED street lights make for brighter and safer roads, and the lights can be remotely disabled when roads are not in use. Additionally, sensors can provide alerts of possible lighting failures which allows for better maintenance planning to limit road closures. Cameras, microphones, and motion sensors, mounted to smart street lights, can help to analyze vehicle or pedestrian traffic patterns and volume. This information can be used to manage city services; For instance, determining optimal bus routes, ideal times for road work, or identifying collisions.</p>
 		</div>

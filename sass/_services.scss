@@ -16,6 +16,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    max-width: 1260px;
 
     @include desktop {
       flex-direction: row;
@@ -49,12 +50,12 @@
       max-width: 500px;
 
       @include desktop {
-        margin: 0 2%;
-        display: flex;
+        display: block;
         width: 50%;
         height: 45vw;
         max-height: 485px;
         max-width: 690px;
+        margin-right: 3%;
 
         img {
           height: 100%;

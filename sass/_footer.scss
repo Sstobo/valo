@@ -64,6 +64,7 @@
 
     input[type='text'],
     input[type='email'] {
+      width: 300px;
       height: 40px;
       @include tablet {
         width: 500px;

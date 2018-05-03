@@ -7,8 +7,8 @@ h1 {
   }
 }
 h2 {
-  color: black;
-  font-size: 20px;
+  color: #000000;
+  font-size: 28px;
   @media (min-width: $desktop_width) {
     font-size: 34px;
     position: relative;
@@ -53,8 +53,8 @@ h2 {
   background-image: url('../../assets/icons-SVG/Valo-Smart-Security.jpg');
   background-size: cover;
   height: 380px;
-  width: 98%;
-  margin: 0 auto;
+  width: 100%;
+  margin: 0;
   position: relative;
   bottom: 20px;
 }
@@ -67,7 +67,7 @@ h2 {
   padding-top: -20px;
   margin-bottom: 44px;
   @include desktop {
-    padding-top: 100px;
+    padding-top: 13 0px;
   }
 
   p {
@@ -108,7 +108,8 @@ h2 {
   padding-top: 40px;
   background-color: rgb(247, 247, 247);
   @media (min-width: $desktop_width) {
-    height: 600px;
+    height: 500px;
+    padding-top: 70px;
     flex-direction: row;
   }
 }
@@ -118,7 +119,7 @@ h2 {
   @media (min-width: $desktop_width) {
     display: block;
     width: 50%;
-    height: 500px;
+    height: 400px;
   }
 }
 .applications-transpo-image {
@@ -135,7 +136,7 @@ h2 {
   @media (min-width: $desktop_width) {
     display: block;
     width: 100%;
-    height: 500px;
+    height: 400px;
   }
 }
 .applications-transpo-post {
@@ -250,8 +251,10 @@ h2 {
   flex-direction: column;
   background-color: rgb(247, 247, 247);
   @media (min-width: $desktop_width) {
-    height: 480px;
+    height: 500px;
     flex-direction: row;
+    padding-top: 18px;
+    
   }
 }
 .applications-muni-img {
@@ -271,13 +274,13 @@ h2 {
   margin: 0 auto;
   position: relative;
   bottom: 50px;
-  margin-left: 2%;
+
   @media (min-width: $desktop_width) {
     height: 480px;
     position: relative;
     margin-left: 0;
-    bottom: 0px;
-    padding-top: 120px;
+    top: 0px;
+    padding-top: 100px;
     background-size: 100%;
   }
 }
@@ -549,7 +552,7 @@ h2 {
   width: 100%;
   text-align: center;
   margin: 44px 0;
-
+  max-width: 1260px;
   display: flex;
   align-items: center;
 
@@ -598,9 +601,8 @@ h2 {
       max-height: 485px;
       display: block;
       width: 50%;
-
       background-color: white;
-      // margin-right: 7%;
+      margin-right: 2%;
     }
   }
   @media (min-width: $desktop_width) {

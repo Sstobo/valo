@@ -1563,6 +1563,7 @@ li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-176 a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  max-width: 1260px;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between; }
@@ -1604,7 +1605,7 @@ li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-176 a {
     @media (min-width: 1000px) {
       .products-hero .products-hero-img {
         display: block;
-        margin-right: 5%;
+        margin-right: 3%;
         margin-top: 50px;
         height: 45vw;
         width: 50%;
@@ -1865,13 +1866,14 @@ li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-176 a {
   .page-template-products_cameras .camera-banner h2 {
     margin-top: 0;
     text-align: center;
-    font-size: 40px;
+    font-size: 28px;
     max-width: 80%;
     margin-bottom: 0; }
     @media all and (min-width: 800px) {
       .page-template-products_cameras .camera-banner h2 {
         margin-bottom: 20px;
-        width: 50%; } }
+        width: 50%;
+        font-size: 34px; } }
   .page-template-products_cameras .camera-banner p {
     text-align: center;
     max-width: 80%; }
@@ -2021,7 +2023,7 @@ li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-176 a {
     font-size: 40px;
     margin-bottom: 0; }
   .page-template-products_cameras .video-control p {
-    max-width: 55%;
+    max-width: 75%;
     text-align: center;
     color: #fff;
     padding-bottom: 15px; }
@@ -2745,8 +2747,8 @@ h1 {
       font-size: 38px; } }
 
 h2 {
-  color: black;
-  font-size: 20px; }
+  color: #000000;
+  font-size: 28px; }
   @media (min-width: 1000px) {
     h2 {
       font-size: 34px;
@@ -2807,8 +2809,8 @@ h2 {
   background-image: url("../../assets/icons-SVG/Valo-Smart-Security.jpg");
   background-size: cover;
   height: 380px;
-  width: 98%;
-  margin: 0 auto;
+  width: 100%;
+  margin: 0;
   position: relative;
   bottom: 20px; }
 
@@ -2821,7 +2823,7 @@ h2 {
   margin-bottom: 44px; }
   @media all and (min-width: 1000px) {
     .applications-security-post {
-      padding-top: 100px; } }
+      padding-top: 13 0px; } }
   .applications-security-post p {
     position: relative;
     bottom: 10px;
@@ -2867,7 +2869,8 @@ h2 {
   background-color: #f7f7f7; }
   @media (min-width: 1000px) {
     .applications-transpo-hero {
-      height: 600px;
+      height: 500px;
+      padding-top: 70px;
       -webkit-box-orient: horizontal;
       -webkit-box-direction: normal;
           -ms-flex-direction: row;
@@ -2880,7 +2883,7 @@ h2 {
     .applications-transpo-img {
       display: block;
       width: 50%;
-      height: 500px; } }
+      height: 400px; } }
 
 .applications-transpo-image {
   background-image: url("../../assets/icons-SVG/Valo-Smart-Transportation.jpg");
@@ -2897,7 +2900,7 @@ h2 {
     .applications-transpo-image {
       display: block;
       width: 100%;
-      height: 500px; } }
+      height: 400px; } }
 
 .applications-transpo-post {
   width: 100%;
@@ -3029,11 +3032,12 @@ h2 {
   background-color: #f7f7f7; }
   @media (min-width: 1000px) {
     .applications-muni-hero {
-      height: 480px;
+      height: 500px;
       -webkit-box-orient: horizontal;
       -webkit-box-direction: normal;
           -ms-flex-direction: row;
-              flex-direction: row; } }
+              flex-direction: row;
+      padding-top: 18px; } }
 
 .applications-muni-img {
   height: 300px; }
@@ -3051,15 +3055,14 @@ h2 {
   width: 100%;
   margin: 0 auto;
   position: relative;
-  bottom: 50px;
-  margin-left: 2%; }
+  bottom: 50px; }
   @media (min-width: 1000px) {
     .applications-muni-image {
       height: 480px;
       position: relative;
       margin-left: 0;
-      bottom: 0px;
-      padding-top: 120px;
+      top: 0px;
+      padding-top: 100px;
       background-size: 100%; } }
 
 .applications-muni-post {
@@ -3354,6 +3357,7 @@ h2 {
   width: 100%;
   text-align: center;
   margin: 44px 0;
+  max-width: 1260px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -3424,7 +3428,8 @@ h2 {
         max-height: 485px;
         display: block;
         width: 50%;
-        background-color: white; } }
+        background-color: white;
+        margin-right: 2%; } }
   @media (min-width: 1000px) {
     .applications-hero {
       -webkit-box-orient: horizontal;
@@ -3636,32 +3641,6 @@ h2 {
   font-weight: 700;
   font-size: 15px;
   line-height: 1em; }
-
-.page-template-about_team .about-team-contact {
-  margin-top: 12px; }
-  .page-template-about_team .about-team-contact a {
-    color: #00aeef;
-    font-weight: 700; }
-
-@media all and (min-width: 990px) {
-  .page-template-about_team div.signup-container {
-    width: 50%;
-    max-height: 358px;
-    margin: 30px 0; }
-  .page-template-about_team div.signup-wrapper {
-    -webkit-box-align: left;
-        -ms-flex-align: left;
-            align-items: left; }
-  .page-template-about_team div.wpcf7 {
-    padding-left: 150px; }
-  .page-template-about_team .about-team-signup-image {
-    width: 50%;
-    height: 381px;
-    position: absolute;
-    left: 50%;
-    background-image: url("../../assets/Backgrounds/valo-sign-up-image-1.jpg");
-    background-size: cover;
-    background-position: center; } }
 
 /* About Company */
 .page-template-about .about-title-blue-line {
@@ -4524,6 +4503,9 @@ h2 {
       color: black;
       font-size: 40px;
       margin-bottom: 50px; }
+      @media all and (min-width: 600px) {
+        .contact-content-area .contact-container .contact-info h1 {
+          margin-top: 0; } }
     .contact-content-area .contact-container .contact-info .contact-content {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -4892,7 +4874,8 @@ h2 {
           flex-direction: column;
   -webkit-box-align: center;
       -ms-flex-align: center;
-          align-items: center; }
+          align-items: center;
+  max-width: 1260px; }
   @media all and (min-width: 1000px) {
     .content-area-services .service-wrapper {
       -webkit-box-orient: horizontal;
@@ -4940,14 +4923,12 @@ h2 {
     max-width: 500px; }
     @media all and (min-width: 1000px) {
       .content-area-services .service-wrapper .service-image {
-        margin: 0 2%;
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
+        display: block;
         width: 50%;
         height: 45vw;
         max-height: 485px;
-        max-width: 690px; }
+        max-width: 690px;
+        margin-right: 3%; }
         .content-area-services .service-wrapper .service-image img {
           height: 100%;
           width: 100%; } }
@@ -5426,6 +5407,7 @@ h2 {
       outline: none; }
     .signup-container .wpcf7-form input[type='text'],
     .signup-container .wpcf7-form input[type='email'] {
+      width: 300px;
       height: 40px; }
       @media all and (min-width: 600px) {
         .signup-container .wpcf7-form input[type='text'],
