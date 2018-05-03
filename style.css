@@ -155,16 +155,18 @@ textarea {
   margin: 0; }
 
 button {
-  overflow: visible; }
+  overflow: visible;
+  -webkit-box-shadow: none;
+          box-shadow: none; }
 
 button,
 select {
   text-transform: none; }
 
 button,
-html input[type="button"],
-input[type="reset"],
-input[type="submit"] {
+html input[type='button'],
+input[type='reset'],
+input[type='submit'] {
   -webkit-appearance: button;
   cursor: pointer; }
 
@@ -180,23 +182,23 @@ input::-moz-focus-inner {
 input {
   line-height: normal; }
 
-input[type="checkbox"],
-input[type="radio"] {
+input[type='checkbox'],
+input[type='radio'] {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   padding: 0; }
 
-input[type="number"]::-webkit-inner-spin-button,
-input[type="number"]::-webkit-outer-spin-button {
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
   height: auto; }
 
-input[type="search"] {
+input[type='search'] {
   -webkit-appearance: textfield;
   -webkit-box-sizing: content-box;
           box-sizing: content-box; }
 
-input[type="search"]::-webkit-search-cancel-button,
-input[type="search"]::-webkit-search-decoration {
+input[type='search']::-webkit-search-cancel-button,
+input[type='search']::-webkit-search-decoration {
   -webkit-appearance: none; }
 
 fieldset {
@@ -512,7 +514,8 @@ table {
   margin: 0 0 1.5rem;
   width: 100%; }
 
-.button-main {
+.button-main,
+#mc-embedded-subscribe {
   background-color: #00aeef;
   text-decoration: none;
   white-space: normal;
@@ -531,13 +534,16 @@ table {
   font-size: 10px;
   font-size: 0.625rem; }
   @media all and (min-width: 600px) {
-    .button-main {
+    .button-main,
+    #mc-embedded-subscribe {
       font-size: 16px;
       font-size: 1rem; } }
-  .button-main:hover {
+  .button-main:hover,
+  #mc-embedded-subscribe:hover {
     background-color: #3f3f3f;
     color: #fff; }
-  .button-main:visited {
+  .button-main:visited,
+  #mc-embedded-subscribe:visited {
     color: #fff; }
 
 .button-align-left {
@@ -4845,7 +4851,7 @@ h2 {
 
 .form-container {
   width: 300px;
-  height: 300px;
+  height: 400px;
   position: fixed;
   position: absolute;
   top: 50%;
@@ -4856,8 +4862,12 @@ h2 {
 .close-modal {
   position: absolute;
   top: 10px;
-  right: 30px;
+  right: 10px;
   z-index: 10; }
+
+#mc-embedded-subscribe {
+  -webkit-box-shadow: none;
+          box-shadow: none; }
 
 .content-area-services .entry-title {
   display: none; }
