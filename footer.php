@@ -19,11 +19,11 @@
 
 			<footer id="colophon" class="site-footer" role="contentinfo">
 			
-		
+			
 				<div class="site-info">
 					<div class="contact-us">
 				    <p class="caps title">Contact Us</p>
-						<a href="tel:1-917-660-6000" id="phone">1-917-660-6000</a>
+						<a href="tel:1-833-880-8256" id="phone">1-833-880-8256</a>
 						<p class="caps email-title">Email</p>
 						<a href="mailto: info@valosmartcity.com" id="email-link">info@valosmartcity.com</a>
 						<p class="caps ">Main Office Address</p>
