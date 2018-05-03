@@ -2738,8 +2738,8 @@ h1 {
       font-size: 38px; } }
 
 h2 {
-  color: black;
-  font-size: 20px; }
+  color: #000000;
+  font-size: 28px; }
   @media (min-width: 1000px) {
     h2 {
       font-size: 34px;
@@ -2800,8 +2800,8 @@ h2 {
   background-image: url("../../assets/icons-SVG/Valo-Smart-Security.jpg");
   background-size: cover;
   height: 380px;
-  width: 98%;
-  margin: 0 auto;
+  width: 100%;
+  margin: 0;
   position: relative;
   bottom: 20px; }
 
@@ -2814,7 +2814,7 @@ h2 {
   margin-bottom: 44px; }
   @media all and (min-width: 1000px) {
     .applications-security-post {
-      padding-top: 100px; } }
+      padding-top: 13 0px; } }
   .applications-security-post p {
     position: relative;
     bottom: 10px;
@@ -2860,7 +2860,8 @@ h2 {
   background-color: #f7f7f7; }
   @media (min-width: 1000px) {
     .applications-transpo-hero {
-      height: 600px;
+      height: 500px;
+      padding-top: 70px;
       -webkit-box-orient: horizontal;
       -webkit-box-direction: normal;
           -ms-flex-direction: row;
@@ -2873,7 +2874,7 @@ h2 {
     .applications-transpo-img {
       display: block;
       width: 50%;
-      height: 500px; } }
+      height: 400px; } }
 
 .applications-transpo-image {
   background-image: url("../../assets/icons-SVG/Valo-Smart-Transportation.jpg");
@@ -2890,7 +2891,7 @@ h2 {
     .applications-transpo-image {
       display: block;
       width: 100%;
-      height: 500px; } }
+      height: 400px; } }
 
 .applications-transpo-post {
   width: 100%;
@@ -3022,11 +3023,12 @@ h2 {
   background-color: #f7f7f7; }
   @media (min-width: 1000px) {
     .applications-muni-hero {
-      height: 480px;
+      height: 500px;
       -webkit-box-orient: horizontal;
       -webkit-box-direction: normal;
           -ms-flex-direction: row;
-              flex-direction: row; } }
+              flex-direction: row;
+      padding-top: 18px; } }
 
 .applications-muni-img {
   height: 300px; }
@@ -3044,15 +3046,14 @@ h2 {
   width: 100%;
   margin: 0 auto;
   position: relative;
-  bottom: 50px;
-  margin-left: 2%; }
+  bottom: 50px; }
   @media (min-width: 1000px) {
     .applications-muni-image {
       height: 480px;
       position: relative;
       margin-left: 0;
-      bottom: 0px;
-      padding-top: 120px;
+      top: 0px;
+      padding-top: 100px;
       background-size: 100%; } }
 
 .applications-muni-post {
