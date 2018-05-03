@@ -540,6 +540,9 @@ table {
   .button-main:visited {
     color: #fff; }
 
+.button-align-left {
+  margin-left: 0; }
+
 @media all and (min-width: 800px) {
   .button-align-left-tablet {
     margin-left: 0; } }
@@ -1297,6 +1300,12 @@ object {
           transform: scale(1); }
 
 .banner {
+  background: black;
+  width: 100%; }
+
+.banner-wrapper {
+  margin: 0 auto;
+  max-width: 1300px;
   min-height: 300px;
   height: 50vh;
   width: 100%;
@@ -1315,36 +1324,28 @@ object {
           align-items: center;
   text-align: center; }
   @media all and (min-width: 800px) {
-    .banner {
+    .banner-wrapper {
       height: 35vh;
       -webkit-box-orient: horizontal;
       -webkit-box-direction: normal;
           -ms-flex-direction: row;
               flex-direction: row; } }
-  .banner #banner-logo {
+  @media all and (min-width: 1000px) {
+    .banner-wrapper {
+      width: 70%; } }
+  .banner-wrapper #banner-logo {
     width: 250px; }
-    @media all and (min-width: 800px) {
-      .banner #banner-logo {
-        margin-left: 15%; } }
-  .banner #banner-contact-button {
-    height: 40px;
-    width: auto;
-    min-width: 130px; }
-    @media all and (min-width: 800px) {
-      .banner #banner-contact-button {
-        margin-right: 17%; } }
-  .banner #banner-contact-button:hover {
+  .banner-wrapper #banner-contact-button {
+    margin: 0; }
+  .banner-wrapper #banner-contact-button:hover {
     background: #3f3f3f; }
-  .banner #banner-contact-button:focus {
+  .banner-wrapper #banner-contact-button:focus {
     outline: none; }
-  .banner p {
+  .banner-wrapper p {
     max-width: 300px;
     font-family: "Roboto";
     color: #fff;
     font-size: 20px; }
-    @media all and (min-width: 800px) {
-      .banner p {
-        margin-right: 6%; } }
 
 .iot-container {
   display: -webkit-box;
@@ -1556,6 +1557,7 @@ li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-176 a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  max-width: 1260px;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between; }
@@ -1597,7 +1599,7 @@ li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-176 a {
     @media (min-width: 1000px) {
       .products-hero .products-hero-img {
         display: block;
-        margin-right: 5%;
+        margin-right: 3%;
         margin-top: 50px;
         height: 45vw;
         width: 50%;
@@ -1763,7 +1765,7 @@ li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-176 a {
       padding-bottom: 0; } }
 
 .product-network-image-container {
-  height: 80vh;
+  height: 60vh;
   background-position: bottom;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1858,13 +1860,14 @@ li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-176 a {
   .page-template-products_cameras .camera-banner h2 {
     margin-top: 0;
     text-align: center;
-    font-size: 40px;
+    font-size: 28px;
     max-width: 80%;
     margin-bottom: 0; }
     @media all and (min-width: 800px) {
       .page-template-products_cameras .camera-banner h2 {
         margin-bottom: 20px;
-        width: 50%; } }
+        width: 50%;
+        font-size: 34px; } }
   .page-template-products_cameras .camera-banner p {
     text-align: center;
     max-width: 80%; }
@@ -2014,7 +2017,7 @@ li.menu-item.menu-item-type-custom.menu-item-object-custom.menu-item-176 a {
     font-size: 40px;
     margin-bottom: 0; }
   .page-template-products_cameras .video-control p {
-    max-width: 55%;
+    max-width: 75%;
     text-align: center;
     color: #fff;
     padding-bottom: 15px; }
@@ -3348,6 +3351,7 @@ h2 {
   width: 100%;
   text-align: center;
   margin: 44px 0;
+  max-width: 1260px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -3414,10 +3418,12 @@ h2 {
         background-position: center;
         max-width: 690px;
         height: 40vw;
+        margin-top: 50px;
         max-height: 485px;
         display: block;
         width: 50%;
-        background-color: white; } }
+        background-color: white;
+        margin-right: 2%; } }
   @media (min-width: 1000px) {
     .applications-hero {
       -webkit-box-orient: horizontal;
@@ -3614,8 +3620,8 @@ h2 {
     font-size: 15px;
     margin-bottom: 3px; }
   .page-template-about_team .about-team-single-team-member-container img {
-    width: 235px;
-    height: 268px;
+    width: 200px;
+    height: 200px;
     margin-top: 10px; }
 
 .page-template-about_team .about-team-name-and-position h3 {
@@ -3629,32 +3635,6 @@ h2 {
   font-weight: 700;
   font-size: 15px;
   line-height: 1em; }
-
-.page-template-about_team .about-team-contact {
-  margin-top: 12px; }
-  .page-template-about_team .about-team-contact a {
-    color: #00aeef;
-    font-weight: 700; }
-
-@media all and (min-width: 990px) {
-  .page-template-about_team div.signup-container {
-    width: 50%;
-    max-height: 358px;
-    margin: 30px 0; }
-  .page-template-about_team div.signup-wrapper {
-    -webkit-box-align: left;
-        -ms-flex-align: left;
-            align-items: left; }
-  .page-template-about_team div.wpcf7 {
-    padding-left: 150px; }
-  .page-template-about_team .about-team-signup-image {
-    width: 50%;
-    height: 381px;
-    position: absolute;
-    left: 50%;
-    background-image: url("../../assets/Backgrounds/valo-sign-up-image-1.jpg");
-    background-size: cover;
-    background-position: center; } }
 
 /* About Company */
 .page-template-about .about-title-blue-line {
@@ -4517,6 +4497,9 @@ h2 {
       color: black;
       font-size: 40px;
       margin-bottom: 50px; }
+      @media all and (min-width: 600px) {
+        .contact-content-area .contact-container .contact-info h1 {
+          margin-top: 0; } }
     .contact-content-area .contact-container .contact-info .contact-content {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -4854,7 +4837,8 @@ h2 {
           flex-direction: column;
   -webkit-box-align: center;
       -ms-flex-align: center;
-          align-items: center; }
+          align-items: center;
+  max-width: 1260px; }
   @media all and (min-width: 1000px) {
     .content-area-services .service-wrapper {
       -webkit-box-orient: horizontal;
@@ -4902,16 +4886,12 @@ h2 {
     max-width: 500px; }
     @media all and (min-width: 1000px) {
       .content-area-services .service-wrapper .service-image {
-        -ms-flex-preferred-size: 50%;
-            flex-basis: 50%;
-        margin: 0 2%;
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
+        display: block;
         width: 50%;
         height: 45vw;
         max-height: 485px;
-        max-width: 690px; }
+        max-width: 690px;
+        margin-right: 3%; }
         .content-area-services .service-wrapper .service-image img {
           height: 100%;
           width: 100%; } }
@@ -5390,6 +5370,7 @@ h2 {
       outline: none; }
     .signup-container .wpcf7-form input[type='text'],
     .signup-container .wpcf7-form input[type='email'] {
+      width: 300px;
       height: 40px; }
       @media all and (min-width: 600px) {
         .signup-container .wpcf7-form input[type='text'],
@@ -5835,9 +5816,9 @@ h2 {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
   height: auto;
   background-color: #f3f3f3; }
   @media (min-width: 1000px) {
@@ -6015,7 +5996,7 @@ h2 {
   height: auto;
   width: 100%;
   text-align: center;
-  padding: 24px 12px 12px 12px; }
+  padding: 24px 12px 12px 24px; }
   .platform-icon-box-sensors p {
     text-align: center; }
   .platform-icon-box-sensors h2 {
@@ -6077,7 +6058,7 @@ h2 {
   height: auto;
   width: 100%;
   text-align: center;
-  padding: 24px 12px 12px 12px; }
+  padding: 24px 12px 12px 24px; }
   .platform-icon-box-sensors-final p {
     text-align: center; }
   .platform-icon-box-sensors-final h2 {
@@ -6135,8 +6116,7 @@ h2 {
     height: 100%;
     text-align: center; }
     .platform-sensors .platform-sensor-text h1 {
-      margin: 0 auto;
-      margin-bottom: 24px; }
+      margin: 24px auto; }
     .platform-sensors .platform-sensor-text p {
       width: 80%;
       margin: 0 auto; }

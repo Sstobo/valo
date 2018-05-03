@@ -12,7 +12,7 @@ get_header(); ?>
 			<section class="content-wrapper">
 				<div class="about-team-management-team-title-container">
 					<h2>Management Team</h2>
-					<div class="about-title-blue-line"></div>
+					<div class="sub-title-blue-line"></div>
 				</div>
 				<div class="about-team-management-team-container">
 					<?php while (have_posts()) : the_post(); ?>
@@ -34,7 +34,7 @@ get_header(); ?>
 							<strong>CONTACT
 								<br>
 							</strong>
-							<a href="mailto:isutton@valosmartcity.com">EMAIL</a>
+							<a href="mailto:isutton@valosmartcity.com">isutton@valosmartcity.com</a>
 						</div>
 					</div>
 					<div class="about-team-single-team-member-container terrance-dittrich">
@@ -63,8 +63,8 @@ get_header(); ?>
 							<strong>CONTACT
 								<br>
 							</strong>
-							<a href="https://www.linkedin.com/in/terry-dittrich-963a549b/" target="_blank">LINKEDIN</a>
-							<a href="mailto:tdittrich@valosmartcity.com">EMAIL</a>
+							<!-- <a href="https://www.linkedin.com/in/terry-dittrich-963a549b/" target="_blank">LINKEDIN</a> -->
+							<a href="mailto:tdittrich@valosmartcity.com">tdittrich@valosmartcity.com</a>
 						</div>
 					</div>
 					<div class="about-team-single-team-member-container alan-fogleman">
@@ -89,8 +89,8 @@ get_header(); ?>
 							<strong>CONTACT
 								<br>
 							</strong>
-							<a href="https://www.linkedin.com/in/alan-fogelman-658507b/" target="_blank">LINKEDIN</a>
-							<a href="mailto:afogelman@valosmartcity.com">EMAIL</a>
+							<!-- <a href="https://www.linkedin.com/in/alan-fogelman-658507b/" target="_blank">LINKEDIN</a> -->
+							<a href="mailto:afogelman@valosmartcity.com">afogelman@valosmartcity.com</a>
 						</div>
 					</div>
 					<div class="about-team-single-team-member-container steve-altman">
@@ -114,8 +114,8 @@ get_header(); ?>
 							<strong>CONTACT
 								<br>
 							</strong>
-							<a href="https://www.linkedin.com/in/steven-altman-lsa/" target="_blank">LINKEDIN</a>
-							<a href="mailto:saltman@valosmartcity.com">EMAIL</a>
+							<!-- <a href="https://www.linkedin.com/in/steven-altman-lsa/" target="_blank">LINKEDIN</a> -->
+							<a href="mailto:saltman@valosmartcity.com">saltman@valosmartcity.com</a>
 						</div>
 					</div>
 					<div class="about-team-single-team-member-container david-harper">
@@ -137,8 +137,8 @@ get_header(); ?>
 							<strong>CONTACT
 								<br>
 							</strong>
-							<a href="https://www.linkedin.com/in/harper/" target="_blank">LINKEDIN</a>
-							<a ref="mailto:dharper@valosmartcity.com">EMAIL</a>
+							<!-- <a href="https://www.linkedin.com/in/harper/" target="_blank">LINKEDIN</a> -->
+							<a ref="mailto:dharper@valosmartcity.com">dharper@valosmartcity.com</a>
 						</div>
 					</div>
 					<div class="about-team-single-team-member-container wanda-halpert">
@@ -161,8 +161,8 @@ get_header(); ?>
 							<strong>CONTACT
 								<br>
 							</strong>
-							<a href="https://www.linkedin.com/in/wandahalpert/" target="_blank">LINKEDIN</a>
-							<a href="mailto:whalpert@valosmartcity.com">EMAIL</a>
+							<!-- <a href="https://www.linkedin.com/in/wandahalpert/" target="_blank">LINKEDIN</a> -->
+							<a href="mailto:whalpert@valosmartcity.com">whalpert@valosmartcity.com</a>
 						</div>
 					</div>
 					<div class="about-team-single-team-member-container julio-ferreira">
@@ -190,8 +190,8 @@ get_header(); ?>
 							<strong>CONTACT
 								<br>
 							</strong>
-							<a href="https://www.linkedin.com/in/julio-ferreira-b0306928/" target="_blank">LINKEDIN</a>
-							<a ref="mailto:jferreira@valosmartcity.com">EMAIL</a>
+							<!-- <a href="https://www.linkedin.com/in/julio-ferreira-b0306928/" target="_blank">LINKEDIN</a> -->
+							<a ref="mailto:jferreira@valosmartcity.com">jferreira@valosmartcity.com</a>
 						</div>
 					</div>
 

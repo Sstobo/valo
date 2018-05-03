@@ -31,7 +31,7 @@ get_header(); ?>
 		<main id="main" class="site-main" role="main">
 			<section class="content-wrapper product-network-container">
 
-				<section class="product-network product-network-wifi">
+				<section class="product-network reverse-column-mobile product-network-wifi">
 					<div class="product-network-image-container wifi-image">
 					</div>
 					<div class="product-text-container">
@@ -59,7 +59,7 @@ get_header(); ?>
 
 				</section>
 
-					<section class="product-network  reverse-column-mobile product-network-gateway">
+					<section class="product-network product-network-gateway">
 						<div class="product-text-container">
 							<h2 class="header-section underline">LoRa Gateway</h2>
 							<p>VALO offers Long Range (LoRa) wireless wide-area network capabilities with its street light platform. LoRa allows for long range communication between sensors, while using a low bit rate. This patented technology offers many advantages over traditional wireless wide area networks (WAN). For instance, a LoRa networks is easy to deploy due to its simple architecture and minimal cost. Additionally, LoRa consumes less power meaning batteries last longer.</p>

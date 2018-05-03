@@ -11,7 +11,7 @@
 .platform-hero {
   width: 100%;
   display: flex;
-  flex-direction: column;
+  flex-direction: column-reverse;
   height: auto;
   background-color: rgb(243, 243, 243);
   @media (min-width: $desktop_width) {
@@ -180,7 +180,7 @@
   height: auto;
   width: 100%;
   text-align: center;
-  padding: 24px 12px 12px 12px;
+  padding: 24px 12px 12px 24px;
   p {
     text-align: center;
   }
@@ -244,7 +244,7 @@
   height: auto;
   width: 100%;
   text-align: center;
-  padding: 24px 12px 12px 12px;
+  padding: 24px 12px 12px 24px;
   p {
     text-align: center;
   }
@@ -305,8 +305,7 @@
     height: 100%;
     text-align: center;
     h1 {
-      margin: 0 auto;
-      margin-bottom: 24px;
+      margin: 24px auto;
     }
     p {
       width: 80%;

@@ -86,10 +86,11 @@ get_header(); ?>
 
 				<!-- contact banner -->
 				<section class="banner">
-					<img alt="VALO logo" src="<?php echo get_template_directory_uri() . '/assets/Logo SVG/VALO white logo-01.png'?>" id="banner-logo"
-					/>
-					<p>Discover how VALO can help make your city better </p>
-					<a href="<?php echo esc_url(home_url('/contact')); ?>" class="button-main button-with-shadow" id="banner-contact-button">Contact Us</a>
+					<div class="banner-wrapper">
+						<img alt="VALO logo" src="<?php echo get_template_directory_uri() . '/assets/Logo SVG/VALO white logo-01.png'?>" id="banner-logo"/>
+						<p>Discover how VALO can help make your city better </p>
+						<a href="<?php echo esc_url(home_url('/contact')); ?>" class="button-main button-with-shadow" id="banner-contact-button">Contact Us</a>
+					</div>
 				</section>
 				<!-- close contact banner -->
 
