@@ -2823,7 +2823,7 @@ h2 {
   margin-bottom: 44px; }
   @media all and (min-width: 1000px) {
     .applications-security-post {
-      padding-top: 13 0px; } }
+      padding-top: 130px; } }
   .applications-security-post p {
     position: relative;
     bottom: 10px;
@@ -4850,6 +4850,9 @@ h2 {
 #mc-embedded-subscribe {
   -webkit-box-shadow: none;
           box-shadow: none; }
+
+#mc_embed_signup .button {
+  background-color: #00aeef !important; }
 
 .content-area-services .entry-title {
   display: none; }

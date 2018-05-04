@@ -30,7 +30,7 @@ get_header(); ?>
 
 									<div class="telephone-info">
 										<h3 class="contact-title"> Telephone</h3>
-										<a href="tel:1-917-660-6000" id="phone">1-917-660-6000</a>
+										<a href="tel:1-833-880-8256" id="phone">1-833-880-8256</a>
 									</div>
 
 								</div>
