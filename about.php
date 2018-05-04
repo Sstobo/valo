@@ -39,9 +39,10 @@ get_header(); ?>
 						<p>Additionally, VALO makes cities more efficient by collecting real-time information for city assets, such as traffic,
 							security, pollution, and municipal utilities.</p>
 						<h3>Have a Smart City Project or Idea?</h3>
-						<a href="<?php echo esc_url(home_url('about/#!/contact')); ?>">
+						<a href="mailto: info@valosmartcity.com">
 							<button class="button-main button-with-shadow button-align-left">GET STARTED WITH VALO</button>
 						</a>
+						
 					</div>
 				</div>
 				<!-- Our purpose container -->
