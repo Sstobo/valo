@@ -28,7 +28,7 @@ get_header(); ?>
 	
 			<section class="modal modal-closed">
 				<div class="form-container">
-					<a href="#0" class="close-modal">X</a>
+					<a href="#0" class="close-modal close-top">X</a>
 				<!-- Begin MailChimp Signup Form -->
 					<link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
 					<style type="text/css">
@@ -59,7 +59,8 @@ get_header(); ?>
 							<div class="response" id="mce-success-response" style="display:none"></div>
 						</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
 					    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_3b96129394096642606c6a22c_2623541f2e" tabindex="-1" value=""></div>
-					    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+							<div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+							<a href="#" class="close-form close-modal uppercase">Close</a>
 					    </div>
 					</form>
 					</div>

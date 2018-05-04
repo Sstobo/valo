@@ -26,9 +26,9 @@ jQuery(document).ready(function($) {
       .removeClass('modal-open')
       .addClass('modal-closed');
   });
-  $('#mc-embedded-subscribe-form').submit(function() {
-    $('.modal')
-      .removeClass('modal-open')
-      .addClass('modal-closed');
-  });
+  // $('#mc-embedded-subscribe-form').submit(function() {
+  //   $('.modal')
+  //     .removeClass('modal-open')
+  //     .addClass('modal-closed');
+  // });
 });
