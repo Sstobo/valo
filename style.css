@@ -1089,7 +1089,7 @@ object {
 .integrator-section-title {
   font-family: "Roboto";
   font-weight: 700;
-  font-size: 16px;
+  font-size: 24px;
   color: #161616;
   margin: 0 auto;
   text-align: center;
@@ -1097,10 +1097,10 @@ object {
   max-width: 69%; }
   @media all and (min-width: 450px) {
     .integrator-section-title {
-      font-size: 18px; } }
+      font-size: 24px; } }
   @media all and (min-width: 600px) {
     .integrator-section-title {
-      font-size: 24px; } }
+      font-size: 32px; } }
   @media all and (min-width: 1200px) {
     .integrator-section-title {
       max-width: 59%; } }
@@ -4841,11 +4841,20 @@ h2 {
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%); }
 
-.close-modal {
+.close-top {
   position: absolute;
   top: 10px;
   right: 10px;
   z-index: 10; }
+
+.close-form {
+  position: absolute;
+  bottom: 20px;
+  right: 10px;
+  background-color: grey;
+  border-radius: 5px;
+  color: #fff;
+  padding: 8px 12px; }
 
 #mc-embedded-subscribe {
   -webkit-box-shadow: none;

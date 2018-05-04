@@ -32,8 +32,8 @@ get_header(); ?>
 				<!-- Integrator section -->
 				<section class="integrator-section-wrapper">
 					<h2 class="integrator-section-title">
-						<span class="uppercase">VALO</span> is a smart city integrator that aims to better people’s lives around the world through Internet of Things
-						(IoT) technology.</h2>
+						Improving people’s lives through Internet of Things (IoT) technology.</h2>
+						<p style="text-align: center; max-width: 900px; margin: 0 auto; margin-bottom: 24px;">VALO is a smart city integrator that prepares municipalities for the future through the use of dynamic Smart City Lighting technologies with value added applications responsive to both emergent and urgent city needs.</p>
 					<div class="sub-title-blue-line"></div>
 					<div class="integrator-section-container">
 						<div class="integrator-item">

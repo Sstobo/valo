@@ -25,9 +25,11 @@ get_header(); ?>
 				</div>
 			</div>
 
-					<!-- Begin MailChimp Signup Form -->
+	
 			<section class="modal modal-closed">
 				<div class="form-container">
+					<a href="#0" class="close-modal close-top">X</a>
+				<!-- Begin MailChimp Signup Form -->
 					<link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
 					<style type="text/css">
 						#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
@@ -35,10 +37,9 @@ get_header(); ?>
 						   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
 					</style>
 					<div id="mc_embed_signup">
-					<form action="https://valosmartcity.us17.list-manage.com/subscribe/post?u=3b96129394096642606c6a22c&amp;id=0b4e267915" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+					<form action="https://valosmartcity.us17.list-manage.com/subscribe/post?u=3b96129394096642606c6a22c&amp;id=2623541f2e" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
 					    <div id="mc_embed_signup_scroll">
-						<a href="#0" class="close-modal">X</a>
-						<h2>Subscribe to our mailing list</h2>
+						<h2>Sign up to download our presentation</h2>
 					<div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
 					<div class="mc-field-group">
 						<label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
@@ -57,8 +58,9 @@ get_header(); ?>
 							<div class="response" id="mce-error-response" style="display:none"></div>
 							<div class="response" id="mce-success-response" style="display:none"></div>
 						</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-					    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_3b96129394096642606c6a22c_0b4e267915" tabindex="-1" value=""></div>
-					    <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+					    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_3b96129394096642606c6a22c_2623541f2e" tabindex="-1" value=""></div>
+							<div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+							<a href="#" class="close-form close-modal uppercase">Close</a>
 					    </div>
 					</form>
 					</div>
