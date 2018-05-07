@@ -10,9 +10,11 @@ const browserSync = require('browser-sync');
 
 // Create basic Gulp tasks
 
-gulp.task('sass', function() {
+gulp.task('sass', function () {
   return gulp
-    .src('./sass/style.scss', { sourcemaps: true })
+    .src('./sass/style.scss', {
+      sourcemaps: true
+    })
     .pipe(prettyError())
     .pipe(sass())
     .pipe(
@@ -26,7 +28,7 @@ gulp.task('sass', function() {
     .pipe(gulp.dest('./build/css'));
 });
 
-gulp.task('lint', function() {
+gulp.task('lint', function () {
   return gulp
     .src(['./js/*.js'])
     .pipe(prettyError())
@@ -37,7 +39,7 @@ gulp.task('lint', function() {
 
 gulp.task(
   'scripts',
-  gulp.series('lint', function() {
+  gulp.series('lint', function () {
     return gulp
       .src('./js/*.js')
       .pipe(uglify())
@@ -52,7 +54,7 @@ gulp.task(
 
 // Set-up BrowserSync and watch
 
-gulp.task('browser-sync', function() {
+gulp.task('browser-sync', function () {
   const files = [
     './build/css/*.css',
     './build/js/*.js',
@@ -67,7 +69,7 @@ gulp.task('browser-sync', function() {
   gulp.watch(files).on('change', browserSync.reload);
 });
 
-gulp.task('watch', function() {
+gulp.task('watch', function () {
   gulp.watch('js/*.js', gulp.series('scripts'));
   gulp.watch('sass/*.scss', gulp.series('sass'));
 });
