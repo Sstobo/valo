@@ -7,6 +7,7 @@
     margin-bottom: 14px;
   }
 }
+
 .download-content {
   width: 90%;
   height: 200px;
@@ -25,7 +26,6 @@
   }
   width: 100%;
   display: flex;
-
   .entry-title {
     display: none;
   }
@@ -40,6 +40,7 @@
     margin: 0 auto;
   }
 }
+
 .page-template-investors {
   .signup-container {
     display: none;
@@ -58,6 +59,7 @@
     padding-top: 100px;
   }
 }
+
 .investors-main {
   display: flex;
   flex-direction: column;
@@ -114,6 +116,7 @@
     }
   }
 }
+
 .investors-right {
   display: none;
   height: 500px;
@@ -121,7 +124,6 @@
   background-image: url('../../assets/images/valo-about-02.svg');
   background-size: contain;
   background-repeat: no-repeat;
-
   position: relative;
   @media (min-width: $desktop_width) {
     display: block;
@@ -129,6 +131,7 @@
     height: 600px;
   }
 }
+
 .investors-right-mobile {
   display: block;
   margin-bottom: 14px;
@@ -138,8 +141,7 @@
   background-size: contain;
   background-repeat: no-repeat;
   margin-left: 2%;
-  background-position: center;
-  // margin-left: 2%;
+  background-position: center; // margin-left: 2%;
   position: relative;
   @media (min-width: $desktop_width) {
     display: none;
@@ -158,6 +160,7 @@
 .modal-closed {
   display: none;
 }
+
 .form-container {
   width: 300px;
   height: 400px;
@@ -167,6 +170,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
 .close-top {
   position: absolute;
   top: 10px;
@@ -187,6 +191,11 @@
 #mc-embedded-subscribe {
   box-shadow: none;
 }
+
 #mc_embed_signup .button {
   background-color: $color__accent !important;
+}
+
+.response {
+  color: black !important;
 }
