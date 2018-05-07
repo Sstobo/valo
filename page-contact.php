@@ -83,6 +83,8 @@ get_header(); ?>
 										<h3 class="contact-title">Social Media </h3>
 										<a href="https://www.facebook.com/valosmartcity" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
 										<a href="https://twitter.com/valosmartcity" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+										<a href="https://linkedIn.com/company/valo-smart-city" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+									</div>
 									</div>
 								</div>
 

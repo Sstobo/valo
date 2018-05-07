@@ -75,7 +75,7 @@ get_header(); ?>
 						<p>
 							VALO Smart City Integrators are positioned to provide the technology, flexibility and economic savings to support sustainability for small and large installations in cities, municipalities and in rural areas. According to IoT Analytics, smart city projects rank second in the list of IoT segments with existing world-wide IoT projects with the market projected to grow to $757.74 Billion by 2020.
 						</p>
-					<a href="<?php echo esc_url(home_url('/investors')); ?>" class="button-main button-with-shadow button-align-left-tablet">
+					<a style="max-width: 400px !important" href="<?php echo esc_url(home_url('/investors')); ?>" class="button-main button-with-shadow button-align-left-tablet">
 					
 							<span class="uppercase">download our corporate presentation</span>
 						
