@@ -15,13 +15,13 @@ html {
 }
 
 body {
-  background: $color__background-body; /* Fallback for when there is no custom background color defined. */
+  background: $color__background-body;
+  /* Fallback for when there is no custom background color defined. */
 }
 
 blockquote,
 q {
   quotes: '' '';
-
   &:before,
   &:after {
     content: '';
@@ -48,8 +48,8 @@ ol {
   list-style: decimal;
 }
 
-li > ul,
-li > ol {
+li>ul,
+li>ol {
   margin-bottom: 0;
   margin-left: $base__space-unit;
 }
@@ -63,8 +63,10 @@ dd {
 }
 
 img {
-  height: auto; /* Make sure images are scaled correctly. */
-  max-width: 100%; /* Adhere to container width. */
+  height: auto;
+  /* Make sure images are scaled correctly. */
+  max-width: 100%;
+  /* Adhere to container width. */
 }
 
 table {
@@ -78,6 +80,7 @@ table {
   text-decoration: none;
   white-space: normal;
   width: fit-content;
+  max-width: 350px;
   margin: 0 auto;
   display: block;
   color: #fff;
@@ -88,11 +91,9 @@ table {
   font-weight: bold;
   text-transform: uppercase;
   @include font-size(0.625);
-
   @include tablet {
     @include font-size(1);
   }
-
   &:hover {
     background-color: #3f3f3f;
     color: #fff;
@@ -111,6 +112,7 @@ table {
     margin-left: 0;
   }
 }
+
 .button-align-left-desktop {
   @media all and (min-width: 1400px) {
     margin-left: 0;
@@ -125,11 +127,12 @@ table {
   padding-right: 20px;
   font-size: 13px;
 }
+
 .button-with-shadow:hover {
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18),
-    0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
   box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
 }
+
 .button-with-shadow:focus {
   outline: none;
 }

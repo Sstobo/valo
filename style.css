@@ -522,6 +522,7 @@ table {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
+  max-width: 350px;
   margin: 0 auto;
   display: block;
   color: #fff;
