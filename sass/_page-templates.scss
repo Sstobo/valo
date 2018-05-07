@@ -331,10 +331,19 @@
   @include footer_row {
     height: 35vh;
     flex-direction: row;
+
+    p {
+      margin-right: 5%;
+    }
   }
 
   @include desktop {
-    width: 70%;
+    justify-content: space-between;
+    width: 80%;
+
+    p {
+      margin-right: 10%;
+    }
   }
 
   #banner-logo {

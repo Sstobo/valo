@@ -1335,10 +1335,17 @@ object {
       -webkit-box-orient: horizontal;
       -webkit-box-direction: normal;
           -ms-flex-direction: row;
-              flex-direction: row; } }
+              flex-direction: row; }
+      .banner-wrapper p {
+        margin-right: 5%; } }
   @media all and (min-width: 1000px) {
     .banner-wrapper {
-      width: 70%; } }
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      width: 80%; }
+      .banner-wrapper p {
+        margin-right: 10%; } }
   .banner-wrapper #banner-logo {
     width: 250px; }
   .banner-wrapper #banner-contact-button {
