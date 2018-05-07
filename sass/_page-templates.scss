@@ -127,12 +127,12 @@
 .integrator-section-title {
   font-family: $font__main;
   font-weight: 700;
-  font-size: 16px;
+  font-size: 24px;
   @include mobile {
-    font-size: 18px;
+    font-size: 24px;
   }
   @include tablet {
-    font-size: 24px;
+    font-size: 32px;
   }
   color: $color__header-main;
   margin: 0 auto;
@@ -331,10 +331,19 @@
   @include footer_row {
     height: 35vh;
     flex-direction: row;
+
+    p {
+      margin-right: 5%;
+    }
   }
 
   @include desktop {
-    width: 70%;
+    justify-content: space-between;
+    width: 80%;
+
+    p {
+      margin-right: 10%;
+    }
   }
 
   #banner-logo {

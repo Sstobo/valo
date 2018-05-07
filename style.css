@@ -1089,7 +1089,7 @@ object {
 .integrator-section-title {
   font-family: "Roboto";
   font-weight: 700;
-  font-size: 16px;
+  font-size: 24px;
   color: #161616;
   margin: 0 auto;
   text-align: center;
@@ -1097,10 +1097,10 @@ object {
   max-width: 69%; }
   @media all and (min-width: 450px) {
     .integrator-section-title {
-      font-size: 18px; } }
+      font-size: 24px; } }
   @media all and (min-width: 600px) {
     .integrator-section-title {
-      font-size: 24px; } }
+      font-size: 32px; } }
   @media all and (min-width: 1200px) {
     .integrator-section-title {
       max-width: 59%; } }
@@ -1335,10 +1335,17 @@ object {
       -webkit-box-orient: horizontal;
       -webkit-box-direction: normal;
           -ms-flex-direction: row;
-              flex-direction: row; } }
+              flex-direction: row; }
+      .banner-wrapper p {
+        margin-right: 5%; } }
   @media all and (min-width: 1000px) {
     .banner-wrapper {
-      width: 70%; } }
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
+      width: 80%; }
+      .banner-wrapper p {
+        margin-right: 10%; } }
   .banner-wrapper #banner-logo {
     width: 250px; }
   .banner-wrapper #banner-contact-button {
