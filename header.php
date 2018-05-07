@@ -47,7 +47,8 @@
 				
 				<div class="header-logo">
 				<a href="<?php echo esc_url(home_url('/')); ?>" rel="home">
-				<img alt="VALO logo" id="header-logo" class="header-logo-image" src="<?php echo get_template_directory_uri() . '/assets/Logo SVG/VALO black logo-01.svg'; ?>"/></a>
+					<img alt="VALO logo" id="header-logo" class="header-logo-image" src="<?php echo get_template_directory_uri() . '/assets/Logo SVG/VALO black logo-01.svg'; ?>"/>
+				</a>
 				</div>
 
 					<nav id="site-navigation" class="main-navigation" role="navigation">
@@ -61,11 +62,11 @@
 					<i class="fa fa-mobile" aria-hidden="true"></i>
 					</a>
 					<div class="header-contact-desktop">
-					<a href="tel:1-833-880-8256">
-						<h3> 1-833-880-8256 </h3>
-						<p1> Get in touch today <p1>
+						<a href="tel:1-833-880-8256">
+							<h3> 1-833-880-8256 </h3>
+							<p1> Get in touch today</p1>
 						</a>
-						<div>
+					</div>
 				</div>
 			</header>
 
