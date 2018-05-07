@@ -35,16 +35,16 @@
 							<i class="fa fa-google-plus" aria-hidden="true"></i>
 						</span>
 						<span class="icon-background">
-							<i class="fa fa fa-twitter" aria-hidden="true"></i>
+							<a href="https://twitter.com/valosmartcity" target="_blank"><i class="fa fa fa-twitter" aria-hidden="true"></i></a>
 						</span>
 						<span class="icon-background">
 							<i class="fa fa-youtube-play" aria-hidden="true"></i>
 						</span>
 						<span class="icon-background">
-							<i class="fa fa-facebook" aria-hidden="true"></i>
+							<a href="https://www.facebook.com/valosmartcity" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
 						</span>
 						<span class="icon-background">
-							<i class="fa fa-linkedin" aria-hidden="true"></i>
+							<a href="https://www.linkedin.com/company/valo-smart-city/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
 						</span>
 				</div>
 

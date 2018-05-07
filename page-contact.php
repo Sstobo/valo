@@ -81,8 +81,8 @@ get_header(); ?>
 									</span>
 									<div class="contact-social-media-links">
 										<h3 class="contact-title">Social Media </h3>
-										<i class="fa fa-facebook" aria-hidden="true"></i>
-										<i class="fa fa-twitter" aria-hidden="true"></i>
+										<a href="https://www.facebook.com/valosmartcity" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+										<a href="https://twitter.com/valosmartcity" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
 									</div>
 								</div>
 
