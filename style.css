@@ -1394,18 +1394,10 @@ object {
       color: black;
       font-size: 24px; }
     .iot-container .iot-para-container #iot-button {
-      width: auto;
-      background: #00aeef;
-      color: #fff;
-      -webkit-box-shadow: none;
-              box-shadow: none;
-      text-shadow: none;
-      font-family: "Roboto";
-      text-transform: uppercase;
-      font-weight: bold;
-      border-radius: 10px;
-      padding: 10px;
-      font-size: 14px; }
+      max-width: 280px !important; }
+      @media all and (min-width: 600px) {
+        .iot-container .iot-para-container #iot-button {
+          max-width: 350px !important; } }
   .iot-container .iot-photo-container {
     margin-right: 5%; }
     .iot-container .iot-photo-container #iot-logo {
@@ -4443,6 +4435,9 @@ h2 {
   .twitter:hover {
     border-color: #25b6e8; }
 
+.page-template-page-contact .entry-title {
+  display: none; }
+
 .contact-content-area .entry-title {
   display: none; }
 
@@ -4452,6 +4447,7 @@ h2 {
   display: flex;
   width: 100%;
   margin-bottom: 7%;
+  padding-bottom: 40px;
   background: url("../../assets/Backgrounds/clean-gray-abstract-background.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -4461,7 +4457,8 @@ h2 {
           justify-content: center; }
   @media all and (min-width: 600px) {
     .contact-content-area .contact-container {
-      height: 70vh; } }
+      height: 70vh;
+      padding-bottom: 0; } }
   @media all and (min-width: 1000px) {
     .contact-content-area .contact-container {
       height: 100vh;
@@ -4623,12 +4620,12 @@ h2 {
           margin-top: 45px; }
           .contact-content-area .contact-container .contact-info .contact-content .email .contact-social-media-container i {
             font-size: 42px;
-            margin-right: 15px;
+            margin-right: 8px;
             border: none;
             padding: 0; }
           .contact-content-area .contact-container .contact-info .contact-content .email .contact-social-media-container .contact-social-media-links i {
             font-size: 25px;
-            padding-right: 20px; }
+            padding-right: 10px; }
 
 .contact-footer {
   height: auto;

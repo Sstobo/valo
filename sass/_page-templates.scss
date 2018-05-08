@@ -412,18 +412,25 @@
       color: black;
       font-size: 24px;
     }
+    // #iot-button {
+    //   width: auto;
+    //   background: $color__accent;
+    //   color: #fff;
+    //   box-shadow: none;
+    //   text-shadow: none;
+    //   font-family: $font__main;
+    //   text-transform: uppercase;
+    //   font-weight: bold;
+    //   border-radius: 10px;
+    //   padding: 10px;
+    //   font-size: 14px;
+    // }
+
     #iot-button {
-      width: auto;
-      background: $color__accent;
-      color: #fff;
-      box-shadow: none;
-      text-shadow: none;
-      font-family: $font__main;
-      text-transform: uppercase;
-      font-weight: bold;
-      border-radius: 10px;
-      padding: 10px;
-      font-size: 14px;
+      max-width: 280px !important;
+      @include tablet {
+        max-width: 350px !important;
+      }
     }
   }
 

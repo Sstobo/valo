@@ -31,9 +31,7 @@
 						<p class="address">New York, New York 10065 </p>
 
 					<div class="icon-container">
-						<span class="icon-background">
-							<i class="fa fa-google-plus" aria-hidden="true"></i>
-						</span>
+					
 						<span class="icon-background">
 							<a href="https://twitter.com/valosmartcity" target="_blank"><i class="fa fa fa-twitter" aria-hidden="true"></i></a>
 						</span>

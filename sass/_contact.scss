@@ -1,3 +1,9 @@
+.page-template-page-contact {
+  .entry-title {
+    display: none;
+  }
+}
+
 .contact-content-area {
   .entry-title {
     display: none;
@@ -6,6 +12,7 @@
     display: flex;
     width: 100%;
     margin-bottom: 7%;
+    padding-bottom: 40px;
     background: url('../../assets/Backgrounds/clean-gray-abstract-background.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -13,6 +20,7 @@
     justify-content: center;
     @include tablet {
       height: 70vh;
+      padding-bottom: 0;
     }
     @include desktop {
       height: 100vh;
@@ -158,14 +166,14 @@
             margin-top: 45px;
             i {
               font-size: 42px;
-              margin-right: 15px;
+              margin-right: 8px;
               border: none;
               padding: 0;
             }
             .contact-social-media-links {
               i {
                 font-size: 25px;
-                padding-right: 20px;
+                padding-right: 10px;
               }
             }
           }

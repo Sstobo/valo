@@ -39,7 +39,7 @@ get_header(); ?>
 							<div class="product-icon">02</div>
 							<h3>Low Maintenance Costs</h3>
 							<p>Due to their longevity, LED street lights are not costly to maintain since replacing street lights is expensive and
-								inconvenient. products-streetlight-controlleritionally, LED lights are shock-proof, and produce less heat than traditional
+								inconvenient. Additionally, LED lights are shock-proof, and produce less heat than traditional
 								lighting resulting in less wear.</p>
 						</div>
 					</div>
