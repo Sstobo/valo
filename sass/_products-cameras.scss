@@ -1,0 +1,300 @@
+.page-template-products_cameras {
+  .camera-banner {
+    min-height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url('../../assets/Backgrounds/clean-gray-abstract-background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+    background-position: 0 150px;
+
+    @include footer_row {
+      background-position: top;
+    }
+
+    h2 {
+      margin-top: 0;
+      text-align: center;
+      font-size: 28px;
+      max-width: 80%;
+      margin-bottom: 0;
+
+      @include footer_row {
+        margin-bottom: 20px;
+        width: 50%;
+        font-size: 34px;
+      }
+    }
+
+    p {
+      text-align: center;
+      max-width: 80%;
+      @include footer_row {
+        width: 50%;
+      }
+    }
+  } //close camera banner
+
+  .camera-animate {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h2 {
+      margin-bottom: 35px;
+      max-width: 50%;
+      text-align: center;
+    }
+
+    h2:after {
+      content: '';
+      border-bottom: 2px solid $color__accent;
+      width: 50px;
+      display: block;
+      margin: 0 auto;
+      padding-top: 20px;
+    }
+
+    .camera-container {
+      display: flex;
+      width: 100%;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      @include footer_row {
+        flex-direction: row;
+      }
+
+      .camera-image {
+        margin-right: 3%;
+        .animation-icon {
+          max-width: 300px;
+
+          @include tablet {
+            max-width: 450px;
+          }
+
+          @include footer_row {
+            max-width: 600px;
+            margin-top: 400px;
+          }
+        }
+
+        .animation-in-view {
+          margin-top: 25px;
+          height: auto;
+          transition-duration: 0.5s;
+        }
+      }
+
+      .camera-text {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 30px;
+        margin-top: 30px;
+
+        @include footer_row {
+          margin-right: 7%;
+        }
+
+        .camera-text-container {
+          display: flex;
+          min-width: 300px;
+
+          @include tablet {
+            min-width: 200px;
+          }
+          @include desktop {
+            min-width: 300px;
+          }
+
+          .text-container {
+            margin-left: 5%;
+            display: flex;
+            flex-direction: column;
+            align-content: flex-start;
+            justify-content: center;
+
+            h3 {
+              color: black;
+              font-size: 16px;
+              margin: 0;
+            }
+            .specs-list {
+              margin: 0;
+              padding-left: 22px;
+
+              @include footer_row {
+                max-width: 150px;
+              }
+
+              @include desktop {
+                max-width: 300px;
+              }
+
+              li {
+                font-size: 13px;
+              }
+            }
+          }
+
+          i {
+            margin-top: 25px;
+            color: $color__accent;
+          }
+        }
+      }
+    }
+  } //close camera section
+
+  .video-control {
+    display: flex;
+    position: relative;
+    background: url('../../assets/camera-software/stars.png');
+    background-attachment: fixed;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 200px;
+
+    h2 {
+      color: #fff;
+      font-size: 40px;
+      margin-bottom: 0;
+    }
+
+    p {
+      max-width: 75%;
+      text-align: center;
+      color: #fff;
+      padding-bottom: 15px;
+    }
+  } //video control
+
+  .controls {
+    display: flex;
+    flex-direction: column;
+    @include footer_row {
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+    h3 {
+      color: $color__accent;
+      text-align: center;
+      max-width: 80%;
+    }
+
+    .intuitive {
+      @include cameras;
+      background: $color__background-team;
+    }
+    .event {
+      @include cameras;
+    }
+    .core {
+      @include cameras;
+      background: $color__background-team;
+    }
+    .failover {
+      @include cameras;
+    }
+    .ready {
+      @include cameras;
+      background: $color__background-team;
+      @include footer_row {
+        background: #fff;
+      }
+    }
+    .archive {
+      @include cameras;
+      @include footer_row {
+        background: $color__background-team;
+      }
+    }
+    .powerful {
+      @include cameras;
+      background: $color__background-team;
+      @include footer_row {
+        background: #fff;
+      }
+    }
+    .integration {
+      @include cameras;
+      @include footer_row {
+        background: $color__background-team;
+      }
+    }
+  } //controls
+  .facial {
+    h2 {
+      font-size: 24px;
+      @include tablet {
+        font-size: 28px;
+      }
+      @include desktop {
+        font-size: 30px;
+      }
+    }
+    h2:after {
+      content: '';
+      border-bottom: 2px solid $color__accent;
+      width: 50px;
+      display: block;
+      margin: 0 auto;
+      padding-top: 20px;
+    }
+    display: flex;
+    flex-direction: column-reverse;
+    @include desktop {
+      flex-direction: row;
+    }
+    .facial-image {
+      background: url('../../assets/camera-software/facial.png');
+      background-size: cover;
+      background-position: 0 -50px;
+      display: flex;
+      flex-basis: 50%;
+      height: 80vw;
+      @include desktop {
+        height: auto;
+      }
+    }
+    .facial-text {
+      padding: 140px 0;
+      border-top: 1px solid black;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 350px;
+      background: $color__background-team;
+      @include desktop {
+        border: none;
+        flex-basis: 50%;
+        min-height: 450px;
+      }
+
+      h2 {
+        margin-top: 0;
+        @include desktop {
+          font-size: 34px;
+        }
+      }
+
+      p:first-of-type {
+        margin-bottom: 8px;
+      }
+
+      p {
+        max-width: 75%;
+        // margin-bottom: 5px;
+        margin: 0;
+      }
+    }
+  }
+}

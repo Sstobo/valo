@@ -1,0 +1,87 @@
+.icon {
+  min-width: 42px;
+  min-height: 42px;
+  max-height: 42px;
+  max-width: 42px;
+  align-self: flex-start;
+  margin: 10px 10px 10px 0;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: $color__accent;
+}
+
+.product-network-wifi {
+  @include desktop {
+    margin-top: -40px;
+  }
+}
+
+.product-network-container {
+  background: #f6f6f6;
+}
+
+.product-network {
+  display: flex;
+  flex-direction: column;
+  @include desktop {
+    flex-direction: row;
+    padding-bottom: 0;
+  }
+}
+
+.product-network-image-container {
+  height: 60vh;
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: block;
+  flex-basis: 50%;
+  width: 100%;
+  @include desktop {
+    width: 50%;
+    height: auto;
+  }
+}
+
+.product-text-container {
+  width: 90%;
+  max-width: 750px;
+  margin: 0 auto;
+  line-height: 28px;
+  font-weight: 400;
+  padding-bottom: 60px;
+  @include desktop {
+    flex-basis: 50%;
+    width: 50%;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+
+.wifi-image {
+  background: url('../../assets/images/valo-lora-gateway.jpg');
+  background-position: right;
+  background-size: cover;
+}
+
+.wifi-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.wifi-list-item {
+  display: flex;
+  align-items: center;
+  @include tablet {
+    flex-basis: 50%;
+  }
+}
+.network-image {
+  background: url('../../assets/images/valo-network.jpg');
+  background-position: right;
+}
+.reverse-column-mobile {
+  flex-direction: column-reverse;
+  @include desktop {
+    flex-direction: row;
+  }
+}

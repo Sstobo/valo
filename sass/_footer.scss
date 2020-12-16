@@ -1,57 +1,334 @@
-.site-footer {
-  background-color: black;
+#wpcf7-f5-o1 {
+  padding-left: 0;
+}
 
-  .site-info {
-    margin-right: 50px;
-    margin-left: 50px;
+.signup-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 34px;
+  margin-bottom: 30px;
 
-    h1 {
-      font-size: 20px;
+  @include footer_row {
+    width: auto;
+  }
+
+  #form-title-services {
+    display: none;
+  }
+  #services-para {
+    display: none;
+  }
+
+  #form-title {
+    font-family: $font__main;
+    color: black;
+    font-size: 34px;
+    font-weight: bold;
+    width: 75%;
+    text-align: center;
+  }
+
+  #form-title:after {
+    content: '';
+    border-bottom: 2px solid $color__accent;
+    width: 50px;
+    display: block;
+    margin: 0 auto;
+    padding-top: 20px;
+  }
+
+  .wpcf7-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+
+    @include footer_row {
+      min-width: 800px;
+      align-items: center;
+    }
+
+    @include tablet {
+      min-width: 600px;
+    }
+
+    input {
+      border: 1px solid #e6e6e6;
+    }
+
+    input:focus {
+      outline: none;
+    }
+
+    input[type='text'],
+    input[type='email'] {
+      width: 300px;
+      height: 40px;
+      @include tablet {
+        width: 500px;
+      }
+      @include desktop {
+        width: 600px;
+      }
+    }
+
+    input:not(.browser-default):focus:not([readonly]) {
+      border: 1px solid #e6e6e6;
+      box-shadow: none;
+    }
+    label {
+      font-family: $font__main;
+      color: black;
+      font-size: 14px;
+    }
+    input[type='submit'] {
+      background: $color__accent;
       color: #fff;
+      box-shadow: none;
+      text-shadow: none;
+      color: #fff;
+      font-family: $font__main;
+      letter-spacing: 1px;
+      border-radius: 8px;
+      font-size: 13px;
+      font-weight: 400;
+      text-transform: uppercase;
+      padding: 10px 20px;
+    }
+    input[type='submit']:hover {
+      background: #3f3f3f;
+    }
+    .wpcf7-not-valid-tip {
+      color: $color__accent;
+      font-family: $font__main;
+    }
+    .wpcf7-response-output {
+      color: $color__accent;
+      font-family: $font__main;
+      border: none;
+    }
+  }
+}
+
+//end form
+
+.site-footer {
+  background: url('../../assets/Backgrounds/footer-background.jpg');
+  background-size: cover;
+  background-position: top;
+
+  background-repeat: no-repeat;
+  padding-top: 25px;
+  .site-info {
+    margin-right: 4%;
+    margin-left: 4%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    flex-wrap: wrap;
+    min-height: 250px;
+    @include footer_row {
+      flex-direction: row;
+      align-items: flex-start;
+    }
+
+    .email-title {
+      margin-bottom: 0.5px;
+      font-size: 15px;
+    }
+
+    .title {
+      font-size: 18px;
+    }
+
+    .address {
+      color: #c2c9cc;
     }
     p {
-      font-size: 16px;
+      font-size: 15px;
       color: #fff;
-      margin: 0;
+      margin: 8px 0;
+    }
+    i.fa {
+      color: #fff;
+      font-size: 13px;
+    }
+    a {
+      margin: 8px 0;
+      color: #fff;
+      text-decoration: none;
+    }
+    a:hover {
+      color: $color__accent;
     }
 
-    h3 {
-      color: #00aeef;
-      font-size: 20px;
+    #phone {
+      color: $color__accent;
+      font-size: 22px;
+      font-weight: bold;
     }
+    .icon-container {
+      display: flex;
 
-    display: flex;
-    flex-wrap: wrap;
-    border: 1px solid green;
-    min-height: 250px;
+      padding-top: 8px;
+      margin-left: 10%;
+
+      @include footer_row {
+        margin-left: 0;
+      }
+    }
+    .icon-background {
+      background: #252626;
+      height: 27px;
+      width: 27px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      border-radius: 50%;
+      padding: 8px;
+      margin-right: 1%;
+    }
+    .icon-background:hover {
+      background: $color__accent;
+    }
     .contact-us {
-      color: red;
-      border: 1px solid black;
-      flex-basis: 30%;
+      text-align: center;
+      flex-basis: 32%;
+      margin-bottom: 30px;
+      padding: 10px;
+
+      @include footer_row {
+        text-align: left;
+      }
+
+      .title {
+        padding-bottom: 6px;
+      }
     }
     .useful-links {
-      color: red;
-      border: 1px solid black;
+      text-align: center;
       display: flex;
       flex-direction: column;
-      flex-basis: 30%;
+      flex-basis: 32%;
+      margin-bottom: 30px;
+      padding: 10px;
+
+      @include footer_row {
+        text-align: left;
+      }
     }
     .news {
-      color: red;
-      border: 1px solid black;
-      flex-basis: 40%;
+      text-align: center;
+
+      flex-basis: 36%;
+      margin-bottom: 30px;
+      padding: 10px 0 10px 10px;
+
+      @include footer_row {
+        text-align: left;
+      }
+
+      .title {
+        padding-bottom: 8px;
+        margin-top: 6px;
+      }
     }
     .logo {
       display: flex;
+      flex-direction: column;
+      @include footer_row {
+        flex-direction: row;
+      }
       justify-content: space-between;
-      color: red;
-      border: 1px solid black;
+      align-items: center;
       flex-basis: 100%;
-      border-top: 1px solid gray;
-
+      border-top: 0.3px solid $color__border-abbr;
       #logo {
-        padding-left: 5%;
+        height: auto;
+        width: 150px;
       }
     }
+    #email-link {
+      color: $color__accent;
+      font-family: $font__main;
+      font-weight: bold;
+      font-size: 16px;
+    }
+    #email-link:hover {
+      text-decoration: underline;
+    }
+    .caps {
+      text-transform: uppercase;
+    }
+    .journal-date {
+      font-size: 12px;
+      color: #c2c9cc;
+    }
+    #copy {
+      font-family: $font__main;
+      font-size: 14px;
+      color: $color__border-abbr;
+    }
+
+    .fix {
+      display: flex;
+      display: none;
+      justify-content: center;
+      align-items: center;
+      position: fixed;
+      bottom: 20px;
+      right: 10px;
+      height: 50px;
+      width: 50px;
+      background: black;
+      opacity: 0.3;
+
+      .fa {
+        font-size: 28px;
+      }
+    }
+  }
+}
+
+.page-template-about_team {
+  .signup-container {
+    #form-title {
+      @include desktop {
+        font-size: 28px;
+      }
+    }
+
+    .wpcf7-form {
+      @include desktop {
+        max-width: 400px !important;
+        margin-left: 5%;
+        display: flex;
+      }
+
+      p {
+        margin: 0;
+      }
+
+      input.wpcf7-text {
+        @include desktop {
+          max-width: 400px;
+          min-width: 400px;
+        }
+      }
+
+      input.wpcf7-submit {
+        margin-top: 7px;
+      }
+    }
+  }
+}
+
+.home {
+  .signup-container {
+    margin-top: 1em;
   }
 }

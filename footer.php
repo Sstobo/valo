@@ -9,43 +9,88 @@
 
 			</div><!-- #content -->
 
+      <div class="signup-container">
+				<h1 id="form-title"> Sign Up for <br>the Latest <span class="uppercase">VALO</span> News </h1>
+				<h1 id="form-title-services">Get More Information on our Public Private Partnerships</h1>
+				<p id="services-para">Contact us today to get more information on our Public Private Partnerships</p>
+				<?php echo do_shortcode('[contact-form-7 id="4" title="Contact form 1"]');?>
+			</div>
+
+
 			<footer id="colophon" class="site-footer" role="contentinfo">
+			
+			
 				<div class="site-info">
 					<div class="contact-us">
-						<h1>Contact Us</h1>
-						<h3>1-917-660-6000</h3>
-						<p>Email</p>
-						<p>info@valocity.com</p>
-						<p>Main Office Address</p>
-						<p>655 Madison Ave 3rd Floor</p>
-						<p>New York, New York 10065 </p>
+				    <p class="caps title">Contact Us</p>
+						<a href="tel:1-833-880-8256" id="phone">1-833-880-8256</a>
+						<p class="caps email-title">Email</p>
+						<a href="mailto: info@valosmartcity.com" id="email-link">info@valosmartcity.com</a>
+						<p class="caps ">Main Office Address</p>
+						<p class="address">655 Madison Ave 3rd Floor</p>
+						<p class="address">New York, New York 10065 </p>
 
-						
+					<div class="icon-container">
+					
+						<span class="icon-background">
+							<a href="https://twitter.com/valosmartcity" target="_blank"><i class="fa fa fa-twitter" aria-hidden="true"></i></a>
+						</span>
+						<span class="icon-background">
+							<i class="fa fa-youtube-play" aria-hidden="true"></i>
+						</span>
+						<span class="icon-background">
+							<a href="https://www.facebook.com/valosmartcity" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+						</span>
+						<span class="icon-background">
+							<a href="https://www.linkedin.com/company/valo-smart-city/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+						</span>
+				</div>
+
+					
 					</div>
+
 					<div class="useful-links">
-						<h1>Useful Links</h1>
-						<a href="#"> Company </a>
-						<a href="#"> Investor Presentations</a>
-						<a href="#">  Smart City LED Lighting</a>
-						<a href="#">  Smart City Platform </a>
-						<a href="#"> Smart Cameras and Software</a>
+						<p class="caps title">Useful Links</p>
+						<a href="<?php echo esc_url(home_url('/about/about_company'));?>"> Company </a>
+						<a href="<?php echo esc_url(home_url('/investors'));?>"> Investor Presentations</a>
+						<a href="<?php echo esc_url(home_url('/products/products_lighting'));?>">  Smart City LED Lighting</a>
+						<a href="<?php echo esc_url(home_url('/products/products_city_platform'));?>">  Smart City Platform </a>
+						<a href="<?php echo esc_url(home_url('/products/products_cameras_software'));?>"> Smart Cameras and Software</a>
 					</div>
+
+					<?php $args = array( 'post_type' => 'post', 'posts_per_page' => 3 ); $query = new WP_Query( $args );?>
+
 					<div class="news">
-						<h1>News</h1>
-						<p>Valo Smart City as a service</p>
-						<p> Janurary 30, 2018</p>
-						<p> Internet of Thing Technology </p>
-						<p>January 30, 2018</p>
-						<p>Valo Smart City reserves funding </p>
-						<p>January 30, 2018</p>
+						<p class="caps title">News</p>
+						<?php while ( $query->have_posts() ) : $query->the_post(); ?>
+
+							<a href="<?php the_permalink();?>"><?php the_title(); ?></a>
+							<p class="journal-date"><?php the_time(' F jS, Y') ?></p>
+
+						<?php endwhile; ?>
+						<?php wp_reset_query() ?>
 					</div>
+					
+
+
+					
+					
+
+
+
 					<div class="logo">
-						<p id="logo">Logo</p>
-						<p> &copy Valo Smart City 2018. All Rights Reserved.</p> 
+						<img alt="VALO logo" src="<?php echo get_template_directory_uri() . '/assets/Logo SVG/VALO white logo-01.png'?>" id="logo"/>
+						<p id="copy"> &copy VALO Smart City 2018. All Rights Reserved.</p>
+						<div class="fix"> 
+							<i class="fa fa-long-arrow-up" aria-hidden="true"></i>
+
+						</div>
+
 					</div>
 
 				</div><!-- .site-info -->
-			</footer><!-- #colophon -->
+			
+		</footer><!-- #colophon -->
 		</div><!-- #page -->
 
 		<?php wp_footer(); ?>
@@ -53,5 +98,5 @@
 	</body>
 
 	  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-      <script type="text/javascript" src="js/materialize.min.js"></script>
+      <!-- <script type="text/javascript" src="js/materialize.min.js"></script> -->
 </html>

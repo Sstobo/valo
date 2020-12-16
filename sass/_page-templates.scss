@@ -2,4 +2,451 @@
 # Page Templates
 --------------------------------------------------------------*/
 
+// Clear header
+.content-wrapper {
+  padding-top: -20px;
+  @include desktop {
+    padding-top: 140px;
+  }
+}
+
+// Title accent line
+.title-blue-line {
+  // todo: this accurately matches the FRONT PAGE line from the CBD site. Other pages are different
+  border-bottom: 5px solid $color__accent;
+  display: block;
+  margin: 0 auto;
+  width: 150px;
+  // padding-top: 20px;
+}
+.sub-title-blue-line {
+  // todo: this accurately matches the FRONT PAGE line from the CBD site. Other pages are different
+  border-bottom: 2px solid $color__accent;
+  width: 50px;
+  display: block;
+  margin: 0 auto;
+  // padding-top: 20px;
+}
+
 /* Front page */
+
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 260px;
+  background: url('../../assets/still-header/valo-still-header-01.png');
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  margin: 0 auto;
+  @include tablet {
+    background-size: cover;
+    min-height: 400px;
+    height: 50vh;
+  }
+  @include large {
+    height: 75vh;
+  }
+}
+
+.header-container {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.button-hero {
+  // display: none; // todo: remove when video added.
+  padding: 6px 20px;
+  margin-top: 10px;
+  @include tablet {
+    padding: 12px 30px;
+  }
+}
+
+.mobile-break {
+  display: block;
+  @include tablet {
+    display: inline;
+  }
+}
+
+.animate-slidein {
+  animation-duration: 1.8s;
+  animation-name: slidein;
+}
+.animate-fadein {
+  animation-duration: 3s;
+  animation-name: fadein;
+}
+
+@keyframes slidein {
+  from {
+    transform: translateY(200px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  to {
+    opacity: 100%;
+  }
+}
+
+/* Formula Section */
+
+.formula-container {
+  margin: 0 auto;
+  padding: 5% 10%;
+  img {
+    width: 100%;
+  }
+}
+
+/* Integrator Section */
+
+.integrator-section-wrapper {
+  background: url('../../assets/Backgrounds/clean-gray-abstract-background.png')
+    bottom left no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  padding: 4vh;
+  padding-top: 3vh;
+}
+.integrator-section-title {
+  font-family: $font__main;
+  font-weight: 700;
+  font-size: 24px;
+  @include mobile {
+    font-size: 24px;
+  }
+  @include tablet {
+    font-size: 32px;
+  }
+  color: $color__header-main;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 20px;
+  max-width: 69%;
+  @include large {
+    max-width: 59%;
+  }
+}
+.integrator-section-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 30vh;
+  align-items: center;
+  margin-top: 4vh;
+  @include large {
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+.integrator-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 35vh;
+  width: 50vw;
+  min-width: 233px;
+  min-height: 325px;
+  background-color: #fff;
+  margin-left: 2vh;
+  margin-right: 2vh;
+  padding-top: 30px;
+  padding-right: 10px;
+  padding-bottom: 30px;
+  padding-left: 10px;
+  @include large {
+    height: 32vh;
+    min-height: 406px;
+    width: 25vw;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  h3 {
+    font-family: $font__droid;
+    font-weight: 400;
+    font-size: 16px;
+    @include mobile {
+      font-size: 18px;
+    }
+    @include tablet {
+      font-size: 24px;
+    }
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    margin-top: 22px;
+    margin-bottom: 15px;
+    :hover {
+      color: #fff;
+      text-decoration: none;
+    }
+    :visited {
+      color: #fff;
+      text-decoration: none;
+    }
+  }
+  span {
+    font-size: 13px;
+    font-family: $font__main;
+    font-weight: 300;
+    color: #fff;
+    text-align: center;
+  }
+}
+.integrator-icon {
+  max-width: 100px;
+  max-height: 100px;
+}
+
+/* Press Releases */
+
+.press-releases-wrapper {
+  background: url('../../assets/Backgrounds/clean-gray-abstract-background.png')
+    bottom left no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  padding: 4vh;
+  padding-top: 3vh;
+  padding-bottom: 0;
+}
+.press-releases-title {
+  font-family: $font__main;
+  font-weight: 700;
+  font-size: 34px;
+  color: $color__header-main;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.press-releases-container {
+  width: 80%;
+  margin: 4vh auto 0 auto;
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  min-height: 400px;
+  align-items: center;
+  @include footer_row {
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+  }
+}
+.press-release {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 35vh;
+  max-height: 250px;
+
+  width: 80vw;
+  @include footer_row {
+    min-height: 150px;
+    height: 28vh;
+    width: 28vw;
+  }
+  background-color: $color__accent;
+  margin: 2vh;
+  padding: 2vh;
+  h3 {
+    font-family: $font__droid;
+    font-weight: 400;
+    font-size: 22px;
+    color: #ffffff;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 5px;
+    opacity: 1;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+  }
+  span {
+    display: inline;
+    font-size: 13px;
+    font-family: $font__main;
+    font-weight: 300;
+    color: #fff;
+    text-align: center;
+    opacity: 1;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+  }
+  p {
+    position: absolute;
+    padding-bottom: 40px;
+    color: #fff;
+    transform: scale(0);
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+  }
+}
+.press-release:hover {
+  h3 {
+    transform: scale(0);
+    opacity: 0;
+  }
+  span {
+    transform: scale(0);
+    opacity: 0;
+  }
+  p {
+    transform: scale(1);
+  }
+}
+
+//front page banner
+.banner {
+  background: black;
+  width: 100%;
+}
+.banner-wrapper {
+  margin: 0 auto;
+  max-width: 1300px;
+  min-height: 300px;
+  height: 50vh;
+  width: 100%;
+  background: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+
+  @include footer_row {
+    height: 35vh;
+    flex-direction: row;
+
+    p {
+      margin-right: 5%;
+    }
+  }
+
+  @include desktop {
+    justify-content: space-between;
+    width: 80%;
+
+    p {
+      margin-right: 10%;
+    }
+  }
+
+  #banner-logo {
+    width: 250px;
+
+    @include footer_row {
+      // margin-left: 15%;
+    }
+  }
+
+  #banner-contact-button {
+    margin: 0;
+    //   height: 40px;
+    //   width: auto;
+    //   min-width: 130px;
+  }
+  //   @include footer_row {
+  //     margin-right: 17%;
+  //   }
+  // }
+  #banner-contact-button:hover {
+    background: #3f3f3f;
+  }
+  #banner-contact-button:focus {
+    outline: none;
+  }
+
+  p {
+    max-width: 300px;
+    font-family: $font__main;
+    color: #fff;
+    font-size: 20px;
+
+    // @include footer_row {
+    //   margin-right: 6%;
+    // }
+  }
+}
+
+//close banner
+
+//iot banner
+
+.iot-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5%;
+
+  @include desktop {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .iot-para-container {
+    width: 80vw;
+    text-align: center;
+
+    @include footer_row {
+      text-align: left;
+      width: 50vw;
+      margin-top: 5%;
+    }
+
+    h3 {
+      color: black;
+      font-size: 24px;
+    }
+    // #iot-button {
+    //   width: auto;
+    //   background: $color__accent;
+    //   color: #fff;
+    //   box-shadow: none;
+    //   text-shadow: none;
+    //   font-family: $font__main;
+    //   text-transform: uppercase;
+    //   font-weight: bold;
+    //   border-radius: 10px;
+    //   padding: 10px;
+    //   font-size: 14px;
+    // }
+
+    #iot-button {
+      max-width: 280px !important;
+      @include tablet {
+        max-width: 350px !important;
+      }
+    }
+  }
+
+  .iot-photo-container {
+    margin-right: 5%;
+    #iot-logo {
+      width: 100vw;
+      height: auto;
+
+      @include footer_row {
+        width: 60vw;
+      }
+    }
+  }
+}
+#bm {
+  height: 500px;
+  width: 100%;
+}

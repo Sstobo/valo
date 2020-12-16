@@ -1,12 +1,136 @@
 // Rem output with px fallback
 @mixin font-size($sizeValue: 1) {
-	font-size: ($sizeValue * 16) * 1px;
-	font-size: $sizeValue * 1rem;
+  font-size: ($sizeValue * 16) * 1px;
+  font-size: $sizeValue * 1rem;
 }
 
 // Center block
 @mixin center-block {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
+
+//Screen width mixins
+
+@mixin mobile {
+  @media all and (min-width: $mobile_width) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media all and (min-width: $tablet_width) {
+    @content;
+  }
+}
+
+// 1200px
+@mixin large {
+  @media all and (min-width: $large_width) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media all and (min-width: $desktop_width) {
+    @content;
+  }
+}
+
+@mixin footer_row {
+  @media all and (min-width: $footer_row) {
+    @content;
+  }
+}
+
+@mixin medium {
+  @media all and (min-width: $medium_width) {
+    @content;
+  }
+}
+
+@mixin cameras {
+  padding: 40px 0;
+  display: flex;
+  flex-direction: column;
+  // justify-content: center;
+  min-height: 430px;
+  max-height: 430px;
+  align-items: center;
+
+  @include footer_row {
+    flex-basis: 25%;
+    flex-grow: 1;
+  }
+
+  p {
+    text-align: center;
+    max-width: 80%;
+  }
+
+  img {
+    width: 100px;
+  }
+}
+
+@mixin searchForm {
+  position: relative;
+
+  min-width: 90%;
+  padding-left: 7%;
+  @include tablet {
+    min-width: 700px;
+  }
+  @include footer_row {
+    min-width: 900px;
+  }
+  @include desktop {
+    min-width: 1100px;
+  }
+  input {
+    min-width: 90%;
+    height: 35px;
+    padding-left: 15px;
+    font-family: $font__main;
+    color: black;
+  }
+  input::placeholder {
+    color: $color__background-pre;
+    font-family: $font__main;
+    padding-left: 15px;
+  }
+  .search-submit {
+    border: none;
+    background: none;
+    box-shadow: none;
+    position: absolute;
+    right: 8%;
+    bottom: 6px;
+
+    i {
+      font-size: 16px;
+    }
+  }
+}
+
+@mixin mobileImage {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vw;
+  max-height: 450px;
+  width: 95%;
+  max-width: 500px;
+}
+
+// @mixin desktopImage {
+//   display: block;
+//   margin-right: 5%;
+//   margin-top: 50px;
+//   height: 45vw;
+//   width: 50%;
+//   max-height: 485px;
+//   max-width: 690px;
+//   background-repeat: no-repeat;
+//   background-size: cover;
+// }

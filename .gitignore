@@ -1,1 +1,8 @@
 node_modules/
+.gitignore
+build/*
+yarn.lock
+yarn-error.log
+Archive.zip
+.DS_Store
+gulpfile.js
